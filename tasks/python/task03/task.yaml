@@ -1,0 +1,2 @@
+title: Palindrome Check
+description: Implement is_palindrome(s) that returns True if s reads the same forwards and backwards, ignoring non-alphanumerics and case.

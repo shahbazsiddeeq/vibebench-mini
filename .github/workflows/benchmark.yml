@@ -1,0 +1,24 @@
+name: vibebench-mini
+on: [push, workflow_dispatch]
+jobs:
+python-benchmark:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+- uses: actions/setup-python@v5
+with:
+python-version: '3.11'
+- name: Install deps
+run: |
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+- name: Run VibeBench-Mini
+run: |
+python runner/vibebench_runner.py --tasks tasks/python --out results.json
+- name: Upload artifacts
+uses: actions/upload-artifact@v4
+with:
+name: vibebench-results
+path: |
+results.json
+scorecard.md

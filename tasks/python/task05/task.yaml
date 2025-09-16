@@ -1,0 +1,2 @@
+title: Safe Path Join
+description: Implement safe_join(base, user_path) that returns a path inside base, rejecting traversal attempts.

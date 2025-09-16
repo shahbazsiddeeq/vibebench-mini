@@ -1,0 +1,6 @@
+pytest
+radon
+flake8
+bandit
+pip-audit
+PyYAML

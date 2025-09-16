@@ -1,0 +1,2 @@
+title: CSV Column Mean
+description: Implement column_mean(path, col) that returns the mean of a numeric column in a CSV with a header row.

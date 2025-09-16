@@ -1,0 +1,6 @@
+.venv/
+pycache/
+*.pyc
+results.json
+scorecard.md
+reports/
