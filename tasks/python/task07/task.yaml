@@ -1,0 +1,2 @@
+title: Email Masker
+description: mask_email(s) replaces the username part of emails with first and last char plus *** (e.g., john.doe@example.com -> j***e@example.com); case preserved for domain.
