@@ -1,0 +1,9 @@
+agents:
+  - name: naive
+    kind: python
+    cmd: python scripts/agents/naive_agent.py --task {task_dir} --tests {test_file}
+
+  - name: copyref
+    kind: python
+    # copies your current src/solution.py into the agent workspace (for wiring/sanity)
+    cmd: python scripts/agents/copy_ref_agent.py --task {task_dir} --ref {orig_task_dir}

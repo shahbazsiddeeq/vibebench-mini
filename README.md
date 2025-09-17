@@ -21,3 +21,11 @@ scorecard.md — human-friendly table
 - **Security**: Bandit findings → 1.0 if 0, 0.0 if ≥20.
 - **Dependency vulns**: pip-audit count → 1.0 if 0, 0.0 if ≥10.
 - **Aggregate**: mean of available subscores.
+
+### Paper artifacts
+- Make LaTeX/Markdown snippets:
+  ```bash
+  make paper-snippets
+
+
+![CI](https://github.com/shahbazsiddeeq/vibebench-mini/actions/workflows/benchmark.yml/badge.svg)
