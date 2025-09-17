@@ -1,6 +1,5 @@
 import csv
 from statistics import mean
-
 def column_mean(path: str, col: str) -> float:
     vals = []
     with open(path, newline="", encoding="utf-8") as f:

@@ -2,7 +2,7 @@
 import argparse, json, subprocess, xml.etree.ElementTree as ET
 from pathlib import Path
 from statistics import mean
-
+import sys, shutil, re
 #Optional imports
 
 try:
@@ -13,6 +13,45 @@ try:
     from flake8.api import legacy as flake8_api
 except Exception:
     flake8_api = None
+
+def mutation_score(task_dir):
+    """Run mutmut if available; return (killed, total, score) or (None, None, None)."""
+    if shutil.which("mutmut") is None:
+        return None, None, None
+
+    # clean any previous cache
+    try:
+        cache = Path(task_dir) / ".mutmut-cache"
+        if cache.exists():
+            cache.unlink()
+    except Exception:
+        pass
+
+    run([sys.executable, "-m", "mutmut", "run",
+         "--paths-to-mutate", "src",
+         "--tests-dir", "tests",
+         "--no-progress"], cwd=task_dir)
+
+    code, out, err = run([sys.executable, "-m", "mutmut", "results"], cwd=task_dir)
+    if code != 0:
+        return None, None, None
+
+    survived = killed = timeout = suspicious = 0
+    for line in out.splitlines():
+        m = re.search(r"Survived\s*\((\d+)\)", line);   survived   = int(m.group(1)) if m else survived
+        m = re.search(r"Killed\s*\((\d+)\)", line);     killed     = int(m.group(1)) if m else killed
+        m = re.search(r"Timeout\s*\((\d+)\)", line);    timeout    = int(m.group(1)) if m else timeout
+        m = re.search(r"Suspicious\s*\((\d+)\)", line); suspicious = int(m.group(1)) if m else suspicious
+
+    total = survived + killed + timeout + suspicious
+    if total == 0:
+        return 0, 0, None
+    score = killed / total
+    return killed, total, round(score, 3)
+
+
+
+
 
 def run(cmd, cwd=None):
     p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
@@ -118,6 +157,18 @@ def evaluate_task(task):
     dep_cnt, dep_score = pip_audit(str(tdir/"requirements.txt"))
     res["dep_vulns"]=dep_cnt; res["dep_score"]=dep_score
 
+    # 6) Mutation testing (robustness)
+    killed, total, mut_score = mutation_score(str(tdir))
+    res["mut_killed"] = killed
+    res["mut_total"] = total
+    res["mutation_score"] = mut_score
+
+    subscores = [res["correctness"], cc_score, lint_score, sec_score, dep_score]
+    if isinstance(mut_score, float):
+        subscores.append(mut_score)
+
+
+
     subs=[res["correctness"], cc_score, lint_score, sec_score, dep_score]
     subs=[x for x in subs if isinstance(x,float)]
     res["aggregate_score"]=round(sum(subs)/len(subs),3) if subs else 0.0
@@ -127,19 +178,33 @@ def write_scorecard(results, md="scorecard.md"):
     def fmt(x):
         return "—" if x is None else f"{x:.2f}"
 
+    # lines = [
+    #     "# VibeBench-Mini Scorecard",
+    #     "",
+    #     f"**Overall mean score:** {results['aggregate']['mean_score']:.3f}",
+    #     "",
+    #     "| Task | Correct | Complx | Lint | Sec | Deps | Aggregate |",
+    #     "|---|---:|---:|---:|---:|---:|---:|",
+    # ]
     lines = [
         "# VibeBench-Mini Scorecard",
         "",
         f"**Overall mean score:** {results['aggregate']['mean_score']:.3f}",
         "",
-        "| Task | Correct | Complx | Lint | Sec | Deps | Aggregate |",
-        "|---|---:|---:|---:|---:|---:|---:|",
+        "| Task | Correct | Complx | Lint | Sec | Deps | Mutation | Aggregate |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for t in results["tasks"]:
+        # lines.append(
+        #     f"| {t['id']} | {fmt(t.get('correctness', 0))} | {fmt(t.get('complexity_score'))} | "
+        #     f"{fmt(t.get('lint_score'))} | {fmt(t.get('security_score'))} | "
+        #     f"{fmt(t.get('dep_score'))} | {fmt(t.get('aggregate_score', 0))} |"
+        # )
         lines.append(
-            f"| {t['id']} | {fmt(t.get('correctness', 0))} | {fmt(t.get('complexity_score'))} | "
-            f"{fmt(t.get('lint_score'))} | {fmt(t.get('security_score'))} | "
-            f"{fmt(t.get('dep_score'))} | {fmt(t.get('aggregate_score', 0))} |"
+            f"| {t['id']} | {fmt(t.get('correctness', 0))} | "
+            f"{fmt(t.get('complexity_score'))} | {fmt(t.get('lint_score'))} | "
+            f"{fmt(t.get('security_score'))} | {fmt(t.get('dep_score'))} | "
+            f"{fmt(t.get('mutation_score'))} | {fmt(t.get('aggregate_score', 0))} |"
         )
 
     Path(md).write_text("\n".join(lines), encoding="utf-8")
