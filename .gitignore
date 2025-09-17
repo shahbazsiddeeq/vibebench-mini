@@ -4,3 +4,12 @@ pycache/
 results.json
 scorecard.md
 reports/
+.DS_Store
+reports/
+dist/
+history/
+__pycache__/
+.pytest_cache/
+results.json
+results.csv
+scorecard.md
