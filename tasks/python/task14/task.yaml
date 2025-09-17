@@ -1,0 +1,2 @@
+title: CSV Dedupe by Key (Keep Last)
+description: dedupe_csv(in_path, out_path, key) writes rows keeping the last occurrence per key; preserves header; returns number of rows written; missing key raises KeyError.

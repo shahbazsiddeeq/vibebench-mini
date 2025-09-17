@@ -1,0 +1,2 @@
+title: Slugify
+description: slugify(s) -> lowercased ASCII slug; strip accents, keep [a-z0-9-], collapse spaces/punct to single hyphens, and trim leading/trailing hyphens.

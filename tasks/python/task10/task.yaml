@@ -1,0 +1,2 @@
+title: YAML to JSON (Safe)
+description: yaml_to_json(path) loads YAML with safe loader and returns canonical JSON string (sorted keys, compact separators).

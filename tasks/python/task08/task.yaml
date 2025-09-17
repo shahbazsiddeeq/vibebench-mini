@@ -1,0 +1,2 @@
+title: URL Normalizer
+description: normalize_url(url) -> canonical form: default to https, lowercase host, remove default ports, collapse path slashes, sort query params, drop fragment.

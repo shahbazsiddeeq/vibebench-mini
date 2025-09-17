@@ -1,0 +1,2 @@
+title: Safe CLI Arg Builder
+description: build_cmd(base, args) validates keys/types and returns a list for subprocess; keys: verbose(bool), timeout(int>0), output(str). Unknown keys or invalid values raise ValueError.

@@ -4,13 +4,18 @@
 from pathlib import Path
 
 ROOT = Path(".")
+
+
 def write(path: str, text: str):
     p = ROOT / path
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(text.strip("\n") + "\n", encoding="utf-8")
 
+
 # --- Top-level files ---
-write("README.md", r"""
+write(
+    "README.md",
+    r"""
 # VibeBench-Mini (Starter)
 
 A tiny, **multi-metric** benchmark for AI-assisted coding (Python first).
@@ -26,27 +31,36 @@ Outputs:
 results.json — machine-readable scores
 
 scorecard.md — human-friendly table
-""")
-write("requirements.txt", """
+""",
+)
+write(
+    "requirements.txt",
+    """
 pytest
 radon
 flake8
 bandit
 pip-audit
 PyYAML
-""")
+""",
+)
 
-write(".gitignore", """
+write(
+    ".gitignore",
+    """
 .venv/
 pycache/
 *.pyc
 results.json
 scorecard.md
 reports/
-""")
-#--- Runner (one-command CLI) ---
+""",
+)
+# --- Runner (one-command CLI) ---
 
-write("runner/vibebench_runner.py", r"""#!/usr/bin/env python3
+write(
+    "runner/vibebench_runner.py",
+    r"""#!/usr/bin/env python3
 import argparse, json, subprocess, xml.etree.ElementTree as ET
 from pathlib import Path
 from statistics import mean
@@ -197,51 +211,78 @@ print(json.dumps(out, indent=2))
 
 if name=="main":
 main()
-""")
-#--- Example tasks (Python) ---
+""",
+)
+# --- Example tasks (Python) ---
 
-write("tasks/python/task01/task.yaml", "title: Add Two Numbers\ndescription: Implement add(a,b) that returns the sum.\n")
-write("tasks/python/task01/src/solution.py", 'def add(a, b):\n """Return the sum of two numbers."""\n return a + b\n')
-write("tasks/python/task01/tests/test_solution.py", """
+write(
+    "tasks/python/task01/task.yaml",
+    "title: Add Two Numbers\ndescription: Implement add(a,b) that returns the sum.\n",
+)
+write(
+    "tasks/python/task01/src/solution.py",
+    'def add(a, b):\n """Return the sum of two numbers."""\n return a + b\n',
+)
+write(
+    "tasks/python/task01/tests/test_solution.py",
+    """
 from src.solution import add
 def test_add_basic(): assert add(1,2)==3
 def test_add_zero(): assert add(0,0)==0
 def test_add_negative(): assert add(-5,2)==-3
-""")
+""",
+)
 
-write("tasks/python/task02/task.yaml", "title: Reverse Words\ndescription: reverse_words(s) returns words in reverse order.\n")
-write("tasks/python/task02/src/solution.py", """
+write(
+    "tasks/python/task02/task.yaml",
+    "title: Reverse Words\ndescription: reverse_words(s) returns words in reverse order.\n",
+)
+write(
+    "tasks/python/task02/src/solution.py",
+    """
 def reverse_words(s: str) -> str:
 words = s.strip().split()
 return " ".join(reversed(words))
-""")
-write("tasks/python/task02/tests/test_solution.py", """
+""",
+)
+write(
+    "tasks/python/task02/tests/test_solution.py",
+    """
 from src.solution import reverse_words
 def test_reverse_simple(): assert reverse_words("hello world")=="world hello"
 def test_reverse_trim(): assert reverse_words(" a b c ")=="c b a"
 def test_reverse_single(): assert reverse_words("hello")=="hello"
-""")
-#Per-task requirements (optional)
+""",
+)
+# Per-task requirements (optional)
 
 write("tasks/python/task01/requirements.txt", "")
 write("tasks/python/task02/requirements.txt", "")
 
-#--- Configs & CI ---
+# --- Configs & CI ---
 
-write("configs/flake8.cfg", """
+write(
+    "configs/flake8.cfg",
+    """
 [flake8]
 max-line-length = 120
 extend-ignore = E203,W503
-""")
-write("configs/bandit.yaml", """
+""",
+)
+write(
+    "configs/bandit.yaml",
+    """
 
 Minimal Bandit config; extend as needed.
 
 profiles:
 
 Full
-""")
-write(".github/workflows/benchmark.yml", """
+""",
+)
+write(
+    ".github/workflows/benchmark.yml",
+    """
 name: vibebench-mini
 on: [push, workflow_dispatch]
 jobs:
@@ -266,6 +307,7 @@ name: vibebench-results
 path: |
 results.json
 scorecard.md
-""")
+""",
+)
 
 print("✅ Created full VibeBench-Mini structure.")

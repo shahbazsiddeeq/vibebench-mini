@@ -1,0 +1,2 @@
+title: Safe Arithmetic Eval
+description: safe_eval(expr) evaluates +,-,*,/,**, unary +/- and parentheses using ast; only numeric literals allowed; other nodes raise ValueError.

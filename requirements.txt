@@ -4,4 +4,6 @@ flake8
 bandit
 pip-audit
 PyYAML
-mutmut
+pandas
+matplotlib
+# mutmut

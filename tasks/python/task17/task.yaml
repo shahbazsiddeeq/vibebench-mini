@@ -1,0 +1,2 @@
+title: Natural Sort
+description: natural_sort(items) sorts strings so numeric parts compare by value (e.g., file2 < file10); case-insensitive for letters.

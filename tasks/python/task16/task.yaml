@@ -1,0 +1,2 @@
+title: Merge Intervals
+description: merge_intervals(intervals) merges overlapping [start,end) integer intervals and returns a sorted list of merged intervals.

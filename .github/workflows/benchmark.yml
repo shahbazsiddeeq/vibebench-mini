@@ -20,5 +20,7 @@ uses: actions/upload-artifact@v4
 with:
 name: vibebench-results
 path: |
-results.json
-scorecard.md
+  results.json
+  scorecard.md
+  results.csv
+  reports/

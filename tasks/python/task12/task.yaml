@@ -1,0 +1,2 @@
+title: Directory Hash (Deterministic)
+description: dir_hash(path) returns SHA256 over sorted relative file paths and contents; ignores directories; stable across runs.
