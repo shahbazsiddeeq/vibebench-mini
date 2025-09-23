@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-from __future__ import annotations
-
 import argparse
 import csv
 import hashlib
@@ -14,32 +12,23 @@ from pathlib import Path
 from statistics import mean
 
 # Optional imports
+
 try:
     from radon.complexity import cc_visit
 except Exception:
     cc_visit = None
-
 try:
     from flake8.api import legacy as flake8_api
 except Exception:
     flake8_api = None
 
 
-# ----------------------- helpers -----------------------
-def run(cmd, cwd: str | Path | None = None):
-    """Run a subprocess and return (returncode, stdout, stderr)."""
-    p = subprocess.run(
-        cmd, cwd=str(cwd) if cwd else None, capture_output=True, text=True
-    )
-    return p.returncode, p.stdout, p.stderr
-
-
-def mutation_score(task_dir: str | Path):
+def mutation_score(task_dir):
     """Run mutmut if available; return (killed, total, score) or (None, None, None)."""
     if shutil.which("mutmut") is None:
         return None, None, None
 
-    # clean any previous cache (best-effort)
+    # clean any previous cache
     try:
         cache = Path(task_dir) / ".mutmut-cache"
         if cache.exists():
@@ -47,7 +36,6 @@ def mutation_score(task_dir: str | Path):
     except Exception:
         pass
 
-    # run mutmut via current Python (so it uses the venv)
     run(
         [
             sys.executable,
@@ -63,7 +51,7 @@ def mutation_score(task_dir: str | Path):
         cwd=task_dir,
     )
 
-    code, out, _ = run([sys.executable, "-m", "mutmut", "results"], cwd=task_dir)
+    code, out, err = run([sys.executable, "-m", "mutmut", "results"], cwd=task_dir)
     if code != 0:
         return None, None, None
 
@@ -85,6 +73,11 @@ def mutation_score(task_dir: str | Path):
     return killed, total, round(score, 3)
 
 
+def run(cmd, cwd=None):
+    p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
+    return p.returncode, p.stdout, p.stderr
+
+
 def junit_results(junit_path: Path):
     total = passed = failed = errors = 0
     try:
@@ -93,13 +86,13 @@ def junit_results(junit_path: Path):
             total += int(ts.attrib.get("tests", 0))
             failed += int(ts.attrib.get("failures", 0))
             errors += int(ts.attrib.get("errors", 0))
-        passed = max(0, total - failed - errors)
+            passed = max(0, total - failed - errors)
     except Exception:
         pass
     return dict(total=total, passed=passed, failed=failed, errors=errors)
 
 
-def radon_complexity_score(py_files: list[str]):
+def radon_complexity_score(py_files):
     if not cc_visit or not py_files:
         return None, None
     vals = []
@@ -117,17 +110,17 @@ def radon_complexity_score(py_files: list[str]):
     return round(avg, 3), round(score, 3)
 
 
-def flake8_issues(path: str | Path):
+def flake8_issues(path):
     if not flake8_api:
         return None, None
     sg = flake8_api.get_style_guide(max_line_length=120)
-    report = sg.check_files([str(path)])
+    report = sg.check_files([path])
     n = getattr(report, "total_errors", 0)
     score = max(0.0, 1 - min(n, 20) / 20)
     return n, round(score, 3)
 
 
-def bandit_issues(path: str | Path):
+def bandit_issues(path):
     code, out, _ = run(["bandit", "-r", ".", "-f", "json", "-q"], cwd=path)
     try:
         data = json.loads(out)
@@ -140,13 +133,11 @@ def bandit_issues(path: str | Path):
     return n, round(score, 3)
 
 
-def pip_audit(req_path: str | Path):
+def pip_audit(req_path):
     req = Path(req_path)
     if not req.exists():
         return None, None
-    code, out, _ = run(
-        [sys.executable, "-m", "pip_audit", "-r", str(req), "-f", "json"]
-    )
+    code, out, _ = run(["pip-audit", "-r", str(req), "-f", "json"])
     try:
         data = json.loads(out)
         n = sum(len(p.get("vulns", [])) for p in data)
@@ -158,44 +149,34 @@ def pip_audit(req_path: str | Path):
     return n, round(score, 3)
 
 
-def discover_tasks(root: str | Path):
-    tasks: list[dict] = []
+def discover_tasks(root):
+    tasks = []
     for p in sorted(Path(root).glob("*")):
-        if not p.is_dir():
-            continue
-        meta = {"id": p.name, "path": str(p)}
-        mf = p / "task.yaml"
+        if p.is_dir():
+            meta = {"id": p.name, "path": str(p)}
+            mf = p / "task.yaml"
         if mf.exists():
             try:
                 import yaml
 
-                y = yaml.safe_load(mf.read_text(encoding="utf-8")) or {}
-                if isinstance(y, dict):
-                    meta.update(y)
+                meta.update(yaml.safe_load(mf.read_text(encoding="utf-8")) or {})
             except Exception:
                 pass
         tasks.append(meta)
     return tasks
 
 
-def evaluate_task(task: dict):
+def evaluate_task(task):
     tdir = Path(task["path"])
     src = tdir / "src"
     tests = tdir / "tests"
     py_files = [str(p) for p in src.rglob("*.py")]
-
-    res: dict[str, object] = {
-        "id": task["id"],
-        "title": task.get("title", task["id"]),
-    }
-
-    # 1) Correctness via pytest (use venv python)
+    res = {"id": task, "title": task.get("title", task["id"])}
+    # Correctness
     junit = tdir / "reports" / "junit.xml"
-    junit.parent.mkdir(parents=True, exist_ok=True)
+    junit.parent.mkdir(exist_ok=True)
     run(
         [
-            sys.executable,
-            "-m",
             "pytest",
             "-q",
             "--disable-warnings",
@@ -209,41 +190,54 @@ def evaluate_task(task: dict):
     res["tests"] = jt
     res["correctness"] = round(jt["passed"] / jt["total"], 3) if jt["total"] else 0.0
 
-    # 2) Complexity
+    # Complexity
     avg_cc, cc_score = radon_complexity_score(py_files)
     res["complexity_avg"] = avg_cc
     res["complexity_score"] = cc_score
 
-    # 3) Lint
-    lint_cnt, lint_score = flake8_issues(src)
+    # Lint
+    lint_cnt, lint_score = flake8_issues(str(src))
     res["lint_issues"] = lint_cnt
     res["lint_score"] = lint_score
 
-    # 4) Security
-    sec_cnt, sec_score = bandit_issues(src)
+    # Security
+    sec_cnt, sec_score = bandit_issues(str(src))
     res["security_issues"] = sec_cnt
     res["security_score"] = sec_score
 
-    # 5) Dependencies
-    dep_cnt, dep_score = pip_audit(tdir / "requirements.txt")
+    # Dependencies
+    dep_cnt, dep_score = pip_audit(str(tdir / "requirements.txt"))
     res["dep_vulns"] = dep_cnt
     res["dep_score"] = dep_score
 
     # 6) Mutation testing (robustness)
-    killed, total, mut_score = mutation_score(tdir)
+    killed, total, mut_score = mutation_score(str(tdir))
     res["mut_killed"] = killed
     res["mut_total"] = total
     res["mutation_score"] = mut_score
 
-    # Note: per-task aggregate will be computed later using metrics weights
+    subscores = [res["correctness"], cc_score, lint_score, sec_score, dep_score]
+    if isinstance(mut_score, float):
+        subscores.append(mut_score)
+
+    subs = [res["correctness"], cc_score, lint_score, sec_score, dep_score]
+    subs = [x for x in subs if isinstance(x, float)]
+    res["aggregate_score"] = round(sum(subs) / len(subs), 3) if subs else 0.0
     return res
 
 
-# ----------------------- output writers -----------------------
-def write_scorecard(results: dict, md: str = "scorecard.md"):
+def write_scorecard(results, md="scorecard.md"):
     def fmt(x):
         return "—" if x is None else f"{x:.2f}"
 
+    # lines = [
+    #     "# VibeBench-Mini Scorecard",
+    #     "",
+    #     f"**Overall mean score:** {results['aggregate']['mean_score']:.3f}",
+    #     "",
+    #     "| Task | Correct | Complx | Lint | Sec | Deps | Aggregate |",
+    #     "|---|---:|---:|---:|---:|---:|---:|",
+    # ]
     lines = [
         "# VibeBench-Mini Scorecard",
         "",
@@ -253,6 +247,11 @@ def write_scorecard(results: dict, md: str = "scorecard.md"):
         "|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for t in results["tasks"]:
+        # lines.append(
+        #     f"| {t['id']} | {fmt(t.get('correctness', 0))} | {fmt(t.get('complexity_score'))} | "
+        #     f"{fmt(t.get('lint_score'))} | {fmt(t.get('security_score'))} | "
+        #     f"{fmt(t.get('dep_score'))} | {fmt(t.get('aggregate_score', 0))} |"
+        # )
         lines.append(
             f"| {t['id']} | {fmt(t.get('correctness', 0))} | "
             f"{fmt(t.get('complexity_score'))} | {fmt(t.get('lint_score'))} | "
@@ -263,7 +262,7 @@ def write_scorecard(results: dict, md: str = "scorecard.md"):
     Path(md).write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_csv(results: dict, csv_path: str = "results.csv"):
+def write_csv(results, csv_path="results.csv"):
     """Export per-task metrics to a flat CSV for analysis/papers."""
     fields = [
         "id",
@@ -331,7 +330,6 @@ def write_csv(results: dict, csv_path: str = "results.csv"):
         )
 
 
-# ----------------------- metrics config -----------------------
 def load_metrics_config(path: str | None):
     default = {
         "id": "VibeBench-default",
@@ -368,7 +366,6 @@ def weighted_aggregate(
     return 0.0 if den == 0 else num / den
 
 
-# ----------------------- entry point -----------------------
 def main():
     ap = argparse.ArgumentParser(description="VibeBench-Mini Runner")
     ap.add_argument("--tasks", default="tasks/python", help="Path to tasks root")
@@ -376,38 +373,19 @@ def main():
     ap.add_argument(
         "--csv", dest="csv_out", default="results.csv", help="CSV export path"
     )
-    ap.add_argument(
-        "--metrics",
-        default="configs/metrics.v1.json",
-        help="Path to metrics.json (weights). Default: configs/metrics.v1.json",
-    )
+    # ap.add_argument("--metrics", default="configs/metrics.v1.json",
+    #             help="Path to metrics.json (weights). Default: configs/metrics.v1.json")
+
     args = ap.parse_args()
 
-    # discover, evaluate
     tasks = discover_tasks(args.tasks)
     results = [evaluate_task(t) for t in tasks]
-
-    # load metrics weights and compute per-task aggregate
-    metrics_cfg, metrics_meta = load_metrics_config(args.metrics)
-    weights = metrics_cfg.get("weights", {})
-    missing = metrics_cfg.get("missing_metric", "skip")
-
-    for r in results:
-        r["aggregate_score"] = round(weighted_aggregate(r, weights, missing), 3)
-
     mean_score = round(
         sum(r["aggregate_score"] for r in results) / max(1, len(results)), 3
     )
     out = {
         "tasks": results,
-        "aggregate": {
-            "mean_score": mean_score,
-            "num_tasks": len(results),
-            "metrics_id": metrics_cfg.get("id", "unknown"),
-            "metrics_weights": weights,
-            "metrics_missing_policy": missing,
-            "metrics_config": metrics_meta or {},
-        },
+        "aggregate": {"mean_score": mean_score, "num_tasks": len(results)},
     }
 
     Path(args.out).write_text(json.dumps(out, indent=2), encoding="utf-8")

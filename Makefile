@@ -68,3 +68,31 @@ clean:
 
 help:
 	@echo "Targets: install | run | analyze | paper-snippets | publish | compare | archive | agents-baseline | agents-clean | ci-local | format | lint | hooks | clean"
+
+agents-openai:
+	$(ACT); OPENAI_API_KEY=$${OPENAI_API_KEY} $(PY) scripts/run_agents.py --config configs/agents.openai.yaml
+
+agents-compare:
+	$(ACT); $(PY) scripts/run_agents.py --config configs/agents.compare.yaml
+
+# agents-openai-cache-clear:
+# 	rm -rf .agent_runs/openai-default/cache
+
+# Deterministic, cheap baseline
+agents-compare-deterministic:
+	$(ACT); OPENAI_TEMPERATURE=0 OPENAI_MAX_OUTPUT_TOKENS=400 OPENAI_TOKEN_BUDGET=200000 $(PY) scripts/run_agents.py --config configs/agents.compare.yaml
+
+# Clear OpenAI cache for a fresh run
+agents-openai-cache-clear:
+	rm -rf .agent_runs/openai-default/cache
+agents-summary:
+	$(ACT); $(PY) scripts/agents_summary.py
+
+METRICS ?= configs/metrics.v1.json
+
+run:
+	$(ACT); $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics $(METRICS)
+
+ci-local: install
+	$(ACT); METRICS=$(METRICS) $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics $(METRICS)
+	$(ACT); $(PY) scripts/analyze_results.py

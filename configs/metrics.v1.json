@@ -1,0 +1,13 @@
+{
+  "id": "VibeBench-v1.0",
+  "description": "Weighted aggregate for AI-assisted coding quality across multiple axes.",
+  "missing_metric": "skip", 
+  "weights": {
+    "correctness":      0.60,
+    "mutation_score":   0.15,
+    "complexity_score": 0.10,
+    "lint_score":       0.05,
+    "security_score":   0.05,
+    "dep_score":        0.05
+  }
+}

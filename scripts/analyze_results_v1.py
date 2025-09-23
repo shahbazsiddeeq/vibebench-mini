@@ -6,9 +6,7 @@ Reads results.csv and writes:
 - reports/subscores_bar__{complexity,lint,security,deps,mutation}.png
 - reports/summary.csv (mean of metrics)
 - reports/summary.md  (markdown snippet for your paper/README)
-- reports/metrics_used.md (which metrics config was applied)
 """
-import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -126,31 +124,6 @@ def main():
         ]
     )
     (OUT / "summary.md").write_text("\n".join(md), encoding="utf-8")
-
-    # --- metrics used (appended step) ---
-    try:
-        rj = ROOT / "results.json"
-        if rj.exists():
-            data = json.loads(rj.read_text(encoding="utf-8"))
-            agg = data.get("aggregate", {})
-            lines = [
-                "### Metrics used\n",
-                f"- **ID:** `{agg.get('metrics_id', 'unknown')}`",
-                f"- **Missing policy:** `{agg.get('metrics_missing_policy', 'skip')}`",
-                f"- **Weights:** `{agg.get('metrics_weights', {})}`",
-            ]
-            mc = agg.get("metrics_config", {})
-            if mc:
-                lines.append(
-                    f"- **Config:** `{mc.get('path', '?')}` "
-                    f"(sha256-12: `{mc.get('sha256_12', '?')}`)"
-                )
-            (OUT / "metrics_used.md").write_text(
-                "\n".join(lines) + "\n", encoding="utf-8"
-            )
-    except Exception as e:
-        print("warn: metrics_used.md not written:", e)
-
     print("Wrote charts + tables to", OUT)
 
 

@@ -29,3 +29,5 @@ scorecard.md — human-friendly table
 
 
 ![CI](https://github.com/shahbazsiddeeq/vibebench-mini/actions/workflows/benchmark.yml/badge.svg)
+
+All aggregates use configs/metrics.v1.json (weights in reports/metrics_used.md).

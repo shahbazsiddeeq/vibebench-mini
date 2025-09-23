@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import os
 import re
 import shlex
 import shutil
@@ -25,9 +26,19 @@ RUNS = ROOT / ".agent_runs"
 REPORTS = ROOT / "reports"
 
 
-def runcmd(cmd: list[str], cwd: Path | None = None) -> tuple[int, str, str]:
+# def runcmd(cmd: list[str], cwd: Path | None = None) -> tuple[int, str, str]:
+#     p = subprocess.run(
+#         cmd, cwd=str(cwd) if cwd else None, capture_output=True, text=True
+#     )
+#     return p.returncode, p.stdout, p.stderr
+
+
+def runcmd(cmd, cwd=None, extra_env=None):
+    env = os.environ.copy()
+    if extra_env:
+        env.update(extra_env)
     p = subprocess.run(
-        cmd, cwd=str(cwd) if cwd else None, capture_output=True, text=True
+        cmd, cwd=str(cwd) if cwd else None, capture_output=True, text=True, env=env
     )
     return p.returncode, p.stdout, p.stderr
 
@@ -118,7 +129,7 @@ def run_agent_on_task(cmd_tmpl: str, ws_task: Path, orig_task: Path, run_root: P
     if args and args[0] in ("python", "python3"):
         args[0] = sys.executable  # already imported above
 
-    code, out, err = runcmd(args)
+    code, out, err = runcmd(args, extra_env={"RUN_ROOT": str(run_root)})
     if code != 0:
         print(
             f"[warn] agent cmd failed for {ws_task.name}: {err.strip()}",

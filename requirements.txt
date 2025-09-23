@@ -6,4 +6,5 @@ pip-audit
 PyYAML
 pandas
 matplotlib
+openai>=1.0
 # mutmut

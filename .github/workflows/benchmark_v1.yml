@@ -24,11 +24,7 @@ jobs:
 
       - name: Run VibeBench-Mini (JSON + CSV + scorecard)
         run: |
-          python runner/vibebench_runner.py \
-            --tasks tasks/python \
-            --out results.json \
-            --csv results.csv \
-            --metrics configs/metrics.v1.json
+          python runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv
 
       - name: Analyze results (charts + summary)
         run: |
@@ -61,8 +57,6 @@ jobs:
           cp scorecard.md site/ || true
           cp results.csv site/ || true
           cp -r reports/* site/reports/ || true
-          # (explicit copy not strictly needed because of the line above)
-          cp reports/metrics_used.md site/reports/ || true
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
@@ -89,8 +83,7 @@ jobs:
                 <a href="./scorecard.md">scorecard.md</a> ·
                 <a href="./results.csv">results.csv</a> ·
                 <a href="./reports/summary.md">summary.md</a> ·
-                <a href="./reports/table.md">table.md</a> ·
-                <a href="./reports/metrics_used.md">metrics_used.md</a>
+                <a href="./reports/table.md">table.md</a>
               </p>
             </header>
 

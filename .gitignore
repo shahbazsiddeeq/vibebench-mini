@@ -13,3 +13,18 @@ __pycache__/
 results.json
 results.csv
 scorecard.md
+
+# Local agent runs
+.agent_runs/
+# Secrets
+a.env
+.env
+# macOS
+.DS_Store
+
+# Local agent runs
+.agent_runs/
+# Secrets
+.env
+# macOS
+.DS_Store
