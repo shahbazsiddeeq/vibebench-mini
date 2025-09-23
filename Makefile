@@ -96,3 +96,7 @@ run:
 ci-local: install
 	$(ACT); METRICS=$(METRICS) $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics $(METRICS)
 	$(ACT); $(PY) scripts/analyze_results.py
+runinfo:
+	$(ACT); $(PY) scripts/runinfo.py
+sweep:
+	$(ACT); $(PY) scripts/sweep_metrics.py

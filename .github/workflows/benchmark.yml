@@ -43,6 +43,10 @@ jobs:
           mkdir -p dist
           zip -rq dist/vibebench-results.zip results.json results.csv scorecard.md reports || true
 
+      - name: Record run info
+        run: |
+          python scripts/runinfo.py
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -61,8 +65,11 @@ jobs:
           cp scorecard.md site/ || true
           cp results.csv site/ || true
           cp -r reports/* site/reports/ || true
+          cp reports/runinfo.md site/reports/ || true 
           # (explicit copy not strictly needed because of the line above)
           cp reports/metrics_used.md site/reports/ || true
+          mkdir -p site/reports/sweeps
+          cp -r reports/sweeps/* site/reports/sweeps/ || true
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">

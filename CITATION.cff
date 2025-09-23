@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use VibeBench-Mini, please cite this record."
+title: "VibeBench-Mini: A Multi-Metric Benchmark for Vibe Coding"
+version: "1.0.0"
+authors:
+  - family-names: "Siddeeq"
+    given-names: "Shahbaz"
+preferred-citation:
+  type: article
+  title: "VibeBench-Mini: A Multi-Metric Benchmark for Vibe Coding"
+  authors:
+    - family-names: "Siddeeq"
+      given-names: "Shahbaz"
+  year: 2025

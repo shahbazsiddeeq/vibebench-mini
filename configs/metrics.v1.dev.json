@@ -1,0 +1,11 @@
+{
+  "id": "VibeBench-v1-dev",
+  "missing_metric": "skip",
+  "weights": {
+    "correctness": 1.0,
+    "complexity_score": 0.5,
+    "lint_score": 0.5,
+    "security_score": 0.25,
+    "dep_score": 0.25
+  }
+}
