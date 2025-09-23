@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import csv
 import re
+import shlex
 import shutil
 import subprocess
 import sys
@@ -66,17 +67,58 @@ def blank_solution(task_ws_task: Path, test_file: Path):
     sol.write_text(code, encoding="utf-8")
 
 
-def run_agent_on_task(cmd_tmpl: str, ws_task: Path, orig_task: Path):
+# def run_agent_on_task(cmd_tmpl: str, ws_task: Path, orig_task: Path):
+#     test_file = find_test_file(orig_task)
+#     # ensure a blank starting point so agent must write code:
+#     blank_solution(ws_task, test_file)
+#     cmd = cmd_tmpl.format(
+#         task_dir=str(ws_task),
+#         test_file=str(test_file),
+#         orig_task_dir=str(orig_task),
+#         ref=str(orig_task),
+#     )
+#     code, out, err = runcmd(cmd.split())
+#     if code != 0:
+#         print(
+#             f"[warn] agent cmd failed for {ws_task.name}: {err.strip()}",
+#             file=sys.stderr,
+#         )
+
+# def run_agent_on_task(cmd_tmpl: str, ws_task: Path, orig_task: Path, run_root: Path):
+#     test_file = find_test_file(orig_task)
+#     blank_solution(ws_task, test_file)
+#     cmd = cmd_tmpl.format(
+#         task_dir=str(ws_task),
+#         test_file=str(test_file),
+#         orig_task_dir=str(orig_task),
+#         ref=str(orig_task),
+#         run_root=str(run_root),
+#     )
+#     code, out, err = runcmd(cmd.split())
+#     if code != 0:
+#         print(f"[warn] agent cmd failed for {ws_task.name}: {err.strip()}", file=sys.stderr)
+
+
+def run_agent_on_task(cmd_tmpl: str, ws_task: Path, orig_task: Path, run_root: Path):
     test_file = find_test_file(orig_task)
-    # ensure a blank starting point so agent must write code:
     blank_solution(ws_task, test_file)
-    cmd = cmd_tmpl.format(
-        task_dir=str(ws_task),
-        test_file=str(test_file),
-        orig_task_dir=str(orig_task),
-        ref=str(orig_task),
-    )
-    code, out, err = runcmd(cmd.split())
+
+    # Safely substitute placeholders and keep paths as single args even with spaces
+    fmt = {
+        "task_dir": shlex.quote(str(ws_task)),
+        "test_file": shlex.quote(str(test_file)),
+        "orig_task_dir": shlex.quote(str(orig_task)),
+        "ref": shlex.quote(str(orig_task)),
+        "run_root": shlex.quote(str(run_root)),
+    }
+    cmd_str = cmd_tmpl.format(**fmt)
+    args = shlex.split(cmd_str)  # respects quotes
+
+    # Ensure we run inside your venv’s Python, not system python
+    if args and args[0] in ("python", "python3"):
+        args[0] = sys.executable  # already imported above
+
+    code, out, err = runcmd(args)
     if code != 0:
         print(
             f"[warn] agent cmd failed for {ws_task.name}: {err.strip()}",
@@ -160,12 +202,28 @@ def main():
     for a in agents:
         name = a["name"]
         cmd = a["cmd"]
+        # ws = prepare_workspace(name)
+        # all_tasks = discover_tasks()
+        # for orig in all_tasks:
+        #     ws_task = ws / orig.name
+        #     run_agent_on_task(cmd, ws_task, orig)
+        # score_workspace(name, RUNS / name)
+
+        # ws = prepare_workspace(name)
+        # all_tasks = discover_tasks()
+        # run_root = RUNS / name
+        # for orig in all_tasks:
+        #     ws_task = ws / orig.name
+        #     run_agent_on_task(cmd, ws_task, orig, run_root)
+        # score_workspace(name, run_root)
+
         ws = prepare_workspace(name)
         all_tasks = discover_tasks()
+        run_root = RUNS / name
         for orig in all_tasks:
             ws_task = ws / orig.name
-            run_agent_on_task(cmd, ws_task, orig)
-        score_workspace(name, RUNS / name)
+            run_agent_on_task(cmd, ws_task, orig, run_root)
+        score_workspace(name, run_root)
 
     compare_agents([a["name"] for a in agents])
 
