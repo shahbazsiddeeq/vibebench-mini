@@ -100,3 +100,5 @@ runinfo:
 	$(ACT); $(PY) scripts/runinfo.py
 sweep:
 	$(ACT); $(PY) scripts/sweep_metrics.py
+archive:
+	$(ACT); $(PY) scripts/archive_run.py --agent openai-default --agent copyref --agent naive --compress
