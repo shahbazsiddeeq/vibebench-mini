@@ -70,6 +70,10 @@ jobs:
           cp reports/metrics_used.md site/reports/ || true
           mkdir -p site/reports/sweeps
           cp -r reports/sweeps/* site/reports/sweeps/ || true
+          # Agents reports
+          cp reports/agents_compare.md site/reports/ || true
+          cp reports/agents_summary.md site/reports/ || true
+          cp reports/agents_summary.csv site/reports/ || true
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
