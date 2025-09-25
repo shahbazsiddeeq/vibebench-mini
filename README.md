@@ -1,4 +1,4 @@
-# VibeBench-Mini (Starter)
+# VibeBench-Mini
 
 A tiny, **multi-metric** benchmark for AI-assisted coding (Python first).
 It produces a scorecard covering **correctness**, **complexity**, **lint**, **security**, and **dependency vulnerabilities**.
@@ -29,7 +29,14 @@ scorecard.md — human-friendly table
 
 
 ![CI](https://github.com/shahbazsiddeeq/vibebench-mini/actions/workflows/benchmark.yml/badge.svg)
-[![Latest Results](https://img.shields.io/badge/gh--pages-live-brightgreen)](https://shahbazsiddeeq.github.io/vibebench-mini/)
-[![Version](https://img.shields.io/badge/VibeBench--Mini-1.0.0-blue)](#)
+[![Latest Results](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://shahbazsiddeeq.github.io/vibebench-mini/)
+[![Version](https://img.shields.io/github/v/release/shahbazsiddeeq/vibebench-mini?color=blue)](https://github.com/shahbazsiddeeq/vibebench-mini/releases)
+
+
+# ![CI](https://github.com/shahbazsiddeeq/vibebench-mini/actions/workflows/benchmark.yml/badge.svg)
+# [![Latest Results](https://img.shields.io/badge/gh--pages-live-brightgreen)](https://shahbazsiddeeq.github.io/vibebench-mini/)
+# [![Version](https://img.shields.io/badge/VibeBench--Mini-1.0.0-blue)](#)
+
+
 
 All aggregates use configs/metrics.v1.json (weights in reports/metrics_used.md).
