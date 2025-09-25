@@ -169,3 +169,35 @@ release:
 	git tag -a v$(v) -m "VibeBench-Mini v$(v)"
 	git push origin v$(v)
 	@echo "Tag v$(v) pushed. GitHub Actions will build the release."
+
+.PHONY: js-analyze js-all js-install js-run js-mutate js-publish
+
+# js-mutate:
+# 	@node runner/vibebench_runner_js.mjs
+
+js-analyze:
+	@python scripts/analyze_results.py
+
+js-all: js-mutate js-analyze
+	@echo "JS: results.json / results.csv / scorecard.md updated; see reports/"
+
+# --- JS track ---
+
+js-install:
+	@npm ci || npm i
+
+# Runs vitest/eslint/audit + complexity + mutation (per task)
+js-run:
+	@node runner/vibebench_runner_js.mjs
+
+# Run a standalone Stryker session (optional)
+js-mutate:
+	@npx stryker run
+
+# Bundle JS artifacts for sharing
+js-publish: js-run
+	@mkdir -p dist
+	@zip -rq dist/vibebench-js-results.zip results_js.json results_js.csv scorecard_js.md || true
+	@echo "Wrote dist/vibebench-js-results.zip"
+
+
