@@ -163,3 +163,9 @@ agents-publish: agents-merge agents-costs
 	@cp reports/agents_costs.csv reports/ || true
 	@cp reports/agents_costs_by_track.csv reports/ || true
 	@echo "Agents artifacts prepared in reports/"
+
+release:
+	@test -n "$(v)" || (echo "Usage: make release v=1.0.0" && exit 1)
+	git tag -a v$(v) -m "VibeBench-Mini v$(v)"
+	git push origin v$(v)
+	@echo "Tag v$(v) pushed. GitHub Actions will build the release."

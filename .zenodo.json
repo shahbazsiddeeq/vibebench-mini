@@ -1,0 +1,12 @@
+{
+  "title": "VibeBench-Mini: A Multi-Metric Benchmark for Vibe Coding",
+  "creators": [
+    {"name": "Shahbaz Siddeeq"},
+    {"name": "VibeBench-Mini Contributors"}
+  ],
+  "description": "Tasks, runners, agents, and reproducible metrics for AI-assisted coding.",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": ["benchmark", "LLM", "software engineering", "mutation testing", "code quality"]
+}
