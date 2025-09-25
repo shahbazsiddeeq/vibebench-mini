@@ -1,0 +1,108 @@
+{
+  "tasks": [
+    {
+      "id": "task01",
+      "title": "task01",
+      "tests": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "errors": 0
+      },
+      "correctness": 1,
+      "lint_issues": null,
+      "lint_score": null,
+      "dep_vulns": 8,
+      "dep_score": 0.2,
+      "complexity_avg": 1,
+      "complexity_score": 1,
+      "security_score": null,
+      "mutation_score": null,
+      "aggregate_score": 0.733
+    },
+    {
+      "id": "task02",
+      "title": "task02",
+      "tests": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "errors": 0
+      },
+      "correctness": 1,
+      "lint_issues": null,
+      "lint_score": null,
+      "dep_vulns": 8,
+      "dep_score": 0.2,
+      "complexity_avg": 1,
+      "complexity_score": 1,
+      "security_score": null,
+      "mutation_score": null,
+      "aggregate_score": 0.733
+    },
+    {
+      "id": "task03",
+      "title": "task03",
+      "tests": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "errors": 0
+      },
+      "correctness": 1,
+      "lint_issues": null,
+      "lint_score": null,
+      "dep_vulns": 8,
+      "dep_score": 0.2,
+      "complexity_avg": 2,
+      "complexity_score": 1,
+      "security_score": null,
+      "mutation_score": null,
+      "aggregate_score": 0.733
+    },
+    {
+      "id": "task04",
+      "title": "task04",
+      "tests": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "errors": 0
+      },
+      "correctness": 1,
+      "lint_issues": null,
+      "lint_score": null,
+      "dep_vulns": 8,
+      "dep_score": 0.2,
+      "complexity_avg": 3,
+      "complexity_score": 1,
+      "security_score": null,
+      "mutation_score": null,
+      "aggregate_score": 0.733
+    },
+    {
+      "id": "task05",
+      "title": "task05",
+      "tests": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "errors": 0
+      },
+      "correctness": 1,
+      "lint_issues": null,
+      "lint_score": null,
+      "dep_vulns": 8,
+      "dep_score": 0.2,
+      "complexity_avg": 3,
+      "complexity_score": 1,
+      "security_score": null,
+      "mutation_score": null,
+      "aggregate_score": 0.733
+    }
+  ],
+  "aggregate": {
+    "mean_score": 0.733,
+    "num_tasks": 5
+  }
+}

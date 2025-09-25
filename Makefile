@@ -2,6 +2,7 @@
 PY ?= python3
 VENV := .venv
 ACT := . $(VENV)/bin/activate
+METRICS ?= configs/metrics.v1.json
 
 .PHONY: all venv install run analyze paper-snippets publish compare archive agents-baseline agents-clean ci-local format lint hooks clean help
 
@@ -15,8 +16,8 @@ install: venv
 	$(ACT); pip install -r requirements.txt
 
 # Run the benchmark and export JSON/CSV/scorecard
-run:
-	$(ACT); $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv
+# run:
+# 	$(ACT); $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv
 
 # Generate charts + summary
 analyze:
@@ -37,8 +38,8 @@ compare:
 	$(ACT); $(PY) scripts/compare_runs.py
 
 # Archive current results
-archive:
-	$(ACT); $(PY) scripts/archive_run.py
+# archive:
+# 	$(ACT); $(PY) scripts/archive_run.py
 
 # Baseline agents harness
 agents-baseline:
@@ -88,7 +89,7 @@ agents-openai-cache-clear:
 agents-summary:
 	$(ACT); $(PY) scripts/agents_summary.py
 
-METRICS ?= configs/metrics.v1.json
+# METRICS ?= configs/metrics.v1.json
 
 run:
 	$(ACT); $(PY) runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics $(METRICS)
@@ -102,3 +103,63 @@ sweep:
 	$(ACT); $(PY) scripts/sweep_metrics.py
 archive:
 	$(ACT); $(PY) scripts/archive_run.py --agent openai-default --agent copyref --agent naive --compress
+# ---- JS track ----
+run-js:
+	@node runner/vibebench_runner_js.mjs
+
+publish-js: run-js
+	@mkdir -p dist
+	@zip -rq dist/vibebench-js-results.zip results_js.json results_js.csv scorecard_js.md || true
+	@echo "Wrote dist/vibebench-js-results.zip"
+merge:
+	@python scripts/merge_tracks.py
+
+publish-all: run analyze run-js merge
+	@mkdir -p dist
+	@zip -rq dist/vibebench-all.zip results.json results.csv scorecard.md \
+		results_js.json results_js.csv scorecard_js.md reports || true
+	@echo "Wrote dist/vibebench-all.zip"
+
+agents-js:
+	@node scripts/agents_js/openai_agent.mjs
+
+agents-js-summary:
+	@python3 scripts/agents_js/summary.py
+
+# agents-js-summary:
+# 	@python3 - <<'PY'
+# 	import csv, pathlib as p
+# 	root = p.Path(".agent_runs/js/openai-default")
+# 	f = root/"results.csv"
+# 	if not f.exists():
+# 		print("No JS agent results yet. Run: make agents-js"); raise SystemExit(0)
+# 	rows = list(csv.DictReader(open(f, encoding="utf-8")))
+# 	def tofloat(x): 
+# 		try: return float(x)
+# 		except: return float('nan')
+# 	agg = sum(tofloat(r.get("aggregate_score","nan")) for r in rows)/max(1,len(rows))
+# 	print(f"Tasks: {len(rows)}  Mean aggregate: {agg:.3f}")
+# 	PY
+
+agents-merge:
+	@python3 scripts/agents_merge.py
+
+# agents-publish: agents-merge
+# 	@mkdir -p reports/agents
+# 	@[ -f .agent_runs/openai-default/results.csv ] && cp .agent_runs/openai-default/results.csv reports/agents/py_results.csv || true
+# 	@[ -f .agent_runs/js/openai-default/results.csv ] && cp .agent_runs/js/openai-default/results.csv reports/agents/js_results.csv || true
+# 	@cp reports/agents_combined.md reports/ || true
+# 	@echo "Agents artifacts prepared in reports/"
+
+agents-costs:
+	@python3 scripts/agents_cost_summary.py
+
+agents-publish: agents-merge agents-costs
+	@mkdir -p reports/agents
+	@[ -f .agent_runs/openai-default/results.csv ] && cp .agent_runs/openai-default/results.csv reports/agents/py_results.csv || true
+	@[ -f .agent_runs/js/openai-default/results.csv ] && cp .agent_runs/js/openai-default/results.csv reports/agents/js_results.csv || true
+	@cp reports/agents_combined.md reports/ || true
+	@cp reports/agents_costs.md reports/ || true
+	@cp reports/agents_costs.csv reports/ || true
+	@cp reports/agents_costs_by_track.csv reports/ || true
+	@echo "Agents artifacts prepared in reports/"

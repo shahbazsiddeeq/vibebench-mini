@@ -28,3 +28,7 @@ a.env
 .env
 # macOS
 .DS_Store
+
+# Node / build
+node_modules/
+dist/

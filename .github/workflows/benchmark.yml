@@ -77,6 +77,18 @@ jobs:
           cp reports/agents_compare.md site/reports/ || true
           cp reports/agents_summary.md site/reports/ || true
           cp reports/agents_summary.csv site/reports/ || true
+          # JS + combined artifacts
+          cp scorecard_js.md site/ || true
+          cp results_js.csv site/ || true
+          cp reports/combined_summary.md site/reports/ || true
+          cp reports/combined_table.md site/reports/ || true
+          cp reports/combined_aggregate.png site/reports/ || true
+
+          cp reports/agents_combined.md site/reports/ || true
+          cp reports/agents_costs.md site/reports/ || true
+          cp reports/agents_costs.csv site/reports/ || true
+          cp reports/agents_costs_by_track.csv site/reports/ || true
+
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
@@ -142,3 +154,42 @@ jobs:
           publish_dir: site
           publish_branch: gh-pages
           force_orphan: true
+  js-benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install Node deps
+        run: npm ci || npm install
+        #optinal can be remove anytime(If you’d rather keep API usage manual, skip this block; your local runs + publish step will still place the table in Pages.)
+      - name: Run JS OpenAI agent (optional)
+        if: ${{ secrets.OPENAI_API_KEY != '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+        run: |
+          node scripts/agents_js/openai_agent.mjs
+          python scripts/agents_merge.py
+        #end optional
+      - name: Generate JS tasks (if missing)
+        run: |
+          python3 scripts/make_js_tasks.py || true
+      - name: Run VibeBench-Mini (JS)
+        run: node runner/vibebench_runner_js.mjs
+      - name: Merge Python + JS reports
+        run: python scripts/merge_tracks.py
+      - name: Copy agents combined table (if present)
+        run: |
+          cp reports/agents_combined.md site/reports/ || true
+
+      - name: Upload JS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: vibebench-js-results
+          path: |
+            results_js.json
+            results_js.csv
+            scorecard_js.md

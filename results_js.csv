@@ -1,0 +1,7 @@
+id,title,tests_total,tests_passed,tests_failed,tests_errors,correctness,lint_issues,lint_score,dep_vulns,dep_score,aggregate_score
+task01,task01,2,2,0,0,1,,,8,0.2,0.733
+task02,task02,2,2,0,0,1,,,8,0.2,0.733
+task03,task03,2,2,0,0,1,,,8,0.2,0.733
+task04,task04,1,1,0,0,1,,,8,0.2,0.733
+task05,task05,1,1,0,0,1,,,8,0.2,0.733
+__aggregate__,mean over 5 tasks,,,,,,,,,,0.733
