@@ -29,6 +29,44 @@ python runner/vibebench_runner.py --tasks tasks/python --out results.json
 - **Dependency vulns**: pip-audit count → 1.0 if 0, 0.0 if ≥10.  
 - **Aggregate**: mean of available subscores.  
 
+
+### Run via Docker (no local Python/Node setup)
+
+```bash
+# default (Python track + charts)
+docker run --rm -it \
+  -v "$PWD":/work -w /work \
+  ghcr.io/shahbazsiddeeq/vibebench-mini:latest
+
+# JS track
+docker run --rm -it \
+  -v "$PWD":/work -w /work \
+  ghcr.io/shahbazsiddeeq/vibebench-mini:latest \
+  node runner/vibebench_runner_js.mjs
+
+# With OpenAI agents
+docker run --rm -it \
+  -e OPENAI_API_KEY="$OPENAI_API_KEY" \
+  -v "$PWD":/work -w /work \
+  ghcr.io/shahbazsiddeeq/vibebench-mini:latest \
+  python scripts/run_agents.py --config configs/agents.openai.yaml
+```
+
+## Quick sanity check (now)
+
+1) Rebuild locally with the entrypoint:
+
+```bash
+docker build -t vibebench-mini:local .
+docker run --rm -it -v "$PWD":/work -w /work vibebench-mini:local
+```
+2) If it runs, push a tag to trigger CI image tagging:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
 ### Paper artifacts
 
 Make LaTeX/Markdown snippets:
@@ -38,5 +76,6 @@ make paper-snippets
 ```
 
 ---
+
 
 All aggregates use `configs/metrics.v1.json` (weights in `reports/metrics_used.md`).

@@ -200,4 +200,53 @@ js-publish: js-run
 	@zip -rq dist/vibebench-js-results.zip results_js.json results_js.csv scorecard_js.md || true
 	@echo "Wrote dist/vibebench-js-results.zip"
 
+# Add near top of Makefile
+DOCKER ?= docker
+HAS_DOCKER := $(shell command -v $(DOCKER) 2>/dev/null)
+
+.PHONY: docker-check
+docker-check:
+	@if [ -z "$(HAS_DOCKER)" ]; then \
+	  echo "Error: '$(DOCKER)' not found. Install Docker Desktop (brew install --cask docker) or use Colima (brew install colima docker && colima start)."; \
+	  echo "Alternatively: make DOCKER=podman docker-build"; \
+	  exit 1; \
+	fi
+
+
+DOCKER_IMAGE ?= vibebench-mini:latest
+PROJECT_ROOT := $(shell pwd)
+
+docker-build:
+	docker build -t $(DOCKER_IMAGE) .
+
+docker-run:
+	docker run --rm -it -v "$(PROJECT_ROOT):/app" $(DOCKER_IMAGE)
+
+docker-bench:
+	docker run --rm -it -v "$(PROJECT_ROOT):/app" $(DOCKER_IMAGE) bash -lc "\
+	  python -m pip install -r requirements.txt && \
+	  python runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics configs/metrics.v1.json && \
+	  python scripts/analyze_results.py \
+	"
+
+docker-bench-js:
+	docker run --rm -it -v "$(PROJECT_ROOT):/app" $(DOCKER_IMAGE) bash -lc "\
+	  npm ci || npm i; \
+	  node runner/vibebench_runner_js.mjs \
+	"
+
+DOCKER_IMG ?= ghcr.io/shahbazsiddeeq/vibebench-mini:latest
+
+docker-run-ghcr:
+	@docker run --rm -it -v "$(PWD)":/work -w /work $(DOCKER_IMG)
+
+docker-run-js-ghcr:
+	@docker run --rm -it -v "$(PWD)":/work -w /work $(DOCKER_IMG) node runner/vibebench_runner_js.mjs
+
+docker-run-agents-ghcr:
+	@docker run --rm -it -v "$(PWD)":/work -w /work -e OPENAI_API_KEY="$(OPENAI_API_KEY)" $(DOCKER_IMG) \
+		python scripts/run_agents.py --config configs/agents.openai.yaml
+
+
+
 

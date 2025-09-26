@@ -4,105 +4,105 @@
       "id": "task01",
       "title": "task01",
       "tests": {
-        "total": 2,
-        "passed": 2,
+        "total": 0,
+        "passed": 0,
         "failed": 0,
-        "errors": 0
+        "errors": 1
       },
-      "correctness": 1,
+      "correctness": 0,
       "lint_issues": null,
       "lint_score": null,
-      "dep_vulns": 8,
-      "dep_score": 0.2,
-      "complexity_avg": 1,
-      "complexity_score": 1,
+      "dep_vulns": 14,
+      "dep_score": 0,
       "security_score": null,
+      "complexity_avg": null,
+      "complexity_score": null,
       "mutation_score": null,
-      "aggregate_score": 0.733
+      "aggregate_score": 0
     },
     {
       "id": "task02",
       "title": "task02",
       "tests": {
-        "total": 2,
-        "passed": 2,
+        "total": 0,
+        "passed": 0,
         "failed": 0,
-        "errors": 0
+        "errors": 1
       },
-      "correctness": 1,
+      "correctness": 0,
       "lint_issues": null,
       "lint_score": null,
-      "dep_vulns": 8,
-      "dep_score": 0.2,
-      "complexity_avg": 1,
-      "complexity_score": 1,
+      "dep_vulns": 14,
+      "dep_score": 0,
       "security_score": null,
+      "complexity_avg": null,
+      "complexity_score": null,
       "mutation_score": null,
-      "aggregate_score": 0.733
+      "aggregate_score": 0
     },
     {
       "id": "task03",
       "title": "task03",
       "tests": {
-        "total": 2,
-        "passed": 2,
+        "total": 0,
+        "passed": 0,
         "failed": 0,
-        "errors": 0
+        "errors": 1
       },
-      "correctness": 1,
+      "correctness": 0,
       "lint_issues": null,
       "lint_score": null,
-      "dep_vulns": 8,
-      "dep_score": 0.2,
-      "complexity_avg": 2,
-      "complexity_score": 1,
+      "dep_vulns": 14,
+      "dep_score": 0,
       "security_score": null,
+      "complexity_avg": null,
+      "complexity_score": null,
       "mutation_score": null,
-      "aggregate_score": 0.733
+      "aggregate_score": 0
     },
     {
       "id": "task04",
       "title": "task04",
       "tests": {
-        "total": 1,
-        "passed": 1,
+        "total": 0,
+        "passed": 0,
         "failed": 0,
-        "errors": 0
+        "errors": 1
       },
-      "correctness": 1,
+      "correctness": 0,
       "lint_issues": null,
       "lint_score": null,
-      "dep_vulns": 8,
-      "dep_score": 0.2,
-      "complexity_avg": 3,
-      "complexity_score": 1,
+      "dep_vulns": 14,
+      "dep_score": 0,
       "security_score": null,
+      "complexity_avg": null,
+      "complexity_score": null,
       "mutation_score": null,
-      "aggregate_score": 0.733
+      "aggregate_score": 0
     },
     {
       "id": "task05",
       "title": "task05",
       "tests": {
-        "total": 1,
-        "passed": 1,
+        "total": 0,
+        "passed": 0,
         "failed": 0,
-        "errors": 0
+        "errors": 1
       },
-      "correctness": 1,
+      "correctness": 0,
       "lint_issues": null,
       "lint_score": null,
-      "dep_vulns": 8,
-      "dep_score": 0.2,
-      "complexity_avg": 3,
-      "complexity_score": 1,
+      "dep_vulns": 14,
+      "dep_score": 0,
       "security_score": null,
+      "complexity_avg": null,
+      "complexity_score": null,
       "mutation_score": null,
-      "aggregate_score": 0.733
+      "aggregate_score": 0
     }
   ],
   "aggregate": {
-    "mean_score": 0.733,
+    "mean_score": 0,
     "num_tasks": 5
   }
 }

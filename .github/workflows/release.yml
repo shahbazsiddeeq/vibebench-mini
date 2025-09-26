@@ -1,51 +1,130 @@
-name: release
+name: vibebench-mini-release
 
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*"
 
 permissions:
-  contents: write
+  contents: write  # needed to create a GitHub Release and push gh-pages
 
 jobs:
-  build-and-release:
+  build-release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
+      # --- Python track ---
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install deps
+      - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run benchmarks (Python + JS if present)
+      - name: Run VibeBench-Mini (JSON + CSV + scorecard)
         run: |
-          python runner/vibebench_runner.py --tasks tasks/python --out results.json --csv results.csv --metrics configs/metrics.v1.json
-          python scripts/analyze_results.py || true
-          # JS optional:
-          node -v >/dev/null 2>&1 && node runner/vibebench_runner_js.mjs || true
+          python runner/vibebench_runner.py \
+            --tasks tasks/python \
+            --out results.json \
+            --csv results.csv \
+            --metrics configs/metrics.v1.json
 
-      - name: Package artifacts
+      - name: Analyze results (charts + summary)
+        run: python scripts/analyze_results.py
+
+      - name: Paper snippets (tables/macros)
+        run: python scripts/paper_snippets.py || true
+
+      - name: Record run info
+        run: python scripts/runinfo.py || true
+
+      - name: Zip Python artifacts
         run: |
           mkdir -p dist
-          zip -rq dist/vibebench-results.zip results.json results.csv scorecard.md reports || true
+          zip -rq dist/vibebench-python-${{ github.ref_name }}.zip \
+            results.json results.csv scorecard.md reports || true
 
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+      # --- JS track ---
+      - uses: actions/setup-node@v4
         with:
-          files: |
-            dist/vibebench-results.zip
+          node-version: "22"   # match your local 22.x
+          cache: 'npm'
+
+      - name: Install Node deps
+        run: npm ci || npm install
+
+      - name: Generate JS tasks (if missing)
+        run: python3 scripts/make_js_tasks.py || true
+
+      - name: Run VibeBench-Mini (JS)
+        run: node runner/vibebench_runner_js.mjs
+
+      - name: Zip JS artifacts
+        run: |
+          zip -rq dist/vibebench-js-${{ github.ref_name }}.zip \
+            results_js.json results_js.csv scorecard_js.md reports/stryker || true
+
+      # --- Combined pages directory (snapshot for this tag) ---
+      - name: Build pages snapshot
+        run: |
+          rm -rf site
+          mkdir -p site/reports site/js site/js-reports
+          # main
+          cp scorecard.md site/ || true
+          cp results.csv site/ || true
+          cp -r reports/* site/reports/ || true
+          # js
+          cp scorecard_js.md site/js/ || true
+          cp results_js.csv site/js/ || true
+          cp -r reports/stryker/* site/js-reports/ || true
+
+          cat > site/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>VibeBench-Mini — ${TAG}</title>
+          <style>
+            body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:1100px;margin:40px auto;padding:0 16px;line-height:1.45}
+            a{word-break:break-all}
+          </style>
+          <h1>VibeBench-Mini — ${TAG}</h1>
+          <p><a href="./reports/summary.md">summary.md</a> ·
+             <a href="./scorecard.md">scorecard.md</a> ·
+             <a href="./results.csv">results.csv</a> ·
+             <a href="./reports/metrics_used.md">metrics_used.md</a> ·
+             <a href="./js/index.html">JS track</a></p>
+          HTML
+        env:
+          TAG: ${{ github.ref_name }}
+
+      # Upload release assets
+      - name: Upload artifacts (CI)
+        uses: actions/upload-artifact@v4
+        with:
+          name: vibebench-${{ github.ref_name }}
+          path: |
+            dist/*.zip
             results.json
             results.csv
             scorecard.md
-            reports/summary.md
-            reports/agents_costs.md
-            reports/agents_costs.csv
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            results_js.json
+            results_js.csv
+            scorecard_js.md
+            reports/**
+            site/**
+
+      # Create GitHub Release with zips attached
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: VibeBench-Mini ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          files: |
+            dist/vibebench-python-${{ github.ref_name }}.zip
+            dist/vibebench-js-${{ github.ref_name }}.zip
