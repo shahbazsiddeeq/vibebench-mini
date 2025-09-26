@@ -154,8 +154,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: site
           publish_branch: gh-pages
-          force_orphan: true
+          keep_files: true
+          # force_orphan: true
   js-benchmark:
+    needs: python-benchmark
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
