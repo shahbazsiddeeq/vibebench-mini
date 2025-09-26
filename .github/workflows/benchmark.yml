@@ -183,6 +183,15 @@ jobs:
           cp -R _prev/* site/ || true
           touch site/.nojekyll
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python deps (for merge/analyze)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Install Node deps
         run: npm ci || npm install
 
@@ -203,8 +212,8 @@ jobs:
       - name: Run VibeBench-Mini (JS)
         run: node runner/vibebench_runner_js.mjs
 
-      # - name: Merge Python + JS reports
-      #   run: python scripts/merge_tracks.py
+      - name: Merge Python + JS reports
+        run: python scripts/merge_tracks.py
 
       - name: Copy agents combined table (if present)
         run: |
