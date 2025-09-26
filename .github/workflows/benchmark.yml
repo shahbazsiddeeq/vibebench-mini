@@ -68,8 +68,7 @@ jobs:
           cp scorecard.md site/ || true
           cp results.csv site/ || true
           cp -r reports/* site/reports/ || true
-          cp reports/runinfo.md site/reports/ || true 
-          # (explicit copy not strictly needed because of the line above)
+          cp reports/runinfo.md site/reports/ || true
           cp reports/metrics_used.md site/reports/ || true
           mkdir -p site/reports/sweeps
           cp -r reports/sweeps/* site/reports/sweeps/ || true
@@ -77,17 +76,19 @@ jobs:
           cp reports/agents_compare.md site/reports/ || true
           cp reports/agents_summary.md site/reports/ || true
           cp reports/agents_summary.csv site/reports/ || true
-          # JS + combined artifacts
-          # cp scorecard_js.md site/ || true
-          # cp results_js.csv site/ || true
+          # JS + combined artifacts (may be absent on this job; that's fine)
+          cp scorecard_js.md site/ || true
+          cp results_js.csv site/ || true
           cp reports/combined_summary.md site/reports/ || true
           cp reports/combined_table.md site/reports/ || true
           cp reports/combined_aggregate.png site/reports/ || true
-
           cp reports/agents_combined.md site/reports/ || true
           cp reports/agents_costs.md site/reports/ || true
           cp reports/agents_costs.csv site/reports/ || true
           cp reports/agents_costs_by_track.csv site/reports/ || true
+
+          # <- IMPORTANT: disable Jekyll so /js and other dirs serve correctly
+          touch site/.nojekyll
 
           cat > site/index.html <<'HTML'
           <!doctype html>
@@ -116,7 +117,7 @@ jobs:
                 <a href="./results.csv">results.csv</a> ·
                 <a href="./reports/summary.md">summary.md</a> ·
                 <a href="./reports/table.md">table.md</a> ·
-                <a href="./reports/metrics_used.md">metrics_used.md</a>
+                <a href="./reports/metrics_used.md">metrics_used.md</a> ·
                 <a href="./js/">JS track</a>
               </p>
             </header>
@@ -148,13 +149,6 @@ jobs:
           </html>
           HTML
 
-          # NEW: ensure GitHub Pages serves raw files (no Jekyll processing)
-          touch site/.nojekyll
-
-          # NEW: show what we're about to publish
-          echo "=== site tree (depth 2) ==="
-          find site -maxdepth 2 -type f | sort
-
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -162,17 +156,19 @@ jobs:
           publish_dir: site
           publish_branch: gh-pages
           keep_files: true
-          # force_orphan: true
+
   js-benchmark:
     needs: python-benchmark
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
+      # Seed with existing gh-pages so we append JS files nicely
       - name: Checkout current gh-pages into _prev
         uses: actions/checkout@v4
         with:
@@ -185,10 +181,12 @@ jobs:
           rm -rf site
           mkdir -p site
           cp -R _prev/* site/ || true
+          touch site/.nojekyll
 
       - name: Install Node deps
         run: npm ci || npm install
-        #optinal can be remove anytime(If you’d rather keep API usage manual, skip this block; your local runs + publish step will still place the table in Pages.)
+
+      # Optional agent; safe to skip automatically if no key
       - name: Run JS OpenAI agent (optional)
         if: ${{ secrets.OPENAI_API_KEY != '' }}
         env:
@@ -197,23 +195,30 @@ jobs:
         run: |
           node scripts/agents_js/openai_agent.mjs
           python scripts/agents_merge.py
-        #end optional
+
       - name: Generate JS tasks (if missing)
         run: |
           python3 scripts/make_js_tasks.py || true
+
       - name: Run VibeBench-Mini (JS)
         run: node runner/vibebench_runner_js.mjs
+
       - name: Merge Python + JS reports
         run: python scripts/merge_tracks.py
+
       - name: Copy agents combined table (if present)
         run: |
+          mkdir -p site/reports
           cp reports/agents_combined.md site/reports/ || true
+
       - name: Analyze results (charts + summary)
         run: python scripts/analyze_results.py
+
       - name: Create JS zip bundle
         run: |
           mkdir -p dist
           zip -rq dist/vibebench-js-results.zip results_js.json results_js.csv scorecard_js.md || true
+
       - name: Upload JS artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -225,10 +230,12 @@ jobs:
             dist/vibebench-js-results.zip
             reports/
             reports/stryker/**
+
       - name: Add JS reports to Pages dir
         run: |
           mkdir -p site/js-reports
           cp -r reports/stryker/* site/js-reports/ || true
+
       - name: Build JS pages
         run: |
           mkdir -p site/js
@@ -250,13 +257,6 @@ jobs:
             <a href="./results_js.csv">results_js.csv</a>
           </p>
           HTML
-
-          # NEW: also disable Jekyll here (this job publishes again)
-          touch site/.nojekyll
-
-          # NEW: show what we're about to publish
-          echo "=== site tree (depth 3) ==="
-          find site -maxdepth 3 -type f | sort
 
       - name: Publish to GitHub Pages (append JS files)
         uses: peaceiris/actions-gh-pages@v3
