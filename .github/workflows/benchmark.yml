@@ -186,15 +186,15 @@ jobs:
       - name: Install Node deps
         run: npm ci || npm install
 
-      # Optional agent; safe to skip automatically if no key
-      - name: Run JS OpenAI agent (optional)
-        if: ${{ secrets.OPENAI_API_KEY != '' }}
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
-        run: |
-          node scripts/agents_js/openai_agent.mjs
-          python scripts/agents_merge.py
+      # # Optional agent; safe to skip automatically if no key
+      # - name: Run JS OpenAI agent (optional)
+      #   if: ${{ secrets.OPENAI_API_KEY != '' }}
+      #   env:
+      #     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      #     OPENAI_MODEL: gpt-4o-mini
+      #   run: |
+      #     node scripts/agents_js/openai_agent.mjs
+      #     python scripts/agents_merge.py
 
       - name: Generate JS tasks (if missing)
         run: |
