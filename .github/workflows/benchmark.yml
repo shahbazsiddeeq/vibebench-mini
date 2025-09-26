@@ -148,6 +148,13 @@ jobs:
           </html>
           HTML
 
+          # NEW: ensure GitHub Pages serves raw files (no Jekyll processing)
+          touch site/.nojekyll
+
+          # NEW: show what we're about to publish
+          echo "=== site tree (depth 2) ==="
+          find site -maxdepth 2 -type f | sort
+
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -229,6 +236,13 @@ jobs:
             <a href="./results_js.csv">results_js.csv</a>
           </p>
           HTML
+
+          # NEW: also disable Jekyll here (this job publishes again)
+          touch site/.nojekyll
+
+          # NEW: show what we're about to publish
+          echo "=== site tree (depth 3) ==="
+          find site -maxdepth 3 -type f | sort
 
       - name: Publish to GitHub Pages (append JS files)
         uses: peaceiris/actions-gh-pages@v3
