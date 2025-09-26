@@ -203,8 +203,8 @@ jobs:
       - name: Run VibeBench-Mini (JS)
         run: node runner/vibebench_runner_js.mjs
 
-      - name: Merge Python + JS reports
-        run: python scripts/merge_tracks.py
+      # - name: Merge Python + JS reports
+      #   run: python scripts/merge_tracks.py
 
       - name: Copy agents combined table (if present)
         run: |
