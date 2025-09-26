@@ -78,8 +78,8 @@ jobs:
           cp reports/agents_summary.md site/reports/ || true
           cp reports/agents_summary.csv site/reports/ || true
           # JS + combined artifacts
-          cp scorecard_js.md site/ || true
-          cp results_js.csv site/ || true
+          # cp scorecard_js.md site/ || true
+          # cp results_js.csv site/ || true
           cp reports/combined_summary.md site/reports/ || true
           cp reports/combined_table.md site/reports/ || true
           cp reports/combined_aggregate.png site/reports/ || true
@@ -172,6 +172,20 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+      
+      - name: Checkout current gh-pages into _prev
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: _prev
+        continue-on-error: true
+
+      - name: Seed site/ with existing gh-pages
+        run: |
+          rm -rf site
+          mkdir -p site
+          cp -R _prev/* site/ || true
+
       - name: Install Node deps
         run: npm ci || npm install
         #optinal can be remove anytime(If you’d rather keep API usage manual, skip this block; your local runs + publish step will still place the table in Pages.)
