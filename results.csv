@@ -1,0 +1,19 @@
+id,title,tests_total,tests_passed,tests_failed,tests_errors,correctness,complexity_avg,complexity_score,lint_issues,lint_score,security_issues,security_score,dep_vulns,dep_score,mutation_killed,mutation_total,mutation_score,aggregate_score
+task01,Add Two Numbers,0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task02,Reverse Words,0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task03,Palindrome Check,0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task04,CSV Column Mean,0,0,0,0,0.000,4,1.000,0,1.000,0,1.000,,,,,,0.250
+task05,Safe Path Join,0,0,0,0,0.000,3,1.000,0,1.000,0,1.000,,,,,,0.250
+task06,JSONL Sum by Key,0,0,0,0,0.000,6,0.900,0,1.000,0,1.000,,,,,,0.237
+task07,Email Masker,0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task08,task08,0,0,0,0,0.000,11,0.400,0,1.000,0,1.000,,,,,,0.175
+task09,Top-K Frequent Words,0,0,0,0,0.000,2,1.000,0,1.000,0,1.000,,,,,,0.250
+task10,YAML to JSON (Safe),0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task11,task11,0,0,0,0,0.000,7.500,0.750,0,1.000,0,1.000,,,,,,0.219
+task12,Directory Hash (Deterministic),0,0,0,0,0.000,4,1.000,0,1.000,0,1.000,,,,,,0.250
+task13,Slugify,0,0,0,0,0.000,1,1.000,0,1.000,0,1.000,,,,,,0.250
+task14,CSV Dedupe by Key (Keep Last),0,0,0,0,0.000,4,1.000,0,1.000,0,1.000,,,,,,0.250
+task15,Safe Arithmetic Eval,0,0,0,0,0.000,5.500,0.950,0,1.000,0,1.000,,,,,,0.244
+task16,Merge Intervals,0,0,0,0,0.000,4,1.000,0,1.000,0,1.000,,,,,,0.250
+task17,Natural Sort,0,0,0,0,0.000,2.500,1.000,0,1.000,0,1.000,,,,,,0.250
+__aggregate__,mean over 17 tasks,,,,,,,,,,,,,,,,,0.243
