@@ -4,8 +4,8 @@
 [![Latest Results](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://shahbazsiddeeq.github.io/vibebench-mini/)
 [![Version](https://img.shields.io/badge/VibeBench--Mini-1.0.0-blue)](#)
 
-A tiny, **multi-metric** benchmark for AI-assisted coding (Python first).  
-It produces a scorecard covering **correctness**, **complexity**, **lint**, **security**, and **dependency vulnerabilities**.
+A tiny, **multi-metric** benchmark for AI-assisted coding.  
+It produces a scorecard covering **correctness**, **security**, and **dependency vulnerabilities**.
 
 ## Quickstart
 
