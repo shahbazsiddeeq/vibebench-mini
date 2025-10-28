@@ -23,8 +23,6 @@ python runner/vibebench_runner.py --tasks tasks/python --out results.json
 ## Metrics v1.0 (frozen)
 
 - **Correctness** = passed / total tests (pytest JUnit).  
-- **Complexity**: avg cyclomatic complexity → 1.0 if ≤5, 0.0 if ≥15 (linear in between).  
-- **Lint**: flake8 errors → 1.0 if 0, 0.0 if ≥20.  
 - **Security**: Bandit findings → 1.0 if 0, 0.0 if ≥20.  
 - **Dependency vulns**: pip-audit count → 1.0 if 0, 0.0 if ≥10.  
 - **Aggregate**: mean of available subscores.  
