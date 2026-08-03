@@ -1,0 +1,2 @@
+title: Simple Expression Tokenizer
+description: tokenize(expr) splits an arithmetic expression string into a list of tokens. A number containing a '.' becomes a float, and a number without one becomes an int (so 2 and 2.0 must have exactly those types). The single-character operators and parentheses + - * / ( ) ^ % are emitted as str. Whitespace is ignored. Raises ValueError for any other character. Example: tokenize("3 + 4.5 * (2-1)") -> [3, "+", 4.5, "*", "(", 2, "-", 1, ")"]

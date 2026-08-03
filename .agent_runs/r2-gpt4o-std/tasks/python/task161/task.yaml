@@ -1,0 +1,16 @@
+title: TOTP Code Generator (RFC 6238)
+description: >
+  In src/solution.py implement `totp(secret: bytes, timestamp: int, period: int = 30,
+  digits: int = 6, algorithm: str = "sha1", t0: int = 0) -> str` using only the Python standard
+  library (hmac, hashlib, struct). It computes a Time-based One-Time Password per RFC 6238 /
+  RFC 4226: let counter = (timestamp - t0) // period (integer floor division); pack counter as an
+  8-byte big-endian unsigned integer; compute HMAC of that message under key `secret` with the
+  hash named by `algorithm` ("sha1", "sha256", or "sha512"); apply the standard dynamic-truncation
+  offset (low 4 bits of the last HMAC byte) to extract 4 bytes, mask off the top bit to get a
+  31-bit integer, take it modulo 10**digits, and return it as a decimal string zero-padded to
+  exactly `digits` characters. Validation: raise TypeError if `secret` is not bytes/bytearray or if
+  any of `timestamp`, `period`, `digits`, `t0` is not an int (bool is not accepted as an int);
+  raise ValueError if `period < 1`, if `digits` is not in 1..10 inclusive, if `algorithm` is not
+  one of the three names, or if `timestamp < t0`. Known RFC 6238 vector (secret = the 20 ASCII
+  bytes b"12345678901234567890", algorithm "sha1", 8 digits, period 30): totp at timestamp 59
+  returns "94287082" and at timestamp 1111111109 returns "07081804".

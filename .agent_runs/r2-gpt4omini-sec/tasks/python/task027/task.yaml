@@ -1,0 +1,2 @@
+title: Matrix Transpose
+description: transpose(matrix) returns the transpose of a 2D rectangular list of lists. Raises ValueError if matrix is empty or rows have different lengths. Example: transpose([[1,2,3],[4,5,6]]) -> [[1,4],[2,5],[3,6]]

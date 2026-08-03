@@ -1,0 +1,8 @@
+# CodeAssay PROFES revision run (split-aware; grades on hidden). Model: claude-haiku-4-5-20251001
+agents:
+  - name: haiku45-std
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-haiku-4-5-20251001
+  - name: haiku45-sec
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-haiku-4-5-20251001 --prompt-variant secure

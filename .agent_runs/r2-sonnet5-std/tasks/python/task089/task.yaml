@@ -1,0 +1,2 @@
+title: Retry with Exponential Backoff
+description: retry(func, max_attempts, base_delay, exceptions) calls func(); on exceptions, waits base_delay*2^attempt seconds; raises last exception after max_attempts. Raises ValueError if max_attempts < 1. Example: retry(flaky_fn, 3, 0.1, (IOError,)) -> result or raises

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.069" timestamp="2026-08-01T13:33:36.090124+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_wildcard_disallow" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_crawl_delay" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_fallback_to_wildcard" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_comment_in_group_does_not_reset" time="0.001"><failure message="AssertionError: assert ['/private'] == ['/private', '/secret']&#10;  &#10;  Right contains one more item: '/secret'&#10;  Use -v to get more diff">def test_comment_in_group_does_not_reset():
+        content = (
+            "User-agent: *\n"
+            "Disallow: /private\n"
+            "# a mid-group comment must not wipe the group\n"
+            "Disallow: /secret\n"
+        )
+        result = parse_robots(content, "*")
+&gt;       assert result["disallowed"] == ["/private", "/secret"]
+E       AssertionError: assert ['/private'] == ['/private', '/secret']
+E         
+E         Right contains one more item: '/secret'
+E         Use -v to get more diff
+
+tests_hidden/test_solution.py:37: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_user_agent_directive_case_insensitive" time="0.001" /></testsuite></testsuites>

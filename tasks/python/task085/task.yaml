@@ -1,0 +1,2 @@
+title: Query String Builder
+description: build_query(params) builds a URL query string from a dict; list values become repeated keys; keys sorted alphabetically; values URL-encoded. Example: build_query({"b": "2", "a": "1"}) -> "a=1&b=2"

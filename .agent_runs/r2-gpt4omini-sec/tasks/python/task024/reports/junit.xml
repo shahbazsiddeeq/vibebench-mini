@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.065" timestamp="2026-08-01T13:08:58.793910+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_present_multiple" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_not_present" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_all_same" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_below_minimum" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_uses_binary_search" time="0.010"><failure message="ValueError: Input 'arr' must be a list of integers.">def test_uses_binary_search():
+        n = 200_000
+        data = [i // 2 for i in range(n)]  # each value 0..n/2-1 appears twice
+        seq = _CountingSeq(data)
+&gt;       assert count_occurrences(seq, 12345) == 2
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:60: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+arr = &lt;test_solution._CountingSeq object at 0x10b821220&gt;, target = 12345
+
+    def count_occurrences(arr, target):
+        if not isinstance(arr, list) or not all(isinstance(x, int) for x in arr):
+&gt;           raise ValueError("Input 'arr' must be a list of integers.")
+E           ValueError: Input 'arr' must be a list of integers.
+
+src/solution.py:5: ValueError</failure></testcase></testsuite></testsuites>

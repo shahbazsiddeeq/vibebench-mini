@@ -1,0 +1,2 @@
+title: ISBN-13 Validator
+description: validate_isbn13(isbn) returns True if isbn passes the ISBN-13 checksum; strips hyphens/spaces first. Raises ValueError for non-digit characters (after stripping) or wrong length. Example: validate_isbn13("978-3-16-148410-0") -> True

@@ -1,0 +1,2 @@
+title: CSV Filter by Column Value
+description: csv_filter(in_path, out_path, column, value) writes rows where column==value to out_path (including header); returns count of written data rows. Raises KeyError if column not in header. Example: csv_filter("data.csv", "out.csv", "status", "active") -> 5

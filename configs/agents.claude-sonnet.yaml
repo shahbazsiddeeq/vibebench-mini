@@ -1,0 +1,7 @@
+agents:
+  - name: claude-sonnet
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-4-5
+  - name: claude-sonnet-secure
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-4-5 --prompt-variant secure

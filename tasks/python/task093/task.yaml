@@ -1,0 +1,2 @@
+title: Event Bus
+description: EventBus class with subscribe(event, handler), unsubscribe(event, handler), publish(event, data=None). Calls all subscribed handlers synchronously. Example: bus=EventBus(); bus.subscribe("click", fn); bus.publish("click", {"x":5})

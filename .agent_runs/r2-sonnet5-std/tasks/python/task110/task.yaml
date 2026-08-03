@@ -1,0 +1,2 @@
+title: Deep Dict Merge
+description: deep_merge(base, override) recursively merges two dicts; override values take precedence; nested dicts are merged recursively, not replaced. When a key exists in both and either side is not a dict (including lists), the override value replaces the base value outright (lists are not concatenated). Returns a new top-level dict without modifying either input; nested dict values taken unchanged from base are shared (not deep-copied) with base. Example: deep_merge({"a":{"x":1}}, {"a":{"y":2}}) -> {"a":{"x":1,"y":2}}

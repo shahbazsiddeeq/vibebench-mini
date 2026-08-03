@@ -1,0 +1,141 @@
+run,model,prompt,abbr,category,n_tasks,n_correct,correctness_pct
+r2-gemini25-sec,Gemini 2.5 Flash,sec,ADS,Algorithms & Data Structures,30,27,90.0
+r2-gemini25-sec,Gemini 2.5 Flash,sec,SPT,String & Text Processing,26,24,92.3
+r2-gemini25-sec,Gemini 2.5 Flash,sec,DPS,Data Processing & Statistics,21,20,95.2
+r2-gemini25-sec,Gemini 2.5 Flash,sec,FIO,File I/O & System,18,17,94.4
+r2-gemini25-sec,Gemini 2.5 Flash,sec,CCA,Concurrency & Async,16,14,87.5
+r2-gemini25-sec,Gemini 2.5 Flash,sec,WNT,Web & Networking,16,14,87.5
+r2-gemini25-sec,Gemini 2.5 Flash,sec,DBS,Database & Storage,15,13,86.7
+r2-gemini25-sec,Gemini 2.5 Flash,sec,TCQ,Testing & Code Quality,15,13,86.7
+r2-gemini25-sec,Gemini 2.5 Flash,sec,CAT,"Crypto, Auth & Tokens",15,14,93.3
+r2-gemini25-sec,Gemini 2.5 Flash,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-gemini25-std,Gemini 2.5 Flash,std,ADS,Algorithms & Data Structures,30,29,96.7
+r2-gemini25-std,Gemini 2.5 Flash,std,SPT,String & Text Processing,26,24,92.3
+r2-gemini25-std,Gemini 2.5 Flash,std,DPS,Data Processing & Statistics,21,20,95.2
+r2-gemini25-std,Gemini 2.5 Flash,std,FIO,File I/O & System,18,16,88.9
+r2-gemini25-std,Gemini 2.5 Flash,std,CCA,Concurrency & Async,16,14,87.5
+r2-gemini25-std,Gemini 2.5 Flash,std,WNT,Web & Networking,16,15,93.8
+r2-gemini25-std,Gemini 2.5 Flash,std,DBS,Database & Storage,15,13,86.7
+r2-gemini25-std,Gemini 2.5 Flash,std,TCQ,Testing & Code Quality,15,12,80.0
+r2-gemini25-std,Gemini 2.5 Flash,std,CAT,"Crypto, Auth & Tokens",15,14,93.3
+r2-gemini25-std,Gemini 2.5 Flash,std,ODP,OOP & Design Patterns,13,12,92.3
+r2-gpt4o-sec,GPT-4o,sec,ADS,Algorithms & Data Structures,30,27,90.0
+r2-gpt4o-sec,GPT-4o,sec,SPT,String & Text Processing,26,24,92.3
+r2-gpt4o-sec,GPT-4o,sec,DPS,Data Processing & Statistics,21,19,90.5
+r2-gpt4o-sec,GPT-4o,sec,FIO,File I/O & System,18,16,88.9
+r2-gpt4o-sec,GPT-4o,sec,CCA,Concurrency & Async,16,14,87.5
+r2-gpt4o-sec,GPT-4o,sec,WNT,Web & Networking,16,15,93.8
+r2-gpt4o-sec,GPT-4o,sec,DBS,Database & Storage,15,12,80.0
+r2-gpt4o-sec,GPT-4o,sec,TCQ,Testing & Code Quality,15,14,93.3
+r2-gpt4o-sec,GPT-4o,sec,CAT,"Crypto, Auth & Tokens",15,12,80.0
+r2-gpt4o-sec,GPT-4o,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-gpt4o-std,GPT-4o,std,ADS,Algorithms & Data Structures,30,28,93.3
+r2-gpt4o-std,GPT-4o,std,SPT,String & Text Processing,26,21,80.8
+r2-gpt4o-std,GPT-4o,std,DPS,Data Processing & Statistics,21,20,95.2
+r2-gpt4o-std,GPT-4o,std,FIO,File I/O & System,18,16,88.9
+r2-gpt4o-std,GPT-4o,std,CCA,Concurrency & Async,16,12,75.0
+r2-gpt4o-std,GPT-4o,std,WNT,Web & Networking,16,14,87.5
+r2-gpt4o-std,GPT-4o,std,DBS,Database & Storage,15,11,73.3
+r2-gpt4o-std,GPT-4o,std,TCQ,Testing & Code Quality,15,14,93.3
+r2-gpt4o-std,GPT-4o,std,CAT,"Crypto, Auth & Tokens",15,13,86.7
+r2-gpt4o-std,GPT-4o,std,ODP,OOP & Design Patterns,13,12,92.3
+r2-gpt4omini-sec,GPT-4o-mini,sec,ADS,Algorithms & Data Structures,30,23,76.7
+r2-gpt4omini-sec,GPT-4o-mini,sec,SPT,String & Text Processing,26,17,65.4
+r2-gpt4omini-sec,GPT-4o-mini,sec,DPS,Data Processing & Statistics,21,19,90.5
+r2-gpt4omini-sec,GPT-4o-mini,sec,FIO,File I/O & System,18,13,72.2
+r2-gpt4omini-sec,GPT-4o-mini,sec,CCA,Concurrency & Async,16,12,75.0
+r2-gpt4omini-sec,GPT-4o-mini,sec,WNT,Web & Networking,16,12,75.0
+r2-gpt4omini-sec,GPT-4o-mini,sec,DBS,Database & Storage,15,11,73.3
+r2-gpt4omini-sec,GPT-4o-mini,sec,TCQ,Testing & Code Quality,15,9,60.0
+r2-gpt4omini-sec,GPT-4o-mini,sec,CAT,"Crypto, Auth & Tokens",15,13,86.7
+r2-gpt4omini-sec,GPT-4o-mini,sec,ODP,OOP & Design Patterns,13,10,76.9
+r2-gpt4omini-std,GPT-4o-mini,std,ADS,Algorithms & Data Structures,30,27,90.0
+r2-gpt4omini-std,GPT-4o-mini,std,SPT,String & Text Processing,26,19,73.1
+r2-gpt4omini-std,GPT-4o-mini,std,DPS,Data Processing & Statistics,21,19,90.5
+r2-gpt4omini-std,GPT-4o-mini,std,FIO,File I/O & System,18,14,77.8
+r2-gpt4omini-std,GPT-4o-mini,std,CCA,Concurrency & Async,16,12,75.0
+r2-gpt4omini-std,GPT-4o-mini,std,WNT,Web & Networking,16,10,62.5
+r2-gpt4omini-std,GPT-4o-mini,std,DBS,Database & Storage,15,12,80.0
+r2-gpt4omini-std,GPT-4o-mini,std,TCQ,Testing & Code Quality,15,9,60.0
+r2-gpt4omini-std,GPT-4o-mini,std,CAT,"Crypto, Auth & Tokens",15,12,80.0
+r2-gpt4omini-std,GPT-4o-mini,std,ODP,OOP & Design Patterns,13,9,69.2
+r2-gpt56sol-sec,GPT-5.6-sol,sec,ADS,Algorithms & Data Structures,30,30,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,SPT,String & Text Processing,26,25,96.2
+r2-gpt56sol-sec,GPT-5.6-sol,sec,DPS,Data Processing & Statistics,21,20,95.2
+r2-gpt56sol-sec,GPT-5.6-sol,sec,FIO,File I/O & System,18,17,94.4
+r2-gpt56sol-sec,GPT-5.6-sol,sec,CCA,Concurrency & Async,16,16,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,WNT,Web & Networking,16,16,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,DBS,Database & Storage,15,15,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,TCQ,Testing & Code Quality,15,15,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-gpt56sol-sec,GPT-5.6-sol,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,ADS,Algorithms & Data Structures,30,30,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,SPT,String & Text Processing,26,25,96.2
+r2-gpt56sol-std,GPT-5.6-sol,std,DPS,Data Processing & Statistics,21,20,95.2
+r2-gpt56sol-std,GPT-5.6-sol,std,FIO,File I/O & System,18,18,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,CCA,Concurrency & Async,16,16,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,WNT,Web & Networking,16,16,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,DBS,Database & Storage,15,15,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,TCQ,Testing & Code Quality,15,15,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-gpt56sol-std,GPT-5.6-sol,std,ODP,OOP & Design Patterns,13,13,100.0
+r2-haiku45-sec,Claude Haiku 4.5,sec,ADS,Algorithms & Data Structures,30,30,100.0
+r2-haiku45-sec,Claude Haiku 4.5,sec,SPT,String & Text Processing,26,23,88.5
+r2-haiku45-sec,Claude Haiku 4.5,sec,DPS,Data Processing & Statistics,21,19,90.5
+r2-haiku45-sec,Claude Haiku 4.5,sec,FIO,File I/O & System,18,18,100.0
+r2-haiku45-sec,Claude Haiku 4.5,sec,CCA,Concurrency & Async,16,14,87.5
+r2-haiku45-sec,Claude Haiku 4.5,sec,WNT,Web & Networking,16,15,93.8
+r2-haiku45-sec,Claude Haiku 4.5,sec,DBS,Database & Storage,15,14,93.3
+r2-haiku45-sec,Claude Haiku 4.5,sec,TCQ,Testing & Code Quality,15,14,93.3
+r2-haiku45-sec,Claude Haiku 4.5,sec,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-haiku45-sec,Claude Haiku 4.5,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-haiku45-std,Claude Haiku 4.5,std,ADS,Algorithms & Data Structures,30,29,96.7
+r2-haiku45-std,Claude Haiku 4.5,std,SPT,String & Text Processing,26,24,92.3
+r2-haiku45-std,Claude Haiku 4.5,std,DPS,Data Processing & Statistics,21,21,100.0
+r2-haiku45-std,Claude Haiku 4.5,std,FIO,File I/O & System,18,18,100.0
+r2-haiku45-std,Claude Haiku 4.5,std,CCA,Concurrency & Async,16,15,93.8
+r2-haiku45-std,Claude Haiku 4.5,std,WNT,Web & Networking,16,16,100.0
+r2-haiku45-std,Claude Haiku 4.5,std,DBS,Database & Storage,15,15,100.0
+r2-haiku45-std,Claude Haiku 4.5,std,TCQ,Testing & Code Quality,15,14,93.3
+r2-haiku45-std,Claude Haiku 4.5,std,CAT,"Crypto, Auth & Tokens",15,14,93.3
+r2-haiku45-std,Claude Haiku 4.5,std,ODP,OOP & Design Patterns,13,13,100.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,ADS,Algorithms & Data Structures,30,30,100.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,SPT,String & Text Processing,26,25,96.2
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,DPS,Data Processing & Statistics,21,20,95.2
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,FIO,File I/O & System,18,18,100.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,CCA,Concurrency & Async,16,12,75.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,WNT,Web & Networking,16,16,100.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,DBS,Database & Storage,15,14,93.3
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,TCQ,Testing & Code Quality,15,14,93.3
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-sonnet45-sec,Claude Sonnet 4.5,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-sonnet45-std,Claude Sonnet 4.5,std,ADS,Algorithms & Data Structures,30,29,96.7
+r2-sonnet45-std,Claude Sonnet 4.5,std,SPT,String & Text Processing,26,23,88.5
+r2-sonnet45-std,Claude Sonnet 4.5,std,DPS,Data Processing & Statistics,21,21,100.0
+r2-sonnet45-std,Claude Sonnet 4.5,std,FIO,File I/O & System,18,18,100.0
+r2-sonnet45-std,Claude Sonnet 4.5,std,CCA,Concurrency & Async,16,15,93.8
+r2-sonnet45-std,Claude Sonnet 4.5,std,WNT,Web & Networking,16,15,93.8
+r2-sonnet45-std,Claude Sonnet 4.5,std,DBS,Database & Storage,15,13,86.7
+r2-sonnet45-std,Claude Sonnet 4.5,std,TCQ,Testing & Code Quality,15,14,93.3
+r2-sonnet45-std,Claude Sonnet 4.5,std,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-sonnet45-std,Claude Sonnet 4.5,std,ODP,OOP & Design Patterns,13,13,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,ADS,Algorithms & Data Structures,30,29,96.7
+r2-sonnet5-sec,Claude Sonnet 5,sec,SPT,String & Text Processing,26,26,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,DPS,Data Processing & Statistics,21,20,95.2
+r2-sonnet5-sec,Claude Sonnet 5,sec,FIO,File I/O & System,18,17,94.4
+r2-sonnet5-sec,Claude Sonnet 5,sec,CCA,Concurrency & Async,16,16,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,WNT,Web & Networking,16,16,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,DBS,Database & Storage,15,14,93.3
+r2-sonnet5-sec,Claude Sonnet 5,sec,TCQ,Testing & Code Quality,15,15,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-sonnet5-sec,Claude Sonnet 5,sec,ODP,OOP & Design Patterns,13,13,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,ADS,Algorithms & Data Structures,30,30,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,SPT,String & Text Processing,26,26,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,DPS,Data Processing & Statistics,21,21,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,FIO,File I/O & System,18,17,94.4
+r2-sonnet5-std,Claude Sonnet 5,std,CCA,Concurrency & Async,16,16,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,WNT,Web & Networking,16,16,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,DBS,Database & Storage,15,14,93.3
+r2-sonnet5-std,Claude Sonnet 5,std,TCQ,Testing & Code Quality,15,15,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,CAT,"Crypto, Auth & Tokens",15,15,100.0
+r2-sonnet5-std,Claude Sonnet 5,std,ODP,OOP & Design Patterns,13,13,100.0

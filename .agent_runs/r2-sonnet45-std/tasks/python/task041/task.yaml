@@ -1,0 +1,2 @@
+title: Longest Palindromic Substring
+description: longest_palindrome(s) returns the longest palindromic substring (first occurrence if tie). Returns empty string for empty input. Example: longest_palindrome("babad") -> "bab"

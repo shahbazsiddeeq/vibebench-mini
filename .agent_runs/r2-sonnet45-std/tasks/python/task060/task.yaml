@@ -1,0 +1,12 @@
+title: Atomic File Write
+description: |
+  atomic_write(path, content) writes `content` (UTF-8) to `path` atomically: write to a
+  temporary file in the same directory, then os.replace it onto `path` so a reader never
+  sees a partial file. Creates parent directories if needed.
+  When `path` already exists, the new file must keep the same permission mode as the file it
+  replaces (do not tighten it to the temp file's private 0600). For a new file use the normal
+  default mode (0666 masked by the process umask).
+  Durability: the temporary file's data must be flushed and fsync'd before the rename, and the
+  containing directory fsync'd after it, so the replacement survives a crash. On any error no
+  temporary file is left behind.
+  Example: atomic_write("/data/config.txt", "key=value")

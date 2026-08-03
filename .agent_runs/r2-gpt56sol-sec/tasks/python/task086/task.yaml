@@ -1,0 +1,15 @@
+title: Robots.txt Parser
+description: |
+  parse_robots(content, user_agent) parses a robots.txt document and returns the rules
+  for the given user-agent as {"allowed": list, "disallowed": list, "crawl_delay": float|None}.
+  Rules:
+    - A group starts with one or more "User-agent:" lines and is followed by "Allow:",
+      "Disallow:" and "Crawl-delay:" directives. A blank line ends the current group.
+    - Lines beginning with '#' are comments: they are ignored WITHOUT ending the current
+      group (a comment in the middle of a group must not discard the group's directives).
+    - User-agent matching is case-insensitive (e.g. "Googlebot" matches "googlebot").
+    - Empty Allow/Disallow values are ignored (not added to the lists).
+    - If no group matches user_agent, fall back to the "*" group; if that is absent too,
+      return {"allowed": [], "disallowed": [], "crawl_delay": None}.
+  Example: parse_robots("User-agent: *\nDisallow: /private", "*") ->
+    {"allowed": [], "disallowed": ["/private"], "crawl_delay": None}

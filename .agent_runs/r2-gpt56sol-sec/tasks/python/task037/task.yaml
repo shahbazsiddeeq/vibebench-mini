@@ -1,0 +1,2 @@
+title: LRU Cache
+description: LRUCache(capacity) with get(key)->int (-1 if missing) and put(key, value). Evicts least-recently-used when full. Raises ValueError if capacity<1. Example: c=LRUCache(2); c.put(1,1); c.put(2,2); c.get(1) -> 1

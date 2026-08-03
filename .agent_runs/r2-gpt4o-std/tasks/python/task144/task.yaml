@@ -1,0 +1,2 @@
+title: Majority Element (Boyer-Moore)
+description: "majority_element(nums: list[int]) -> int returns the value that appears strictly more than len(nums)//2 times, found via the Boyer-Moore voting algorithm followed by a verification pass; raises ValueError if nums is empty or if no strict majority element exists. Example: majority_element([2,2,1,1,1,2,2]) -> 2; majority_element([1,2,3]) raises ValueError."

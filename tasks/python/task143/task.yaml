@@ -1,0 +1,2 @@
+title: Kth Largest (Quickselect)
+description: "kth_largest(nums: list[int], k: int) -> int returns the k-th largest value in nums using quickselect where k=1 is the maximum; duplicates are counted by position so kth_largest([3,3,3], 2) == 3; raises ValueError if nums is empty or if k is not in the range 1..len(nums). Example: kth_largest([3,2,1,5,6,4], 2) -> 5."

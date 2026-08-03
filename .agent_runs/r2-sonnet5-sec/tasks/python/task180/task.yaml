@@ -1,0 +1,17 @@
+title: Composite File System Tree
+description: >
+  Implement the Composite pattern for a file system. Class File(name: str, size: int)
+  stores a leaf file; size must be an int with size >= 0 (a bool is not a valid int),
+  otherwise raise ValueError, and name must be a non-empty str with no '/' character,
+  otherwise raise ValueError. File exposes attributes name and size and a method
+  total_size() -> int returning its own size. Class Directory(name: str) is a container
+  whose name follows the same rules as File.name. Directory.add(child) accepts a File or
+  Directory and returns the Directory itself (to allow chaining); it raises TypeError if
+  child is neither a File nor a Directory, and raises ValueError if a child with the same
+  name already exists in that directory. Directory.total_size() -> int returns the sum of
+  total_size() over all descendants (recursively). Directory.count_files() -> int returns
+  the number of File leaves in the whole subtree (Directory nodes are not counted).
+  Directory.list_paths() -> list[str] returns the '/'-joined path of every File leaf in the
+  subtree, relative to (and excluding) this directory's own name, sorted lexicographically.
+  For example: root = Directory('root'); root.add(File('a.txt', 10)).add(Directory('sub').add(File('b.txt', 5)));
+  root.total_size() == 15; root.count_files() == 2; root.list_paths() == ['a.txt', 'sub/b.txt'].

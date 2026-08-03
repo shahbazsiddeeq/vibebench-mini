@@ -1,0 +1,2 @@
+title: Group Anagrams
+description: group_anagrams(words) groups words that are anagrams; each group is sorted alphabetically; groups are sorted by their first element. Example: group_anagrams(["eat","tea","tan","ate","nat","bat"]) -> [["ate","eat","tea"],["bat"],["nat","tan"]]

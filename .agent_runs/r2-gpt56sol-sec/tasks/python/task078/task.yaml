@@ -1,0 +1,2 @@
+title: In-Memory Database
+description: MemDB class with insert(table, row), find(table, **filters)->list[dict] (AND of all filters), delete(table, **filters)->int. Example: db=MemDB(); db.insert("t", {"x":1}); db.find("t", x=1) -> [{"x":1}]

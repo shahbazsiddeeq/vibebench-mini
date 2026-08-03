@@ -1,0 +1,2 @@
+title: Memoize Decorator
+description: memoize(fn) returns a wrapper that caches results keyed by the call's positional AND keyword arguments (all hashable). The wrapped function runs exactly once per distinct argument set, even under concurrent calls and even when fn is recursive (it must not deadlock). Thread-safe. functools.wraps metadata is preserved. Example: @memoize def fib(n): return n if n < 2 else fib(n-1)+fib(n-2) — fib(30) returns 832040 without recomputing sub-results.

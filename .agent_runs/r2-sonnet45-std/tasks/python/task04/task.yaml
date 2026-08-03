@@ -1,0 +1,2 @@
+title: CSV Column Mean
+description: Implement column_mean(path, col) that returns the arithmetic mean of the numeric values in column `col` of a CSV file with a header row. Rows whose `col` value is non-numeric (cannot be parsed as a float) are skipped. If no numeric values are found — because the column is empty, absent from the header, or contains only non-numeric values — raise ValueError.

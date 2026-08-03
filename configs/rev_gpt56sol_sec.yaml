@@ -1,0 +1,6 @@
+# Targeted re-run of gpt-5.6-sol secure only (fill the 34 no-code tasks at higher
+# token headroom). Same agent name -> reuses cache, regenerates only the missing.
+agents:
+  - name: gpt56sol-sec
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-5.6-sol --prompt-variant secure

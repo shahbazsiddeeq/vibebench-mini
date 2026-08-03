@@ -1,0 +1,2 @@
+title: Count Unique Characters
+description: unique_char_count(s) returns a dict mapping each character that appears exactly once in s to 1, with keys ordered by first appearance in s (Python dicts preserve insertion order). Example: unique_char_count("aabbcd") -> {"c": 1, "d": 1}

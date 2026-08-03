@@ -1,0 +1,11 @@
+title: Append to Log File
+description: |
+  append_log(path, message, timestamp=True) appends a single line to the UTF-8 text file at
+  `path`. Any missing parent directories are created as well as the file itself.
+  Each call appends exactly one line terminated by "\n".
+  When timestamp is True the line is "<ts> <message>\n", where <ts> is the current time in
+  UTC formatted as ISO-8601 to seconds precision (e.g. "2026-07-24T12:34:56+00:00"), followed
+  by a single space and then the message.
+  When timestamp is False the line is just "<message>\n".
+  The function returns None.
+  Example: append_log("run.log", "started")

@@ -1,0 +1,6 @@
+# Targeted re-run of claude-sonnet-5 secure only (fill the budget-skipped tasks).
+# Same agent name -> reuses cache, regenerates only the missing tasks.
+agents:
+  - name: sonnet5-sec
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-5 --prompt-variant secure

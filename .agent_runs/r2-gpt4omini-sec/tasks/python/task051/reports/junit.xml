@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="0.061" timestamp="2026-08-01T13:29:57.252526+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.002"><failure message="AssertionError: assert 'hello world. h. ow are you?' == 'Hello world. How are you?'&#10;  &#10;  - Hello world. How are you?&#10;  ? ^            ^&#10;  + hello world. h. ow are you?&#10;  ? ^            ^^^">def test_basic():
+        result = normalize_case("hello world. how are you?")
+&gt;       assert result == "Hello world. How are you?"
+E       AssertionError: assert 'hello world. h. ow are you?' == 'Hello world. How are you?'
+E         
+E         - Hello world. How are you?
+E         ? ^            ^
+E         + hello world. h. ow are you?
+E         ? ^            ^^^
+
+tests_hidden/test_solution.py:6: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_single_sentence" time="0.001"><failure message="AssertionError: assert 'hello.' == 'Hello.'&#10;  &#10;  - Hello.&#10;  ? ^&#10;  + hello.&#10;  ? ^">def test_single_sentence():
+&gt;       assert normalize_case("hello.") == "Hello."
+E       AssertionError: assert 'hello.' == 'Hello.'
+E         
+E         - Hello.
+E         ? ^
+E         + hello.
+E         ? ^
+
+tests_hidden/test_solution.py:10: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_already_normalized" time="0.000"><failure message="AssertionError: assert False&#10; +  where False = &lt;built-in method startswith of str object at 0x10b2ec580&gt;('Hello')&#10; +    where &lt;built-in method startswith of str object at 0x10b2ec580&gt; = 'hello world. h. ow are you?'.startswith&#10; +      where 'hello world. h. ow are you?' = normalize_case('hello world. how are you?')&#10; +        where 'hello world. how are you?' = &lt;built-in method lower of str object at 0x10b2b86c0&gt;()&#10; +          where &lt;built-in method lower of str object at 0x10b2b86c0&gt; = 'Hello world. How are you?'.lower">def test_already_normalized():
+        s = "Hello world. How are you?"
+&gt;       assert normalize_case(s.lower()).startswith("Hello")
+E       AssertionError: assert False
+E        +  where False = &lt;built-in method startswith of str object at 0x10b2ec580&gt;('Hello')
+E        +    where &lt;built-in method startswith of str object at 0x10b2ec580&gt; = 'hello world. h. ow are you?'.startswith
+E        +      where 'hello world. h. ow are you?' = normalize_case('hello world. how are you?')
+E        +        where 'hello world. how are you?' = &lt;built-in method lower of str object at 0x10b2b86c0&gt;()
+E        +          where &lt;built-in method lower of str object at 0x10b2b86c0&gt; = 'Hello world. How are you?'.lower
+
+tests_hidden/test_solution.py:15: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_leading_whitespace" time="0.000"><failure message="AssertionError: assert '  hello world. b. ye.' == '  Hello world. Bye.'&#10;  &#10;  -   Hello world. Bye.&#10;  ?   ^            ^&#10;  +   hello world. b. ye.&#10;  ?   ^            ^^^">def test_leading_whitespace():
+        # First real letter is capitalized even with leading spaces.
+&gt;       assert normalize_case("  hello world. bye.") == "  Hello world. Bye."
+E       AssertionError: assert '  hello world. b. ye.' == '  Hello world. Bye.'
+E         
+E         -   Hello world. Bye.
+E         ?   ^            ^
+E         +   hello world. b. ye.
+E         ?   ^            ^^^
+
+tests_hidden/test_solution.py:20: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_capitalize_after_period_without_space" time="0.000"><failure message="AssertionError: assert 'hello.w.orld' == 'Hello.World'&#10;  &#10;  - Hello.World&#10;  ? ^     ^&#10;  + hello.w.orld&#10;  ? ^     ^^">def test_capitalize_after_period_without_space():
+&gt;       assert normalize_case("hello.world") == "Hello.World"
+E       AssertionError: assert 'hello.w.orld' == 'Hello.World'
+E         
+E         - Hello.World
+E         ? ^     ^
+E         + hello.w.orld
+E         ? ^     ^^
+
+tests_hidden/test_solution.py:24: AssertionError</failure></testcase></testsuite></testsuites>

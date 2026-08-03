@@ -1,0 +1,8 @@
+title: Reverse Words
+description: >-
+  reverse_words(s) returns a string with the whitespace-separated words of s in
+  reverse order, joined by a single space. Words are maximal runs of
+  non-whitespace characters; any run of whitespace (spaces, tabs, newlines) acts
+  as a separator and is collapsed, and leading/trailing whitespace is ignored.
+  A string that is empty or contains only whitespace returns "". Example:
+  reverse_words("  hello   world ") -> "world hello"

@@ -1,0 +1,2 @@
+title: Percentile Calculator
+description: percentile(data, p) returns the pth percentile (0-100) of data using linear interpolation. Raises ValueError for empty data or p outside 0-100. Example: percentile([1,2,3,4,5], 50) -> 3.0

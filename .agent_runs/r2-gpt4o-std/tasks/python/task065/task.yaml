@@ -1,0 +1,2 @@
+title: Base64 Encode/Decode
+description: b64_encode(data) encodes bytes to base64 string; b64_decode(s) decodes back to bytes. b64_decode raises ValueError on invalid input. Example: b64_encode(b"hello") -> "aGVsbG8="

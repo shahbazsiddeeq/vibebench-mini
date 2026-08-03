@@ -1,0 +1,2 @@
+title: MIME Type Guesser
+description: guess_mime(filename) returns the MIME type based on file extension, falling back to "application/octet-stream" for unknown types. Case-insensitive. Example: guess_mime("index.HTML") -> "text/html"

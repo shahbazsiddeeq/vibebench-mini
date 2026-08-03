@@ -1,0 +1,2 @@
+title: Moving Average
+description: moving_average(data, window) returns list of simple moving averages; output length = len(data)-window+1. Raises ValueError if window<=0 or window>len(data). Example: moving_average([1,2,3,4,5], 3) -> [2.0, 3.0, 4.0]

@@ -1,0 +1,2 @@
+title: Run-Once Initializer
+description: Once.do(fn) runs the zero-arg callable fn only the FIRST time it succeeds, across all threads, caches fn's return value, and returns that cached value on every subsequent call without running fn again. If fn raises, the exception propagates to the caller and the run is NOT recorded, so a later do(...) call will attempt to run fn again (run-once applies only to successful completion). Example: o=Once(); o.do(lambda: 5) -> 5; o.do(lambda: 99) -> 5

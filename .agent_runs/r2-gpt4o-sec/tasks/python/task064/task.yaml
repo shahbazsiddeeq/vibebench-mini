@@ -1,0 +1,2 @@
+title: HMAC-SHA256 Signature
+description: sign(key, message) returns the HMAC-SHA256 signature of message under key as a lowercase hex string. Raises ValueError if key or message is empty. Example: sign(b"secret", b"data") -> "1b2c16b75bd2a870c114153ccda5bcfca63314bc722fa160d690de133ccbb9db"

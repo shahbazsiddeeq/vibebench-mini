@@ -1,0 +1,16 @@
+title: Shape Visitor (Double Dispatch)
+description: >
+  Implement the Visitor pattern with double dispatch over a small shape hierarchy.
+  Shapes: Circle(radius), Rectangle(width, height), Square(side). Every dimension must be
+  an int or float (bool is rejected) that is > 0, otherwise raise ValueError. Each shape
+  exposes accept(visitor) which dispatches to the correct visitor method and returns its
+  result: Circle.accept calls visitor.visit_circle(self), Rectangle.accept calls
+  visitor.visit_rectangle(self), Square.accept calls visitor.visit_square(self). Provide two
+  concrete visitors, AreaVisitor and PerimeterVisitor, each implementing visit_circle,
+  visit_rectangle, and visit_square, all returning a float. Areas: circle = pi*r*r (use
+  math.pi), rectangle = width*height, square = side*side. Perimeters: circle = 2*pi*r,
+  rectangle = 2*(width+height), square = 4*side. Also provide a function
+  total_area(shapes: list, visitor) -> float that returns the sum of shape.accept(visitor)
+  over all shapes; it must raise TypeError if visitor lacks any of the three visit_ methods
+  (checked via callable attributes before iterating). For example: Square(3).accept(AreaVisitor())
+  == 9.0 and Rectangle(2, 5).accept(PerimeterVisitor()) == 14.0.

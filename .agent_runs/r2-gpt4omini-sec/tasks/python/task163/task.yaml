@@ -1,0 +1,15 @@
+title: Base32 Codec (RFC 4648)
+description: >
+  In src/solution.py implement RFC 4648 Base32 without using the base64 module (build it from the
+  standard 32-character alphabet "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567" and '=' padding).
+  `base32_encode(data: bytes) -> str` encodes the bytes: process input in groups of 5 bytes (40
+  bits) into 8 output characters; when the final group is short, encode the available bits and pad
+  the output with '=' so the total length is a multiple of 8 (a 1/2/3/4-byte final group yields
+  6/4/3/1 padding characters respectively); base32_encode(b"") returns "". `base32_decode(s: str)
+  -> bytes` is the exact inverse and must accept both upper- and lower-case letters (case
+  insensitive). Validation for base32_decode: raise TypeError if `s` is not a str; raise ValueError
+  if the input length is not a multiple of 8, if any character (ignoring the trailing '=' padding)
+  is outside the alphabet, if '=' appears anywhere except as a valid trailing run, or if the number
+  of padding characters is not one of 0, 1, 3, 4, 6. base32_encode raises TypeError if `data` is
+  not bytes/bytearray. Known vectors (RFC 4648 Section 10): base32_encode(b"foobar") ==
+  "MZXW6YTBOI======" and base32_encode(b"foo") == "MZXW6===".

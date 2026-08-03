@@ -1,0 +1,27 @@
+{
+  "title": "CodeAssay: A Multi-Metric Benchmark with Audited Ground Truth for LLM Code Generation",
+  "creators": [
+    {
+      "name": "Shahbaz Siddeeq"
+    }
+  ],
+  "description": "CodeAssay is a taxonomy-first Python benchmark of 185 tasks in 10 categories informed by SWEBOK v4 knowledge areas and BigCodeBench domains. Each task ships a reference solution and a pytest suite split into public tests (shown to the model) and hidden tests (used only for grading). Every task passed an independent audit-and-fix. Correctness is graded on the hidden tests; quality indicators for cyclomatic complexity, style and security are reported for passing solutions. Mutation testing validates the benchmark test suites rather than scoring models. No composite score is reported.",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "2.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shahbazsiddeeq/vibebench",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "keywords": [
+    "code generation",
+    "large language models",
+    "software quality",
+    "benchmark",
+    "empirical software engineering"
+  ]
+}

@@ -1,0 +1,14 @@
+title: URL Normalizer
+description: |
+  normalize_url(url) returns a canonical form of a URL, applying these rules:
+    1. If the input has no scheme, default to "https".
+    2. Lowercase the scheme and the host. Userinfo ("user:pass@") is preserved verbatim (case kept).
+    3. Drop the default port for the scheme (80 for http, 443 for https); keep any other port.
+    4. Normalize the path: resolve "." and ".." dot-segments and collapse runs of consecutive
+       slashes into one. An empty path becomes "/". A trailing slash is preserved.
+    5. Sort the query parameters by key (blank values are kept, e.g. "a=").
+    6. Drop the fragment.
+  Examples:
+    normalize_url("Example.com") -> "https://example.com/"
+    normalize_url("http://EXAMPLE.com:80///a//b") -> "http://example.com/a/b"
+    normalize_url("https://Ex.com/path?b=2&a=1#frag") -> "https://ex.com/path?a=1&b=2"

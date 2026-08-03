@@ -1,0 +1,16 @@
+title: Text Editor Memento (Snapshot / Undo)
+description: >
+  Implement the Memento pattern for a text editor. Class Editor() starts with an empty
+  string. It exposes a read-only property content -> str. Method write(text: str) appends
+  text to the content and raises TypeError if text is not a str. Method clear() sets content
+  to the empty string. Method save() -> Memento captures the current content and returns an
+  opaque Memento object; the Memento must expose the saved content only through a read-only
+  property state -> str (assigning to state raises AttributeError), so the caretaker cannot
+  tamper with it. Method restore(memento: Memento) sets the editor's content back to the
+  memento's captured state and raises TypeError if memento is not a Memento produced by
+  save(). The Editor also maintains an internal undo history: undo() restores the content to
+  the most recently saved snapshot that has not yet been consumed by undo, returns the new
+  content, and raises IndexError if there is nothing to undo (save() pushes onto this history;
+  restore() does not). For example: e = Editor(); e.write('ab'); m = e.save(); e.write('cd');
+  assert e.content == 'abcd'; e.restore(m); assert e.content == 'ab'; and separately
+  e2 = Editor(); e2.write('x'); e2.save(); e2.write('y'); assert e2.undo() == 'x'.

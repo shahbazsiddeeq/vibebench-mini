@@ -1,0 +1,15 @@
+agents:
+- name: claude-sonnet-secure
+  kind: python
+  cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file}
+    --cache {run_root}/cache --repair-once --model claude-sonnet-4-5 --prompt-variant
+    secure
+- name: gemini-flash
+  kind: python
+  cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file}
+    --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash
+- name: gemini-flash-secure
+  kind: python
+  cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file}
+    --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash --prompt-variant
+    secure

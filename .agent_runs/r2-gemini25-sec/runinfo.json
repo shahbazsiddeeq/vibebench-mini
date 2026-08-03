@@ -1,0 +1,18 @@
+{
+  "run": "r2-gemini25-sec",
+  "provider": "openrouter",
+  "endpoint": "chat.completions.create",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "google/gemini-2.5-flash",
+  "prompt_variant": "secure",
+  "temperature": 0.0,
+  "max_output_tokens": 16384,
+  "token_budget": 10000000,
+  "timeout_s": 60.0,
+  "repair_once": true,
+  "cache_enabled": true,
+  "sdk": "openai (OpenRouter-compatible client)",
+  "sdk_version": "1.107.3",
+  "python": "3.12.7",
+  "run_started_utc": "2026-08-01T09:39:07.185+00:00"
+}

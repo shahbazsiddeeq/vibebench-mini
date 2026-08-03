@@ -1,0 +1,2 @@
+title: Simple XOR Cipher
+description: xor_cipher(data, key) XORs each byte of data with the key byte at position i % len(key), so a multi-byte key repeats cyclically. Raises ValueError if key is empty. Applying twice with the same key recovers the original data. Note: repeating-key XOR is not cryptographically secure and is for exercise use only. Example: xor_cipher(b"hello", b"ab") -> b"\x09\x07\x0d\x0e\x0e"

@@ -1,0 +1,2 @@
+title: Docstring Coverage
+description: docstring_coverage(source) parses source with ast and returns the fraction of all function (FunctionDef/AsyncFunctionDef) and class (ClassDef) definitions that have a docstring; returns 1.0 if there are none; raises ValueError on syntax errors. Example: a module with 2 functions where 1 is documented -> 0.5.

@@ -1,0 +1,18 @@
+description: >
+  Implement the Adapter pattern. A legacy component LegacyUser(full: str, age_str: str) is a
+  plain data holder exposing attributes .full (a name formatted as "Last, First") and
+  .age_str (an age as a decimal string); its constructor performs no validation. The rest of
+  the application expects the target interface with methods first_name() -> str,
+  last_name() -> str, display_name() -> str (formatted as "First Last"), and age() -> int.
+  Implement UserAdapter(legacy: LegacyUser) that wraps a LegacyUser and provides this target
+  interface. The adapter raises TypeError if legacy is not a LegacyUser. Parsing rules,
+  evaluated lazily inside the methods (not in __init__): .full must contain exactly one
+  ", " separator splitting it into a non-empty last name and a non-empty first name after
+  stripping surrounding whitespace from each part, otherwise the name methods raise
+  ValueError; .age_str must consist only of decimal digits (after stripping surrounding
+  whitespace) and represent a value >= 0, otherwise age() raises ValueError. Also provide a
+  function adapt_all(legacy_users: list) -> list that returns a list of UserAdapter wrapping
+  each element in order. For example: u = UserAdapter(LegacyUser("Doe, John", "42"));
+  u.first_name() == "John"; u.last_name() == "Doe"; u.display_name() == "John Doe";
+  u.age() == 42.
+title: Legacy User Adapter

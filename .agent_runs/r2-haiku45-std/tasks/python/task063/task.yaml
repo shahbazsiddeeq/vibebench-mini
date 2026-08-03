@@ -1,0 +1,2 @@
+title: SHA-256 File Hash
+description: sha256_file(path) returns the hex SHA-256 digest of a file's contents. Raises FileNotFoundError if the file does not exist. Example: sha256_file("data.bin") -> "e3b0c44298fc1c..."

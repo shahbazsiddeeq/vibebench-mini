@@ -1,0 +1,16 @@
+title: Simple HTML Sanitizer
+description: |
+  sanitize_html(html, allowed_tags) sanitizes an untrusted HTML string against an
+  allow-list, using a real HTML tokenizer (e.g. html.parser) rather than regex so
+  that malformed or adversarial input cannot smuggle markup through.
+  Rules:
+    - A tag is kept only if its name (compared case-insensitively) is in allowed_tags;
+      kept tags are emitted lowercased with ALL attributes removed (so no href,
+      onerror, style, etc. survive).
+    - Every other tag is dropped entirely.
+    - Text content is preserved but HTML-escaped: '&', '<' and '>' become entities,
+      so leftover angle brackets can never re-form executable markup.
+    - Comments and declarations are removed.
+  This must resist XSS bypasses such as attributes containing '>', unterminated tags,
+  and nested/re-emerging tags like "<scr<script>ipt>".
+  Example: sanitize_html("<b>Hi</b> <script>bad</script>", ["b"]) -> "<b>Hi</b> bad"

@@ -1,0 +1,15 @@
+title: Weighted Average
+description: >-
+  Implement `weighted_average(values, weights)` that returns the weighted
+  arithmetic mean of `values` using `weights`, computed as
+  sum(v_i * w_i) / sum(w_i), and returned as a float rounded to 6 decimal places
+  using Python's built-in round. Both arguments are lists of numbers (ints or
+  floats). Raise ValueError if `values` is empty, if `weights` is empty, or if
+  the two lists have different lengths. Weights may be negative or zero
+  individually, but if sum(weights) == 0 raise ValueError (message may be any
+  string) rather than dividing by zero. The return value is always a float, even
+  when the exact result is an integer. Worked example:
+  values=[80, 90, 100], weights=[1, 2, 3] returns 93.333333 because
+  (80*1 + 90*2 + 100*3) / (1+2+3) = 560/6 = 93.33333... rounded to 6 places.
+  Note that plain (unweighted) mean of [80,90,100] would be 90.0, so the
+  weighting must be applied.

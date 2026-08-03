@@ -1,0 +1,2 @@
+title: Key-Value Store (File-Backed)
+description: KVStore(path) class with set(key, value), get(key, default=None)->Any, delete(key)->bool, keys()->list[str]. Persists to JSON file. Raises ValueError if key contains "/". Example: kv=KVStore("store.json"); kv.set("x", 1); kv.get("x") -> 1

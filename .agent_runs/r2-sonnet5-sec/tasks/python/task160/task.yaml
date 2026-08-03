@@ -1,0 +1,16 @@
+title: PBKDF2 Password Key Derivation and Verify
+description: >
+  In src/solution.py implement two functions using only the Python standard library
+  (hashlib, hmac). `pbkdf2_hash(password: str, salt: bytes, iterations: int, dklen: int = 32) -> str`
+  derives a key from the UTF-8 encoding of `password` using PBKDF2-HMAC-SHA256 with the given
+  `salt`, `iterations` (rounds), and derived-key length `dklen` in bytes, and returns it as a
+  lowercase hex string of length `2*dklen`. `verify_password(password: str, salt: bytes,
+  iterations: int, expected_hex: str) -> bool` re-derives the key (dklen inferred as
+  len(expected_hex)//2) and returns True iff it matches `expected_hex`; the comparison MUST be
+  done with a constant-time comparison (hmac.compare_digest) so verification does not leak the
+  match position through timing (this is a timing property, not otherwise observable). Validation:
+  raise TypeError if `password` is not a str, if `salt` is not bytes/bytearray, or if `iterations`
+  or `dklen` is not an int (bool is not an int here); raise ValueError if `iterations < 1` or
+  `dklen < 1`; in verify_password raise ValueError if `expected_hex` is not valid hex of even
+  length. Known vector: pbkdf2_hash("password", b"salt", 1, 32) ==
+  "120fb6cffcf8b32c43e7225256c4f837a86548c92ccc35480805987cb70be17b".

@@ -1,0 +1,2 @@
+title: File Tail (Last N Lines)
+description: tail(path, n) returns the last n lines of a file as a list (without newlines); n > file length returns all lines. Raises ValueError for n<0, FileNotFoundError if missing. Example: tail("log.txt", 3) -> ["line8", "line9", "line10"]

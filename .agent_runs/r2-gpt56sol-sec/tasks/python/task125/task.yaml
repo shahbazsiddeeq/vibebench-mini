@@ -1,0 +1,8 @@
+title: State Pattern (Traffic Light)
+description: >
+  class TrafficLight starting in state 'green' with a state property and
+  next(steps: int = 1) -> str that advances the cycle green -> yellow -> red ->
+  green ... by the given number of steps and returns the new state. steps must be
+  a non-negative integer: a non-integer (for example 1.5, or a bool) or a negative
+  value raises ValueError. Example: t = TrafficLight(); assert t.next() == 'yellow';
+  assert t.next() == 'red'; assert t.next() == 'green'.

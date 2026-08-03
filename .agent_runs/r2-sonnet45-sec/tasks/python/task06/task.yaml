@@ -1,0 +1,2 @@
+title: JSONL Sum by Key
+description: sum_jsonl(path, key) sums numeric values for 'key' over JSON Lines; non-numeric/missing rows are ignored; empty result raises ValueError.

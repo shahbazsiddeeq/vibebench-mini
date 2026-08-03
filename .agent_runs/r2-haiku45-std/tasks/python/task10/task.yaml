@@ -1,0 +1,14 @@
+title: YAML to JSON (Safe)
+description: |
+  Implement yaml_to_json(path) that reads the UTF-8 YAML file at `path` and returns a
+  canonical JSON string. Requirements:
+    - Load with PyYAML's safe loader (yaml.safe_load), NOT yaml.load. Unsafe/custom tags
+      such as `!!python/object/apply:...` must raise a yaml.YAMLError rather than be
+      constructed or executed.
+    - The JSON must have keys sorted (sort_keys=True) and compact separators
+      (item separator ",", key separator ":", i.e. no spaces).
+    - Non-ASCII characters are emitted as-is (ensure_ascii=False).
+    - Values with no native JSON representation (e.g. YAML dates/datetimes) are serialized
+      as their string form. For example a date 2020-01-01 becomes the JSON string "2020-01-01".
+    - An empty YAML file (parses to None) produces the JSON string "null".
+  Example: input "name: Ada\nnums: [3, 1, 2]\n" returns '{"name":"Ada","nums":[3,1,2]}'.

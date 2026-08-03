@@ -1,0 +1,8 @@
+title: Palindrome Check
+description: >-
+  Implement is_palindrome(s) that returns True if s reads the same forwards and
+  backwards after keeping only ASCII alphanumeric characters ([A-Za-z0-9]) and
+  lowercasing them; all other characters (spaces, punctuation, and any non-ASCII
+  characters such as accented letters) are ignored. The empty string, and any
+  string that reduces to empty after filtering, returns True. Example:
+  is_palindrome("A man, a plan, a canal: Panama") -> True

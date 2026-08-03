@@ -1,0 +1,17 @@
+{
+  "run": "r2-sonnet5-sec",
+  "provider": "anthropic",
+  "endpoint": "messages.create",
+  "model": "claude-sonnet-5",
+  "prompt_variant": "secure",
+  "temperature": "provider default",
+  "max_output_tokens": 16384,
+  "token_budget": 10000000,
+  "timeout_s": 60.0,
+  "repair_once": true,
+  "cache_enabled": true,
+  "sdk": "anthropic",
+  "sdk_version": "0.101.0",
+  "python": "3.12.7",
+  "run_started_utc": "2026-08-01T09:39:43.900+00:00"
+}

@@ -1,0 +1,23 @@
+# Smoke: one standard agent per model. Run with --limit 2.
+agents:
+  - name: smk-gpt4omini
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o-mini
+  - name: smk-gpt4o
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o
+  - name: smk-gpt56sol
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-5.6-sol
+  - name: smk-haiku45
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-haiku-4-5-20251001
+  - name: smk-sonnet45
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-4-5-20250929
+  - name: smk-sonnet5
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-5
+  - name: smk-gemini25
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash

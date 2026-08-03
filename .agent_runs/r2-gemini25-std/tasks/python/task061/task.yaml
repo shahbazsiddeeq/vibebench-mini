@@ -1,0 +1,8 @@
+title: Directory Size Calculator
+description: |
+  dir_size(path) returns the total size in bytes of all regular files under `path`,
+  searched recursively. Returns 0 for an empty directory.
+  Error handling: if `path` does not exist, raise FileNotFoundError; if `path` exists but is
+  not a directory (e.g. a regular file), raise NotADirectoryError.
+  Symbolic links are neither followed nor counted (only real regular files contribute).
+  Example: dir_size("/tmp/mydir") -> 1024

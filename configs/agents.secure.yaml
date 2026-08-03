@@ -1,0 +1,12 @@
+agents:
+  - name: openai-secure
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --prompt-variant secure
+
+  - name: claude-haiku-secure
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --prompt-variant secure
+
+  - name: gemini-flash-secure
+    kind: python
+    cmd: python scripts/agents/gemini_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --prompt-variant secure

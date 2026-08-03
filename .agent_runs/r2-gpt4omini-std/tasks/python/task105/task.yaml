@@ -1,0 +1,2 @@
+title: Producer-Consumer Queue
+description: produce_consume(items, process_fn, n_workers=2) applies process_fn to each item using n_workers threads via queue.Queue; returns results in input order. Raises ValueError if n_workers<1. Example: produce_consume([1,2,3], lambda x: x*2, 2) -> [2,4,6]

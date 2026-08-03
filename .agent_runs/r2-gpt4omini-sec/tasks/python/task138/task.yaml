@@ -1,0 +1,2 @@
+title: Assert Almost Equal
+description: assert_almost_equal(actual, expected, places=7) returns None if round(actual - expected, places) == 0, otherwise raises AssertionError with a message containing 'not almost equal'; raises ValueError if places < 0. Example: assert_almost_equal(0.1 + 0.2, 0.3) -> None.

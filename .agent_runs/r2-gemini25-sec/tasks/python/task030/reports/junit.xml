@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="7" skipped="0" tests="7" time="0.454" timestamp="2026-08-01T13:04:00.263983+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.000"><failure message="re.error: bad escape \p at position 1">def test_basic():
+&gt;       assert word_freq("hello world hello") == {"hello": 2, "world": 1}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:6: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10cfb25a0&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_case_insensitive" time="0.000"><failure message="re.error: bad escape \p at position 1">def test_case_insensitive():
+&gt;       assert word_freq("Hello HELLO hello") == {"hello": 3}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d5c69f0&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_contractions_split_on_apostrophe" time="0.000"><failure message="re.error: bad escape \p at position 1">def test_contractions_split_on_apostrophe():
+&gt;       assert word_freq("don't stop") == {"don": 1, "t": 1, "stop": 1}
+               ^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d5c7da0&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_unicode_words_intact" time="0.000"><failure message="re.error: bad escape \p at position 1">def test_unicode_words_intact():
+&gt;       assert word_freq("Café café CAFÉ") == {"café": 3}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d5c72c0&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_underscore_is_separator" time="0.000"><failure message="re.error: bad escape \p at position 1">def test_underscore_is_separator():
+&gt;       assert word_freq("foo_bar") == {"foo": 1, "bar": 1}
+               ^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d5c4530&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_parametrized[the cat sat on the mat-the-2]" time="0.000"><failure message="re.error: bad escape \p at position 1">text = 'the cat sat on the mat', key = 'the', expected = 2
+
+    @pytest.mark.parametrize(
+        "text,key,expected",
+        [
+            ("the cat sat on the mat", "the", 2),
+            ("one two three two one", "two", 2),
+        ],
+    )
+    def test_parametrized(text, key, expected):
+&gt;       assert word_freq(text)[key] == expected
+               ^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d5c5fd0&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_parametrized[one two three two one-two-2]" time="0.000"><failure message="re.error: bad escape \p at position 1">text = 'one two three two one', key = 'two', expected = 2
+
+    @pytest.mark.parametrize(
+        "text,key,expected",
+        [
+            ("the cat sat on the mat", "the", 2),
+            ("one two three two one", "two", 2),
+        ],
+    )
+    def test_parametrized(text, key, expected):
+&gt;       assert word_freq(text)[key] == expected
+               ^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:33: in word_freq
+    words = re.findall(r'[\p{L}\p{N}]+', text, re.UNICODE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:217: in findall
+    return _compile(pattern, flags).findall(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/__init__.py:307: in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_compiler.py:745: in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:979: in parse
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/lib/python3.12/re/_parser.py:460: in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+/opt/anaconda3/lib/python3.12/re/_parser.py:573: in _parse
+    code1 = _class_escape(source, this)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+source = &lt;re._parser.Tokenizer object at 0x10d642450&gt;, escape = '\\p'
+
+    def _class_escape(source, escape):
+        # handle escape code inside character class
+        code = ESCAPES.get(escape)
+        if code:
+            return code
+        code = CATEGORIES.get(escape)
+        if code and code[0] is IN:
+            return code
+        try:
+            c = escape[1:2]
+            if c == "x":
+                # hexadecimal escape (exactly two digits)
+                escape += source.getwhile(2, HEXDIGITS)
+                if len(escape) != 4:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "u" and source.istext:
+                # unicode escape (exactly four digits)
+                escape += source.getwhile(4, HEXDIGITS)
+                if len(escape) != 6:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                return LITERAL, int(escape[2:], 16)
+            elif c == "U" and source.istext:
+                # unicode escape (exactly eight digits)
+                escape += source.getwhile(8, HEXDIGITS)
+                if len(escape) != 10:
+                    raise source.error("incomplete escape %s" % escape, len(escape))
+                c = int(escape[2:], 16)
+                chr(c) # raise ValueError for invalid code
+                return LITERAL, c
+            elif c == "N" and source.istext:
+                import unicodedata
+                # named unicode escape e.g. \N{EM DASH}
+                if not source.match('{'):
+                    raise source.error("missing {")
+                charname = source.getuntil('}', 'character name')
+                try:
+                    c = ord(unicodedata.lookup(charname))
+                except (KeyError, TypeError):
+                    raise source.error("undefined character name %r" % charname,
+                                       len(charname) + len(r'\N{}')) from None
+                return LITERAL, c
+            elif c in OCTDIGITS:
+                # octal escape (up to three digits)
+                escape += source.getwhile(2, OCTDIGITS)
+                c = int(escape[1:], 8)
+                if c &gt; 0o377:
+                    raise source.error('octal escape value %s outside of '
+                                       'range 0-0o377' % escape, len(escape))
+                return LITERAL, c
+            elif c in DIGITS:
+                raise ValueError
+            if len(escape) == 2:
+                if c in ASCIILETTERS:
+&gt;                   raise source.error('bad escape %s' % escape, len(escape))
+E                   re.error: bad escape \p at position 1
+
+/opt/anaconda3/lib/python3.12/re/_parser.py:366: error</failure></testcase></testsuite></testsuites>

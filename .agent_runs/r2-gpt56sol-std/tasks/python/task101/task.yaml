@@ -1,0 +1,2 @@
+title: Singleton Pattern
+description: Singleton class ensuring only one instance exists per process. Calling Singleton() always returns that same instance. The class method reset() discards the cached instance so the next Singleton() call creates a fresh one (intended for tests). Note behavior NOT required: subclasses share the base's instance slot is not guaranteed, and __init__ may re-run on each Singleton() call, so do not rely on one-time initialization. Example: a=Singleton(); b=Singleton(); a is b -> True; Singleton.reset(); c=Singleton(); c is a -> False

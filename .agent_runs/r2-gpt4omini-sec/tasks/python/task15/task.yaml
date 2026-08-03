@@ -1,0 +1,10 @@
+title: Safe Arithmetic Eval
+description: >
+  safe_eval(expr: str) -> float safely evaluates an arithmetic expression that
+  contains only numeric literals, the binary operators + - * / **, unary + and -,
+  and parentheses, and returns the result as a float. Any other syntax -- names,
+  attribute access, function calls, subscripts, comprehensions, lambdas, or any
+  other node -- raises ValueError. Division by zero raises ZeroDivisionError. To
+  avoid resource exhaustion, a power operation whose exponent has magnitude greater
+  than 1000 raises ValueError (rather than attempting to compute an astronomically
+  large number). Example: safe_eval("1 + 2*3") -> 7.0.

@@ -1,0 +1,8 @@
+title: Anagram Pairs Finder
+description: |
+  find_anagram_pairs(words) returns a list of unique (a, b) tuples where a and b are two
+  DISTINCT words from the input that are anagrams of each other, with a < b lexicographically.
+  Comparison is case-sensitive (characters must match exactly, so "Tea" and "eat" are not
+  anagrams). Identical words (e.g. duplicates in the input) are never paired with themselves.
+  The returned list is sorted in ascending order. Example:
+  find_anagram_pairs(["eat","tea","hello"]) -> [("eat","tea")]

@@ -1,0 +1,2 @@
+title: Find and Replace (Simultaneous)
+description: find_replace(text, replacements) applies all replacements simultaneously; longer keys take priority over shorter overlapping keys. Example: find_replace("hello world", {"hello": "hi", "world": "earth"}) -> "hi earth"

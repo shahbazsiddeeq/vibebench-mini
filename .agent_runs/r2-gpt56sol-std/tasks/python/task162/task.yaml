@@ -1,0 +1,14 @@
+title: Luhn Checksum Validate and Complete
+description: >
+  In src/solution.py implement two functions (pure Python, no imports needed) for the Luhn mod-10
+  algorithm used by credit-card and other identifier numbers. `luhn_valid(number: str) -> bool`
+  returns True iff the digit string `number` (which INCLUDES its trailing check digit) satisfies the
+  Luhn checksum: reading digits from right to left, double every second digit (positions 2, 4, ...
+  counting the rightmost as position 1), subtract 9 from any doubled value greater than 9, sum all
+  resulting digits, and the number is valid iff that total is congruent to 0 modulo 10.
+  `luhn_check_digit(payload: str) -> int` returns the single check digit (an int 0..9) that, when
+  appended to the right of `payload`, makes the full string Luhn-valid. Validation for both
+  functions: raise TypeError if the argument is not a str; raise ValueError if it is empty or
+  contains any non-digit character (only the ASCII characters '0'-'9' are allowed; no spaces,
+  signs, or unicode digits). Known vectors: luhn_valid("79927398713") is True,
+  luhn_valid("79927398710") is False, and luhn_check_digit("7992739871") == 3.

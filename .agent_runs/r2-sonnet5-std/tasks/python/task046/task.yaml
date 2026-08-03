@@ -1,0 +1,2 @@
+title: Morse Code Encoder
+description: to_morse(text) encodes A-Z and 0-9 to Morse code; input is case-insensitive (lowercase letters encode the same as uppercase). Letters within a word are separated by a single space and words by " / " (splitting on whitespace). Raises ValueError for any character that is not a letter, digit, or whitespace. Example: to_morse("SOS") -> "... --- ..."

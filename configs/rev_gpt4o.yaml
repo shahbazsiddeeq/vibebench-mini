@@ -1,0 +1,8 @@
+# CodeAssay PROFES revision run (split-aware; grades on hidden). Model: gpt-4o
+agents:
+  - name: gpt4o-std
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o
+  - name: gpt4o-sec
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o --prompt-variant secure

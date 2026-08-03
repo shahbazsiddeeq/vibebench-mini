@@ -1,0 +1,2 @@
+title: Bounded Concurrency Executor
+description: run_bounded(fns, max_concurrent) runs the zero-arg callables in `fns` using threads with at most max_concurrent running at once, and returns their results in the order of `fns`. max_concurrent>=1 else ValueError; empty fns -> []. Example: run_bounded([lambda: 1, lambda: 2], 2) -> [1, 2]

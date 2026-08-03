@@ -1,0 +1,16 @@
+title: Group-By Sum and Mean
+description: >-
+  Implement `group_by_aggregate(records, key_field, value_field)` where `records`
+  is a list of dicts. Group the records by the value of `record[key_field]` and,
+  for each group, aggregate the numeric values found at `record[value_field]`.
+  Return a dict mapping each group key to a dict with exactly three entries:
+  `'count'` (int, number of records in the group), `'sum'` (float, the exact sum
+  of the group's values), and `'mean'` (float, the arithmetic mean = sum/count
+  rounded to 4 decimal places using Python's built-in round). Always return sums
+  and means as floats even when inputs are ints. If `records` is empty, return an
+  empty dict `{}`. If any record is missing `key_field` or `value_field`, let the
+  resulting KeyError propagate (do not catch it). Worked example:
+  records=[{'d':'A','v':100},{'d':'A','v':200},{'d':'B','v':50},{'d':'A','v':1}]
+  with key_field='d', value_field='v' returns
+  {'A': {'count': 3, 'sum': 301.0, 'mean': 100.3333}, 'B': {'count': 1, 'sum': 50.0, 'mean': 50.0}}
+  (mean 301/3 = 100.33333... rounds to 100.3333).

@@ -1,0 +1,10 @@
+# CodeAssay PROFES revision R2 (regeneration at a common output-token limit).
+# Model: google/gemini-2.5-flash   Prompt: secure
+# Writes to .agent_runs/r2-gemini25-sec/ -- the v1 run .agent_runs/gemini25-sec/ is not touched.
+# Per-call finish reasons / token usage -> .agent_runs/r2-gemini25-sec/events.jsonl
+# Settings snapshot                     -> .agent_runs/r2-gemini25-sec/runinfo.json
+# Attempt-1 programs (pre-repair)       -> .agent_runs/r2-gemini25-sec/cache/attempt1/
+agents:
+  - name: r2-gemini25-sec
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash --prompt-variant secure

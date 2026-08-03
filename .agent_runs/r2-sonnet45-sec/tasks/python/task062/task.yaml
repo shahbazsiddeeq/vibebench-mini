@@ -1,0 +1,2 @@
+title: Duplicate File Finder
+description: find_duplicates(root) returns a dict mapping SHA-256 hex hash to list of paths for files with identical content (only groups with 2+ files). Example: find_duplicates("/tmp/dir") -> {"abc123...": ["/tmp/dir/a.txt", "/tmp/dir/b.txt"]}

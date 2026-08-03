@@ -1,0 +1,2 @@
+title: Flatten Nested List
+description: flatten(nested) recursively flattens arbitrarily deep nested lists into a single flat list. Non-list items pass through unchanged. Example: flatten([1,[2,[3,4]],5]) -> [1,2,3,4,5]

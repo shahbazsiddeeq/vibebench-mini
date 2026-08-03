@@ -1,0 +1,2 @@
+title: Constant-Time String Comparison
+description: secure_compare(a, b) returns True if strings are equal using constant-time comparison (hmac.compare_digest), preventing timing attacks. Example: secure_compare("token123", "token123") -> True

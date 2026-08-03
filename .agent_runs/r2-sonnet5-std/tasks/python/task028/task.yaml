@@ -1,0 +1,2 @@
+title: Quicksort
+description: quicksort(lst) returns a new sorted list using the quicksort algorithm (not Python's built-in sort). Example: quicksort([3,1,4,1,5,9,2,6]) -> [1,1,2,3,4,5,6,9]

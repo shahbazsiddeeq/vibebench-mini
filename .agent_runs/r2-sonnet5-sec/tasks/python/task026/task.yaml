@@ -1,0 +1,8 @@
+title: All Permutations
+description: >-
+  permutations(lst) returns every ordering of lst as a list of tuples, sorted in
+  ascending order. There are exactly len(lst)! results. Permutations are taken by
+  position, not by value, so duplicate elements produce duplicate tuples (e.g.
+  permutations([1,1]) -> [(1,1),(1,1)]). An empty list returns [()]. Raises
+  ValueError if len(lst) > 8. Example: permutations([1,2,3]) ->
+  [(1,2,3),(1,3,2),(2,1,3),(2,3,1),(3,1,2),(3,2,1)]

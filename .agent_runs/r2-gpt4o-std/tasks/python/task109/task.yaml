@@ -1,0 +1,2 @@
+title: Pipeline Function Composer
+description: pipeline(*fns) returns a function that applies fns left-to-right to its input. Example: double=lambda x:x*2; inc=lambda x:x+1; pipeline(double,inc)(3) -> 7

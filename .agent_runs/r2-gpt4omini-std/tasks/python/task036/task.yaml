@@ -1,0 +1,2 @@
+title: Trie (Prefix Tree)
+description: Trie class with insert(word), search(word)->bool, starts_with(prefix)->bool. Example: t=Trie(); t.insert("apple"); t.search("apple") -> True; t.starts_with("app") -> True

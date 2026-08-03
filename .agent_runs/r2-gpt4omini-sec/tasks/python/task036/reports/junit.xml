@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.050" timestamp="2026-08-01T13:17:13.290966+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_insert_search_found" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_starts_with_true" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_empty_prefix" time="0.001"><failure message="ValueError: Input must be a non-empty string containing only alphabetic characters.">def test_empty_prefix():
+        t = Trie()
+        t.insert("hello")
+&gt;       assert t.starts_with("") is True
+               ^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;src.solution.Trie object at 0x10abc34d0&gt;, prefix = ''
+
+    def starts_with(self, prefix: str) -&gt; bool:
+        if not isinstance(prefix, str) or not prefix.isalpha():
+&gt;           raise ValueError("Input must be a non-empty string containing only alphabetic characters.")
+E           ValueError: Input must be a non-empty string containing only alphabetic characters.
+
+src/solution.py:36: ValueError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_search_after_multiple_inserts" time="0.000" /></testsuite></testsuites>

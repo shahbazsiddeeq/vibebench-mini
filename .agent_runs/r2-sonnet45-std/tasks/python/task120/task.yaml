@@ -1,0 +1,2 @@
+title: TTL Cache
+description: TTLCache(ttl_seconds, max_size) stores key-value pairs that expire ttl_seconds after they are set. get(key) returns the value, or None if the key is missing or has expired. set(key, value) stores/updates it. When the cache is full, expired entries are reclaimed first, then the oldest remaining entry is evicted (so a stale entry is dropped before any live one). max_size <= 0 means the cache holds nothing and set is a no-op. Example: c=TTLCache(1,10); c.set("x",1); c.get("x") -> 1

@@ -1,0 +1,10 @@
+# CodeAssay PROFES revision R2 (regeneration at a common output-token limit).
+# Model: gpt-5.6-sol   Prompt: standard
+# Writes to .agent_runs/r2-gpt56sol-std/ -- the v1 run .agent_runs/gpt56sol-std/ is not touched.
+# Per-call finish reasons / token usage -> .agent_runs/r2-gpt56sol-std/events.jsonl
+# Settings snapshot                     -> .agent_runs/r2-gpt56sol-std/runinfo.json
+# Attempt-1 programs (pre-repair)       -> .agent_runs/r2-gpt56sol-std/cache/attempt1/
+agents:
+  - name: r2-gpt56sol-std
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-5.6-sol

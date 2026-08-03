@@ -1,0 +1,27 @@
+from src.solution import text_stats
+
+
+def test_empty():
+    result = text_stats("")
+    assert result == {
+        "char_count": 0,
+        "word_count": 0,
+        "sentence_count": 0,
+        "avg_word_length": 0.0,
+    }
+
+
+def test_avg_word_length():
+    result = text_stats("ab cde")
+    assert result["avg_word_length"] == 2.5
+
+
+def test_avg_word_length_rounded_2dp():
+    # (1 + 2 + 4) / 3 == 2.3333... -> 2.33
+    result = text_stats("a bb cccc")
+    assert result["avg_word_length"] == 2.33
+
+
+def test_char_count():
+    result = text_stats("abc")
+    assert result["char_count"] == 3

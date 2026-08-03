@@ -1,0 +1,13 @@
+{
+  "id": "VibeBench-v1-secure",
+  "missing_metric": "skip",
+  "weights": {
+    "correctness": 1.0,
+    "security_score": 1.0,
+    "dep_score": 0.75,
+    "lint_score": 0.25,
+    "complexity_score": 0.25
+  },
+  "description": "LEGACY composite weights. NOT used in the published results. Retained only so earlier runs remain reproducible. The published evaluation reports correctness and each quality indicator separately and defines no composite score.",
+  "_deprecated": "Composite scoring is not used in the published results. See README.md, section Scoring."
+}

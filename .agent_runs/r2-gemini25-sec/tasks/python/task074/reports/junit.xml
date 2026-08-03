@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.164" timestamp="2026-08-01T13:36:32.588848+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_insert" time="0.026"><failure message="RuntimeError: Database operation failed: near &quot;&quot;id&quot;&quot;: syntax error">db_path = '/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_insert0/db.sqlite'
+table = 'users', record = {'id': 1, 'name': 'Alice'}, key = 'id'
+
+    def upsert(db_path, table, record, key):
+        """
+        Inserts record into a SQLite table, or updates the existing row on a conflict
+        of the key column.
+    
+        The key column must have a UNIQUE or PRIMARY KEY constraint.
+        On conflict, every column in record other than key is overwritten with the new value,
+        while columns not present in record are left unchanged.
+        If record contains only the key, the existing row is left untouched.
+    
+        Args:
+            db_path (str): Path to the SQLite database file.
+            table (str): The name of the table.
+            record (dict): A dictionary representing the row to insert or update.
+            key (str): The name of the key column.
+    
+        Raises:
+            ValueError: If table, key, or any record key is not a valid identifier.
+            KeyError: If key is not present in record.
+            RuntimeError: For unexpected database operation failures.
+        """
+    
+        if not _is_valid_identifier(table):
+            raise ValueError(f"Invalid table name: {table}")
+        if not _is_valid_identifier(key):
+            raise ValueError(f"Invalid key column name: {key}")
+        if key not in record:
+            raise KeyError(f"Key column '{key}' not found in record.")
+    
+        for col in record:
+            if not _is_valid_identifier(col):
+                raise ValueError(f"Invalid column name in record: {col}")
+    
+        quoted_table = f'"{table}"'
+        quoted_key = f'"{key}"'
+    
+        columns = []
+        placeholders = []
+        values = []
+        update_set_parts = []
+    
+        for col, value in record.items():
+            quoted_col = f'"{col}"'
+            columns.append(quoted_col)
+            placeholders.append("?")
+            values.append(value)
+            if col != key:
+                update_set_parts.append(f"{quoted_col} = EXCLUDED.{quoted_col}")
+    
+        insert_cols_str = ", ".join(columns)
+        insert_placeholders_str = ", ".join(placeholders)
+    
+        # If only the key is present, no update should happen on conflict.
+        # The ON CONFLICT clause should still be present to avoid an error,
+        # but the DO UPDATE SET part should be omitted or effectively a no-op.
+        if not update_set_parts:
+            # If only the key is provided, we still need an ON CONFLICT clause
+            # to prevent an INSERT error, but we don't want to update anything.
+            # A common way to achieve a no-op update is to set a column to itself.
+            # However, SQLite's UPSERT (ON CONFLICT DO UPDATE) requires at least one SET clause.
+            # If we truly want to do nothing, we can use DO NOTHING.
+            # The problem description says "if record contains only the key, the existing row is left untouched."
+            # This implies DO NOTHING is the correct behavior.
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO NOTHING"
+        else:
+            update_set_str = ", ".join(update_set_parts)
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO UPDATE SET {update_set_str}"
+    
+        sql = f"""
+            INSERT INTO {quoted_table} ({insert_cols_str})
+            VALUES ({insert_placeholders_str})
+            {on_conflict_clause};
+        """
+    
+        try:
+            with sqlite3.connect(db_path) as conn:
+&gt;               conn.execute(sql, values)
+E               sqlite3.OperationalError: near ""id"": syntax error
+
+src/solution.py:88: OperationalError
+
+The above exception was the direct cause of the following exception:
+
+tmp_path = PosixPath('/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_insert0')
+
+    def test_insert(tmp_path):
+        db = str(tmp_path / "db.sqlite")
+        _setup_db(db)
+&gt;       upsert(db, "users", {"id": 1, "name": "Alice"}, "id")
+
+tests_hidden/test_solution.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+db_path = '/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_insert0/db.sqlite'
+table = 'users', record = {'id': 1, 'name': 'Alice'}, key = 'id'
+
+    def upsert(db_path, table, record, key):
+        """
+        Inserts record into a SQLite table, or updates the existing row on a conflict
+        of the key column.
+    
+        The key column must have a UNIQUE or PRIMARY KEY constraint.
+        On conflict, every column in record other than key is overwritten with the new value,
+        while columns not present in record are left unchanged.
+        If record contains only the key, the existing row is left untouched.
+    
+        Args:
+            db_path (str): Path to the SQLite database file.
+            table (str): The name of the table.
+            record (dict): A dictionary representing the row to insert or update.
+            key (str): The name of the key column.
+    
+        Raises:
+            ValueError: If table, key, or any record key is not a valid identifier.
+            KeyError: If key is not present in record.
+            RuntimeError: For unexpected database operation failures.
+        """
+    
+        if not _is_valid_identifier(table):
+            raise ValueError(f"Invalid table name: {table}")
+        if not _is_valid_identifier(key):
+            raise ValueError(f"Invalid key column name: {key}")
+        if key not in record:
+            raise KeyError(f"Key column '{key}' not found in record.")
+    
+        for col in record:
+            if not _is_valid_identifier(col):
+                raise ValueError(f"Invalid column name in record: {col}")
+    
+        quoted_table = f'"{table}"'
+        quoted_key = f'"{key}"'
+    
+        columns = []
+        placeholders = []
+        values = []
+        update_set_parts = []
+    
+        for col, value in record.items():
+            quoted_col = f'"{col}"'
+            columns.append(quoted_col)
+            placeholders.append("?")
+            values.append(value)
+            if col != key:
+                update_set_parts.append(f"{quoted_col} = EXCLUDED.{quoted_col}")
+    
+        insert_cols_str = ", ".join(columns)
+        insert_placeholders_str = ", ".join(placeholders)
+    
+        # If only the key is present, no update should happen on conflict.
+        # The ON CONFLICT clause should still be present to avoid an error,
+        # but the DO UPDATE SET part should be omitted or effectively a no-op.
+        if not update_set_parts:
+            # If only the key is provided, we still need an ON CONFLICT clause
+            # to prevent an INSERT error, but we don't want to update anything.
+            # A common way to achieve a no-op update is to set a column to itself.
+            # However, SQLite's UPSERT (ON CONFLICT DO UPDATE) requires at least one SET clause.
+            # If we truly want to do nothing, we can use DO NOTHING.
+            # The problem description says "if record contains only the key, the existing row is left untouched."
+            # This implies DO NOTHING is the correct behavior.
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO NOTHING"
+        else:
+            update_set_str = ", ".join(update_set_parts)
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO UPDATE SET {update_set_str}"
+    
+        sql = f"""
+            INSERT INTO {quoted_table} ({insert_cols_str})
+            VALUES ({insert_placeholders_str})
+            {on_conflict_clause};
+        """
+    
+        try:
+            with sqlite3.connect(db_path) as conn:
+                conn.execute(sql, values)
+                conn.commit()
+        except sqlite3.Error as e:
+            # Do not expose internal database errors directly.
+            # Log the error if a logging system is available.
+            # For this task, re-raising a generic error or a specific custom error
+            # is appropriate if the error is not due to invalid input.
+            # Here, we assume input validation handles most user-induced errors.
+&gt;           raise RuntimeError(f"Database operation failed: {e}") from e
+E           RuntimeError: Database operation failed: near ""id"": syntax error
+
+src/solution.py:96: RuntimeError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_key_not_in_record_raises" time="0.005" /><testcase classname="tests_hidden.test_solution" name="test_key_only_record_leaves_row_untouched" time="0.007"><failure message="RuntimeError: Database operation failed: near &quot;&quot;id&quot;&quot;: syntax error">db_path = '/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_key_only_record_leaves_ro0/db.sqlite'
+table = 'users', record = {'id': 1, 'name': 'Alice'}, key = 'id'
+
+    def upsert(db_path, table, record, key):
+        """
+        Inserts record into a SQLite table, or updates the existing row on a conflict
+        of the key column.
+    
+        The key column must have a UNIQUE or PRIMARY KEY constraint.
+        On conflict, every column in record other than key is overwritten with the new value,
+        while columns not present in record are left unchanged.
+        If record contains only the key, the existing row is left untouched.
+    
+        Args:
+            db_path (str): Path to the SQLite database file.
+            table (str): The name of the table.
+            record (dict): A dictionary representing the row to insert or update.
+            key (str): The name of the key column.
+    
+        Raises:
+            ValueError: If table, key, or any record key is not a valid identifier.
+            KeyError: If key is not present in record.
+            RuntimeError: For unexpected database operation failures.
+        """
+    
+        if not _is_valid_identifier(table):
+            raise ValueError(f"Invalid table name: {table}")
+        if not _is_valid_identifier(key):
+            raise ValueError(f"Invalid key column name: {key}")
+        if key not in record:
+            raise KeyError(f"Key column '{key}' not found in record.")
+    
+        for col in record:
+            if not _is_valid_identifier(col):
+                raise ValueError(f"Invalid column name in record: {col}")
+    
+        quoted_table = f'"{table}"'
+        quoted_key = f'"{key}"'
+    
+        columns = []
+        placeholders = []
+        values = []
+        update_set_parts = []
+    
+        for col, value in record.items():
+            quoted_col = f'"{col}"'
+            columns.append(quoted_col)
+            placeholders.append("?")
+            values.append(value)
+            if col != key:
+                update_set_parts.append(f"{quoted_col} = EXCLUDED.{quoted_col}")
+    
+        insert_cols_str = ", ".join(columns)
+        insert_placeholders_str = ", ".join(placeholders)
+    
+        # If only the key is present, no update should happen on conflict.
+        # The ON CONFLICT clause should still be present to avoid an error,
+        # but the DO UPDATE SET part should be omitted or effectively a no-op.
+        if not update_set_parts:
+            # If only the key is provided, we still need an ON CONFLICT clause
+            # to prevent an INSERT error, but we don't want to update anything.
+            # A common way to achieve a no-op update is to set a column to itself.
+            # However, SQLite's UPSERT (ON CONFLICT DO UPDATE) requires at least one SET clause.
+            # If we truly want to do nothing, we can use DO NOTHING.
+            # The problem description says "if record contains only the key, the existing row is left untouched."
+            # This implies DO NOTHING is the correct behavior.
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO NOTHING"
+        else:
+            update_set_str = ", ".join(update_set_parts)
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO UPDATE SET {update_set_str}"
+    
+        sql = f"""
+            INSERT INTO {quoted_table} ({insert_cols_str})
+            VALUES ({insert_placeholders_str})
+            {on_conflict_clause};
+        """
+    
+        try:
+            with sqlite3.connect(db_path) as conn:
+&gt;               conn.execute(sql, values)
+E               sqlite3.OperationalError: near ""id"": syntax error
+
+src/solution.py:88: OperationalError
+
+The above exception was the direct cause of the following exception:
+
+tmp_path = PosixPath('/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_key_only_record_leaves_ro0')
+
+    def test_key_only_record_leaves_row_untouched(tmp_path):
+        db = str(tmp_path / "db.sqlite")
+        with sqlite3.connect(db) as conn:
+            conn.execute("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT)")
+&gt;       upsert(db, "users", {"id": 1, "name": "Alice"}, "id")
+
+tests_hidden/test_solution.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+db_path = '/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18715/test_key_only_record_leaves_ro0/db.sqlite'
+table = 'users', record = {'id': 1, 'name': 'Alice'}, key = 'id'
+
+    def upsert(db_path, table, record, key):
+        """
+        Inserts record into a SQLite table, or updates the existing row on a conflict
+        of the key column.
+    
+        The key column must have a UNIQUE or PRIMARY KEY constraint.
+        On conflict, every column in record other than key is overwritten with the new value,
+        while columns not present in record are left unchanged.
+        If record contains only the key, the existing row is left untouched.
+    
+        Args:
+            db_path (str): Path to the SQLite database file.
+            table (str): The name of the table.
+            record (dict): A dictionary representing the row to insert or update.
+            key (str): The name of the key column.
+    
+        Raises:
+            ValueError: If table, key, or any record key is not a valid identifier.
+            KeyError: If key is not present in record.
+            RuntimeError: For unexpected database operation failures.
+        """
+    
+        if not _is_valid_identifier(table):
+            raise ValueError(f"Invalid table name: {table}")
+        if not _is_valid_identifier(key):
+            raise ValueError(f"Invalid key column name: {key}")
+        if key not in record:
+            raise KeyError(f"Key column '{key}' not found in record.")
+    
+        for col in record:
+            if not _is_valid_identifier(col):
+                raise ValueError(f"Invalid column name in record: {col}")
+    
+        quoted_table = f'"{table}"'
+        quoted_key = f'"{key}"'
+    
+        columns = []
+        placeholders = []
+        values = []
+        update_set_parts = []
+    
+        for col, value in record.items():
+            quoted_col = f'"{col}"'
+            columns.append(quoted_col)
+            placeholders.append("?")
+            values.append(value)
+            if col != key:
+                update_set_parts.append(f"{quoted_col} = EXCLUDED.{quoted_col}")
+    
+        insert_cols_str = ", ".join(columns)
+        insert_placeholders_str = ", ".join(placeholders)
+    
+        # If only the key is present, no update should happen on conflict.
+        # The ON CONFLICT clause should still be present to avoid an error,
+        # but the DO UPDATE SET part should be omitted or effectively a no-op.
+        if not update_set_parts:
+            # If only the key is provided, we still need an ON CONFLICT clause
+            # to prevent an INSERT error, but we don't want to update anything.
+            # A common way to achieve a no-op update is to set a column to itself.
+            # However, SQLite's UPSERT (ON CONFLICT DO UPDATE) requires at least one SET clause.
+            # If we truly want to do nothing, we can use DO NOTHING.
+            # The problem description says "if record contains only the key, the existing row is left untouched."
+            # This implies DO NOTHING is the correct behavior.
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO NOTHING"
+        else:
+            update_set_str = ", ".join(update_set_parts)
+            on_conflict_clause = f"ON CONFLICT {quoted_key} DO UPDATE SET {update_set_str}"
+    
+        sql = f"""
+            INSERT INTO {quoted_table} ({insert_cols_str})
+            VALUES ({insert_placeholders_str})
+            {on_conflict_clause};
+        """
+    
+        try:
+            with sqlite3.connect(db_path) as conn:
+                conn.execute(sql, values)
+                conn.commit()
+        except sqlite3.Error as e:
+            # Do not expose internal database errors directly.
+            # Log the error if a logging system is available.
+            # For this task, re-raising a generic error or a specific custom error
+            # is appropriate if the error is not due to invalid input.
+            # Here, we assume input validation handles most user-induced errors.
+&gt;           raise RuntimeError(f"Database operation failed: {e}") from e
+E           RuntimeError: Database operation failed: near ""id"": syntax error
+
+src/solution.py:96: RuntimeError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_injection_in_column_raises" time="0.010" /></testsuite></testsuites>

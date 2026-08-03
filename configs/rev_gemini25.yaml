@@ -1,0 +1,8 @@
+# CodeAssay PROFES revision run (split-aware; grades on hidden). Model: google/gemini-2.5-flash
+agents:
+  - name: gemini25-std
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash
+  - name: gemini25-sec
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash --prompt-variant secure

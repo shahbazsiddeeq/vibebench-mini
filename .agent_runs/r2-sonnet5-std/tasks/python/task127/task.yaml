@@ -1,0 +1,2 @@
+title: Rate Limiter (Token Bucket)
+description: TokenBucket(capacity) (capacity>=1 else ValueError) starts full. allow(n=1) atomically consumes n tokens and returns True if >=n are available, otherwise returns False and consumes nothing. refill(n) adds n tokens capped at capacity. The read-only `tokens` property returns the current token count. Thread-safe. Example: b=TokenBucket(2); b.allow() -> True; b.allow() -> True; b.allow() -> False; b.refill(1); b.allow() -> True; b.tokens -> 0

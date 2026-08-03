@@ -1,0 +1,9 @@
+title: Command Pattern (Undo/Redo Buffer)
+description: >
+  class TextBuffer with append(s: str) -> None, undo() -> bool, redo() -> bool,
+  and a text property. append records a command that adds s to the end of the
+  text; it raises ValueError if s is not a str. undo reverts the last append
+  (returning False if there is nothing to undo, else True). redo re-applies the
+  last undone append (returning False if there is nothing to redo, else True). A
+  new append clears the redo stack. Example: b = TextBuffer(); b.append('a');
+  b.append('b'); b.undo(); assert b.text == 'a'; b.redo(); assert b.text == 'ab'.

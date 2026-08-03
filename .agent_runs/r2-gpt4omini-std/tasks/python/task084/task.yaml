@@ -1,0 +1,2 @@
+title: HTTP Status Code Classifier
+description: classify_status(code) returns "informational", "success", "redirect", "client_error", or "server_error". Raises ValueError for codes outside 100-599. Example: classify_status(404) -> "client_error"

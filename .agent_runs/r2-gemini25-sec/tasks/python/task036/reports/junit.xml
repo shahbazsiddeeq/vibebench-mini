@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.051" timestamp="2026-08-01T13:07:16.020363+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_insert_search_found" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_starts_with_true" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty_prefix" time="0.001"><failure message="AssertionError: assert False is True&#10; +  where False = starts_with('')&#10; +    where starts_with = &lt;src.solution.Trie object at 0x10b2d3a40&gt;.starts_with">def test_empty_prefix():
+        t = Trie()
+        t.insert("hello")
+&gt;       assert t.starts_with("") is True
+E       AssertionError: assert False is True
+E        +  where False = starts_with('')
+E        +    where starts_with = &lt;src.solution.Trie object at 0x10b2d3a40&gt;.starts_with
+
+tests_hidden/test_solution.py:19: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_search_after_multiple_inserts" time="0.000" /></testsuite></testsuites>

@@ -1,0 +1,2 @@
+title: Histogram Bins
+description: histogram(data, bins) returns a list of (bin_start, bin_end, count) tuples with equal-width bins spanning [min(data), max(data)]. Bin edges are floats. Each bin is half-open [bin_start, bin_end) so a value on an interior edge belongs to the upper bin; the final bin is closed [bin_start, bin_end] so max(data) is counted. Raises ValueError if bins < 1 or data is empty. If all values are equal, returns a single bin (v, v, len(data)). Example: histogram([1, 2, 3, 4, 5], 2) -> [(1.0, 3.0, 2), (3.0, 5.0, 3)]

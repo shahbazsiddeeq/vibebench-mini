@@ -1,0 +1,2 @@
+title: Fibonacci (Memoized)
+description: fib(n) returns the nth Fibonacci number (0-indexed, fib(0)=0, fib(1)=1) using memoization. Raises ValueError for n < 0. Example: fib(10) -> 55

@@ -1,0 +1,10 @@
+title: Chain of Responsibility
+description: >
+  class Handler with set_next(nxt: Handler) -> Handler (returns nxt for chaining)
+  and handle(amount: int) -> str | None, plus subclasses LowHandler
+  (amount < 100 -> 'low'), MidHandler (100 <= amount < 1000 -> 'mid'), HighHandler
+  (amount >= 1000 -> 'high'). Each handler either handles the amount or delegates
+  to the next handler in the chain, returning None if no handler in the chain
+  handles it. handle raises ValueError if amount is not an integer (a bool does
+  not count as an integer). Example: chain low->mid->high; assert
+  chain.handle(500) == 'mid'; a lone LowHandler on 500 returns None.

@@ -1,0 +1,927 @@
+{
+  "task02": {
+    "task.yaml": "4a06b0aa8fdcd1f44455dc841d96758291a565951ad4bc7f37f95173409411b1",
+    "src/solution.py": "bdf2a862e4b3a769860814f33cd8ad466d8b2393a37ab191f3f711ed521ac955",
+    "tests/test_solution.py": "4c559eb3b1c9a2cd09c057541797dd4a00c79c238cd10dc13b4d1072d564710e"
+  },
+  "task03": {
+    "task.yaml": "fa20fe9c8f6674d79e1d4c2b7619d6f779c496e213c11b835755b315edbe88ab",
+    "src/solution.py": "838c3cbc0c4aea65423a92052a11762ed1b00142e5f92cae2316971023a74112",
+    "tests/test_solution.py": "d3e1783b0ba02156af06656ab715fd80f44c7b94cbcb65a0c606e7c1609d690b"
+  },
+  "task04": {
+    "task.yaml": "7a6194796d51d6f15752a49c0ae28b768302874f025986af44a1f37c001c174e",
+    "src/solution.py": "9abe99cdb09f9294ef2292cbcd9bc0750bf6a217e632e582a3d19d2ffb3f2333",
+    "tests/test_solution.py": "d365f9ea5d0c6ce2d5fffb0c47060a5c9df8e1bf9aace46f4b70d53bd8618326"
+  },
+  "task05": {
+    "task.yaml": "268522034d6ba1085eb9766019b3a8f1e465d0eae8fc0c05d7b8404765f4dc4d",
+    "src/solution.py": "f260a53500b6847248610f742443c70dcb2b5469ee7c559f95022839b98b1785",
+    "tests/test_solution.py": "e500648fd0a9134e95c3afec1536027af69264a562f01ceb5a4b25e71fa4f607"
+  },
+  "task06": {
+    "task.yaml": "1d8264800a42b6abea543260c344a1ee9a080371bbd01670be5b05ae7fdd7c72",
+    "src/solution.py": "4d19bee0f9d17108730de9d58a03260255b497865216660e268dfb9c4d5d0809",
+    "tests/test_solution.py": "390170217a8fef93a17bfc247dc8d0f48130dc79d73b1afbf353018e093d99fc"
+  },
+  "task07": {
+    "task.yaml": "b67105c8f15ff65e0af9a6dc96a5dcedbaad85c5011e87760a02d1672c5a8268",
+    "src/solution.py": "c8bec1576a78c76d71a83eeb95f7cc409f754f33d7cadf7a26bf0f5819bc1a55",
+    "tests/test_solution.py": "91c23164701458abbfa9649d3b129af65ff930b1cdbd7f85e86ec4095b229239"
+  },
+  "task08": {
+    "task.yaml": "47f8315494c759d4e7497b6b8f86b5e8ebd8539686500d8cfdf1cb5795951aaa",
+    "src/solution.py": "ee905fbfa86581c4ca32c3125b5701e22c60ce7b35b0816a24879d266d5c5bcf",
+    "tests/test_solution.py": "b04d2b9671b33d89e56b167cf44eb28025589282a2fc4af74e5375b14a1f64ce"
+  },
+  "task09": {
+    "task.yaml": "41fa27d9d5c9eb31c2d506d2ba6576a96e82ca831a6cc4b47a9321b67243f595",
+    "src/solution.py": "c38864c41c57910afa3a146e1cd0d43abe793408229db944e45afd47b57ad829",
+    "tests/test_solution.py": "ecdd987f224b833c4012ba34926fc6c4b395a1b58cfaaa1570edb6ea5647f6f7"
+  },
+  "task10": {
+    "task.yaml": "ea3c741c1a6332b36121d3f2a7ba2117a457f4bac0b9a8d1bdd035caa8efb300",
+    "src/solution.py": "a01ec4e936f4a3e6a92a4158679b1daf0aa7b6464909e383236b1894e6e5d5b6",
+    "tests/test_solution.py": "d33d2c88d25bcbb8bb6467fd9c8efbdc09b972b9e4a240e017c1e87bf4578330"
+  },
+  "task11": {
+    "task.yaml": "30c30cebcf8dc7ed8d8e13fe53fe99486d710791f252252e77f9e9c44f4548f7",
+    "src/solution.py": "8958f0eb45d50d8faeecd14971f4a37dbb1458da8483cd90641398f321146399",
+    "tests/test_solution.py": "94350643a11336568919aea70d5afc02e2d53ab3f8bec3710eef62abec829375"
+  },
+  "task12": {
+    "task.yaml": "f2c6f44779d95ee43d9a0e75fc2160da38bd03b20df03c7529460a874bc49adc",
+    "src/solution.py": "f34979bf723ac4ed6efbf3b4002ce9d79795b6305ec9f73245f0940e15b5e106",
+    "tests/test_solution.py": "dffa9c86fdd04f3b42910696a2ec14135406d242d4a9be5902c1882e6c53d299"
+  },
+  "task13": {
+    "task.yaml": "12fa0a5dc7cc7f48da3d6ed76458e1e85df473933e2deab7baf222d655661431",
+    "src/solution.py": "ed941f36cb223b3676b3758e22c11c03e57dd05812b7f31d3558bdbb3d64c6c0",
+    "tests/test_solution.py": "6b29fbfb71fca20a98452cecc2522575d321f646dc6033e1d0df5a422c200fa8"
+  },
+  "task14": {
+    "task.yaml": "cbee7e88f46a06f9c3f549edd8fc57c96a67c2f60ba47cfd836f0a01ecc4c8d1",
+    "src/solution.py": "c8cb3f174be62cba398470f52beaf9934edb9cd22d3a260fb4fad41cc35f2b84",
+    "tests/test_solution.py": "fb3b33d1f43ed7cad37c6e4f4ca50257d6335d0a70920ce4f731989f8bdd7b7d"
+  },
+  "task15": {
+    "task.yaml": "9e4f64d7a31c1bed04e316c58e07921f52f8cfdaa08ce35413682d6dd65a08ba",
+    "src/solution.py": "d14f84cff472056b06c4e58cdaae359302bd9d1b92b3b79d910e4651fd2638b5",
+    "tests/test_solution.py": "c68753f6ad65de82609bcbf440091747d2a05538d47a3882a7ffc8b4bdcfcbc1"
+  },
+  "task17": {
+    "task.yaml": "a6fb84f009219056b4a3910247f7af4a838edb7c75b8ff69fb5a4b2a0dfcb119",
+    "src/solution.py": "cb40a0f2e8697ac48cab76d1aa051cd5ef7e37c845bb556391884ca16dac5ed3",
+    "tests/test_solution.py": "0b5049d14a3a68a1ea93f2193bc6be27f98f61e38488da3685271c0475e495f6"
+  },
+  "task018": {
+    "task.yaml": "302e3d5007df57574b3cbd5106f943480fd11316bb229fa4c89e802f4cc8f638",
+    "src/solution.py": "1a19c4379ceea41172363adedcb7270631d24b8fe5c5b297804563f0558a51a7",
+    "tests/test_solution.py": "feae9a1338447963ea3b7f5d26c8b7f56ea080cd3ae2366fb24edca349d9023d"
+  },
+  "task019": {
+    "task.yaml": "76165fbabc46f3de170d696a66adad18c217525f556341be7dfab62011c36d6e",
+    "src/solution.py": "23affa3be02dea8b1f7e1a89a19b8fbbd5ddba9e69063a362c21d1b29c6adb81",
+    "tests/test_solution.py": "718a58630a8f1d065b399dac40a707bdff23def7d6888a0ec7aae7360aec347f"
+  },
+  "task020": {
+    "task.yaml": "48a48a0af1468648e96b9bbf5d8152e294d3ddbdced111909b7994387287246e",
+    "src/solution.py": "864ff19efaa817846ab9a28940a53bcc6219ea4be240fe94950d23890e7b037b",
+    "tests/test_solution.py": "dfb479944e2d736dd615aa9cc77c5e737e8e1fb2c10e3db05fbfbfde4e7a5833"
+  },
+  "task021": {
+    "task.yaml": "e10d6853a471634d0ce0ce0b7a464e3bfb4910721a02d55655c6d81524453db8",
+    "src/solution.py": "3acc3a72f00c8046d05f2621f037c942f92b2b85aa73b2bc8ad01f75817e36a0",
+    "tests/test_solution.py": "a0cb5cc8a647e28a8d60ba9f4add7e1ebeaff917be71517508a0aba337bfde58"
+  },
+  "task022": {
+    "task.yaml": "de3c2aa7c5d53b38ed57baa6a34bf46312e3a7578816588adbafb2a00c7980d9",
+    "src/solution.py": "90568d8e0db2268748426b47cfb731068a956fcae6e468811ee9981db920095e",
+    "tests/test_solution.py": "1e890180e6a2e4e0826053ecedc203a226d52c94550774b99486e9a2cdd3998a"
+  },
+  "task023": {
+    "task.yaml": "40a166dcfc374a1d4cf51205f4c038c0dd800428c0d34fe2101187ec9ccb1882",
+    "src/solution.py": "0fb7f70d06115e528128cb1f27c4d23747aaed8628bd51cac2620e8dd4ef575b",
+    "tests/test_solution.py": "550f424a8a63eb58a102a39d62f0eb74a7e14a62fa2d0e597140e5a2a96afa61"
+  },
+  "task024": {
+    "task.yaml": "46095269e3e8b9c2ac89b2de416e0a8a73ea3e94d46b1ea3c42f0d58b7775255",
+    "src/solution.py": "7b48926172aeee6a3e4fc7f4fa0b0f66b65877cb755e0088a0bb22c75e999c45",
+    "tests/test_solution.py": "aa55499cee0cf632aefe4e55d0e6d3767d6d31194c2c7129fae548afa140778b"
+  },
+  "task025": {
+    "task.yaml": "bf44d3a358e37c1801de60e475403125ddda08f63a6f8d137c534f7d5135c584",
+    "src/solution.py": "f4ba01b787db92db274b4f33e41dce9d45eeeaebc049b2b105f33dc908663c43",
+    "tests/test_solution.py": "d5209c1da74260c28dd4d3f2a3395270199007b18727be33362d024aa5a460e4"
+  },
+  "task026": {
+    "task.yaml": "0858b45c3e1aea65f4f71aab4392fa12a59a89f6e0a930bd78ddb65bfe1f8823",
+    "src/solution.py": "4fe2006523669fec5c71525badbfeeb19b99e3eee0d8da69b614615f526bc1a1",
+    "tests/test_solution.py": "c36d61ef4d39f38045b7bf0d65c6c139578250abb98de227d7bbf581120e9cfd"
+  },
+  "task027": {
+    "task.yaml": "1b5463faea3993bda30bc85853e1300403d432e8a5db550cab5c80b4e321ced3",
+    "src/solution.py": "ec9cf25c01f713ede3352b39266d0e775a68d2d020b406beab156b6799fa9284",
+    "tests/test_solution.py": "09bdbd1a908af4cf7ed4d7f9c7d2eb1eab848da291137658ad87591519c6f203"
+  },
+  "task028": {
+    "task.yaml": "4822208bb188cf88d1f2ad8e2c31727d50f6b4e408cafd2e3480d09d90fc79b1",
+    "src/solution.py": "0cc1d8a4ce3670c3e02ac720312b1e219450c2a72e6b0c214d8b3b58c79a3507",
+    "tests/test_solution.py": "bee04b619ce5f17e5cd900185e4e004083a2f2d543457115d7ffd47d59f5079f"
+  },
+  "task029": {
+    "task.yaml": "667b374f186ee810a6096b95be190d4886976e0a1d3251326be706308fb1efb9",
+    "src/solution.py": "1bfb72af40d91a4155fec1efb9325b919b76df76fa5411709a49e75a69016247",
+    "tests/test_solution.py": "121534d877b63549f5626554e176cc3b0547b52ed5c32c415ec61dc58041e261"
+  },
+  "task030": {
+    "task.yaml": "930ef5c7cf0fd6b808200faab6e03795acc9c8cb15bcd5477472b80fec2ba73f",
+    "src/solution.py": "423affd244165fa5aad417ef5f35009fd9716373edd0e9d3ba778a85122188b7",
+    "tests/test_solution.py": "75c11cef434321d1ed9c4e1cb15f776f5366cb8a292f6ff003e97fc5ed29733a"
+  },
+  "task031": {
+    "task.yaml": "53e7ef1917c79244d608f86ef74ff878930954a476786ad7d5c0070a2237ac2e",
+    "src/solution.py": "e2f98d1ae2d51a1a07fb6860c88004cad0065d6c1e68a183a761b86516e6c7e3",
+    "tests/test_solution.py": "8bc0fddac66801808266bdbcc8d9fb62b0a4682b51e2b64129533dab7dc86702"
+  },
+  "task032": {
+    "task.yaml": "d4f995ab43d6a95a99bd8118ae5d4611668b89e8e65ed1544697d2fbc971ac77",
+    "src/solution.py": "60ab02a4cbe9a13581d0955ed1adcd7c3b3527280a96b57adeaa89aed09523bd",
+    "tests/test_solution.py": "23e28698e82793d53536a26715e0ca42817258ae2810859b8a01b5580aa90361"
+  },
+  "task033": {
+    "task.yaml": "ad605a3b3243249ccf76cad9e3befe4074da67b37e1384df7332e79b08236e48",
+    "src/solution.py": "2d044fba2a4ffa64f986eea9cc62137ebe8ad4f3a0d90167615bda3a536ae406",
+    "tests/test_solution.py": "934dd96abf388090590c2423c06e8b7e1007540a6769c2a15fe8d3d71b23bb9b"
+  },
+  "task034": {
+    "task.yaml": "5ad64b768f32c45048bb2dfea52adf321a556c8f127c07125c069fb2ca28ac9c",
+    "src/solution.py": "18166454f71cafb8848420d33d9a9c4e541bcd0c719298e1efa99ccf49628f96",
+    "tests/test_solution.py": "681b088f9974f50e474d54b1d384123cf148dd692856af561420f089568f8764"
+  },
+  "task035": {
+    "task.yaml": "35294d7d859993116bafa57fd45b518e820ff92a7edf1dc05804e000346261ea",
+    "src/solution.py": "0375aa0e66c5d94633a89379f002a0bf9a2b6e1881c3c6238b992ed91b60ac3d",
+    "tests/test_solution.py": "6895d7ac5f5cd7550d82db2c9252cd6f6e49040fc34d1620360535383a9141f8"
+  },
+  "task036": {
+    "task.yaml": "bb611ef19da9f71f7f6bf14aae301e28774ec0f24225ad434a0e8744a40dc2de",
+    "src/solution.py": "a9084aace9926f786567ed0f3018435e9a6f559d07845bba578df98d6fd1868e",
+    "tests/test_solution.py": "187bb0febff493d6e98cb502f116cd77f3fc7a44d70b6f52fdaaf21adab58563"
+  },
+  "task037": {
+    "task.yaml": "4613c54e642071dbc836b2e6eebe31b0f366d072c783fe04c9d21ab6e28b7ec9",
+    "src/solution.py": "e1bf7ef070990d47a82f742ff7a1ffeea20cc91f7023a166f8681b2b11b3bb7e",
+    "tests/test_solution.py": "db3de50011b1966601aefc59fdff19d89258703b675a0d1bb3ed36a0f46ec495"
+  },
+  "task038": {
+    "task.yaml": "1803976b570ee07d0317310a807c605ce9cdc55d3986d3465933abc7d4f187fe",
+    "src/solution.py": "b53a811cf63a54bd5b52f0c8055695bd61ce4f4bfd404acc861fe0cf9f4c7bd3",
+    "tests/test_solution.py": "e6c39a4cafc744a026f447cc7a5d70486a4f93a99a5b13ee6d6917d7b25e12cd"
+  },
+  "task039": {
+    "task.yaml": "5d6283d71518656a2ac321b7941d4b7679a5f886158d96dba5256343024dd334",
+    "src/solution.py": "cc44396a2487478bef570811a15e593bc07dae3044a62df0b97a581527d3dbe8",
+    "tests/test_solution.py": "f79688f2ca0508cc8a95830b5bc7a60e9e8f68edaa28b4d228c6bdafde2e562a"
+  },
+  "task040": {
+    "task.yaml": "15f74053841c5970b7ea186f6f79b0fceb4c3de7f5e77eb592c65139d37afba7",
+    "src/solution.py": "be8dead3ab1e4224faf01cb1d0e1551c99c998c26b947a311c8139261e12e09d",
+    "tests/test_solution.py": "1389bc355bebb0dea8a602a26d617b469db45b9f4b6e570246315f209b0a2b70"
+  },
+  "task041": {
+    "task.yaml": "6cae4bc3ad39ac1293e619e1faede2d1564796946cb0284a10a5b82acfdc4787",
+    "src/solution.py": "3bb4a5ea8967304e336edde74961db00b6863e9bff0d911fd073a0f2b5327ac3",
+    "tests/test_solution.py": "c2347f7acf9feded409dc76baf4e6b062f33cd47ce443c2459bd3b811ba9f345"
+  },
+  "task042": {
+    "task.yaml": "12d3438a12899a69ae913ea7d082efee6a8e16a9c22a8c2d5fa7f41f7560aa85",
+    "src/solution.py": "c37a772e23e77c104e4db067381643254c5974537722aeae93cf942f65ab2992",
+    "tests/test_solution.py": "abac88069e47aee2ee50ad8ac0580b242968557b09db7d228a4bb5d5ed7e4003"
+  },
+  "task043": {
+    "task.yaml": "bd35dac14d6e1a19018d253b0b2d9a96ebf917c339c804162b714613d0f9490b",
+    "src/solution.py": "5f36939457e3f2266d766a4869564a2ae8c47329f03fd9128a9c79cbc0092c89",
+    "tests/test_solution.py": "1c71ce928c694c3bfeaebdf80556818a53d3f743998804ff035ed3b852223663"
+  },
+  "task044": {
+    "task.yaml": "46b9730c4df976c40720362863b59fef1965234b163b9be4e0ac9eaa48e713c9",
+    "src/solution.py": "a1045156f0aff84e0b4ee947d43ab7843b04a67f5f5d049423aabcdfcdd19c1c",
+    "tests/test_solution.py": "7002b9e60386617decab49d3436eefc9bb884674114001fbb05c080521e3aa87"
+  },
+  "task045": {
+    "task.yaml": "2320b348867790482857dd1040efdce9e3cf791efe277a199a4ac6a5de9f2d8f",
+    "src/solution.py": "45b7b98930fb40680b272a83823525c05dda79af59b93851a92da14400873e7b",
+    "tests/test_solution.py": "7fda67388ec258df53397a139ed9166513ae116e348dfa1c0b77f069be053d2c"
+  },
+  "task046": {
+    "task.yaml": "bedcf946186fdc36d379a601f5d9e5545c4aeac924b2465b2ea3c4710c5de612",
+    "src/solution.py": "a1ff8d20bc7297f758a7a04c1bca4d54d594aba0bb99592a9eee2c3be9cd9604",
+    "tests/test_solution.py": "8da643bb6005881ff210fb43b7cab0122a6bedbd575820a1a9ec73c35a0b87a0"
+  },
+  "task047": {
+    "task.yaml": "e66122911fe5c7da278a53a0def6ce33291161b74ab7c0a54f8aa6684afecfc3",
+    "src/solution.py": "23a68c6cb10ac5f809be6c2083c7902af304cf27a4f01501489e88663a80f97b",
+    "tests/test_solution.py": "2f312e0f8531fc63c7c3c2c9152f49f6cec27712f033146252f616f633c89aff"
+  },
+  "task048": {
+    "task.yaml": "022fba9176b4b9f7e5097caebd38cfc8da1e0f5ab0ce56271f20683aa5cdb0dc",
+    "src/solution.py": "44c1e0f5356836383764c060082a8b95288e56a06c6d408bd5b625317fb12861",
+    "tests/test_solution.py": "0fdb29fed379bf010dd793ef7fb0af266fb34a1863d2391136b6f1cd1aac0476"
+  },
+  "task049": {
+    "task.yaml": "1724b491d5fbcb021154c780b24a7fb3acff15cf7118fb40abc09c0984302924",
+    "src/solution.py": "2972d6da0c18da43abc0f426d0dc1601ffbf9e6e1527c8b607f616b5ef984d11",
+    "tests/test_solution.py": "3a168a5bb0644538a7927fc0910d3764188fe491d8b3331ddc2b00684db927ed"
+  },
+  "task050": {
+    "task.yaml": "325567b325d54ef265cc0ca2fb71aac08283997ca21c0d3ec5e7ba44e31d6032",
+    "src/solution.py": "3684378766e33f0f8dd57e3b21ea37c5bb79ed570d5787266b9bef1da6ac10ec",
+    "tests/test_solution.py": "70b93f8630c2f329eb6367fc20aee217c2a4e006981a86ba69c5d5ff1092a4b0"
+  },
+  "task051": {
+    "task.yaml": "8fa7a5c363bbe4a8eab1848d24ec54bfe4317bb3238a4be68d8e58be1fe6b384",
+    "src/solution.py": "ccb11e2787088eb69eb5976d91782f8afc258de55cbfcf8419701cd9d8ab0983",
+    "tests/test_solution.py": "1f4152f18f1a663e0109ac2370f233ef64ec178da5e2ebcafbde80df3849c682"
+  },
+  "task052": {
+    "task.yaml": "127df36eef4a1061be31c58dbedc3cd9921e9107343cd1d5d727b9cab1cedf87",
+    "src/solution.py": "798ec214ec49334d9b6cdf210c09e1369e6a540562cfdd08fb082c0b97a94e48",
+    "tests/test_solution.py": "20f15159bd6dbdf3dad663b77bf57675f0f549543e8264dfe0e76f7e537d0e5c"
+  },
+  "task053": {
+    "task.yaml": "75e7719e0f94ee37c95e66161b3093122fe2dc567403784bb398405d36b6c729",
+    "src/solution.py": "ba6d6bf2b8939b967cd426e9d4ef1ac43a017cc48dfba434643958adf275b9af",
+    "tests/test_solution.py": "be28b9ad413cb228796ad87b68b0fb700384749bce4b286ce71658406e34a015"
+  },
+  "task054": {
+    "task.yaml": "483a8ecc66696b8878d2bd7c375a17d5a5ad1706cf52e0b3c54b815d03f2739b",
+    "src/solution.py": "2edb421be34e297fb3995ecf527c2d9b4df0899f3b0558492400e32084af5346",
+    "tests/test_solution.py": "9af18df75c9b555359f0eaa259ce9cd716a910f714cfd8582c36c894c397c7ad"
+  },
+  "task055": {
+    "task.yaml": "f7dee6d52d87f1cf074f9b850817354098050afd7081e45490748d36ac65af51",
+    "src/solution.py": "91cee513b6a143d0032a273087e2a884357a43288d5d372aec7a3c1485d3ecdb",
+    "tests/test_solution.py": "417fc3474ab51001a2eead0f3d8aa466d4af556598a34a2fd93898d66cc69700"
+  },
+  "task056": {
+    "task.yaml": "16feeec8f3f3193bb38e18c5926a3376741b8003e99310e62a7711486cdc0de3",
+    "src/solution.py": "ca6a791d373fe5a97c85404db771ce7ac8d6e5d40559530bb0e7cc3657ee9cc0",
+    "tests/test_solution.py": "af31e797e66a63ad13ccece16fc0dfb111541a7117b569866179c744ab1a9f67"
+  },
+  "task057": {
+    "task.yaml": "bb7c3b34df04753955a833546c9e24cddd6990a4bfac0371b445b96bdf550015",
+    "src/solution.py": "fa3ae7d612efaf1b87071332fd8baaf9ffd76a88f37af0b1421982a995fba918",
+    "tests/test_solution.py": "55d3f68a8c241cbad02c0da2f5f2bfe14434ef99686d9a343323445cd7131806"
+  },
+  "task058": {
+    "task.yaml": "f8b87de0ce212826292927eaaf84a379724b96b8061c79f0263ba2fad78fb055",
+    "src/solution.py": "ddeab0535347145c8c7ff690fc2fc1a349c20051f7a710367db2431207f3eafd",
+    "tests/test_solution.py": "0bd9368c87fb18d8981111c434b7900e3bd39434a542b941ee000f206dd25d9b"
+  },
+  "task059": {
+    "task.yaml": "a5dfdb2937df66f6f726ff26082d1da8fc1cde7a04e7072a43f5ff4b817c38d8",
+    "src/solution.py": "036b874a036b661517c8f4fe7bf4cfedec7d9374a1e95a17a1e42c9324f75f1f",
+    "tests/test_solution.py": "7029d5f79d99e8877462c6397c74ca5583fb86b2a449a60420c7bf19d79f745c"
+  },
+  "task060": {
+    "task.yaml": "72625a27bd5c6a2d311bf1589f38b2fcfd1e70737ef205e1d2a99ba771f91f9a",
+    "src/solution.py": "878b4c42ce3bb49643e7d8c5a3b58824c67fa9b2f565c8079873004e1a6d9b93",
+    "tests/test_solution.py": "d782fb83ea316c0e894e633fc65b8b88df79deed86909933353f401e239525c7"
+  },
+  "task061": {
+    "task.yaml": "79d5d580a5b3d0a56a49fbbde0e55a1d0543a5a7d54b6fc215ada6b22dd9cd3f",
+    "src/solution.py": "bc3ed6d224ca72d7afe60775e49c525705fcb240188782557ad7ba364a90448a",
+    "tests/test_solution.py": "c9db518923ad1ff940a4cd82cba6bfcd0b6e598925d22a89c0c841bbf251dcdc"
+  },
+  "task062": {
+    "task.yaml": "693a883982b9af0ce228a47829921c279ce7e7ad2e63d199c75e8a8ae1b643a6",
+    "src/solution.py": "f74bb013883dd83fd8ac772e7b597110e9231a8bd205e510ad14f5a050db4aae",
+    "tests/test_solution.py": "f1828b67921dba600842be1ea5b26ff1ddce7b0c92272d2faf8ec96b5ca0e7e8"
+  },
+  "task063": {
+    "task.yaml": "c3ef0c99b9c610de6d335ea67d4ce54cb2bfc18ceafebbc2554bf50f45fc406b",
+    "src/solution.py": "5d1608ca19f54d32e95e96963c3162af8bf730647737373c515027ad2d70c139",
+    "tests/test_solution.py": "7dd40982fcb70b177bddb31383fa68b759258e2c4ed5bc10d41b376d1a0ffd2e"
+  },
+  "task064": {
+    "task.yaml": "e0d899893309d3aaba5750edad93e223e1bc5f2867c74632e79e53f99e39b064",
+    "src/solution.py": "11533eeaee0a517a8a812569d2cbfa13f7e0a5a8a8466f8be60bf7bea1a14832",
+    "tests/test_solution.py": "8e702824bb17f3060a41457043dd98719db38e8ec958964a79ed473753402d60"
+  },
+  "task065": {
+    "task.yaml": "ab7c9f089bebefe6416ed2634904a8723a8039887ea144ec429ba7e9762d845a",
+    "src/solution.py": "510063a6cc20f542d7bbaec11d9224f4e8cb71cf20b6072003c36c67a9e0d9c5",
+    "tests/test_solution.py": "4bdd59246ec7d47109244c5df7d5a6d12f2bb024b30966df650ad6c53fd5f162"
+  },
+  "task066": {
+    "task.yaml": "50bdd2d3574743b2e5cc3d0a028147bdaefff0b5865ec4aa018b500ab6f7c7ca",
+    "src/solution.py": "08564e84f6ff9e9e3187cc7a74464e4f46ce627a2e710618939140f255c0ef5a",
+    "tests/test_solution.py": "d44557c4ca93fc29230e2e6196c74c5843baf0d7412914c2127a17202fd7b84f"
+  },
+  "task067": {
+    "task.yaml": "58958f63fe37be9b909de6ae8dc33ab18623f8f08c390c8da5f9544d40ea2739",
+    "src/solution.py": "ba07a03f7c6d8bca1acb659b5dad31e082fe4742da02e2a5b1fd2253c058ca8e",
+    "tests/test_solution.py": "44077c8f2b5564e9e84355cbffd4aa049ea125024421035a30d3a4f5fd103225"
+  },
+  "task068": {
+    "task.yaml": "7025772c26c205a57da2296d5f089b4949db8daf2699d0b537c0e56287e59cb7",
+    "src/solution.py": "31ca587826d86a686a5e388e4eb096e8b90816d4258d067fbb5f1178710bc38c",
+    "tests/test_solution.py": "dc08d8160f8ff2dcb5b224d45908c9da528909ab70309247c3e12d41332407eb"
+  },
+  "task069": {
+    "task.yaml": "6dfb7ddd37946dbec02527ac10fdc6eec7247a2c4ca8a5767105c619c25ce59d",
+    "src/solution.py": "3bf65070751c3970d54c27f97190beca25cc6a3986d9b1b274634df974a2a138",
+    "tests/test_solution.py": "1333337d0705f0bb3deed1c753c63f6d85bf3bea1210ccd4553dd42f8fca13ad"
+  },
+  "task070": {
+    "task.yaml": "903a17362913a89b03e21ba6d1069ad9f028cd501abc1674f84236ededcb2f06",
+    "src/solution.py": "d09fa174549f81ec999529ac2f1c13329227d88669689eb366f29b2457713f76",
+    "tests/test_solution.py": "5b248fd14f658779fa707efc3ffa3dee472c2664cab173183ca6a4b15703cf7e"
+  },
+  "task071": {
+    "task.yaml": "8bdd7417508d880e4a45691171d32b7fcea993cc3fb73f0517688ed6cd1b80c1",
+    "src/solution.py": "ccbb65609c17710d82e3306e22c6496de6abdfdea7876a98bba1095e0f18d2ba",
+    "tests/test_solution.py": "ecf1452e241ea5dec604dc9dc2605ec7fe6f49cd92a32a1bad78665ae8af44b3"
+  },
+  "task072": {
+    "task.yaml": "535b292ea83140a01719474a6cbd3dc7ec702b3d0837aa7a1711b4bdf1cf6fde",
+    "src/solution.py": "98b253db47f018e3f6dd8396f5b472f88c18fbf50ff88c369ba2f442aed2bc0b",
+    "tests/test_solution.py": "d849289b141cf96c2aeda44cfceb1fe9f89ad6d618157be06efb4964d86322df"
+  },
+  "task073": {
+    "task.yaml": "60f0ff372aa506dd7ba54e4323498969dfee216b1b056552f8fd8d2653b57065",
+    "src/solution.py": "ba430b0c10d528b26de6eb7bc7d3afaaf99c99b11e7ca8a0475df7b18a21644a",
+    "tests/test_solution.py": "1c03e0a548891e04c14422a05c81eb621ac452d373ef831fc6444f690a8002c8"
+  },
+  "task074": {
+    "task.yaml": "84de0154120cbec8f8b26364fcbfccc0933493796102af3abe552c4443a6981b",
+    "src/solution.py": "06161801879bfe00c4dd7caa1d5a87ae6e64f2c457628b6dac8c2aacd876876a",
+    "tests/test_solution.py": "f3441be5078527663a0a1eb7e2297fd42f491b91e676da56f1b02cf4373ec93e"
+  },
+  "task075": {
+    "task.yaml": "f4aa68aa953ed7f4020e0a04e4786d118f212d159ce3a154369029d83c0d7384",
+    "src/solution.py": "30bf3e98c31cf2a0a3c42ee6b5c1b0f7f0719861b675ade5af630d1d71f0d9b1",
+    "tests/test_solution.py": "7418cf568bfe686f7ed39488fcbd2fe459bda036d690d07f4c2e687226a37013"
+  },
+  "task077": {
+    "task.yaml": "786f94eca34cf732e8fd10622ff796951c6cf01412fcebd955450a5576ab2406",
+    "src/solution.py": "53bb9a070ede82c1f835ca63be3327fee460bbf20b826d49dca18bf78bc55c16",
+    "tests/test_solution.py": "700b4f11904b525e20e407779623671b9cc520ba4a9d6dcdff4b7569148f57a3"
+  },
+  "task078": {
+    "task.yaml": "45c8f8320bd259219a099394802feb6963c7d31db17eeba0cd4de77e2f3eafe2",
+    "src/solution.py": "3b531331920d4f6e6b77bb4b29a6448add44a76b3375d666109b85762db0ffe2",
+    "tests/test_solution.py": "b06f3443a4c4a9e5de79fdacdfd1550d2e50c9a24411d163e63c320ccc436c99"
+  },
+  "task079": {
+    "task.yaml": "edaa6bae1844676c6df0ef240b5350a5f12a94bcde445021ef4908bdd5816315",
+    "src/solution.py": "cce391d4430c20c03f129366881fd655f8dc54ab19eaa1ce2d24ca2f5200da7a",
+    "tests/test_solution.py": "c0ff924239e2e2f567230c062f3b3497e17a268003cc478b7f6f85b766bc7875"
+  },
+  "task080": {
+    "task.yaml": "978ee83a16a2c64e21435469e31110582e6bb29d1ffe908e058a5007d2c3bb45",
+    "src/solution.py": "2d4f5f4848623a99e635ec61f1d99494bcb1008114a46a2a84caefa248187b86",
+    "tests/test_solution.py": "dc787fd3c3ec1fb1e0b5e4d0a59d51c3085416bd7a2e528400b4366b7c03cb87"
+  },
+  "task081": {
+    "task.yaml": "80b0d893aea631c641c0ec93483bb194dbb3e1c94e34f393cffffaf78d8d743d",
+    "src/solution.py": "9b9b72438296dc503acc9bb1164f0d93220d39bfefd190d12c56c0042e10b888",
+    "tests/test_solution.py": "d192cb6b1acaef80969464281c0682073fceb9e745b1f7415f9bf392e3eeaf2d"
+  },
+  "task082": {
+    "task.yaml": "c9732f75d3e057b8bfe6498cf357664ee98dc1b42453d099b94b6b59d1e683e0",
+    "src/solution.py": "3bfa0a99f762e97e5d6346b4244711aec3bb111dd750a6c39d9cd17d5f381318",
+    "tests/test_solution.py": "45653f8e60ca3010576c782a7e99a15b1e609c4449ed123c78e5cdad163303f9"
+  },
+  "task083": {
+    "task.yaml": "f3928a951bb8c351d53c4ad0a42bcf0ecc990be5eed1b4cd420e90ed8825b321",
+    "src/solution.py": "667ae98db297825912afc93d52b324ee8fb3e413b6535a4e831bfdf8ac425cba",
+    "tests/test_solution.py": "b9ae1a9396f28f6f5c064e4806ed3e51d805c498e4bb41abcb63e0296a6f0778"
+  },
+  "task084": {
+    "task.yaml": "409359df6aabf156870d7345fcfe92896efecb8d536f2b968e83a3f644fb5e85",
+    "src/solution.py": "c2fb026c5b3ced35ae8abd0c12b3347b5163545bd3ac903b01fe0e6729c8afc7",
+    "tests/test_solution.py": "26ee71f8b1f9d56a5a22ec0adf6d321bb7af189aecc21ea2b584e6a0651807ef"
+  },
+  "task085": {
+    "task.yaml": "d7c823569e29e99ea03579bdba6a7d79dab5f24cb8b018aa69fbc8eaf542f1a4",
+    "src/solution.py": "bfb49b2d1cd5126421acc425a288423f42b0cfcf0dc43be2e0ff028bf9ff831e",
+    "tests/test_solution.py": "38f8a2875181cdc8452feb93b0db33e4fea7670aaef22bd3a2e9e3f57bc13b8c"
+  },
+  "task086": {
+    "task.yaml": "f0d9929c4e03b2fefa5a64e94ebe764ede6afc657f87dab149e47f3da7447953",
+    "src/solution.py": "c934c167e0046e370a5871dfb39f046a589676a271f78fb1e075f4bab59a1983",
+    "tests/test_solution.py": "38e1389e7b6f2d85bb67f455c0439cbb116fc5098cd6afb1eb872f598bbe456b"
+  },
+  "task087": {
+    "task.yaml": "ee3b6c56fce3454aeb1a6a21d51c3bc5cfe9e3fc07c661f41b0f98a710ca211a",
+    "src/solution.py": "e563dbed432624775a14b4d8d71ea4b9d86abf4c61e4d55a4ec08ed91ca0736f",
+    "tests/test_solution.py": "f5a4922990d57c98fc5446f70cd2cd10a7bd0bd2e31d0b6a8922bf4a4e3a375f"
+  },
+  "task088": {
+    "task.yaml": "38f160b36bc6f83666ab6dbf4b0506161ef6703f90101384933211505f06de88",
+    "src/solution.py": "7ea0d22649a55de2ac4e9de4b138e92a116a1a8e79bc2576d07a92fa8eaa3d11",
+    "tests/test_solution.py": "57f597667a65cea35e7fe5e8e3c0151e52b325426e53201f2bf94ae3732d784d"
+  },
+  "task089": {
+    "task.yaml": "f395b05fe294fd99a1c9297762703420e3cb4f52a0f35cbf380a8ecfdd3a3f63",
+    "src/solution.py": "6f7a68693ee3c42eb80b7139cdd016d0c28813322834f6c6831dd90e4509ac08",
+    "tests/test_solution.py": "a9dc3e9a79cab821c4bcc849bc217174dac52c01cd4f96572b2bebee734e542f"
+  },
+  "task090": {
+    "task.yaml": "8222f2885fd3bf292ea3c86ab2401c7afbe66a1569bf9710acc10dae394c449d",
+    "src/solution.py": "f5c8bada286c5ec7a605611eee000cd93476986706309965800fa4edb66ed126",
+    "tests/test_solution.py": "feead1bf8291bcda40adfdfe0b9a85c702f491a364e5afe8f555240a4dc1622d"
+  },
+  "task091": {
+    "task.yaml": "c70f5dbee36cef5ec21bc5315f1ffc26951d1e703927ffca2699814150f79931",
+    "src/solution.py": "9e43435a2a9124d680cdf2db75ba4bfa7a369c654aa01fdad5996af0b05742d3",
+    "tests/test_solution.py": "9ce8c6ef20f6a62e39a946051be78bc434e04827e0f70b81995d0665b99dab49"
+  },
+  "task092": {
+    "task.yaml": "2b319c4ca2a8e4334a089269e2bd189937fef6e2b24c6a902a6702b8a662dec1",
+    "src/solution.py": "72d3631b3ae322eb039bdc081dc3cd4b50e4bcab1e2de22cfd07b41f5e83060c",
+    "tests/test_solution.py": "a27c08bf7e1d4220295cef5b067255199ecad9de51721a13d86a0725597ff85b"
+  },
+  "task093": {
+    "task.yaml": "5344372897f15ef0363ee56cd0c80124dd2aaf8579c977e97f1f534c4395a75e",
+    "src/solution.py": "ff0db0f04aacb085045240be8526610b4ed552bc97d538fbb39bd7c9587dddd8",
+    "tests/test_solution.py": "981b6cf243dbbbb1879e60c67f7887ad564759aa36662f826a889dcf852441db"
+  },
+  "task094": {
+    "task.yaml": "11dd745c0a22dcfdaa1e92710cbb5823a2644c0fe9036400501c6a68a5a5c30b",
+    "src/solution.py": "4f0df246f58dbda06ac8452f77504844864ac7688d1d90222b8b8f8958e38ea1",
+    "tests/test_solution.py": "00b93ca50befdd178eb93977bc3062f66bd44956dbd861b7d2602eac2dd74731"
+  },
+  "task095": {
+    "task.yaml": "3ff484e45c11fe1374334ce09841ceb07a10189cb4db4ee487635b3a657f6658",
+    "src/solution.py": "4c88164f4ffb33cfb2e292a4a91b4eb7f611b0c8818e6947a455d9abc727bf80",
+    "tests/test_solution.py": "81cb9327b5c4961a1bfb8e82c6981e52c9a977d9ed86e3eef4a477efb51d459e"
+  },
+  "task096": {
+    "task.yaml": "e96acf3622a40b6f36927f4b6dbec0ccdf791664a9ef4ce8b08a60b3f44aa21c",
+    "src/solution.py": "d5a59b227b1c5f1f47f91b6a3e8e613b710fad5824280cc75720ddb3c3c2eb5c",
+    "tests/test_solution.py": "cb7dc06ce0e819d20d1b80e05b1e2d3d51706e505e17cb959daff8ed09a96689"
+  },
+  "task097": {
+    "task.yaml": "093750c2d06ae03fbf5ee383792c20ddae9a8b9e05be72b4f2417d9b75742f9b",
+    "src/solution.py": "92ae8e9016d6e57622a449e531362634d7ddd2dd741e236d082b39422e1d5c70",
+    "tests/test_solution.py": "098c899d0e2383af21c58386a0ade322ee572ca33bfd2c535f3dbbeb939b26a8"
+  },
+  "task098": {
+    "task.yaml": "857a672bbec75abeab5ecdbba222068695379525cca57ed24da8224091c89234",
+    "src/solution.py": "8d6e4974639a05deb27366cd70c2a7dd86e6ca34c28be73d6d57aa6e36080a0e",
+    "tests/test_solution.py": "217c0b27ee0966e069b7ffb8588a1c96fe4216b0c90dad704a60548a761a8083"
+  },
+  "task099": {
+    "task.yaml": "5d54555ec53ba9c3588cffe0dc3654bcb75f5b36556cf7e7403b69ffdd61cf1c",
+    "src/solution.py": "3d98edb3eb45a881d44061432672c0895556e4156a1710edf5ba71e7f0f6e2fe",
+    "tests/test_solution.py": "9d9d3d030b10734e6819d14c9ba16adb0f2fe973333bcd6dfc6dd56f47893cc4"
+  },
+  "task100": {
+    "task.yaml": "32fbd586cfa69798a4d79cc3c81590588b71567d0255a974a641746a0f562bdd",
+    "src/solution.py": "0e733d2abf19ddcfc311f5a5e84200b2c11b0d4864a26a5a54fe9c1829421fd6",
+    "tests/test_solution.py": "f600b670ee0142f21aa6ba7b2a78220ba2041623f04ada09be03589632524aed"
+  },
+  "task101": {
+    "task.yaml": "9cc9623d18257662ce5016e81ed9cee176b5c55642ab63346251f6dbe4f1eb26",
+    "src/solution.py": "bf7835fa2808bf6673dd1a31a53c3202d2ab5f5fb63a0a90280599ef5315b17c",
+    "tests/test_solution.py": "9189fe688fc7f19cb6c838e3636b3abd73529b710fff6cb8453b7a5f552caf7c"
+  },
+  "task102": {
+    "task.yaml": "fce668c1a05d9753c6149f140d49171160a403c7cd57a220009aeeaef20d433c",
+    "src/solution.py": "e05c509ccc3fd368d6c96fb02909b54c19f8afa4cd5d4e2830871200fb66bcd8",
+    "tests/test_solution.py": "35b8ea9e4d8302b4d51b1bc573f7eb8eed9bf07e5e6ae558e9fcaab2f1ad3a45"
+  },
+  "task103": {
+    "task.yaml": "96ba8a8cb49370386d0c5919d1b24c64747675f64b4171b4112ee03b1045f9ae",
+    "src/solution.py": "20028de3d094f6dfc7138e61cd0c9fe3812c3592ec520e9959740ffa4b6dcaa7",
+    "tests/test_solution.py": "16f123baacaca4a5eb7ab954e90c1b46f575da3a4579cf52e6bbac2fc0a62459"
+  },
+  "task104": {
+    "task.yaml": "909c988496bc727fc02fe106540b1ab6c60be2f98931f52b9a652a35b28655e0",
+    "src/solution.py": "ca65098e0715923eb7d469cf9599cbcf8183c3de906e1360eb87de94e238ada0",
+    "tests/test_solution.py": "0bf5379ca636fc20062a5898b04e36c9703f31299f061f851c5ae517164cfdfd"
+  },
+  "task105": {
+    "task.yaml": "5c0652ad1fe6f4b5231445cd89d4691e8a28ccc351ffe5e21e20402670a5191f",
+    "src/solution.py": "817a632a2b77ea6231e3d22486bcb7f130aa725322b6f9ebf29999d3744e65e3",
+    "tests/test_solution.py": "69b86f6bd6c6943982c1440e75fadfd625c45103975f65f5baddef84378f7d2e"
+  },
+  "task106": {
+    "task.yaml": "08aa4fcc7e5e9be75d496510c665ee3f559137d7255beae58d0925bcdaae69cb",
+    "src/solution.py": "a01b4e8e94a4a9d683dc08cb5c02fa28a16478cf98d71fc4e0acc3ef784442c5",
+    "tests/test_solution.py": "abf23a50db86a14189c2ae4f34d65e9a95fa51fc89400b3e3b0a470b304c0522"
+  },
+  "task107": {
+    "task.yaml": "8d6e2ccab088b6c70b6ce192b9be2024b2eb878a74b488b19df7ce96e766e0bf",
+    "src/solution.py": "9cdcedbb9888740ed0bed16de35db7571960da342d5f2aec46f6940f05034884",
+    "tests/test_solution.py": "3c433794aebb00a9b44b964c94b4fd7824dd5557683eb13bbbc92f994cb986ff"
+  },
+  "task108": {
+    "task.yaml": "92149c17e0fd4f109afa97744dd689c4d333fce101bc6368b2f9f01f7da03bdc",
+    "src/solution.py": "f5b547ee74c61b9134654d39f4df7d74d03426bc17d7622e984c61009b6e0585",
+    "tests/test_solution.py": "88f1d60c79518c04fce716d9d99f275c68199e1f9aa146003c1100f7de2e303b"
+  },
+  "task109": {
+    "task.yaml": "77f80da677ca82ba3ebe5bc6375cc77cbe6dd156e93f77ce522ea5449b1bc40d",
+    "src/solution.py": "e60c0707c86ad1abbf714f026afe7289a5784f3d29e7ba08b37f19fa7cf9c3c9",
+    "tests/test_solution.py": "eae8a727aa884988094fe51134833106758d6d8d3e8bd5d9770b12477ff139bc"
+  },
+  "task110": {
+    "task.yaml": "0cd535dea656ad4659063b501737c58d9fe763b27f59a94a3c2598e90ff4db24",
+    "src/solution.py": "fe728bc335519128cf0a8da6eeec42559e948688cce88577680cc8f11207d617",
+    "tests/test_solution.py": "0a8e8f2657471fcaa62a7718d9b3b4c2a5418383c4edc99f3beb22ebafa1cf1f"
+  },
+  "task111": {
+    "task.yaml": "c0089ca14222f70a438e5c1a9378c9862b8ca9e7f0dbd09bf9c5b6ff9626ac79",
+    "src/solution.py": "6d8b7ae6194af93f5d5069918bf3fee902200fd4fe99dc5aeae69e0957b0bbc8",
+    "tests/test_solution.py": "7ae393cecffa69a4782b406c46bdb57ab72b235d823509ccfd79c389db9f7f6c"
+  },
+  "task112": {
+    "task.yaml": "5db55a2172815cb7f454d1d980fd3e4fb3524bc5a8997540a01ce012ef691ed9",
+    "src/solution.py": "4d845b820c41fda64082ca2ed9d6fa466ef7dbddbfcb356f0ac69011bf5b732b",
+    "tests/test_solution.py": "81f645ed058bc6a2d0f4868e893e52397f3dc98b6d6f59a1a4de6c636dfe689e"
+  },
+  "task113": {
+    "task.yaml": "a545e8102a57e5e043dfb5174b84e302dc031a7c616bbc46607f5a62e2f59c5c",
+    "src/solution.py": "dbc03e74e36621b6d5f641912bd61f5f58c7502af4a14a9b40f16f8b9471eac4",
+    "tests/test_solution.py": "f5588e076755737e0993e3f6281bf614de5d2101a773aa37f5f78b3789b4b766"
+  },
+  "task114": {
+    "task.yaml": "5e3edfd60ef09d6707396e7a2e49fa715beb0c6191bbad1334fef1d3228afe00",
+    "src/solution.py": "ccc146e68e8913a18ad82721032ea7aa7392860ab18b679f1ae899e41e676427",
+    "tests/test_solution.py": "2996c8399f6660c38496c6ce631fff9680d60f1d8ccfdd65398ae6d7c7d38692"
+  },
+  "task115": {
+    "task.yaml": "96241d835ff976af8b88160dbbcf6ef6f6388bb9d0cef436f4b5e2ca332770eb",
+    "src/solution.py": "0c05aab3b44eb2f8a0b91348c8ab0716325a75c5b40b80650e08452795231ee8",
+    "tests/test_solution.py": "c080126a830443f67bea1d486dbc7e993625dc5a0d9eb56f166cd88fb73a6c5c"
+  },
+  "task116": {
+    "task.yaml": "c6f858e4d8fceb278b8d9ac74de566f1a1270411fc6e8e9adcf4be135be5fc19",
+    "src/solution.py": "56f64b99ca133a426278c6771ea57476cd3dc3ba237f471aeb5a18ff4f0d15d1",
+    "tests/test_solution.py": "dab89f8955dd2f9cca7d58583994b124f17d469d845767e1c4d7c6ad3f14d92d"
+  },
+  "task117": {
+    "task.yaml": "fd9a938130ae0e08b8b42fde21db637bc9da0369aa5862c0cd1acf5ead107267",
+    "src/solution.py": "a378ebd84f9201759c82311d70a3bcbf8a9e9fd79ac3218f55e251cdce1e70b2",
+    "tests/test_solution.py": "c071a47b2cb282d570c531b39e488bf5456ef31839082aca5a71e80697e2cc69"
+  },
+  "task118": {
+    "task.yaml": "52a92ce148c48e819e4f5c5926a5d7335549bf33f6008ae1543803f317b03bd1",
+    "src/solution.py": "6f885aa80138d11bc34dc1c4c8ca65cb1fabcd2940883ec7bb1d077d55561beb",
+    "tests/test_solution.py": "dd9fe390ed0b4853738c89bb3d21c306fc0036388c673660a621913d015458bb"
+  },
+  "task119": {
+    "task.yaml": "bb115d4eacac1bfcff4510c61606618a07b602c762a9fe63a3fd3272844a9408",
+    "src/solution.py": "7c08f913aebddd7489bd7379419978d48ac5c11e69fe87dae5423cf4bb772f0c",
+    "tests/test_solution.py": "0505adc9e707f309a50007253f04fd776875112fa78e2bb2d155c7662318f84f"
+  },
+  "task120": {
+    "task.yaml": "544c2ae4df5fd01dadef1b989f3d29db3188d64539a290d31e19690ff797219c",
+    "src/solution.py": "f4d04ff7759926dcdce24a00025104442bdd31773192c38dd7a9c016b48b8f5a",
+    "tests/test_solution.py": "f239da074855c98f71bb34d7aa5ee1f63508635919c57e757bb8cc8bf625fba6"
+  },
+  "task121": {
+    "task.yaml": "15897247062c4888a3f2af1a76039a879b68dab093e8ed1f83f291b7fb1a535b",
+    "src/solution.py": "b9d50461f0c544e20717cf703df16603f92934a204c8763aeea8952891807148",
+    "tests/test_solution.py": "e45ec4580bff7b8fd11a65f3606ce58b771b6b3d09c9fb326c206b14dc660bbb"
+  },
+  "task122": {
+    "task.yaml": "5ebc4cfbf232e390147cb29ca1fa9ecbe098f784bf004cd43d77b9e82ab0e5a4",
+    "src/solution.py": "43939bc6c3c641ccd98dc2010d60d521cff9e9823d91f6d23c8f279bd51d265a",
+    "tests/test_solution.py": "b4ba72be37589e3616abd3cdfdd6c44600d84a39833d79400c9135cf201248ed"
+  },
+  "task123": {
+    "task.yaml": "82c03eab1d1783f708db9f0924334501895f4370db5c8d6f25c30763c03a9e09",
+    "src/solution.py": "61848a132fdc022d28f6b26d50251892a73115af1b479a509fb577970f2d4d5e",
+    "tests/test_solution.py": "edc6fe4087636c62f45c17bbb136fb354bf8023593e7462089a4aceb791ccafc"
+  },
+  "task124": {
+    "task.yaml": "59effb64f9a390995138820a792f90a6ca7173acba01db7174eb1efa8e22acad",
+    "src/solution.py": "920337b3c97c503df6aae2efd85d09af51623d826bbbd8dd65eaf23a27248ffe",
+    "tests/test_solution.py": "2cdc7eb1732b7d42bad9d2d8fe5cba9e03671ef72c531a3b88cf6aa762de903b"
+  },
+  "task125": {
+    "task.yaml": "aa65c46d35ad65fc395faa3c40db6fde03b304d7ba4008f45e7036e390121499",
+    "src/solution.py": "84f6ae8fa10d1b60cb3fd0c5e380eea3d1ef66eda63e6dbcec660963f1ec3feb",
+    "tests/test_solution.py": "08aaa2bdc57c28fa3b1947a3d0159a678915d7c962dff4f61dd1b44f4b0facfc"
+  },
+  "task126": {
+    "task.yaml": "427df86a1fb92767518756fae9c36907a434b4f81870fa6c5c289a9163937856",
+    "src/solution.py": "9be9f4ede8f9cc36dc1be65e942bd54928765984124ada82e1bd3648d6db269b",
+    "tests/test_solution.py": "eef3b37c719c45b30ef0784331eadcea5427841e5c0989cf0ad16dcdffae6c66"
+  },
+  "task127": {
+    "task.yaml": "b5b15747b83e446d8ad35bf68274a7883def4f13460e960e3ac6a184f909a1d9",
+    "src/solution.py": "5bb91be8cf252b814659230bca6257462dca2f4a131d7877b291bad26b320973",
+    "tests/test_solution.py": "e20c042b73fc74656f29303f43a33ced084305fe79943aeae4077c06e3394d37"
+  },
+  "task128": {
+    "task.yaml": "77eda000efd02d852cedb0ba69ba7f412a53e11ea59a6491c5bf89d6d60d1390",
+    "src/solution.py": "49883fb7d93cf861f1fad69051ee2fb5c7b07731fe8c5a691d792b819dcf7a65",
+    "tests/test_solution.py": "1c15274da4e99a518dbb975eb12ba2930612ad88ff439cc1e5efc90e44687a2f"
+  },
+  "task130": {
+    "task.yaml": "1366c759eb0b2ea60b8e9997760a8e8e608684204cee58ebe579f6e3070c3931",
+    "src/solution.py": "8b6f2a8efb593c83a8608e1f5df658fdb276fc280d22a8528b7fd436a4de19a9",
+    "tests/test_solution.py": "f7931b2d438d0bc80b08baaa579b1483c02857444f3a693b6a653bfe835e5581"
+  },
+  "task131": {
+    "task.yaml": "067c083569233a8c67b4cc0c35b17d5de831732a1fa724b138d6917beb26065f",
+    "src/solution.py": "aded2d527f962a2322f481c03365892ef910b00079dcd4d211f73223b497fa00",
+    "tests/test_solution.py": "f2f00f89c5c24c6555ed86ee991cf139bbbf035d3f31fd97c40f847e90b9f693"
+  },
+  "task132": {
+    "task.yaml": "52a043fa27063a3810582d98dd3d8f7135766e617184a7d57fae1b0dee3f94e8",
+    "src/solution.py": "1c096897d9decc3db29a24f7bb666b9b3ad23684c539c02c8fc4cabfda0b0561",
+    "tests/test_solution.py": "e979e3fb308d22e4ab98e937be4d6b064ec5fd50f84722a00fe348f56ffb624f"
+  },
+  "task133": {
+    "task.yaml": "2c56ffdb8f411cc0cadbf5b77d2c61a16989011b11f6deb596e1bff605dd9e7e",
+    "src/solution.py": "5c2c189c296ceb010226847de7c17c425a414230a6729f2e762eb4e4522e6134",
+    "tests/test_solution.py": "281b113bf268539df5bcae6d44dca1360b5a686c59b7b61fa950093d17b10d53"
+  },
+  "task134": {
+    "task.yaml": "07ac606d39896d900555f5f7cfd1cd7acc2b3c0e928807c94393e7a8a9caee65",
+    "src/solution.py": "0bd7c0487f1806c3915805cc27ac3468c01f487590eeb0e11a43db1838f54f6a",
+    "tests/test_solution.py": "9656ddc51bdc1a65b01dcc638ba2ba1f85562c24e5d4bda6f834df417cfd4691"
+  },
+  "task135": {
+    "task.yaml": "8205b7f1aabe65b178471fe00e93a5eed75d205e12493b746ed96ab84d9efb2a",
+    "src/solution.py": "ea17f48ee9dda55346293d6485d732d7559fb4d0bed307ce7cd9e644d7846f88",
+    "tests/test_solution.py": "41c832e54abcc04edfadc965917aeb2a082e52757f2759356fa5844c35a02b1e"
+  },
+  "task136": {
+    "task.yaml": "179d146add7503c2e1ae1cf1fcbdf48ad2e027c889a9981b335b8572891372ec",
+    "src/solution.py": "95cd4f7bf93efc28ab8b7a246c91ade2802da2d7719acc62d880a15ab416ed84",
+    "tests/test_solution.py": "411f97ddac31714c99b40fe84ef8285f8a80f54cb353092c5f8c972ef0560e7e"
+  },
+  "task137": {
+    "task.yaml": "76b9a9117669878c9c1c18ac02445268fbc4935de68f81ec78743f4b2cc47b11",
+    "src/solution.py": "472faa30263a5f3f428cbf6a989f8b8cec2666bc06b8b4aa3b2f2dc7b136b758",
+    "tests/test_solution.py": "40dc65672732ae2a8da26a6abbb0e5b581a8cf56ccd41b0732018afe6a2dbb61"
+  },
+  "task138": {
+    "task.yaml": "1a65776310810a327c4ee7808f7764546f7cee2750a2dd49b880c4c31d40eead",
+    "src/solution.py": "f57fdf56d7189d72f159a0f24926148e49da5eeecbcf6ba50faaad2827fe290b",
+    "tests/test_solution.py": "97b570b61fe3fcfb77ddb80089987351a922cbe67914c7c5873e7023a1fc4172"
+  },
+  "task139": {
+    "task.yaml": "4a3df12b4d22b09b77b56fb3a6b9fb014cc229c4ca1203130821cabd41cbd156",
+    "src/solution.py": "808b847f8b664798301ffceb725bde35de20cb886fd1020f1f928da2c63da4bd",
+    "tests/test_solution.py": "b8bf6b0eb379e905f5317091f765f9695b42955f4b603b215aad996190caf884"
+  },
+  "task140": {
+    "task.yaml": "ca6696ad15ac0709bd9a34eb282da87b0ad149e239e67914e840b27faa284b7f",
+    "src/solution.py": "8b677f47e1965f15da1673e395f8c895652dfd93c9aa7a7ddd4f01636be976dd",
+    "tests/test_solution.py": "db4b29cea2b48fd95041756cb99eac98ad3c7da0240c35a785c928edab42f3dc"
+  },
+  "task141": {
+    "task.yaml": "1c3d947546398ab8c900affe1ded471e1eede3da90c030625c2d3a16b6d74903",
+    "src/solution.py": "347c5ccfe3903baf306af77e81320c939683b2ffc4021d523555e67444f0a952",
+    "tests/test_solution.py": "12565e2529b3006dccfcdca895059679ba9f2e7168f3743294120f2bd89fb88c"
+  },
+  "task142": {
+    "task.yaml": "edab9c8fc81fa8202e076e1966e35d0ffe4264aea85899811018ef74bda53a87",
+    "src/solution.py": "a708a118aa9662519a75b31fd42775336546d8ab4d7e2ac323f5aa071f9cad2c",
+    "tests/test_solution.py": "abd8695f94270ea1715ee6e5016e4142d5fe6fa987a73aa354731a2b15eccc8b"
+  },
+  "task143": {
+    "task.yaml": "eda097b595a138493778a88a826472fbcfb4fc4c5fc0a4bc68e9c46bd45373c0",
+    "src/solution.py": "43b13f7675cd53b2a3b7515d077403017a10c73fb6d6ec2181ec74daa66e07f4",
+    "tests/test_solution.py": "164ab7672f48783f27f4731d03ae9f5aa1ff42aea2990859ce6f38aafd41433f"
+  },
+  "task144": {
+    "task.yaml": "bf939898217eaba240c8509b7db002f40bc44138411fc6238665c310d7a545c7",
+    "src/solution.py": "01b8b7216ef6ef84266445da7535393dede6bfec88dd14f953ce4746f0ac2d67",
+    "tests/test_solution.py": "47f1693461d1e15c684e24cb04c45c529320c22af61a02c631a50fb5fb9fb026"
+  },
+  "task145": {
+    "task.yaml": "37a1bfacbe6a386a7d30f02da3e9a50315217b890ac68e53eccd4837116efb6e",
+    "src/solution.py": "c4acf42ae97d84142611ee48344524314016c822c7f2415dba485f82bbc04e3b",
+    "tests/test_solution.py": "e7edb9a6c2b3e802099a2e0e98650e6700d5c05312cfeda1581b2352e611d816"
+  },
+  "task146": {
+    "task.yaml": "d829c3fa47955a29f436e6f8c1c351a1ab6299a490dca630846233883ad8f311",
+    "src/solution.py": "e62f6d4b9fa8da982f4a4bab14ea835bb384e7389c67108c1d89063d8e43de7d",
+    "tests/test_solution.py": "c5e995d231b71b7fed2dc93fe8bbf8d5199c35f705f44b99d33d19702a292b8c"
+  },
+  "task147": {
+    "task.yaml": "c6f8b19ef6300fcd4a2380422075395eaf6695fcb3027e40485c75cef04933e4",
+    "src/solution.py": "8182161bebafc918db109b972e2612bfe3c2d30d3bc8188fa1e54294d612169f",
+    "tests/test_solution.py": "881dc878b7398fe03ab2649fbe61e4fce37f66cf8a244cdf09960d165d509451"
+  },
+  "task148": {
+    "task.yaml": "f1d4b1dc0d91779ed5022bfa662b2f3725f4813639fccbf4c8131177550d7ffe",
+    "src/solution.py": "c59b74c15f39d91540a773977131962ba6cee76ca2882e720a1e92117a104a8b",
+    "tests/test_solution.py": "146d8bb7802e39d8c852579a94caa7f5e4df3a0832450b2106935bc6bd2a3a6b"
+  },
+  "task149": {
+    "task.yaml": "df6d94491f7eb7cba50159a5b2471e102fb5050ed50b2c06ea70a90db49a3307",
+    "src/solution.py": "629c1178080f68eaeee6af4bba8dcf76a7eab1819772119e2d5d5c4d15041ce6",
+    "tests/test_solution.py": "84be775d8a0d7e5dfaa24999c2a4700af6c17d240de73223dfafca6b8988487a"
+  },
+  "task150": {
+    "task.yaml": "282d6ff8e9a22459132541a1baf59f4e0504a93f5aef1f83833582cb1fd77893",
+    "src/solution.py": "22de4d8970e10851a36cf9aea8da1cdb3a46071e20bd01e30b5c334ddc6d7b9c",
+    "tests/test_solution.py": "7181acc30261081a1f8c23ae1c1e7c017a9ebb399d9825531b7588700ff3efc9"
+  },
+  "task151": {
+    "task.yaml": "4e0c138d832c85aaa7d6b58feddf2bca0644bf2dfbe3c8f090f071ec9a700c62",
+    "src/solution.py": "c334a36ac19238425f31df7d88954295f0b53e00400cb8ae5a6fe5f195d7db28",
+    "tests/test_solution.py": "54c1720d20792b963871707276152918c4331d7070ce24722605239712ecf42d"
+  },
+  "task152": {
+    "task.yaml": "d702f5fe5b882158e7933ded4bdc30de8543f61fbd538c1ad2e6a22eaa92f1a1",
+    "src/solution.py": "1abc7bad84ac362715e9d5270c79cf1cc47bf941929385ab967237d4a03df915",
+    "tests/test_solution.py": "7c1e8b44941fc2659a70643ff3c38a14016dff5cbb35a7c0c30b9fd8f3d4777b"
+  },
+  "task153": {
+    "task.yaml": "fb3a83544476d44f6fd056c9b4b1125637df7e0ec3008f44b2393961d6c4572d",
+    "src/solution.py": "62d074b30dc32ec9b700070f6397f4e6d437e8b45bcc70b0bd7cf53b08c3e32e",
+    "tests/test_solution.py": "f820926bcc073264baacad2f5ae943db8860e6d8d2cd2181929c96c9283f5a58"
+  },
+  "task154": {
+    "task.yaml": "84297b1a4c3f6e7c134700f275745a97144f251c80706bb71735f779f277fab2",
+    "src/solution.py": "a40a24048ed3b934c51a8d045f62fa629099243b49681f169bb9b556f4acffcc",
+    "tests/test_solution.py": "d3a62503867562ee7de0f7f20bb87263f56f2179fd5abe8a8c4f3cdf96510e00"
+  },
+  "task155": {
+    "task.yaml": "f3c516a44060794cdf06e1cd4645b16e222422ce7facec19dd83393b93350d69",
+    "src/solution.py": "185fd355a921b6fb81266fa4b87d2577402140b589bb0300929bce91224e99d9",
+    "tests/test_solution.py": "5139126353c0dc46bbb0c4653a3df460af8110c5c707d3ec7109355c83f35a7a"
+  },
+  "task156": {
+    "task.yaml": "f9b4298eb092d2d78c86dbf3e11ab63b55ffea8d6621a62c8549f097ca57be2b",
+    "src/solution.py": "bfdb321eaadfd1619b97eeb1fe73154dddc30e346ad88983fbaeda34341bcb7d",
+    "tests/test_solution.py": "f6f81a41db3df09b31432dca3441ed1e5e9ce2c1b1b6a0a1f3485929e7081321"
+  },
+  "task157": {
+    "task.yaml": "2e6e04e259d9197f8c48e65a27ef2390978a578bb43a48d43e22cdc387084a9e",
+    "src/solution.py": "8d50239efb7fd90258eae08ffd3879eb72b4ddb7be6490b9956ea3a57fe4758b",
+    "tests/test_solution.py": "8d35dbcd24a075061374fc18ece287cff026ce761c02b75cc9453fa63180cb1a"
+  },
+  "task158": {
+    "task.yaml": "3455943fab9474b202985cf6b86bff802576962901a70ce0b45c292629fa0c62",
+    "src/solution.py": "f858da776d18f4f98e42d6f2986ed6a775cec92b1ca00fa2d63b4dd347e49071",
+    "tests/test_solution.py": "7dd1d5f8756817b4df34ee54bf9500cf636282c0b9a0583f4cd5921f41248a56"
+  },
+  "task159": {
+    "task.yaml": "07290be7757ee14a48cbba625ed70c39c00657021bb2269d99643c282b9d2aea",
+    "src/solution.py": "d85e1aa51e3443c734bb0a59f922af80224fb3dd62c52a150cf61a047b3bdf53",
+    "tests/test_solution.py": "ca0cecec7befe8d2d477c3b958f6c9165d3df39bc60766f791d64e357263f58f"
+  },
+  "task160": {
+    "task.yaml": "3b1838907a85fe545fc78c95c715ed15a84b6b3ee5e1f7b66d343c83a6e4743c",
+    "src/solution.py": "8c93f3ce1b2c87d18a1c98344efb71da1fa8f4d42dbccaeb50f99d84367b627a",
+    "tests/test_solution.py": "61232dcc555922c0ecb9bb65dbb1dd1dcc6483e0b562a5ff5e43db003a662967"
+  },
+  "task161": {
+    "task.yaml": "f9153dc5c559792b6e9c6ece52da87eeec1b3248e340518b7adc38fa3f86f540",
+    "src/solution.py": "6d700a90abd238a6f0f70c7ac95fb63e0c0e5126ad197dcf5690e6f542f288af",
+    "tests/test_solution.py": "8db726db3e7b69a9197008c4b0253a581741f5428b3d377fe26e0d9dca05abd9"
+  },
+  "task162": {
+    "task.yaml": "4abb58c8da5f9405e987b2e28a1ce636f06ea89cd9f96a17e612e9e0e425b966",
+    "src/solution.py": "cad39066e45c89617b57cb02cebd60f8c2bfb7f43cf3f0d02248da45099caf9d",
+    "tests/test_solution.py": "aef110ba0742bb6e282f4098a3395165c7a60a2f5ad6c1c7803016168689b1d7"
+  },
+  "task163": {
+    "task.yaml": "8bb98901cd97ea92cae575137c509eb8ed6dc8ed53e531f29fd7b1d3a0c76720",
+    "src/solution.py": "63ee0346dbdd435649c0b32d47770767eb00ebb29900884d1758410651f97dfa",
+    "tests/test_solution.py": "c575b9233ddf7a7a892c722fd87ebc6d8392be8e62aeb797c0a477cad7b715a6"
+  },
+  "task164": {
+    "task.yaml": "5ad090d9e1308b48f7012fb26910450381e2b39a541975d1f5573412cb97ea91",
+    "src/solution.py": "543972e119fe8561cb65683045c5f6b9ca21274113fe529b959b3d80bfb3ee25",
+    "tests/test_solution.py": "8010f67ac223a1372faaccba01cc9096705f434f91beab568bf006d5ea9e1154"
+  },
+  "task165": {
+    "task.yaml": "75e51756014807c4d4d14e1b3e12972e44f3f1cb54a49b66cffa82e94a7f84b9",
+    "src/solution.py": "bc48f2e56d3883d2fe63ab887f4d383cff7d33000210ce94ad4bf0cade3c7e4c",
+    "tests/test_solution.py": "daa8c07074c756edb415e93b251ed6b72ebdb9c7b6bb6bc2a69a896dcdd5e7c7"
+  },
+  "task166": {
+    "task.yaml": "3e84c1981ee7fb76fc3b9f91027b66cf798d83199908d9347354297cca8ff05c",
+    "src/solution.py": "676036f08ba38d80b70551e00df7d09784562ec637b1d12bed497f55407649dd",
+    "tests/test_solution.py": "272da9872b63dae3cfdb5438dc1263412b8163e351a7c135ca7f852c8bbdf08c"
+  },
+  "task167": {
+    "task.yaml": "1053813698ef4fc0d949dbe216ff2b37fff269a33af1adcd3ead8e3f81b27fa0",
+    "src/solution.py": "d38bd2fa0bcb1e33214a663a17fa15905c25f1fa6e450f478baad91d1c690f0e",
+    "tests/test_solution.py": "2faa2277909cb6c736f13ea64b5b4b422245dba6519921a980d318f52e3c827e"
+  },
+  "task168": {
+    "task.yaml": "af9833b99ba333614e15eb5abe09d2eb7247a56041aa9e10d25d08202b82f860",
+    "src/solution.py": "9d76f3bc432a8e4271f9331bba51c041ad21ba346aad406dd487ff73b4a7f286",
+    "tests/test_solution.py": "35f91a1eeb390205bdfcf55aea5d4e1099b4690af4f242136144a1e5f6e73e46"
+  },
+  "task169": {
+    "task.yaml": "9fb8206839087f225abd9bf5f1b9a0a4401cbcff59be5f01e62fb7188f72ffca",
+    "src/solution.py": "efc53d68d856fb0963c1a1d1b005282b2109ade4113792e55c5cfd19989a973f",
+    "tests/test_solution.py": "aa6b0916f2bf854699f2e11200ebc2536b3b51f3ae749867eb38cf53e50f9321"
+  },
+  "task170": {
+    "task.yaml": "6f79411969cd09ffcd2e35690b04d6c1fa7cad62451f45672a416b0ee2de5a8e",
+    "src/solution.py": "1eaab2c837e0aa951f2bd0e98217c54565ce0b2b73ba1e7a1b6af5afdefbb6b7",
+    "tests/test_solution.py": "ea67fc9a72f80d0814e71c065906e69f29fd4529df49b536acc5c9137a419aee"
+  },
+  "task171": {
+    "task.yaml": "a6c343ff1927025ac8771f4a83ab0d4ab8c9d364c802ae2f4a9aa67b0fc459c6",
+    "src/solution.py": "7cdcbd23c1479c39c498b34ad3a2b1f27e44bac063c78cc644d4cabd7b4cc023",
+    "tests/test_solution.py": "8a3e4edd53697fcab714bdfc6ab6939ac13c7b8a9fd5524f13662e00c2aebabd"
+  },
+  "task172": {
+    "task.yaml": "bc251439094e9b111fb5cbfa16c89ecd971e9d390034bb3ce4f2b461403cc98a",
+    "src/solution.py": "ab3358419de332a8e40b95698bbf12b0b6acffaf08273baf4b39a20d7d34caa8",
+    "tests/test_solution.py": "90768556ab5dbf55047af1493540b8a6f690f590f522945e95098e52646dfa3d"
+  },
+  "task173": {
+    "task.yaml": "b4cd1fd8c22f7ddbb8109104e62cec98fca344e0eceb79d8a0ead75fcd47ab23",
+    "src/solution.py": "2d40c5c5c9b7517fbb0a949106cf2c4bf9c9cf34e46fc89d3cab62b37d7597d6",
+    "tests/test_solution.py": "f6d5b8d81e49f4531de0b33aa94bfbfc8c556e7d4e1eb75ff1f5421b1e7f319d"
+  },
+  "task174": {
+    "task.yaml": "c462929816f7819333cf1f84bc44ccd492affe70eddf81bcb553688884b718ae",
+    "src/solution.py": "d6adf6e5f391df14d64113cd3c6c1dadbd1dc0cd45f1f50eba5ceb1a14c7011b",
+    "tests/test_solution.py": "99ddfdf529d2b1097e4136a8c018661afdc0a9639d791c5187993fcc31a5259f"
+  },
+  "task175": {
+    "task.yaml": "1df382eb726ce22b7bb95c59367a90d6ae1e5017c4230050852860a26c140ba3",
+    "src/solution.py": "94caf8370225c0f2fb4038e973faff2b4eb836af1e9ddc770be354338178911d",
+    "tests/test_solution.py": "cbe40b33436382cdf76f083d542908b165202d72ae8075879d3f647ae48f991b"
+  },
+  "task176": {
+    "task.yaml": "e97457e56b20e329a430d205aa6a931f9f6eccc8617b080f356c553ac27495d0",
+    "src/solution.py": "e76264769f5b92d285f8a05e041689503b76422bb4a83d54ec865ddaf33688c7",
+    "tests/test_solution.py": "88d1f0b43c6ac8c8ac7fb56c608a443cce12c22e01d2f4f904b96182c894e525"
+  },
+  "task177": {
+    "task.yaml": "c78ee040d329da9dde7b586be2fb72fc957de77e0bee508a4b3fc944e05b1a93",
+    "src/solution.py": "c24f406280a1979c6c62b9e5e9bc6a583337c2c889b8a898e1e921c138309f05",
+    "tests/test_solution.py": "aaa424b58e60565ca0f735b2ee789087108bc73134729df1e5b80f83c3ebe4b2"
+  },
+  "task178": {
+    "task.yaml": "6958c64cee64fe824769e1398dfc981d3fda4a73b8a44e5ea680a22c9539cbb3",
+    "src/solution.py": "56fe898c601f82544401962664fdb26494d20647e7387887a9a03610bfef6bc6",
+    "tests/test_solution.py": "3154b271012e2c90ad93d048f3c8294e64be1c88c8aca5ac3d76ddac7ad777f2"
+  },
+  "task179": {
+    "task.yaml": "039e4213011082ab90e3551b8c3ab52edda5d4c40de2d54bbc44cab6fbce2de9",
+    "src/solution.py": "1cfec42de4b059cfe9497eb83defd464f74e62ac00081c7d320b01c88f2592e8",
+    "tests/test_solution.py": "62e605aaf8c6d917517e617c6f36904e7beab4dce82d5bbec7104634015ff6c7"
+  },
+  "task180": {
+    "task.yaml": "d6eb99a62e5a7718a857c187574a864e86fbebe57bde27e1b142e3f956b38eac",
+    "src/solution.py": "3c04af716ddbeeceac722ead6c9631c1600324e8dded6c5d8408232fdf1e8d10",
+    "tests/test_solution.py": "3f4303060194af45f46959ff5ffb41a4b06d2e999e2f71a0456861afca07ca6a"
+  },
+  "task181": {
+    "task.yaml": "b6e3968c166828cf6e5369c0311ba5404780ffea4dabc2b6e2a72c0fbf6d392a",
+    "src/solution.py": "27f0fffe469479c52adbddeab58cdab1ea3704ecd62410b87e68e0ad37d1e127",
+    "tests/test_solution.py": "36356a80a767d8291c7d470466bcd7a55e03f7400bccc54ddc959db320532eb3"
+  },
+  "task182": {
+    "task.yaml": "5d14f042fd189b5bca03e48ba996c1019618e8686a3d8975e056e59e0246edfb",
+    "src/solution.py": "dbe0d8e388654711301deab54c811b740cfdd349706ef6ff6ed8e3aea334e570",
+    "tests/test_solution.py": "c90602b638cd249745ea07f2a48af396cc9d039c29a07694ae602ed998d7da3b"
+  },
+  "task183": {
+    "task.yaml": "cd31d6425b3e7a57a57b4a5448db1f732fd9ba5d0edd3f5a219ca94e22007abe",
+    "src/solution.py": "e1989a8aae1aebcb238913285edd39b652fdf33094cc7b6058f1f27d88629a22",
+    "tests/test_solution.py": "264faa4c9f0152df7f9f25fc077b58312142659cc9c71e9f9159c09e2928e15f"
+  },
+  "task184": {
+    "task.yaml": "710dd8e958f12f181b1a14c3a9cdc373cb05f2837089b607a6baa9d265a46686",
+    "src/solution.py": "eaf5040344317b6c2ce34b279cd34629538e0c73424ffa920c6b11a383113706",
+    "tests/test_solution.py": "46cc1d83e7d72b636d9ec179d0af15fe5ce982beed40ca6fd55b666256f8e393"
+  },
+  "task185": {
+    "task.yaml": "c9a8bfb02087819865c914a82793c136cccf3f0b1527a6084c0c7fd633e626ef",
+    "src/solution.py": "2922b36ec544dd519749f66829a6fdc0e6ea002b6cd5cd8148f17e3fc6d27e45",
+    "tests/test_solution.py": "033e59fcc8ca5c2284ded3575da1f7ed2d2c9a1c154a38dfa76e1470e655cb3e"
+  },
+  "task186": {
+    "task.yaml": "05917fc62da9174c79f9a0d8e44cbd93d90bb0421f3a8642a024718379bd83da",
+    "src/solution.py": "4936960f30750c4fd887c596f8fba1cc73f06c775427285c1b8a58173b7d9f60",
+    "tests/test_solution.py": "33244c7cbc93a83bdeca6735499398e952f3d11d9e1cb9815eec4a284d1150a6"
+  },
+  "task187": {
+    "task.yaml": "0a0e6fbe49d05af8769353d3688d8aeab6435590f8b80fda0eb015e32ed9f398",
+    "src/solution.py": "4ba4cc5fae73c0ee8f382d7df9d5276f88f986500efdf5241a992784ddc04a64",
+    "tests/test_solution.py": "8ebd91ccbf35df556eab3591e4af10f48e52368b7eddc170f534f02b9d3eb47d"
+  },
+  "task188": {
+    "task.yaml": "9c013779e0381bd2b4685d054ca6457375e7dc634c96f53c942b56e9970a3ac6",
+    "src/solution.py": "68a1194d5f6a5bd7fd8278aa232aa5a3443385830f7d5aabee1f6fb8de249521",
+    "tests/test_solution.py": "8012fc178d1cf2f079f41ce4caff700f3ae353e14dbcb5119678ba25f6cb183c"
+  },
+  "task189": {
+    "task.yaml": "221b3fc58107f36fe5cbbd93cb8cc4fd31c90379b6f9cd594b51bc07fe0adccf",
+    "src/solution.py": "af64b33a21b0ce17b6f4db79f9b0cf599cab47d696c81964187a411590885756",
+    "tests/test_solution.py": "26d0cd4ef245dd819211bd77245a53255c4de6e2f56bea6ebc72cbcd678b1ecb"
+  }
+}

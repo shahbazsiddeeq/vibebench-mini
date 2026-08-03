@@ -1,0 +1,2 @@
+title: Secure Token Generator
+description: gen_token(n_bytes=32) returns a URL-safe base64 token encoding n_bytes of cryptographically-secure random bytes (use a CSPRNG such as the secrets module). The URL-safe alphabet is [A-Za-z0-9_-]; any base64 padding ('=') MUST be stripped, so the returned string has exactly (4*n_bytes + 2)//3 characters (e.g. 22 for 16 bytes, 43 for 32 bytes). Raises ValueError if n_bytes < 8. Example: gen_token(16) -> "dBjftJeZ4CVP-mB92K27uh" (22 chars, varies each call)

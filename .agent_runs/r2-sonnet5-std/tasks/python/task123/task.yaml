@@ -1,0 +1,2 @@
+title: Factory Pattern (Shape Factory)
+description: make_shape(kind: str, **kwargs) -> object returns an object with an .area() -> float method; kinds are 'circle' (radius), 'rectangle' (width, height), 'square' (side); unknown kind or non-positive dimensions raise ValueError. Example: make_shape('square', side=3).area() == 9.0.

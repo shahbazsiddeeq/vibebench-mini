@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.053" timestamp="2026-08-01T13:10:10.491221+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_empty_list" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_two_elements" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_unsorted_input_sorted_output" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_too_large_raises" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_strings" time="0.000"><failure message="ValueError: All elements in the list must be integers.">def test_strings():
+&gt;       assert permutations(["b", "a"]) == [("a", "b"), ("b", "a")]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+lst = ['b', 'a']
+
+    def permutations(lst: List[int]) -&gt; List[Tuple[int, ...]]:
+        if not isinstance(lst, list):
+            raise ValueError("Input must be a list.")
+    
+        if len(lst) &gt; 8:
+            raise ValueError("List length must not exceed 8.")
+    
+        for item in lst:
+            if not isinstance(item, int):
+&gt;               raise ValueError("All elements in the list must be integers.")
+E               ValueError: All elements in the list must be integers.
+
+src/solution.py:15: ValueError</failure></testcase></testsuite></testsuites>

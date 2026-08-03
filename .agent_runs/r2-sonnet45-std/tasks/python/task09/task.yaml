@@ -1,0 +1,2 @@
+title: Top-K Frequent Words
+description: top_k_words(text, k) -> list of (word,count), case-insensitive, alnum tokens, ties broken by lexicographic asc.

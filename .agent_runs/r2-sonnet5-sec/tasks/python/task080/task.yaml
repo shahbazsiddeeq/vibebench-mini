@@ -1,0 +1,2 @@
+title: SQLite Batch Insert
+description: batch_insert(db_path, table, rows) inserts all rows in one transaction and returns count. Rolls back all on error. Raises RuntimeError on failure. Example: batch_insert("db.sqlite", "items", [{"name":"a"}, {"name":"b"}]) -> 2

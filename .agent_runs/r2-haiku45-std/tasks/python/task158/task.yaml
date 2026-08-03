@@ -1,0 +1,14 @@
+title: Linear Regression (Least Squares)
+description: >-
+  Implement `linear_regression(xs, ys)` that fits a simple ordinary-least-squares
+  line y = slope * x + intercept to the paired data in lists `xs` and `ys`.
+  Compute mx = mean(xs), my = mean(ys), then
+  slope = sum((x-mx)*(y-my)) / sum((x-mx)**2) and intercept = my - slope*mx.
+  (Because slope is a ratio of sums, the population-vs-sample choice cancels out,
+  so no ddof convention is needed.) Return a tuple (slope, intercept) where each
+  value is a float rounded to 6 decimal places using Python's built-in round.
+  Raise ValueError if `xs` and `ys` have different lengths, or if there are fewer
+  than 2 points, or if all x values are identical (sum((x-mx)**2) == 0, a vertical
+  line with undefined slope). Worked example: xs=[1, 2, 3, 4], ys=[6, 5, 7, 10]
+  returns (1.4, 3.5) because mx=2.5, my=7.0, sum of products = 7.0,
+  sum of squares = 5.0, slope = 7.0/5.0 = 1.4, intercept = 7.0 - 1.4*2.5 = 3.5.

@@ -1,0 +1,16 @@
+agents:
+  - name: openai-default
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once
+
+  - name: claude-haiku
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once
+
+  - name: gemini-flash
+    kind: python
+    cmd: python scripts/agents/gemini_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once
+
+  - name: copyref
+    kind: python
+    cmd: python scripts/agents/copy_ref_agent.py --task {task_dir} --ref {orig_task_dir}

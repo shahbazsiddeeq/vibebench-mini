@@ -1,0 +1,2 @@
+title: Word Wrap
+description: word_wrap(text, width) wraps text to width characters without breaking words; returns list of lines. Raises ValueError if any single word exceeds width. Example: word_wrap("the quick brown fox", 10) -> ["the quick", "brown fox"]

@@ -1,0 +1,2 @@
+title: SQLite Migration Runner
+description: run_migrations(db_path, migrations) executes a list of SQL statements in a single transaction, returns count. Raises RuntimeError with the failing statement on error and rolls back all changes. Example: run_migrations("db.sqlite", ["CREATE TABLE t (id INT)"]) -> 1

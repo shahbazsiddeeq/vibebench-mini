@@ -1,0 +1,12 @@
+title: Natural Sort
+description: >-
+  natural_sort(items) returns a new list containing the same strings sorted in
+  natural order: each embedded run of digits is compared by its numeric value
+  (so "file2" sorts before "file10"), while runs of non-digit characters are
+  compared character by character by Unicode code point. Letter comparison is
+  case-sensitive, so uppercase letters (e.g. "A") sort before lowercase letters
+  (e.g. "a"). At the same position within a string, a numeric run sorts before a
+  text run, so mixed inputs such as ["a1", "1a", "b"] never raise. The sort is
+  stable. Example: natural_sort(["file10", "file2", "file1"]) ->
+  ["file1", "file2", "file10"]; natural_sort(["A2", "a11", "a1b", "a1a"]) ->
+  ["A2", "a1a", "a1b", "a11"]

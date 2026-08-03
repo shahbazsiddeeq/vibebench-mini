@@ -1,0 +1,3549 @@
+{
+  "task018": {
+    "n_total": 12,
+    "n_public": 6,
+    "n_hidden": 6,
+    "public_names": [
+      "test_found_first",
+      "test_not_found",
+      "test_single_found",
+      "test_even_length",
+      "test_large_input",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_found_middle",
+      "test_found_last",
+      "test_empty",
+      "test_single_not_found",
+      "test_duplicates_returns_valid_index",
+      "test_is_logarithmic"
+    ],
+    "has_class": true
+  },
+  "task019": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_top",
+      "test_get_min_after_pop",
+      "test_top_empty_raises",
+      "test_duplicate_mins",
+      "test_get_min_is_constant_time"
+    ],
+    "hidden_names": [
+      "test_push_pop",
+      "test_get_min_basic",
+      "test_pop_empty_raises",
+      "test_get_min_empty_raises",
+      "test_empty_then_push"
+    ],
+    "has_class": true
+  },
+  "task02": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_reverse_trim",
+      "test_empty",
+      "test_multiple_spaces_collapsed",
+      "test_leading_trailing_and_internal"
+    ],
+    "hidden_names": [
+      "test_reverse_simple",
+      "test_reverse_single",
+      "test_whitespace_only",
+      "test_tabs_and_newlines_are_separators"
+    ],
+    "has_class": false
+  },
+  "task020": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_simple_parens",
+      "test_interleaved_invalid",
+      "test_unmatched_close",
+      "test_mixed_content_ignored",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_empty_string",
+      "test_nested",
+      "test_unmatched_open",
+      "test_wrong_close",
+      "test_deeply_nested"
+    ],
+    "has_class": false
+  },
+  "task021": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_multi_hop",
+      "test_no_path",
+      "test_two_node_graph"
+    ],
+    "hidden_names": [
+      "test_direct_neighbour",
+      "test_same_node",
+      "test_unknown_start",
+      "test_linear_chain"
+    ],
+    "has_class": false
+  },
+  "task022": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_not_adjacent",
+      "test_no_solution_raises",
+      "test_duplicates",
+      "test_prefers_smallest_second_index",
+      "test_repeated_complement_uses_closest_i"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_negative_numbers",
+      "test_target_zero",
+      "test_indices_ordered",
+      "test_multiple_pairs_smallest_j",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task023": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_base_one",
+      "test_fib_20",
+      "test_negative_raises",
+      "test_memo_persists_across_calls"
+    ],
+    "hidden_names": [
+      "test_base_zero",
+      "test_fib_10",
+      "test_fib_large",
+      "test_fib_1000_no_recursion_error",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task024": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_present_once",
+      "test_empty",
+      "test_at_boundaries",
+      "test_above_maximum",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_present_multiple",
+      "test_not_present",
+      "test_all_same",
+      "test_below_minimum",
+      "test_uses_binary_search"
+    ],
+    "has_class": true
+  },
+  "task025": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_k_zero",
+      "test_k_larger_than_length",
+      "test_empty",
+      "test_input_not_modified",
+      "test_large_negative_k"
+    ],
+    "hidden_names": [
+      "test_basic_right",
+      "test_k_equals_length",
+      "test_k_negative",
+      "test_single_element",
+      "test_returns_new_list",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task026": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_single_element",
+      "test_three_elements_exact",
+      "test_duplicates_produce_duplicate_tuples",
+      "test_boundary_ok"
+    ],
+    "hidden_names": [
+      "test_empty_list",
+      "test_two_elements",
+      "test_unsorted_input_sorted_output",
+      "test_too_large_raises",
+      "test_strings"
+    ],
+    "has_class": false
+  },
+  "task027": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_non_square",
+      "test_single_column",
+      "test_jagged_raises",
+      "test_returns_new_list"
+    ],
+    "hidden_names": [
+      "test_square",
+      "test_single_row",
+      "test_empty_raises",
+      "test_3x3"
+    ],
+    "has_class": false
+  },
+  "task028": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_already_sorted",
+      "test_single",
+      "test_duplicates",
+      "test_parametrized",
+      "test_builtin_sorted_unavailable"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_reverse_sorted",
+      "test_empty",
+      "test_returns_new_list",
+      "test_does_not_use_builtin_sort",
+      "test_randomized_large_input"
+    ],
+    "has_class": false
+  },
+  "task029": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_identical",
+      "test_empty_first",
+      "test_both_empty",
+      "test_single_char_no_match"
+    ],
+    "hidden_names": [
+      "test_classic",
+      "test_no_common",
+      "test_empty_second",
+      "test_single_char_match",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task03": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_case_space_punct",
+      "test_empty",
+      "test_digits_only",
+      "test_non_ascii_stripped"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_negative",
+      "test_single_char",
+      "test_only_punctuation_reduces_to_empty"
+    ],
+    "has_class": false
+  },
+  "task030": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_empty",
+      "test_punctuation_stripped",
+      "test_hyphenated_split",
+      "test_digits_are_words",
+      "test_single_word"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_case_insensitive",
+      "test_contractions_split_on_apostrophe",
+      "test_unicode_words_intact",
+      "test_underscore_is_separator",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task031": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_one_level",
+      "test_mixed_depth",
+      "test_empty_nested",
+      "test_deeply_nested_empty"
+    ],
+    "hidden_names": [
+      "test_already_flat",
+      "test_deep_nesting",
+      "test_empty",
+      "test_mixed_types"
+    ],
+    "has_class": false
+  },
+  "task032": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_window_one",
+      "test_all_same",
+      "test_increasing",
+      "test_k_too_large_raises"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_window_full",
+      "test_decreasing",
+      "test_k_zero_raises"
+    ],
+    "has_class": false
+  },
+  "task033": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_all_different",
+      "test_empty_list",
+      "test_groups_sorted_by_first"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_all_same_anagram",
+      "test_single_word",
+      "test_each_group_sorted"
+    ],
+    "has_class": false
+  },
+  "task034": {
+    "n_total": 12,
+    "n_public": 6,
+    "n_hidden": 6,
+    "public_names": [
+      "test_impossible",
+      "test_single_denomination",
+      "test_negative_coin_raises",
+      "test_negative_amount_raises",
+      "test_empty_coins_zero_amount",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_amount_zero",
+      "test_classic_case",
+      "test_zero_coin_raises",
+      "test_empty_coins_nonzero_amount",
+      "test_unlimited_supply_reuses_denomination"
+    ],
+    "has_class": false
+  },
+  "task035": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_self_loop",
+      "test_single_terminal_node",
+      "test_two_nodes_no_cycle",
+      "test_chain_reaches_end_via_other_nodes",
+      "test_out_of_bounds_raises"
+    ],
+    "hidden_names": [
+      "test_cycle_three_nodes",
+      "test_no_cycle_linear",
+      "test_two_nodes_cycle",
+      "test_chain_into_cycle_not_containing_start",
+      "test_empty",
+      "test_index_below_negative_one_raises"
+    ],
+    "has_class": false
+  },
+  "task036": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_search_not_found",
+      "test_starts_with_false",
+      "test_overlapping_words",
+      "test_independent_tries"
+    ],
+    "hidden_names": [
+      "test_insert_search_found",
+      "test_starts_with_true",
+      "test_empty_prefix",
+      "test_search_after_multiple_inserts"
+    ],
+    "has_class": false
+  },
+  "task037": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_missing_returns_minus_one",
+      "test_access_updates_recency",
+      "test_update_existing",
+      "test_negative_capacity_raises"
+    ],
+    "hidden_names": [
+      "test_basic_put_get",
+      "test_eviction",
+      "test_capacity_one",
+      "test_capacity_zero_raises",
+      "test_update_existing_bumps_recency"
+    ],
+    "has_class": false
+  },
+  "task038": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_preserves_case",
+      "test_wraps_z",
+      "test_shift_26",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_basic_encode",
+      "test_non_alpha_unchanged",
+      "test_shift_zero",
+      "test_negative_shift"
+    ],
+    "has_class": false
+  },
+  "task039": {
+    "n_total": 14,
+    "n_public": 7,
+    "n_hidden": 7,
+    "public_names": [
+      "test_decode_basic",
+      "test_decode_single_chars",
+      "test_encode_count_over_nine",
+      "test_roundtrip_with_newline",
+      "test_decode_invalid_no_count",
+      "test_decode_zero_count",
+      "test_empty_decode"
+    ],
+    "hidden_names": [
+      "test_encode_basic",
+      "test_encode_single_chars",
+      "test_encode_long_run",
+      "test_roundtrip",
+      "test_encode_rejects_digits",
+      "test_decode_invalid_trailing",
+      "test_empty_encode"
+    ],
+    "has_class": false
+  },
+  "task04": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_ignores_bad_rows",
+      "test_missing_column_raises",
+      "test_all_non_numeric_raises"
+    ],
+    "hidden_names": [
+      "test_simple",
+      "test_empty_raises",
+      "test_quoted_numeric_fields"
+    ],
+    "has_class": false
+  },
+  "task040": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_four",
+      "test_fourteen",
+      "test_1994",
+      "test_zero_raises",
+      "test_parametrized"
+    ],
+    "hidden_names": [
+      "test_one",
+      "test_nine",
+      "test_forty",
+      "test_3999",
+      "test_4000_raises"
+    ],
+    "has_class": false
+  },
+  "task041": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_full_palindrome",
+      "test_two_same",
+      "test_empty",
+      "test_complex"
+    ],
+    "hidden_names": [
+      "test_basic_first_occurrence",
+      "test_single_char",
+      "test_two_different_first_occurrence",
+      "test_even_palindrome"
+    ],
+    "has_class": false
+  },
+  "task042": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_exact_fit",
+      "test_single_word",
+      "test_multiple_spaces",
+      "test_parametrized",
+      "test_no_returned_line_exceeds_width"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_long_word_raises",
+      "test_empty_string",
+      "test_single_char_width",
+      "test_boundary_line_not_over_width"
+    ],
+    "has_class": false
+  },
+  "task043": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_empty_first",
+      "test_both_empty",
+      "test_single_insert",
+      "test_single_replace"
+    ],
+    "hidden_names": [
+      "test_identical",
+      "test_empty_second",
+      "test_classic",
+      "test_single_delete",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task044": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_snake_to_camel",
+      "test_two_part_snake",
+      "test_single_word",
+      "test_acronym_leading",
+      "test_roundtrip"
+    ],
+    "hidden_names": [
+      "test_camel_to_snake",
+      "test_already_snake",
+      "test_empty",
+      "test_acronym",
+      "test_camel_lowercases_first_letter"
+    ],
+    "has_class": false
+  },
+  "task045": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_valid_plain",
+      "test_wrong_length_raises",
+      "test_valid_with_spaces"
+    ],
+    "hidden_names": [
+      "test_valid_with_hyphens",
+      "test_invalid_checksum",
+      "test_non_digit_raises",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task046": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_sos",
+      "test_two_words",
+      "test_digit",
+      "test_single_digit_word",
+      "test_whole_alphabet_in_order"
+    ],
+    "hidden_names": [
+      "test_single_letter",
+      "test_word",
+      "test_lowercase_same",
+      "test_unknown_raises",
+      "test_every_symbol",
+      "test_all_digits"
+    ],
+    "has_class": false
+  },
+  "task047": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_empty",
+      "test_avg_word_length",
+      "test_avg_word_length_rounded_2dp",
+      "test_char_count"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_multiple_sentences",
+      "test_avg_word_length_keeps_punctuation",
+      "test_word_count"
+    ],
+    "has_class": false
+  },
+  "task048": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_weak_password",
+      "test_has_upper",
+      "test_has_digit",
+      "test_length_criterion_exactly_8",
+      "test_special_char_set"
+    ],
+    "hidden_names": [
+      "test_strong_password",
+      "test_length_field",
+      "test_has_lower",
+      "test_has_special",
+      "test_length_criterion_7_not_counted",
+      "test_full_score_fields"
+    ],
+    "has_class": false
+  },
+  "task049": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_no_match",
+      "test_longer_key_wins",
+      "test_multiple_occurrences",
+      "test_simultaneous_no_chaining"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty_replacements",
+      "test_partial_match",
+      "test_empty_text",
+      "test_swap_no_chaining"
+    ],
+    "has_class": false
+  },
+  "task05": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_traversal",
+      "test_symlink_escape_rejected",
+      "test_harmless_internal_dotdot_allowed"
+    ],
+    "hidden_names": [
+      "test_inside",
+      "test_absolute_user_path_rejected",
+      "test_nul_byte_rejected"
+    ],
+    "has_class": false
+  },
+  "task050": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_all_unique",
+      "test_empty",
+      "test_mixed",
+      "test_first_appearance_order"
+    ],
+    "hidden_names": [
+      "test_some_duplicates",
+      "test_all_duplicates",
+      "test_single_char",
+      "test_unique_chars_in_hello",
+      "test_order_with_duplicates_removed"
+    ],
+    "has_class": false
+  },
+  "task051": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_all_caps",
+      "test_multiple_punctuation",
+      "test_empty",
+      "test_leading_quote"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_single_sentence",
+      "test_already_normalized",
+      "test_leading_whitespace",
+      "test_capitalize_after_period_without_space"
+    ],
+    "has_class": false
+  },
+  "task052": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_no_anagrams",
+      "test_single_word",
+      "test_lexicographic_order",
+      "test_duplicate_words_not_self_paired",
+      "test_case_sensitive"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty",
+      "test_multiple_pairs",
+      "test_different_lengths_not_paired",
+      "test_full_output_order"
+    ],
+    "has_class": false
+  },
+  "task053": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_empty_file",
+      "test_file_not_found"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_single_line_no_newline",
+      "test_multiple_lines"
+    ],
+    "has_class": false
+  },
+  "task054": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_returns_absolute_paths",
+      "test_no_match",
+      "test_without_dot"
+    ],
+    "hidden_names": [
+      "test_finds_files",
+      "test_recursive",
+      "test_sorted"
+    ],
+    "has_class": false
+  },
+  "task055": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_appends_multiple",
+      "test_no_timestamp"
+    ],
+    "hidden_names": [
+      "test_creates_file",
+      "test_timestamp_prefix",
+      "test_parent_dirs_created"
+    ],
+    "has_class": false
+  },
+  "task056": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_comments_ignored",
+      "test_duplicate_section_raises",
+      "test_multiple_sections"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_blank_lines_ignored",
+      "test_file_not_found"
+    ],
+    "has_class": false
+  },
+  "task057": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_later_overrides",
+      "test_shallow_merge_replaces_nested_object",
+      "test_empty_list"
+    ],
+    "hidden_names": [
+      "test_basic_merge",
+      "test_not_object_raises",
+      "test_three_file_precedence_chain"
+    ],
+    "has_class": false
+  },
+  "task058": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_no_match",
+      "test_quoted_fields_preserved",
+      "test_header_preserved"
+    ],
+    "hidden_names": [
+      "test_basic_filter",
+      "test_multi_match",
+      "test_missing_column_raises"
+    ],
+    "has_class": false
+  },
+  "task059": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_n_zero",
+      "test_last_line_no_newline",
+      "test_file_not_found"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_n_larger_than_file",
+      "test_n_negative_raises"
+    ],
+    "has_class": false
+  },
+  "task06": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_empty_raises",
+      "test_floats_and_negatives"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_ignores_blank_and_malformed_lines",
+      "test_all_malformed_raises"
+    ],
+    "has_class": false
+  },
+  "task060": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_overwrites",
+      "test_content_correct",
+      "test_preserves_existing_mode",
+      "test_no_temp_left_on_error"
+    ],
+    "hidden_names": [
+      "test_creates_file",
+      "test_parent_dirs_created",
+      "test_no_temp_files_left",
+      "test_fsyncs_before_replace"
+    ],
+    "has_class": false
+  },
+  "task061": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_empty_dir",
+      "test_not_a_directory",
+      "test_symlinks_not_counted"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_nested",
+      "test_nonexistent_raises"
+    ],
+    "has_class": false
+  },
+  "task062": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_key_is_sha256_digest",
+      "test_zero_byte_files_are_grouped",
+      "test_empty_dir",
+      "test_mixed"
+    ],
+    "hidden_names": [
+      "test_two_identical_files",
+      "test_finds_duplicates_in_subdirectories",
+      "test_no_duplicates",
+      "test_three_identical"
+    ],
+    "has_class": false
+  },
+  "task063": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_known_content",
+      "test_file_not_found",
+      "test_returns_hex_string"
+    ],
+    "hidden_names": [
+      "test_empty_file",
+      "test_consistent",
+      "test_large_file_multiple_chunks"
+    ],
+    "has_class": false
+  },
+  "task064": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_example_from_description",
+      "test_empty_message_raises",
+      "test_different_keys_differ"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty_key_raises",
+      "test_returns_hex",
+      "test_different_messages_differ"
+    ],
+    "has_class": false
+  },
+  "task065": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_decode_known",
+      "test_empty_bytes",
+      "test_decode_invalid_raises"
+    ],
+    "hidden_names": [
+      "test_encode_known",
+      "test_roundtrip",
+      "test_empty_string_decode",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task066": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_encrypt_basic",
+      "test_empty_key_raises",
+      "test_multibyte_key_exact_vector",
+      "test_different_keys_differ"
+    ],
+    "hidden_names": [
+      "test_roundtrip",
+      "test_empty_data",
+      "test_key_cycles",
+      "test_multibyte_key_roundtrip"
+    ],
+    "has_class": false
+  },
+  "task067": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_unique",
+      "test_boundary_ok",
+      "test_url_safe_chars",
+      "test_exact_length"
+    ],
+    "hidden_names": [
+      "test_returns_string",
+      "test_too_small_raises",
+      "test_custom_length",
+      "test_no_padding"
+    ],
+    "has_class": false
+  },
+  "task068": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_not_equal",
+      "test_different_length",
+      "test_same_content_same_case",
+      "test_non_ascii_not_equal"
+    ],
+    "hidden_names": [
+      "test_equal_strings",
+      "test_empty_equal",
+      "test_case_sensitive",
+      "test_non_ascii_equal",
+      "test_emoji_equal"
+    ],
+    "has_class": false
+  },
+  "task069": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_no_dot_raises",
+      "test_not_json_raises",
+      "test_unpadded_segment"
+    ],
+    "hidden_names": [
+      "test_real_header",
+      "test_invalid_base64_raises",
+      "test_returns_dict",
+      "test_non_object_header_raises"
+    ],
+    "has_class": false
+  },
+  "task07": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_short_user",
+      "test_tld_less_address",
+      "test_multiple"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_two_char_user",
+      "test_domain_case_preserved",
+      "test_non_email_unchanged"
+    ],
+    "has_class": false
+  },
+  "task070": {
+    "n_total": 13,
+    "n_public": 6,
+    "n_hidden": 7,
+    "public_names": [
+      "test_keeps_allowed",
+      "test_empty_string",
+      "test_strips_attributes",
+      "test_allowed_tag_strips_event_handler",
+      "test_attribute_containing_gt_does_not_leak",
+      "test_unterminated_script_tag"
+    ],
+    "hidden_names": [
+      "test_removes_script",
+      "test_empty_allowed_removes_all",
+      "test_case_insensitive_allowed",
+      "test_disallowed_tag_with_event_handler_removed",
+      "test_javascript_url_attribute_stripped",
+      "test_nested_reemerging_script_tag",
+      "test_stray_angle_brackets_escaped"
+    ],
+    "has_class": false
+  },
+  "task071": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_private_ipv4",
+      "test_invalid",
+      "test_private_10x",
+      "test_cgnat_not_private",
+      "test_public_ipv6"
+    ],
+    "hidden_names": [
+      "test_valid_public_ipv4",
+      "test_loopback_ipv4",
+      "test_valid_ipv6",
+      "test_172_boundaries",
+      "test_special_ranges_private",
+      "test_ipv6_link_local_and_doc_private"
+    ],
+    "has_class": false
+  },
+  "task072": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_no_port",
+      "test_no_fragment",
+      "test_multiple_query_params",
+      "test_blank_value_dropped",
+      "test_full_example_exact"
+    ],
+    "hidden_names": [
+      "test_full_url",
+      "test_no_query",
+      "test_missing_scheme_raises",
+      "test_repeated_key_becomes_list",
+      "test_host_lowercased"
+    ],
+    "has_class": false
+  },
+  "task073": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_columns_created",
+      "test_invalid_name_raises",
+      "test_injection_in_column_name_raises",
+      "test_quoted_identifier_column_created"
+    ],
+    "hidden_names": [
+      "test_creates_table",
+      "test_already_exists_raises",
+      "test_case_insensitive_duplicate_raises_valueerror",
+      "test_injection_in_type_raises"
+    ],
+    "has_class": false
+  },
+  "task074": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_update",
+      "test_update_preserves_omitted_columns",
+      "test_injection_in_table_raises"
+    ],
+    "hidden_names": [
+      "test_insert",
+      "test_key_not_in_record_raises",
+      "test_key_only_record_leaves_row_untouched",
+      "test_injection_in_column_raises"
+    ],
+    "has_class": false
+  },
+  "task075": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_missing_returns_default",
+      "test_delete_missing",
+      "test_invalid_key_raises",
+      "test_delete_persists_across_reopen"
+    ],
+    "hidden_names": [
+      "test_set_get",
+      "test_delete_existing",
+      "test_keys",
+      "test_persistence",
+      "test_non_scalar_values_persist"
+    ],
+    "has_class": false
+  },
+  "task077": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_data_queryable",
+      "test_columns_are_all_text",
+      "test_invalid_table_name_raises"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_file_not_found",
+      "test_quote_in_header_raises",
+      "test_existing_table_raises_no_duplicate_append"
+    ],
+    "has_class": false
+  },
+  "task078": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_multiple_tables",
+      "test_delete_returns_count",
+      "test_no_filter_find_all",
+      "test_find_after_delete_removes_rows"
+    ],
+    "hidden_names": [
+      "test_insert_find",
+      "test_filter_no_match",
+      "test_find_empty_table",
+      "test_find_multiple_filters_are_anded"
+    ],
+    "has_class": false
+  },
+  "task079": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_missing_required",
+      "test_extra_keys_ok",
+      "test_multiple_errors",
+      "test_list_and_dict_type_mismatch"
+    ],
+    "hidden_names": [
+      "test_valid_data",
+      "test_wrong_type",
+      "test_empty_schema",
+      "test_all_legal_types_accepted",
+      "test_type_only_checked_when_key_present"
+    ],
+    "has_class": false
+  },
+  "task08": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_remove_default_port",
+      "test_preserves_userinfo_case_and_lowercases_host",
+      "test_blank_query_value_kept_and_sorted"
+    ],
+    "hidden_names": [
+      "test_defaults_to_https_and_lower_host",
+      "test_sort_query_and_drop_fragment",
+      "test_resolves_dot_segments",
+      "test_scheme_and_path_lowercased_only_host"
+    ],
+    "has_class": false
+  },
+  "task080": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_data_inserted",
+      "test_error_raises",
+      "test_mismatched_row_keys_raise_runtimeerror",
+      "test_injection_in_column_raises"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty_rows",
+      "test_mid_batch_failure_rolls_back",
+      "test_injection_in_table_raises"
+    ],
+    "has_class": false
+  },
+  "task081": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_added",
+      "test_no_change",
+      "test_missing_key_from_new_raises"
+    ],
+    "hidden_names": [
+      "test_basic_change",
+      "test_removed",
+      "test_missing_key_raises",
+      "test_mixed_multi_record"
+    ],
+    "has_class": false
+  },
+  "task082": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_empty_config",
+      "test_carriage_return_in_value_raises",
+      "test_multiple_sections"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_newline_in_value_raises",
+      "test_exact_format_no_spaces"
+    ],
+    "has_class": false
+  },
+  "task083": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_multiple",
+      "test_error_raises",
+      "test_error_message_contains_failing_statement"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty_list",
+      "test_tables_persist_from_fresh_connection",
+      "test_rollback_on_error"
+    ],
+    "has_class": false
+  },
+  "task084": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_success",
+      "test_client_error",
+      "test_unknown_raises",
+      "test_parametrized",
+      "test_out_of_range_raises"
+    ],
+    "hidden_names": [
+      "test_informational",
+      "test_redirect",
+      "test_server_error",
+      "test_below_range_raises",
+      "test_class_boundaries"
+    ],
+    "has_class": false
+  },
+  "task085": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_empty",
+      "test_list_value",
+      "test_integer_value",
+      "test_space_encoded_exact"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_special_chars_encoded",
+      "test_sorted_keys",
+      "test_sorted_with_list_value_exact",
+      "test_reserved_chars_encoded_exact"
+    ],
+    "has_class": false
+  },
+  "task086": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_wildcard_allow",
+      "test_specific_agent",
+      "test_empty_content",
+      "test_user_agent_case_insensitive"
+    ],
+    "hidden_names": [
+      "test_wildcard_disallow",
+      "test_crawl_delay",
+      "test_fallback_to_wildcard",
+      "test_comment_in_group_does_not_reset",
+      "test_user_agent_directive_case_insensitive"
+    ],
+    "has_class": false
+  },
+  "task087": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_single",
+      "test_whitespace",
+      "test_no_value",
+      "test_value_with_equals_signs"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_empty",
+      "test_duplicate_last_wins",
+      "test_base64_value_with_padding"
+    ],
+    "has_class": false
+  },
+  "task088": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_folded_header",
+      "test_multiline_fold",
+      "test_empty",
+      "test_stops_at_blank_line"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_folded_header_with_tab",
+      "test_duplicate_header_last_wins",
+      "test_case_normalized"
+    ],
+    "has_class": false
+  },
+  "task089": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_fails_then_succeeds",
+      "test_wrong_exception_propagates",
+      "test_backoff_sleep_sequence",
+      "test_raises_last_exception_not_first"
+    ],
+    "hidden_names": [
+      "test_succeeds_first_try",
+      "test_all_fail_raises",
+      "test_max_attempts_zero_raises",
+      "test_calls_func_max_attempts_times"
+    ],
+    "has_class": false
+  },
+  "task09": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_ties_lexicographic",
+      "test_k_larger_than_word_count",
+      "test_empty_text"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_k_zero",
+      "test_negative_k",
+      "test_punctuation_stripped"
+    ],
+    "has_class": false
+  },
+  "task090": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_json",
+      "test_pdf",
+      "test_no_extension",
+      "test_double_extension_uses_last"
+    ],
+    "hidden_names": [
+      "test_html",
+      "test_png",
+      "test_unknown_extension",
+      "test_empty_string",
+      "test_case_insensitive"
+    ],
+    "has_class": false
+  },
+  "task091": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_decrement",
+      "test_negative_initial_raises",
+      "test_concurrent_mixed_increment_decrement"
+    ],
+    "hidden_names": [
+      "test_increment",
+      "test_value",
+      "test_concurrent_increments_under_contention"
+    ],
+    "has_class": false
+  },
+  "task092": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_different_args_not_cached",
+      "test_none_return_cached",
+      "test_recursion_does_not_deadlock"
+    ],
+    "hidden_names": [
+      "test_basic_caching",
+      "test_preserves_name",
+      "test_keyword_arguments",
+      "test_concurrent_first_call_runs_fn_once"
+    ],
+    "has_class": false
+  },
+  "task093": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_multiple_handlers",
+      "test_no_handler_no_error",
+      "test_handlers_called_in_subscription_order",
+      "test_handler_unsubscribing_itself_during_publish"
+    ],
+    "hidden_names": [
+      "test_subscribe_publish",
+      "test_unsubscribe",
+      "test_data_passed",
+      "test_unsubscribe_during_publish_is_safe"
+    ],
+    "has_class": false
+  },
+  "task094": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_empty_raises",
+      "test_range",
+      "test_std_dev_nonnegative",
+      "test_mode_most_frequent",
+      "test_population_std_dev_rounded"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_single_element",
+      "test_median_odd",
+      "test_mode_none_when_all_distinct",
+      "test_mode_ties_pick_smallest",
+      "test_rounding_to_4dp"
+    ],
+    "has_class": false
+  },
+  "task095": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_p0_is_min",
+      "test_empty_raises",
+      "test_p_above_100_raises",
+      "test_unsorted_input"
+    ],
+    "hidden_names": [
+      "test_p50_matches_median",
+      "test_p100_is_max",
+      "test_p_below_zero_raises",
+      "test_interpolation",
+      "test_single_element"
+    ],
+    "has_class": false
+  },
+  "task096": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_window_one",
+      "test_window_zero_raises",
+      "test_output_length"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_window_full",
+      "test_window_too_large_raises",
+      "test_parametrized"
+    ],
+    "has_class": false
+  },
+  "task097": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_simple_two_point",
+      "test_too_few_points"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_known_values",
+      "test_zero_std"
+    ],
+    "has_class": false
+  },
+  "task098": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_perfect_negative",
+      "test_known_correlation",
+      "test_negative_correlation",
+      "test_length_mismatch"
+    ],
+    "hidden_names": [
+      "test_perfect_positive",
+      "test_no_correlation",
+      "test_result_is_rounded_to_4dp",
+      "test_near_zero_correlation",
+      "test_too_few_points"
+    ],
+    "has_class": false
+  },
+  "task099": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_finds_outliers",
+      "test_uses_population_std",
+      "test_too_few_points",
+      "test_constant_returns_empty"
+    ],
+    "hidden_names": [
+      "test_no_outliers",
+      "test_custom_threshold",
+      "test_preserves_order_and_multiple",
+      "test_empty_raises"
+    ],
+    "has_class": false
+  },
+  "task10": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_rejects_unsafe_yaml",
+      "test_empty_file_is_null"
+    ],
+    "hidden_names": [
+      "test_object_and_list",
+      "test_date_serialized_as_string",
+      "test_non_ascii_preserved"
+    ],
+    "has_class": false
+  },
+  "task100": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_strings",
+      "test_rounding_to_4dp",
+      "test_single"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_relative_frequencies_sum_to_one",
+      "test_empty_raises",
+      "test_all_same"
+    ],
+    "has_class": false
+  },
+  "task101": {
+    "n_total": 4,
+    "n_public": 2,
+    "n_hidden": 2,
+    "public_names": [
+      "test_reset_creates_new",
+      "test_instance_stable_without_reset"
+    ],
+    "hidden_names": [
+      "test_same_instance",
+      "test_multiple_resets"
+    ],
+    "has_class": false
+  },
+  "task102": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_detach",
+      "test_no_observers",
+      "test_subjects_are_independent"
+    ],
+    "hidden_names": [
+      "test_attach_and_notify",
+      "test_multiple_observers",
+      "test_notify_order"
+    ],
+    "has_class": true
+  },
+  "task103": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_select_columns",
+      "test_multiple_where",
+      "test_chained"
+    ],
+    "hidden_names": [
+      "test_simple_select",
+      "test_where_parameterized",
+      "test_limit_parameterized",
+      "test_user_value_never_interpolated"
+    ],
+    "has_class": false
+  },
+  "task104": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_insertion_sort",
+      "test_empty",
+      "test_does_not_mutate",
+      "test_handles_duplicates_and_negatives"
+    ],
+    "hidden_names": [
+      "test_bubble_sort",
+      "test_swap_strategy",
+      "test_single",
+      "test_returns_new_list_object",
+      "test_standalone_functions_do_not_mutate"
+    ],
+    "has_class": false
+  },
+  "task105": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_empty",
+      "test_string_items_order",
+      "test_order_preserved_with_variable_work"
+    ],
+    "hidden_names": [
+      "test_basic_preserves_order",
+      "test_single_worker",
+      "test_none_items_not_confused_with_sentinel",
+      "test_invalid_workers_raises"
+    ],
+    "has_class": false
+  },
+  "task106": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_edges_and_counts_exact",
+      "test_single_bin",
+      "test_invalid_bins",
+      "test_bin_ranges_cover_all"
+    ],
+    "hidden_names": [
+      "test_example_exact_tuples",
+      "test_interior_edge_belongs_to_upper_bin",
+      "test_all_same",
+      "test_empty_data"
+    ],
+    "has_class": false
+  },
+  "task107": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_passes_with_extra_keys",
+      "test_fails_wrong_value",
+      "test_reports_all_mismatches"
+    ],
+    "hidden_names": [
+      "test_passes_when_subset",
+      "test_fails_missing_key",
+      "test_empty_expected_always_passes",
+      "test_reports_every_missing_key"
+    ],
+    "has_class": false
+  },
+  "task108": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_empty_raises",
+      "test_no_branches",
+      "test_elif_counts_as_two_branches",
+      "test_non_function_source_raises",
+      "test_class_source_raises"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_invalid_syntax",
+      "test_for_loop_counts_as_branch",
+      "test_while_and_except_count",
+      "test_multiple_top_level_defs_raise"
+    ],
+    "has_class": false
+  },
+  "task109": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_single_fn",
+      "test_empty_pipeline"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_three_fns",
+      "test_order_matters"
+    ],
+    "has_class": false
+  },
+  "task11": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_base_as_string",
+      "test_verbose_false_appends_nothing",
+      "test_invalid_values",
+      "test_int_not_accepted_as_verbose"
+    ],
+    "hidden_names": [
+      "test_ok",
+      "test_base_as_list_with_leading_args",
+      "test_unknown_key",
+      "test_bool_not_accepted_as_timeout",
+      "test_output_nul_byte_rejected"
+    ],
+    "has_class": false
+  },
+  "task110": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_override_takes_precedence",
+      "test_does_not_mutate_override",
+      "test_non_dict_override_replaces",
+      "test_scalar_conflict_takes_override"
+    ],
+    "hidden_names": [
+      "test_basic_merge",
+      "test_does_not_mutate_base",
+      "test_nested_override",
+      "test_list_conflict_overrides_not_concatenated",
+      "test_untouched_nested_dict_is_shared_with_base"
+    ],
+    "has_class": false
+  },
+  "task111": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_exact_fit",
+      "test_size_one",
+      "test_invalid_size",
+      "test_lazy_on_infinite_source"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_size_larger_than_data",
+      "test_empty",
+      "test_generator_input",
+      "test_yields_incrementally"
+    ],
+    "has_class": false
+  },
+  "task112": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_identity",
+      "test_incompatible",
+      "test_rectangular_3x2_by_2x3",
+      "test_empty_second_operand"
+    ],
+    "hidden_names": [
+      "test_2x2",
+      "test_non_square",
+      "test_rectangular_2x3_by_3x2",
+      "test_empty"
+    ],
+    "has_class": false
+  },
+  "task113": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_large",
+      "test_empty",
+      "test_l_and_d_symbols"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_single",
+      "test_invalid_char",
+      "test_roundtrip_against_encoder"
+    ],
+    "has_class": false
+  },
+  "task114": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_cycle",
+      "test_diamond",
+      "test_returns_all_nodes"
+    ],
+    "hidden_names": [
+      "test_linear",
+      "test_no_deps",
+      "test_key_order_violates_topological_order"
+    ],
+    "has_class": false
+  },
+  "task115": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_non_overlapping",
+      "test_single",
+      "test_unsorted"
+    ],
+    "hidden_names": [
+      "test_overlapping",
+      "test_all_overlap",
+      "test_empty",
+      "test_touching"
+    ],
+    "has_class": false
+  },
+  "task116": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_three_elements_exact",
+      "test_single",
+      "test_sorted_by_size_then_elements"
+    ],
+    "hidden_names": [
+      "test_two_elements_exact",
+      "test_empty",
+      "test_duplicates_deduplicated"
+    ],
+    "has_class": false
+  },
+  "task117": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_hex",
+      "test_zero",
+      "test_negative"
+    ],
+    "hidden_names": [
+      "test_binary",
+      "test_octal",
+      "test_base36",
+      "test_invalid_base"
+    ],
+    "has_class": false
+  },
+  "task118": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_deeply_nested",
+      "test_custom_sep",
+      "test_mixed",
+      "test_nested_empty_dict_keeps_full_path"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_flat",
+      "test_empty",
+      "test_empty_nested_dict_preserved_as_leaf",
+      "test_separator_collision_raises"
+    ],
+    "has_class": false
+  },
+  "task119": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_integers_only",
+      "test_no_spaces",
+      "test_invalid_char",
+      "test_integer_is_not_float",
+      "test_caret_and_percent_operators"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_floats",
+      "test_empty",
+      "test_int_and_float_types_preserved",
+      "test_whole_valued_float_stays_float"
+    ],
+    "has_class": false
+  },
+  "task12": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_known_tree_exact_digest",
+      "test_content_change_changes_hash",
+      "test_nesting_changes_hash",
+      "test_non_directory_raises"
+    ],
+    "hidden_names": [
+      "test_empty_dir_is_empty_digest",
+      "test_deterministic_across_calls",
+      "test_rename_changes_hash",
+      "test_framing_collision_resistance",
+      "test_missing_path_raises"
+    ],
+    "has_class": false
+  },
+  "task120": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_missing_returns_none",
+      "test_max_size_evicts_oldest",
+      "test_max_size_zero_holds_nothing",
+      "test_expired_entries_reclaimed_before_evicting_live"
+    ],
+    "hidden_names": [
+      "test_get_set",
+      "test_expiry",
+      "test_overwrite",
+      "test_negative_max_size_holds_nothing"
+    ],
+    "has_class": false
+  },
+  "task121": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_first_page",
+      "test_page_past_end_is_empty",
+      "test_page_below_one_raises",
+      "test_returns_plain_tuples"
+    ],
+    "hidden_names": [
+      "test_second_page",
+      "test_last_partial_page",
+      "test_invalid_table_raises",
+      "test_page_size_below_one_raises",
+      "test_ordered_by_rowid_not_column_value"
+    ],
+    "has_class": false
+  },
+  "task122": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_single_value",
+      "test_empty_table",
+      "test_invalid_table_raises"
+    ],
+    "hidden_names": [
+      "test_basic_counts",
+      "test_all_distinct",
+      "test_counts_include_null",
+      "test_invalid_column_raises"
+    ],
+    "has_class": false
+  },
+  "task123": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_rectangle_area",
+      "test_returned_object_has_area_method",
+      "test_zero_dimension_raises"
+    ],
+    "hidden_names": [
+      "test_square_area",
+      "test_circle_area",
+      "test_unknown_kind_raises",
+      "test_negative_dimension_raises"
+    ],
+    "has_class": false
+  },
+  "task124": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_undo_then_redo",
+      "test_redo_without_undo_returns_false",
+      "test_multiple_undo",
+      "test_invalid_append_does_not_change_text"
+    ],
+    "hidden_names": [
+      "test_append_and_text",
+      "test_undo_empty_returns_false",
+      "test_new_append_clears_redo_stack",
+      "test_invalid_append_raises",
+      "test_multiple_undo_then_multiple_redo_in_order"
+    ],
+    "has_class": false
+  },
+  "task125": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_cycle_order",
+      "test_steps_zero_keeps_state",
+      "test_negative_steps_raises",
+      "test_bool_steps_raises",
+      "test_invalid_steps_does_not_advance"
+    ],
+    "hidden_names": [
+      "test_starts_green",
+      "test_next_returns_new_state_and_updates_property",
+      "test_steps_multiple_wraps",
+      "test_non_integer_steps_raises",
+      "test_large_steps_wrap_full_cycle"
+    ],
+    "has_class": false
+  },
+  "task126": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_handle_low",
+      "test_boundary_values",
+      "test_set_next_returns_next",
+      "test_float_amount_raises",
+      "test_intermediate_handler_alone_delegates_to_none"
+    ],
+    "hidden_names": [
+      "test_handle_mid",
+      "test_handle_high",
+      "test_lone_low_handler_returns_none",
+      "test_invalid_amount_raises",
+      "test_bool_amount_raises",
+      "test_partial_chain_returns_none_when_unhandled"
+    ],
+    "has_class": false
+  },
+  "task127": {
+    "n_total": 5,
+    "n_public": 2,
+    "n_hidden": 3,
+    "public_names": [
+      "test_refill_capped_at_capacity",
+      "test_allow_n_all_or_nothing"
+    ],
+    "hidden_names": [
+      "test_starts_full_and_consumes",
+      "test_invalid_capacity_raises",
+      "test_concurrent_allow_total_true_equals_capacity"
+    ],
+    "has_class": false
+  },
+  "task128": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_order_preserved_with_variable_work",
+      "test_empty_list",
+      "test_actually_runs_concurrently"
+    ],
+    "hidden_names": [
+      "test_matches_builtin_map",
+      "test_single_worker",
+      "test_invalid_workers_raises"
+    ],
+    "has_class": false
+  },
+  "task13": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_punct_and_trim",
+      "test_underscores",
+      "test_non_latin_dropped"
+    ],
+    "hidden_names": [
+      "test_accents_and_spaces",
+      "test_empty",
+      "test_only_punctuation"
+    ],
+    "has_class": false
+  },
+  "task130": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_write_then_release_allows_readers",
+      "test_release_write_without_hold_raises",
+      "test_writer_blocks_new_readers",
+      "test_concurrent_writers_no_lost_updates"
+    ],
+    "hidden_names": [
+      "test_read_lock_tracks_active_readers",
+      "test_release_read_without_hold_raises",
+      "test_reader_holds_while_writer_waits",
+      "test_multiple_concurrent_readers_do_not_block"
+    ],
+    "has_class": false
+  },
+  "task131": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_subsequent_calls_return_cached",
+      "test_caches_none_result",
+      "test_concurrent_do_runs_fn_once"
+    ],
+    "hidden_names": [
+      "test_returns_first_value",
+      "test_fn_runs_only_once_single_thread",
+      "test_exception_allows_retry"
+    ],
+    "has_class": false
+  },
+  "task132": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_order_with_variable_work",
+      "test_invalid_max_concurrent_raises",
+      "test_reaches_full_concurrency"
+    ],
+    "hidden_names": [
+      "test_results_in_order",
+      "test_empty_returns_empty",
+      "test_max_concurrency_respected"
+    ],
+    "has_class": false
+  },
+  "task133": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_all_documented",
+      "test_no_definitions_returns_one",
+      "test_empty_source"
+    ],
+    "hidden_names": [
+      "test_half_documented",
+      "test_none_documented",
+      "test_async_and_class_counted",
+      "test_syntax_error_raises"
+    ],
+    "has_class": false
+  },
+  "task134": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_all_snake_case",
+      "test_async_function",
+      "test_source_order_preserved",
+      "test_dunder_methods_not_reported"
+    ],
+    "hidden_names": [
+      "test_basic_mix",
+      "test_nested_functions_included",
+      "test_leading_underscore_is_ok",
+      "test_class_methods_are_checked_but_class_name_is_not",
+      "test_syntax_error_raises"
+    ],
+    "has_class": false
+  },
+  "task135": {
+    "n_total": 13,
+    "n_public": 6,
+    "n_hidden": 7,
+    "public_names": [
+      "test_all_used",
+      "test_import_as_alias_binds_alias",
+      "test_dotted_import_unused",
+      "test_star_import_not_reported",
+      "test_name_only_inside_string_is_unused",
+      "test_real_use_beats_string_mention"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_from_import_alias",
+      "test_dotted_import_binds_top_package",
+      "test_source_order",
+      "test_star_import_alongside_unused",
+      "test_name_only_inside_comment_is_unused",
+      "test_syntax_error_raises"
+    ],
+    "has_class": false
+  },
+  "task136": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_no_long_lines",
+      "test_one_over_limit_included",
+      "test_multiple_long_lines",
+      "test_bare_cr_splits_lines",
+      "test_form_feed_splits_lines"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_exact_limit_not_included",
+      "test_custom_limit",
+      "test_crlf_line_endings",
+      "test_tab_counts_as_one_character",
+      "test_invalid_limit_raises"
+    ],
+    "has_class": false
+  },
+  "task137": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_fixme",
+      "test_multiple_lines_ordered",
+      "test_marker_in_string_with_hash_in_untokenizable_source",
+      "test_case_sensitive"
+    ],
+    "hidden_names": [
+      "test_basic_todo",
+      "test_both_first_wins",
+      "test_marker_in_string_not_reported",
+      "test_comment_before_tokenize_failure_still_reported",
+      "test_no_markers"
+    ],
+    "has_class": false
+  },
+  "task138": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_passes_for_exact_equal",
+      "test_message_contains_not_almost_equal",
+      "test_places_zero_rounds_to_integer",
+      "test_round_half_even_at_second_place",
+      "test_infinity_raises"
+    ],
+    "hidden_names": [
+      "test_passes_for_float_rounding",
+      "test_raises_when_far_apart",
+      "test_places_controls_tolerance",
+      "test_round_half_even_boundary_passes",
+      "test_nan_is_never_almost_equal",
+      "test_negative_places_raises_value_error"
+    ],
+    "has_class": false
+  },
+  "task139": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_empty_overrides",
+      "test_results_are_new_dicts",
+      "test_empty_override_dict_copies_base",
+      "test_shallow_copy_shares_untouched_nested_value"
+    ],
+    "hidden_names": [
+      "test_basic",
+      "test_base_not_mutated",
+      "test_override_adds_new_keys",
+      "test_merge_is_shallow_not_deep",
+      "test_multiple_overrides_independent"
+    ],
+    "has_class": false
+  },
+  "task14": {
+    "n_total": 4,
+    "n_public": 2,
+    "n_hidden": 2,
+    "public_names": [
+      "test_missing_key_raises",
+      "test_quoted_fields_preserved"
+    ],
+    "hidden_names": [
+      "test_keep_last",
+      "test_empty_file_raises"
+    ],
+    "has_class": false
+  },
+  "task140": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_all_positive_is_whole_array",
+      "test_all_negative_picks_largest_single",
+      "test_empty_raises",
+      "test_tiebreak_smallest_start_with_leading_zeros",
+      "test_exact_sum_mutation_killer"
+    ],
+    "hidden_names": [
+      "test_classic_example",
+      "test_single_element",
+      "test_all_negative_first_element",
+      "test_tiebreak_shortest_smallest_end_with_trailing_zeros",
+      "test_negative_then_positive_block",
+      "test_zeros_only"
+    ],
+    "has_class": false
+  },
+  "task141": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_no_edges_all_singletons",
+      "test_all_connected",
+      "test_self_loops_and_duplicates_harmless",
+      "test_transitive_union_mutation_killer",
+      "test_out_of_range_endpoint_raises"
+    ],
+    "hidden_names": [
+      "test_basic_two_components",
+      "test_zero_nodes",
+      "test_isolated_node_with_edges",
+      "test_outer_sorted_by_smallest_label",
+      "test_negative_n_raises",
+      "test_negative_endpoint_raises"
+    ],
+    "has_class": false
+  },
+  "task142": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_shorter_indirect_route_mutation_killer",
+      "test_unreachable_nodes_omitted",
+      "test_chain",
+      "test_start_not_in_graph_raises",
+      "test_large_line_graph_scales"
+    ],
+    "hidden_names": [
+      "test_basic_example",
+      "test_start_only",
+      "test_neighbor_only_node_is_reachable",
+      "test_integer_nodes_and_cycle",
+      "test_negative_weight_raises"
+    ],
+    "has_class": false
+  },
+  "task143": {
+    "n_total": 13,
+    "n_public": 6,
+    "n_hidden": 7,
+    "public_names": [
+      "test_largest",
+      "test_single_element",
+      "test_duplicates_mixed",
+      "test_middle_value_mutation_killer",
+      "test_k_too_large_raises",
+      "test_matches_sorted_on_random_inputs"
+    ],
+    "hidden_names": [
+      "test_basic_second_largest",
+      "test_smallest_is_last",
+      "test_duplicates_counted_by_position",
+      "test_negatives",
+      "test_empty_raises",
+      "test_k_zero_raises",
+      "test_does_not_mutate_input"
+    ],
+    "has_class": false
+  },
+  "task144": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_single_element",
+      "test_simple_three",
+      "test_exactly_half_is_not_majority",
+      "test_empty_raises",
+      "test_majority_at_boundary"
+    ],
+    "hidden_names": [
+      "test_basic_majority",
+      "test_all_same",
+      "test_no_majority_raises",
+      "test_verification_kills_false_positive",
+      "test_negatives_majority",
+      "test_interleaved_majority"
+    ],
+    "has_class": false
+  },
+  "task145": {
+    "n_total": 18,
+    "n_public": 9,
+    "n_hidden": 9,
+    "public_names": [
+      "test_basic_substitution",
+      "test_empty_template",
+      "test_escaped_braces_only",
+      "test_underscore_and_digits_in_name",
+      "test_missing_key_raises_keyerror",
+      "test_empty_placeholder_raises_valueerror",
+      "test_illegal_char_in_name_raises",
+      "test_lone_close_brace_raises",
+      "test_mutation_killer_double_close_not_a_placeholder_terminator"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_non_string_values_stringified",
+      "test_no_placeholders_copied_verbatim",
+      "test_adjacent_placeholders",
+      "test_unicode_preserved_outside_placeholders",
+      "test_missing_key_exact_name",
+      "test_unterminated_placeholder_raises",
+      "test_lone_open_brace_raises",
+      "test_non_ascii_name_is_illegal"
+    ],
+    "has_class": false
+  },
+  "task146": {
+    "n_total": 17,
+    "n_public": 8,
+    "n_hidden": 9,
+    "public_names": [
+      "test_star_prefix_extension",
+      "test_empty_pattern_matches_empty",
+      "test_single_star_matches_empty",
+      "test_literal_full_match",
+      "test_anchored_not_substring",
+      "test_multiple_stars",
+      "test_case_sensitive",
+      "test_star_and_literal_interplay"
+    ],
+    "hidden_names": [
+      "test_worked_example_star_and_question",
+      "test_question_requires_a_character",
+      "test_empty_pattern_rejects_nonempty",
+      "test_single_star_matches_anything",
+      "test_literal_mismatch",
+      "test_question_matches_exactly_one",
+      "test_trailing_star_absorbs_rest",
+      "test_unicode_one_codepoint",
+      "test_mutation_killer_greedy_backtrack"
+    ],
+    "has_class": false
+  },
+  "task147": {
+    "n_total": 19,
+    "n_public": 9,
+    "n_hidden": 10,
+    "public_names": [
+      "test_simple_fields",
+      "test_consecutive_delimiters",
+      "test_leading_delimiter_makes_empty_field",
+      "test_escaped_quote_inside_quoted_field",
+      "test_whitespace_preserved",
+      "test_custom_delimiter",
+      "test_unicode_preserved",
+      "test_text_after_closing_quote_raises",
+      "test_bad_delimiter_quote_raises"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_empty_line_yields_one_empty_field",
+      "test_trailing_delimiter_makes_empty_field",
+      "test_quoted_field_contains_delimiter",
+      "test_quoted_empty_field",
+      "test_quote_literal_in_unquoted_field",
+      "test_custom_delimiter_with_quotes",
+      "test_unterminated_quote_raises",
+      "test_bad_delimiter_multichar_raises",
+      "test_mutation_killer_quote_only_special_at_field_start"
+    ],
+    "has_class": false
+  },
+  "task148": {
+    "n_total": 20,
+    "n_public": 10,
+    "n_hidden": 10,
+    "public_names": [
+      "test_days",
+      "test_single_second",
+      "test_order_independent",
+      "test_large_value",
+      "test_empty_raises",
+      "test_unit_without_number_raises",
+      "test_uppercase_unit_raises",
+      "test_leading_space_raises",
+      "test_decimal_raises",
+      "test_mutation_killer_partial_match_rejected"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_all_units",
+      "test_zero_value",
+      "test_repeated_units_summed",
+      "test_multi_digit",
+      "test_bare_number_raises",
+      "test_unknown_unit_raises",
+      "test_whitespace_raises",
+      "test_sign_raises",
+      "test_returns_int_type"
+    ],
+    "has_class": false
+  },
+  "task149": {
+    "n_total": 20,
+    "n_public": 10,
+    "n_hidden": 10,
+    "public_names": [
+      "test_single_digit",
+      "test_round_ten_not_hyphenated",
+      "test_hundred_exact",
+      "test_thousand_group",
+      "test_million",
+      "test_negative",
+      "test_max_value",
+      "test_out_of_range_high_raises",
+      "test_non_int_raises_typeerror",
+      "test_mutation_killer_skipped_zero_group"
+    ],
+    "hidden_names": [
+      "test_zero",
+      "test_teens",
+      "test_hyphenated_tens",
+      "test_hundred_no_and",
+      "test_exact_thousand",
+      "test_billion_complex",
+      "test_negative_large",
+      "test_no_leading_or_trailing_space",
+      "test_out_of_range_low_raises",
+      "test_bool_rejected"
+    ],
+    "has_class": false
+  },
+  "task15": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_exact_values",
+      "test_reject_names_or_calls",
+      "test_reject_import_call",
+      "test_reject_lambda",
+      "test_huge_exponent_rejected_quickly"
+    ],
+    "hidden_names": [
+      "test_basic_ops",
+      "test_zero_division",
+      "test_reject_attribute_and_dunder_traversal",
+      "test_reject_comprehension",
+      "test_reject_boolean_literal"
+    ],
+    "has_class": false
+  },
+  "task150": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_rotation_when_would_exceed",
+      "test_oversized_line_on_empty_file_is_written",
+      "test_backup_count_zero_discards",
+      "test_invalid_max_bytes_raises"
+    ],
+    "hidden_names": [
+      "test_first_write_creates_file",
+      "test_no_rotation_when_fits",
+      "test_backups_shift_and_oldest_dropped",
+      "test_utf8_byte_length_used",
+      "test_invalid_backup_count_raises"
+    ],
+    "has_class": false
+  },
+  "task151": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_blank_and_whitespace_lines_skipped",
+      "test_field_order_preserved",
+      "test_no_trailing_newline",
+      "test_missing_file_raises",
+      "test_negative_start_raises"
+    ],
+    "hidden_names": [
+      "test_basic_two_records",
+      "test_short_line_yields_available_chars",
+      "test_crlf_newlines",
+      "test_utf8_content",
+      "test_empty_fields_raises",
+      "test_zero_length_raises"
+    ],
+    "has_class": false
+  },
+  "task152": {
+    "n_total": 14,
+    "n_public": 7,
+    "n_hidden": 7,
+    "public_names": [
+      "test_comments_and_blank_lines_skipped",
+      "test_double_quote_escapes",
+      "test_unquoted_inline_comment_needs_leading_space",
+      "test_value_with_equals_sign",
+      "test_export_prefix_removed",
+      "test_invalid_key_raises",
+      "test_missing_file_raises"
+    ],
+    "hidden_names": [
+      "test_example_from_spec",
+      "test_single_quotes_are_literal",
+      "test_double_quote_keeps_inline_hash",
+      "test_empty_value",
+      "test_duplicate_key_last_wins",
+      "test_missing_equals_raises",
+      "test_empty_key_raises"
+    ],
+    "has_class": false
+  },
+  "task153": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_single_empty_file",
+      "test_keys_sorted_ascending",
+      "test_deep_nesting",
+      "test_missing_root_raises"
+    ],
+    "hidden_names": [
+      "test_empty_dir",
+      "test_nested_file_uses_posix_key",
+      "test_matches_hashlib_for_binary",
+      "test_content_change_changes_digest",
+      "test_root_is_file_raises"
+    ],
+    "has_class": false
+  },
+  "task154": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_split_exact_multiple",
+      "test_split_creates_dest_dir",
+      "test_join_basic",
+      "test_round_trip",
+      "test_split_missing_source"
+    ],
+    "hidden_names": [
+      "test_split_basic",
+      "test_split_empty_file_returns_empty",
+      "test_split_chunk_larger_than_file",
+      "test_join_empty_list",
+      "test_split_invalid_chunk_size",
+      "test_join_missing_part"
+    ],
+    "has_class": false
+  },
+  "task155": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_empty_returns_empty_dict",
+      "test_sums_and_means_are_floats",
+      "test_missing_field_raises_keyerror",
+      "test_mean_divides_by_count_not_group_total"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_single_record",
+      "test_negatives",
+      "test_rounding_is_enforced"
+    ],
+    "has_class": false
+  },
+  "task156": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_returns_float",
+      "test_equal_weights_equals_plain_mean",
+      "test_empty_raises",
+      "test_zero_total_weight_raises",
+      "test_rounding_to_six_places"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_single_element",
+      "test_negatives",
+      "test_length_mismatch_raises",
+      "test_weighting_actually_applied"
+    ],
+    "has_class": false
+  },
+  "task157": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_worked_example_custom_range",
+      "test_constant_series_custom_new_min",
+      "test_returns_floats",
+      "test_input_not_mutated",
+      "test_rounding_enforced"
+    ],
+    "hidden_names": [
+      "test_worked_example_default_range",
+      "test_constant_series",
+      "test_single_element",
+      "test_negatives",
+      "test_empty_raises",
+      "test_constant_series_does_not_divide_by_zero"
+    ],
+    "has_class": false
+  },
+  "task158": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_perfect_line_through_origin",
+      "test_negative_slope",
+      "test_two_points",
+      "test_too_few_points_raises",
+      "test_rounding_enforced"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_perfect_line_with_intercept",
+      "test_returns_floats",
+      "test_length_mismatch_raises",
+      "test_constant_x_raises"
+    ],
+    "has_class": false
+  },
+  "task159": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_orthogonal_vectors",
+      "test_opposite_vectors",
+      "test_single_element",
+      "test_length_mismatch_raises",
+      "test_zero_vector_raises"
+    ],
+    "hidden_names": [
+      "test_parallel_vectors",
+      "test_worked_example_irrational",
+      "test_returns_float",
+      "test_negatives",
+      "test_empty_raises",
+      "test_normalization_enforced"
+    ],
+    "has_class": false
+  },
+  "task160": {
+    "n_total": 16,
+    "n_public": 8,
+    "n_hidden": 8,
+    "public_names": [
+      "test_vector_iterations_2",
+      "test_default_dklen_is_32_bytes",
+      "test_output_is_lowercase_hex",
+      "test_mutation_salt_changes_output",
+      "test_verify_rejects_wrong_password",
+      "test_verify_case_insensitive_hex",
+      "test_type_errors",
+      "test_verify_bad_hex_raises"
+    ],
+    "hidden_names": [
+      "test_vector_iterations_1",
+      "test_vector_iterations_4096",
+      "test_custom_dklen_length",
+      "test_mutation_iterations_changes_output",
+      "test_verify_accepts_correct",
+      "test_verify_rejects_wrong_iterations",
+      "test_verify_non_ascii_password",
+      "test_value_errors"
+    ],
+    "has_class": false
+  },
+  "task161": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_returns_string_zero_padded",
+      "test_same_window_same_code",
+      "test_t0_offset_shifts_window",
+      "test_type_errors"
+    ],
+    "hidden_names": [
+      "test_rfc6238_sha1_vectors",
+      "test_default_digits_is_6",
+      "test_next_window_differs",
+      "test_mutation_period_matters",
+      "test_value_errors"
+    ],
+    "has_class": false
+  },
+  "task162": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_known_invalid_last_digit",
+      "test_check_digit_completes_to_valid",
+      "test_check_digit_zero_case",
+      "test_mutation_only_last_digit_flips_validity",
+      "test_empty_raises"
+    ],
+    "hidden_names": [
+      "test_known_valid",
+      "test_check_digit_classic",
+      "test_more_valid_numbers",
+      "test_single_digit_valid",
+      "test_type_errors",
+      "test_non_digit_raises"
+    ],
+    "has_class": false
+  },
+  "task163": {
+    "n_total": 13,
+    "n_public": 6,
+    "n_hidden": 7,
+    "public_names": [
+      "test_decode_vectors",
+      "test_decode_is_case_insensitive",
+      "test_mutation_padding_matters",
+      "test_encode_type_error",
+      "test_decode_bad_length",
+      "test_decode_misplaced_padding"
+    ],
+    "hidden_names": [
+      "test_encode_vectors",
+      "test_roundtrip_bytes",
+      "test_encode_length_multiple_of_8",
+      "test_full_byte_range_roundtrip",
+      "test_decode_type_error",
+      "test_decode_invalid_char",
+      "test_decode_invalid_pad_count"
+    ],
+    "has_class": false
+  },
+  "task164": {
+    "n_total": 16,
+    "n_public": 8,
+    "n_hidden": 8,
+    "public_names": [
+      "test_decrypt_worked_example",
+      "test_case_preserved_and_passthrough",
+      "test_non_letters_do_not_advance_key",
+      "test_zero_shift_key_a_is_identity_on_letters",
+      "test_roundtrip_various",
+      "test_type_errors",
+      "test_value_errors_bad_key_chars",
+      "test_mutation_killer_key_alignment"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_uppercase_classic_vector",
+      "test_key_case_insensitive",
+      "test_z_wraparound",
+      "test_non_ascii_letters_passthrough",
+      "test_empty_text_ok",
+      "test_value_errors_empty_key",
+      "test_type_check_precedes_key_length_check"
+    ],
+    "has_class": false
+  },
+  "task165": {
+    "n_total": 15,
+    "n_public": 7,
+    "n_hidden": 8,
+    "public_names": [
+      "test_basic_outside",
+      "test_prefix_zero_matches_all",
+      "test_host_bits_ignored",
+      "test_leading_zero_octet_rejected",
+      "test_octet_out_of_range",
+      "test_missing_or_extra_slash",
+      "test_non_integer_prefix"
+    ],
+    "hidden_names": [
+      "test_basic_inside",
+      "test_boundary_addresses",
+      "test_prefix_32_exact_match",
+      "test_non_octet_aligned_prefix",
+      "test_leading_zero_prefix_rejected",
+      "test_prefix_out_of_range",
+      "test_wrong_octet_count",
+      "test_return_type_is_bool"
+    ],
+    "has_class": false
+  },
+  "task166": {
+    "n_total": 13,
+    "n_public": 6,
+    "n_hidden": 7,
+    "public_names": [
+      "test_repeated_keys_accumulate_in_order",
+      "test_key_without_equals",
+      "test_empty_segments_skipped",
+      "test_plus_decoded_to_space",
+      "test_keys_case_sensitive",
+      "test_return_type_is_dict_of_lists"
+    ],
+    "hidden_names": [
+      "test_basic_pairs",
+      "test_blank_value",
+      "test_empty_string_returns_empty_dict",
+      "test_split_on_first_equals_only",
+      "test_percent_decoding_in_key_and_value",
+      "test_value_with_encoded_ampersand",
+      "test_worked_example"
+    ],
+    "has_class": false
+  },
+  "task167": {
+    "n_total": 14,
+    "n_public": 7,
+    "n_hidden": 7,
+    "public_names": [
+      "test_decode_basic",
+      "test_password_may_contain_colon",
+      "test_scheme_case_insensitive",
+      "test_utf8_credentials",
+      "test_missing_token_rejected",
+      "test_no_colon_in_credentials_rejected",
+      "test_return_type_is_tuple"
+    ],
+    "hidden_names": [
+      "test_encode_basic",
+      "test_roundtrip",
+      "test_username_with_colon_rejected_on_encode",
+      "test_empty_password",
+      "test_wrong_scheme_rejected",
+      "test_invalid_base64_rejected",
+      "test_invalid_utf8_rejected"
+    ],
+    "has_class": false
+  },
+  "task168": {
+    "n_total": 15,
+    "n_public": 7,
+    "n_hidden": 8,
+    "public_names": [
+      "test_simple_charset",
+      "test_quoted_value_with_semicolon",
+      "test_multiple_params",
+      "test_empty_and_trailing_semicolons_skipped",
+      "test_unquoted_value_case_preserved",
+      "test_invalid_media_type_empty_subtype",
+      "test_worked_example"
+    ],
+    "hidden_names": [
+      "test_no_params",
+      "test_media_type_and_name_lowercased_value_preserved",
+      "test_quoted_value_with_escape",
+      "test_duplicate_param_last_wins",
+      "test_extra_whitespace_trimmed",
+      "test_invalid_media_type_no_slash",
+      "test_param_without_equals_rejected",
+      "test_return_type"
+    ],
+    "has_class": false
+  },
+  "task169": {
+    "n_total": 18,
+    "n_public": 9,
+    "n_hidden": 9,
+    "public_names": [
+      "test_default_quality_is_one",
+      "test_ties_keep_original_order",
+      "test_wildcard_kept",
+      "test_whitespace_trimmed",
+      "test_empty_header_returns_empty_list",
+      "test_q_out_of_range_rejected",
+      "test_non_numeric_q_rejected",
+      "test_empty_tag_rejected",
+      "test_worked_example"
+    ],
+    "hidden_names": [
+      "test_basic_sorted_desc",
+      "test_reorders_by_quality",
+      "test_q_zero_dropped",
+      "test_tags_lowercased",
+      "test_empty_and_trailing_commas_skipped",
+      "test_q_boundary_values",
+      "test_q_too_many_decimals_rejected",
+      "test_unknown_parameter_rejected",
+      "test_return_type"
+    ],
+    "has_class": false
+  },
+  "task17": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_numeric_value_not_lexicographic",
+      "test_mixed_numeric_and_text_no_crash",
+      "test_leading_number",
+      "test_empty"
+    ],
+    "hidden_names": [
+      "test_numeric_parts",
+      "test_case_sensitive_uppercase_first",
+      "test_numeric_run_sorts_before_text_run",
+      "test_returns_new_list_and_stable"
+    ],
+    "has_class": false
+  },
+  "task170": {
+    "n_total": 9,
+    "n_public": 4,
+    "n_hidden": 5,
+    "public_names": [
+      "test_empty_filters_returns_all_ordered",
+      "test_no_match_returns_empty",
+      "test_value_is_bound_not_injected",
+      "test_bad_table_identifier_raises"
+    ],
+    "hidden_names": [
+      "test_single_filter",
+      "test_multiple_filters_and",
+      "test_none_matches_null",
+      "test_return_shape_is_list_of_tuples",
+      "test_bad_column_identifier_raises"
+    ],
+    "has_class": false
+  },
+  "task171": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_sort_asc_default",
+      "test_limit_zero",
+      "test_return_shape_is_list_of_tuples",
+      "test_injection_via_sort_column_raises",
+      "test_bad_table_identifier_raises"
+    ],
+    "hidden_names": [
+      "test_sort_desc_with_tiebreak",
+      "test_limit_is_applied",
+      "test_empty_table",
+      "test_column_not_in_whitelist_raises",
+      "test_injection_in_whitelist_still_rejected_by_regex",
+      "test_negative_limit_raises"
+    ],
+    "has_class": false
+  },
+  "task172": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_count",
+      "test_avg_is_float",
+      "test_empty_table",
+      "test_bad_aggregate_raises",
+      "test_bad_group_identifier_raises"
+    ],
+    "hidden_names": [
+      "test_sum_with_null_group_first",
+      "test_max_and_min",
+      "test_agg_is_case_insensitive",
+      "test_return_shape_is_list_of_two_tuples",
+      "test_injection_via_aggregate_raises"
+    ],
+    "has_class": false
+  },
+  "task173": {
+    "n_total": 15,
+    "n_public": 7,
+    "n_hidden": 8,
+    "public_names": [
+      "test_successful_transfer_persists",
+      "test_account_not_found_rolls_back",
+      "test_zero_amount_raises",
+      "test_bool_amount_rejected",
+      "test_same_account_raises",
+      "test_bad_column_identifier_raises",
+      "test_return_shape_is_tuple_of_ints"
+    ],
+    "hidden_names": [
+      "test_successful_transfer_returns_new_balances",
+      "test_insufficient_funds_rolls_back",
+      "test_missing_source_account_rolls_back",
+      "test_negative_amount_raises",
+      "test_non_int_amount_rejected",
+      "test_bad_table_identifier_raises",
+      "test_ids_are_bound_not_injected",
+      "test_connection_not_closed"
+    ],
+    "has_class": false
+  },
+  "task174": {
+    "n_total": 15,
+    "n_public": 7,
+    "n_hidden": 8,
+    "public_names": [
+      "test_updates_persist",
+      "test_empty_rows_returns_zero_no_change",
+      "test_values_are_bound_not_injected",
+      "test_bad_table_identifier_raises",
+      "test_missing_key_column_raises",
+      "test_rows_not_a_list_raises",
+      "test_return_type_is_int"
+    ],
+    "hidden_names": [
+      "test_returns_total_rows_modified",
+      "test_multiple_columns_single_row",
+      "test_non_matching_key_counts_zero",
+      "test_injected_column_identifier_raises",
+      "test_bad_key_column_identifier_raises",
+      "test_no_columns_to_update_raises",
+      "test_batch_rolls_back_on_bad_row",
+      "test_connection_not_closed"
+    ],
+    "has_class": false
+  },
+  "task175": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_count_down_decrements",
+      "test_negative_count_raises",
+      "test_await_times_out_while_count_positive",
+      "test_await_after_zero_is_immediate_true"
+    ],
+    "hidden_names": [
+      "test_get_count_initial",
+      "test_count_down_clamps_at_zero",
+      "test_await_returns_immediately_when_zero",
+      "test_waiters_release_only_at_zero"
+    ],
+    "has_class": false
+  },
+  "task176": {
+    "n_total": 7,
+    "n_public": 3,
+    "n_hidden": 4,
+    "public_names": [
+      "test_fifo_order_preserved",
+      "test_get_times_out_when_empty",
+      "test_get_blocks_until_item_available"
+    ],
+    "hidden_names": [
+      "test_bad_capacity_raises",
+      "test_put_nonblocking_when_full_returns_false",
+      "test_put_blocks_until_slot_freed",
+      "test_concurrent_producers_consumers_lose_nothing"
+    ],
+    "has_class": false
+  },
+  "task177": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_available_tracks_acquire_release",
+      "test_over_release_raises",
+      "test_peak_concurrency_never_exceeds_capacity",
+      "test_slot_timeout_raises_and_leaves_state_intact"
+    ],
+    "hidden_names": [
+      "test_bad_capacity_raises",
+      "test_acquire_nonblocking_when_exhausted",
+      "test_blocked_acquire_released_on_release",
+      "test_slot_context_manager_releases"
+    ],
+    "has_class": false
+  },
+  "task178": {
+    "n_total": 6,
+    "n_public": 3,
+    "n_hidden": 3,
+    "public_names": [
+      "test_parties_attribute_and_single_party_passthrough",
+      "test_no_thread_returns_until_all_arrive",
+      "test_all_parties_synchronize_each_phase"
+    ],
+    "hidden_names": [
+      "test_bad_parties_raises",
+      "test_timeout_before_all_arrive",
+      "test_barrier_is_cyclic_across_many_phases"
+    ],
+    "has_class": false
+  },
+  "task179": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_basic_transfer",
+      "test_unknown_account_raises_keyerror",
+      "test_no_deadlock_under_opposing_transfers",
+      "test_no_overdraft_race"
+    ],
+    "hidden_names": [
+      "test_negative_starting_balance_raises",
+      "test_insufficient_funds_returns_false_no_change",
+      "test_bad_amount_and_self_transfer_raise",
+      "test_money_conserved_under_many_concurrent_transfers"
+    ],
+    "has_class": false
+  },
+  "task180": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_worked_example",
+      "test_nested_recursion",
+      "test_list_paths_sorted",
+      "test_invalid_name",
+      "test_duplicate_name_raises"
+    ],
+    "hidden_names": [
+      "test_file_total_size",
+      "test_add_returns_self_for_chaining",
+      "test_directories_not_counted_as_files",
+      "test_invalid_file_size",
+      "test_add_wrong_type_raises_typeerror"
+    ],
+    "has_class": false
+  },
+  "task181": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_area_visitor_all_shapes",
+      "test_dispatch_uses_correct_method",
+      "test_total_area_returns_float",
+      "test_invalid_dimensions"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_perimeter_visitor_all_shapes",
+      "test_total_area_sums",
+      "test_total_area_rejects_incomplete_visitor"
+    ],
+    "has_class": false
+  },
+  "task182": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_worked_example_undo",
+      "test_write_appends",
+      "test_restore_does_not_mutate_memento_state",
+      "test_undo_empty_raises",
+      "test_write_type_error"
+    ],
+    "hidden_names": [
+      "test_worked_example_restore",
+      "test_starts_empty",
+      "test_clear",
+      "test_multiple_undo_lifo",
+      "test_memento_state_is_read_only",
+      "test_restore_type_error"
+    ],
+    "has_class": false
+  },
+  "task183": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_strips_whitespace_in_name",
+      "test_age_zero",
+      "test_adapt_all",
+      "test_malformed_name_raises",
+      "test_construction_does_not_validate"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_strips_whitespace_in_age",
+      "test_adapter_wraps_not_copies",
+      "test_wrong_adaptee_type_raises",
+      "test_invalid_age_raises"
+    ],
+    "has_class": false
+  },
+  "task184": {
+    "n_total": 10,
+    "n_public": 5,
+    "n_hidden": 5,
+    "public_names": [
+      "test_is_its_own_iterator",
+      "test_empty_iterable",
+      "test_interleaved_peek_and_next_no_skips",
+      "test_peek_no_default_raises_at_end",
+      "test_non_iterable_raises_type_error"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_full_iteration",
+      "test_peek_is_idempotent",
+      "test_peek_default_when_exhausted",
+      "test_works_with_generator"
+    ],
+    "has_class": false
+  },
+  "task185": {
+    "n_total": 12,
+    "n_public": 6,
+    "n_hidden": 6,
+    "public_names": [
+      "test_set_display_counts",
+      "test_call_defaults_do_not_count",
+      "test_reported_once_even_with_multiple",
+      "test_mutation_killer_string_and_comment_not_matched",
+      "test_sorted_by_line_then_name",
+      "test_invalid_source_raises"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_tuple_and_constants_do_not_count",
+      "test_keyword_only_defaults_checked",
+      "test_methods_and_nested_defs",
+      "test_lambda_ignored",
+      "test_no_functions"
+    ],
+    "has_class": false
+  },
+  "task186": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_trivial_function_is_one",
+      "test_ternary_and_comprehension_ifs",
+      "test_nested_function_measured_separately",
+      "test_mutation_killer_keywords_in_strings_and_comments",
+      "test_sorted_by_line_then_name"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_boolop_multiple_operands",
+      "test_except_handlers_count_but_try_does_not",
+      "test_methods_reported_and_lambda_ignored",
+      "test_elif_each_counts",
+      "test_invalid_source_raises"
+    ],
+    "has_class": false
+  },
+  "task187": {
+    "n_total": 8,
+    "n_public": 4,
+    "n_hidden": 4,
+    "public_names": [
+      "test_named_exceptions_not_reported",
+      "test_bare_except_nested_in_function_and_loop",
+      "test_no_try_blocks",
+      "test_invalid_source_raises"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_multiple_bare_handlers_sorted",
+      "test_mutation_killer_string_and_comment_ignored",
+      "test_try_star_named_not_bare"
+    ],
+    "has_class": false
+  },
+  "task188": {
+    "n_total": 12,
+    "n_public": 6,
+    "n_hidden": 6,
+    "public_names": [
+      "test_missing_return_annotation_only",
+      "test_method_with_unannotated_second_param",
+      "test_self_not_exempt_in_nested_function",
+      "test_fully_annotated_varargs_ok",
+      "test_reported_once_and_sorted",
+      "test_invalid_source_raises"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_self_and_cls_exempt_in_methods",
+      "test_self_not_exempt_at_module_level",
+      "test_varargs_and_kwargs_require_annotation",
+      "test_defaults_still_need_annotations",
+      "test_mutation_killer_annotations_in_strings"
+    ],
+    "has_class": false
+  },
+  "task189": {
+    "n_total": 11,
+    "n_public": 5,
+    "n_hidden": 6,
+    "public_names": [
+      "test_no_duplicates",
+      "test_type_sensitive_no_false_positive",
+      "test_unpacking_skipped",
+      "test_multiple_dicts_across_lines",
+      "test_none_and_bool_keys"
+    ],
+    "hidden_names": [
+      "test_worked_example",
+      "test_duplicate_reported_once_even_if_triple",
+      "test_variable_keys_ignored",
+      "test_nested_dicts_each_analysed",
+      "test_mutation_killer_dict_inside_string",
+      "test_invalid_source_raises"
+    ],
+    "has_class": false
+  }
+}

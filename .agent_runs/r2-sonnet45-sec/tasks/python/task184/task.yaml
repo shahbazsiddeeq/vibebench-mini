@@ -1,0 +1,15 @@
+title: Peekable Iterator
+description: >
+  Implement Peekable(iterable), a wrapper that adds one-element look-ahead while itself being
+  a proper iterator implementing the iterator protocol. The constructor accepts any iterable
+  and raises TypeError if the argument is not iterable (i.e. iter() on it fails). Peekable
+  implements __iter__ (which returns self, so it is its own iterator) and __next__ (which
+  returns the next item, advancing the underlying iterator, and raises StopIteration when
+  exhausted). Method peek() returns the next item WITHOUT consuming it, so a subsequent
+  __next__/peek returns that same item; peek() raises StopIteration if there are no more
+  items. Method peek(default) with one argument instead returns default (rather than raising)
+  when exhausted. Method has_next() -> bool returns True if at least one more item is
+  available and False otherwise, without consuming anything. Peeking must be idempotent and
+  must never skip or duplicate items when interleaved with __next__. For example:
+  p = Peekable([1, 2, 3]); p.peek() == 1; next(p) == 1; p.peek() == 2; list(p) == [2, 3];
+  p.has_next() is False; p.peek(99) == 99.

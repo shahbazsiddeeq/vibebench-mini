@@ -1,0 +1,12 @@
+title: Email Header Parser
+description: |
+  parse_email_headers(raw) parses RFC 5322-style headers "Key: value" into a dict.
+  Rules:
+    - Header names are case-normalized to Title-Case (e.g. "content-type" -> "Content-Type").
+    - Folded headers: a continuation line begins with whitespace (space or tab) and is
+      part of the previous header's value. The unfolded value joins the parts with a
+      single space, and leading/trailing whitespace on each part is stripped.
+    - Parsing stops at the first blank line (the header/body separator); the body is ignored.
+    - For duplicate header names, the last occurrence wins.
+  Example: parse_email_headers("From: alice@x.com\nTo: bob@x.com") ->
+    {"From": "alice@x.com", "To": "bob@x.com"}

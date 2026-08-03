@@ -1,0 +1,9 @@
+title: Power Set Generator
+description: >-
+  power_set(elements) returns the power set of the input list as a list of
+  frozensets. Each distinct subset appears exactly once (duplicate elements in
+  the input are treated as a single value, so power_set([1,1]) has 2 subsets).
+  The returned list is sorted first by subset size (ascending), then
+  lexicographically by the ascending-sorted list of the string representations
+  of the subset's elements. Example:
+  power_set([1,2]) -> [frozenset(), frozenset({1}), frozenset({2}), frozenset({1,2})]

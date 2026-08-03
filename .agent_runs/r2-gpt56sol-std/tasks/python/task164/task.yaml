@@ -1,0 +1,20 @@
+title: Vigenere Cipher Encrypt and Decrypt
+description: >
+  In src/solution.py implement two functions using only the Python standard library:
+  `vigenere_encrypt(plaintext: str, key: str) -> str` and
+  `vigenere_decrypt(ciphertext: str, key: str) -> str`, which apply the classic Vigenere
+  polyalphabetic cipher over the 26-letter English alphabet. The `key` is case-insensitive
+  and must consist only of ASCII letters (a-z, A-Z); each key letter K contributes a shift
+  of (lower(K) - 'a') in the range 0..25. Only ASCII alphabetic characters in the text are
+  transformed: for encryption an uppercase letter L is mapped to
+  chr((ord(L) - 65 + shift) % 26 + 65) and a lowercase letter to
+  chr((ord(L) - 97 + shift) % 26 + 97); decryption subtracts the shift instead of adding it.
+  The case of each transformed letter is preserved. Any character that is not an ASCII letter
+  (spaces, digits, punctuation, non-ASCII characters) is copied to the output unchanged AND
+  does NOT consume a key letter -- the key position advances only when an ASCII letter is
+  actually enciphered, so the key stays aligned across word boundaries. The key repeats cyclically
+  over the enciphered letters. Validation for BOTH functions, checked in this order: raise
+  TypeError if the text argument is not a str or if `key` is not a str; raise ValueError if `key`
+  is empty or contains any non-ASCII-letter character. For all valid inputs
+  vigenere_decrypt(vigenere_encrypt(text, key), key) == text. Worked example:
+  vigenere_encrypt("Attack at Dawn!", "LEMON") == "Lxfopv ef Rnhr!".

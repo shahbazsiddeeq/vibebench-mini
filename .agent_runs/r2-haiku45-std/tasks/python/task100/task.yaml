@@ -1,0 +1,2 @@
+title: Frequency Distribution
+description: freq_dist(data) returns {value: relative_frequency} where each relative frequency is the count of that value divided by len(data), rounded to 4 decimal places. Raises ValueError for empty data. Example: freq_dist(["a", "b", "a"]) -> {"a": 0.6667, "b": 0.3333}

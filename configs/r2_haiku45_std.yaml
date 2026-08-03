@@ -1,0 +1,10 @@
+# CodeAssay PROFES revision R2 (regeneration at a common output-token limit).
+# Model: claude-haiku-4-5-20251001   Prompt: standard
+# Writes to .agent_runs/r2-haiku45-std/ -- the v1 run .agent_runs/haiku45-std/ is not touched.
+# Per-call finish reasons / token usage -> .agent_runs/r2-haiku45-std/events.jsonl
+# Settings snapshot                     -> .agent_runs/r2-haiku45-std/runinfo.json
+# Attempt-1 programs (pre-repair)       -> .agent_runs/r2-haiku45-std/cache/attempt1/
+agents:
+  - name: r2-haiku45-std
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-haiku-4-5-20251001

@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="9" time="0.786" timestamp="2026-08-01T13:08:24.381507+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_base_zero" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_fib_10" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_fib_large" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_fib_1000_no_recursion_error" time="0.001"><failure message="RecursionError: maximum recursion depth exceeded">def test_fib_1000_no_recursion_error():
+        # Must not hit Python's recursion limit for large n.
+&gt;       result = fib(1000)
+                 ^^^^^^^^^
+
+tests_hidden/test_solution.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+src/solution.py:18: in fib
+    result = fib(n - 1, memo) + fib(n - 2, memo)
+             ^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 34, memo = {}
+
+    def fib(n, memo=None):
+        if n &lt; 0:
+            raise ValueError("n must be a non-negative integer")
+    
+        if memo is None:
+            memo = {}
+    
+        if n in memo:
+            return memo[n]
+    
+        if n == 0:
+            result = 0
+        elif n == 1:
+            result = 1
+        else:
+&gt;           result = fib(n - 1, memo) + fib(n - 2, memo)
+                     ^^^^^^^^^^^^^^^^
+E           RecursionError: maximum recursion depth exceeded
+
+src/solution.py:18: RecursionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_parametrized[2-1]" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_parametrized[3-2]" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_parametrized[4-3]" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_parametrized[5-5]" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_parametrized[6-8]" time="0.001" /></testsuite></testsuites>

@@ -1,0 +1,2 @@
+title: Observer Pattern
+description: Subject class with attach(observer), detach(observer), notify(event, data=None); Observer base class with update(event, data) method. Example: s=Subject(); s.attach(obs); s.notify("change", 42)

@@ -1,0 +1,2 @@
+title: CSV Dedupe by Key (Keep Last)
+description: dedupe_csv(in_path, out_path, key) reads a CSV with a header row and writes a CSV keeping only the last occurrence of each distinct value in column `key`. The header is preserved. Output rows are ordered by the position of each key's last occurrence in the input (ascending). Returns the number of data rows written. Raises KeyError if the `key` column is absent from the header, including when the input is empty or has no header row.

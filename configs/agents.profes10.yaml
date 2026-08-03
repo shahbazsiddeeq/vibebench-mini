@@ -1,0 +1,42 @@
+# All 10 PROFES agents (5 closed models x 2 prompt strategies).
+# gemini uses openrouter_agent.py (OPENROUTER_API_KEY) per the documented ICSEA setup.
+agents:
+  - name: openai-default
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once
+
+  - name: openai-secure
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --prompt-variant secure
+
+  - name: gpt-4o
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o
+
+  - name: gpt-4o-secure
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model gpt-4o --prompt-variant secure
+
+  - name: claude-haiku
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once
+
+  - name: claude-haiku-secure
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --prompt-variant secure
+
+  - name: claude-sonnet
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-4-5
+
+  - name: claude-sonnet-secure
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-4-5 --prompt-variant secure
+
+  - name: gemini-flash
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash
+
+  - name: gemini-flash-secure
+    kind: python
+    cmd: python scripts/agents/openrouter_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model google/gemini-2.5-flash --prompt-variant secure

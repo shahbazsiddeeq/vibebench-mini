@@ -1,0 +1,10 @@
+title: Email Masker
+description: >-
+  mask_email(s) finds email addresses in s and masks the username (the part
+  before @), replacing it with its first character, then "***", then its last
+  character (e.g. john.doe@example.com -> j***e@example.com). For a
+  single-character username the same character is used as both first and last
+  (a@x.io -> a***a@x.io). The domain (the part after @) is left unchanged,
+  including its case, and addresses without a TLD such as user@localhost are
+  masked too (user@localhost -> u***r@localhost). Text that is not part of an
+  email address is left unchanged.

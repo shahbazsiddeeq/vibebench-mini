@@ -1,0 +1,2 @@
+title: Stack with Min
+description: MinStack class with push(val), pop()->int, top()->int, get_min()->int; all O(1). Raises IndexError on pop/top/get_min when empty. Example: s=MinStack(); s.push(3); s.push(1); s.get_min() -> 1

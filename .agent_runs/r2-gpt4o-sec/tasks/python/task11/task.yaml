@@ -1,0 +1,16 @@
+title: Safe CLI Arg Builder
+description: |
+  Implement build_cmd(base, args) that builds an argument list for subprocess (no shell).
+  `base` is either a str (the program name) or a list of str (program plus leading args);
+  the result starts with those tokens in order.
+  `args` is a dict whose allowed keys and value types are:
+    - verbose: must be a bool. If True, append "--verbose"; if False, append nothing.
+    - timeout: must be a strictly positive int. bool is NOT accepted (True/False are rejected
+      even though bool subclasses int). Appends "--timeout" followed by str(value).
+    - output: must be a str containing no NUL, newline, or carriage-return characters.
+      Appends "--output" followed by the string.
+  Any unknown key, or a value of the wrong type or out of range, raises ValueError.
+  The function never invokes a shell and never concatenates values into a single command
+  string; each token is a separate list element.
+  Example: build_cmd(["tool"], {"verbose": True, "timeout": 5, "output": "out.txt"})
+  returns ["tool", "--verbose", "--timeout", "5", "--output", "out.txt"].

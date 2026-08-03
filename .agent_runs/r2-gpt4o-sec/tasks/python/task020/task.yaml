@@ -1,0 +1,2 @@
+title: Balanced Parentheses
+description: is_balanced(s) returns True if all brackets ()[]{}  are properly nested and matched, False otherwise. Example: is_balanced("([{}])") -> True, is_balanced("([)]") -> False

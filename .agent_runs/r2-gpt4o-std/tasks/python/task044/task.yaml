@@ -1,0 +1,9 @@
+title: Camel/Snake Case Converter
+description: |
+  to_snake(s) converts camelCase to snake_case; to_camel(s) converts snake_case to camelCase.
+  In to_snake, a run of consecutive uppercase letters (an acronym) is kept together and only the
+  final capital that starts a new lowercased word is split off: "parseHTML" -> "parse_html",
+  "HTMLParser" -> "html_parser". The result of to_snake is fully lowercase.
+  to_camel always lowercases the first letter of its output (e.g. "My_var" -> "myVar") and
+  capitalizes the first letter of every subsequent underscore-separated part.
+  Example: to_snake("myVariableName") -> "my_variable_name"

@@ -1,0 +1,2 @@
+title: Chunked Iterator
+description: chunked(iterable, size) yields successive chunks of up to size elements as lists. Raises ValueError if size<1. Example: list(chunked([1,2,3,4,5], 2)) -> [[1,2],[3,4],[5]]

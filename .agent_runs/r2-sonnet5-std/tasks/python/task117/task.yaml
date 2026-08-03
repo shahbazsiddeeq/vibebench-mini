@@ -1,0 +1,2 @@
+title: Integer Base Converter
+description: int_to_base(n, base) converts a non-negative integer to a string in the given base (2-36). Uses digits 0-9 then a-z. Raises ValueError if n<0 or base out of [2,36]. Example: int_to_base(255, 16) -> "ff", int_to_base(10, 2) -> "1010"

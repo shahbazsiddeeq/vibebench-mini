@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.191" timestamp="2026-08-01T13:38:56.006024+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic_caching" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_preserves_name" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_keyword_arguments" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_concurrent_first_call_runs_fn_once" time="0.137"><failure message="assert 16 == 1">def test_concurrent_first_call_runs_fn_once():
+        # Many threads request the same (uncached) key simultaneously; the wrapped
+        # function must execute exactly once. A lock-free memoize double-computes.
+        lock = threading.Lock()
+        call_count = [0]
+    
+        @memoize
+        def slow(x):
+            with lock:
+                call_count[0] += 1
+            # Widen the race window so a lock-free implementation reliably
+            # computes more than once.
+            s = 0
+            for i in range(20_000):
+                s += i
+            return x * 2 + (s - s)
+    
+        n_threads = 16
+        barrier = threading.Barrier(n_threads)
+        results = []
+        results_lock = threading.Lock()
+    
+        def worker():
+            barrier.wait()
+            r = slow(21)
+            with results_lock:
+                results.append(r)
+    
+        threads = [threading.Thread(target=worker) for _ in range(n_threads)]
+        old_interval = sys.getswitchinterval()
+        sys.setswitchinterval(1e-6)
+        try:
+            for t in threads:
+                t.start()
+            for t in threads:
+                t.join()
+        finally:
+            sys.setswitchinterval(old_interval)
+    
+&gt;       assert call_count[0] == 1
+E       assert 16 == 1
+
+tests_hidden/test_solution.py:83: AssertionError</failure></testcase></testsuite></testsuites>

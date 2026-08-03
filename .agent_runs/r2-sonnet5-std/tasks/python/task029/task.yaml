@@ -1,0 +1,2 @@
+title: Longest Common Subsequence
+description: lcs_length(s1, s2) returns the length of the longest common subsequence of strings s1 and s2. Example: lcs_length("ABCBDAB", "BDCAB") -> 4

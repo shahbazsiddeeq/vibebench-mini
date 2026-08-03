@@ -1,0 +1,10 @@
+title: Text Statistics
+description: |
+  text_stats(text) returns a dict with:
+    - char_count (int): total number of characters in text, including spaces and punctuation (len(text)).
+    - word_count (int): number of whitespace-separated tokens (text.split()). Words keep any
+      attached punctuation, so "world." counts as one 6-character word.
+    - sentence_count (int): number of non-empty segments after splitting on runs of . ! ? .
+    - avg_word_length (float): mean length of the whitespace-separated words (punctuation included),
+      rounded to 2 decimal places; 0.0 when there are no words.
+  Example: text_stats("Hello world.") -> {"char_count": 12, "word_count": 2, "sentence_count": 1, "avg_word_length": 5.5}

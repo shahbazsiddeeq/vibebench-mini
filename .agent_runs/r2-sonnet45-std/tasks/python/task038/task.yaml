@@ -1,0 +1,2 @@
+title: Caesar Cipher
+description: caesar(text, shift) shifts letters by shift (mod 26), preserves case, leaves non-alpha unchanged. Example: caesar("Hello, World!", 3) -> "Khoor, Zruog!"

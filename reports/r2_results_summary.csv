@@ -1,0 +1,15 @@
+config,n_tasks,n_pass,correct_pct
+gemini25-sec,185,169,91.4
+gemini25-std,185,169,91.4
+gpt4o-sec,185,166,89.7
+gpt4o-std,185,161,87.0
+gpt4omini-sec,185,139,75.1
+gpt4omini-std,185,143,77.3
+gpt56sol-sec,185,182,98.4
+gpt56sol-std,185,183,98.9
+haiku45-sec,185,175,94.6
+haiku45-std,185,179,96.8
+sonnet45-sec,185,177,95.7
+sonnet45-std,185,176,95.1
+sonnet5-sec,185,181,97.8
+sonnet5-std,185,183,98.9

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.053" timestamp="2026-08-01T13:30:42.493567+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_long_word_raises" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty_string" time="0.000"><failure message="AssertionError: assert [''] == []&#10;  &#10;  Left contains one more item: ''&#10;  Use -v to get more diff">def test_empty_string():
+&gt;       assert word_wrap("", 10) == []
+E       AssertionError: assert [''] == []
+E         
+E         Left contains one more item: ''
+E         Use -v to get more diff
+
+tests_hidden/test_solution.py:15: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_single_char_width" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_boundary_line_not_over_width" time="0.000" /></testsuite></testsuites>

@@ -1,0 +1,2 @@
+title: Pearson Correlation Coefficient
+description: pearson_r(x, y) returns the Pearson correlation coefficient rounded to 4dp. Raises ValueError if lengths differ, fewer than 2 elements, or either has zero variance. Example: pearson_r([1,2,3],[1,2,3]) -> 1.0

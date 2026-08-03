@@ -1,0 +1,10 @@
+title: Word Frequency Counter
+description: >-
+  word_freq(text) returns a dict mapping each lowercase word to the number of
+  times it occurs. A word is a maximal run of Unicode letters and digits;
+  every other character (whitespace, punctuation, apostrophes, hyphens,
+  underscores) is a separator and is not part of a word. Matching is
+  Unicode-aware, so accented words such as "café" stay intact, contractions
+  like "don't" split into "don" and "t", and "state-of-the-art" splits into
+  four words. Words are lowercased before counting; the empty string returns an
+  empty dict. Example: word_freq("Hello world hello") -> {"hello": 2, "world": 1}

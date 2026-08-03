@@ -1,0 +1,14 @@
+title: Code Complexity Estimator
+description: >
+  estimate_complexity(func_source: str) -> dict parses the source of a single
+  Python function and returns {"lines": int, "branches": int, "returns": int}.
+  "lines" is the number of non-blank lines (lines that are non-empty after
+  stripping whitespace). "branches" is the number of decision-point AST nodes,
+  counted as each ast.If (this covers both if and elif, since elif parses as a
+  nested If), each ast.For, each ast.While, and each ast.ExceptHandler (except
+  clause); a bare else clause and the try header itself do NOT add to the count.
+  "returns" is the number of return statements (ast.Return). Raises ValueError if
+  the source is empty, cannot be parsed, or does not define exactly one top-level
+  function. Example:
+  estimate_complexity("def f(x):\n if x: return 1\n return 0")
+  -> {"lines": 3, "branches": 1, "returns": 2}.

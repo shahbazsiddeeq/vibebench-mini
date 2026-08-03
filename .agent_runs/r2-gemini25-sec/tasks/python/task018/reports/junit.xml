@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.089" timestamp="2026-08-01T12:57:09.332087+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_found_middle" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_found_last" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_single_not_found" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_duplicates_returns_valid_index" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_is_logarithmic" time="0.049"><failure message="AssertionError: too many accesses: 200014&#10;assert 200014 &lt;= 40&#10; +  where 200014 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,... 99983, 99984, 99985, 99986, 99987, 99988, 99989, 99990, 99991, 99992, 99993, 99994, 99995, 99996, 99997, 99998, 99999].accesses">def test_is_logarithmic():
+        n = 100_000
+        arr = _CountingList(range(n))
+        # target absent, forcing a full search path
+        assert binary_search(arr, -1) == -1
+        # A linear scan would touch ~n elements; O(log n) stays tiny.
+&gt;       assert arr.accesses &lt;= 40, f"too many accesses: {arr.accesses}"
+E       AssertionError: too many accesses: 200014
+E       assert 200014 &lt;= 40
+E        +  where 200014 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,... 99983, 99984, 99985, 99986, 99987, 99988, 99989, 99990, 99991, 99992, 99993, 99994, 99995, 99996, 99997, 99998, 99999].accesses
+
+tests_hidden/test_solution.py:66: AssertionError</failure></testcase></testsuite></testsuites>

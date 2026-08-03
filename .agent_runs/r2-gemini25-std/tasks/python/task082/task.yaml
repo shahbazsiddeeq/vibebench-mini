@@ -1,0 +1,2 @@
+title: Config File Writer
+description: write_config(path, config) writes an INI-style file from a dict of section->dict (of str keys to str values). Each section is written as a "[section]" header line followed by one "key=value" line per pair (exactly that format, no spaces around '='), then a blank line. Sections are written in insertion order. Raises ValueError if any value contains a line break (either '\n' or '\r'). The file is UTF-8 encoded. Example: write_config("app.ini", {"db": {"host": "localhost"}}) writes "[db]\nhost=localhost\n".

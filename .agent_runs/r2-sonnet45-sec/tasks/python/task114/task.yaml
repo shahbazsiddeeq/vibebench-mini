@@ -1,0 +1,2 @@
+title: Topological Sort
+description: topo_sort(graph) returns a topological ordering of nodes in a directed graph represented as {node: [neighbors]}. Raises ValueError if a cycle is detected. Example: topo_sort({"a":["b"],"b":["c"],"c":[]}) -> ["a","b","c"]

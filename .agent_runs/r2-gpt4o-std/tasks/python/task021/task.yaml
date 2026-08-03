@@ -1,0 +1,10 @@
+title: BFS Shortest Path
+description: >-
+  bfs_shortest_path(graph, start, end) returns a shortest path (fewest edges) as
+  a list of node names in an undirected adjacency-list graph, using breadth-first
+  search. graph maps each node to a list of its neighbours. If start == end,
+  return [start]. If no path exists, return []. A missing node counts as having
+  no edges: if start or end is not a key in graph (and start != end), no path can
+  be found, so return []. When several shortest paths exist any one of them is
+  acceptable. Example: bfs_shortest_path({"A":["B"],"B":["A","C"],"C":["B"]},
+  "A", "C") -> ["A","B","C"]

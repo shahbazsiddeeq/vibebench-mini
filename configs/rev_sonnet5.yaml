@@ -1,0 +1,8 @@
+# CodeAssay PROFES revision run (split-aware; grades on hidden). Model: claude-sonnet-5
+agents:
+  - name: sonnet5-std
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-5
+  - name: sonnet5-sec
+    kind: python
+    cmd: python scripts/agents/claude_agent.py --task {task_dir} --tests {test_file} --cache {run_root}/cache --repair-once --model claude-sonnet-5 --prompt-variant secure

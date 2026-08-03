@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.058" timestamp="2026-08-01T13:00:27.292709+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_present_multiple" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_not_present" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_all_same" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_below_minimum" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_uses_binary_search" time="0.012"><failure message="TypeError: Input 'arr' must be a list.">def test_uses_binary_search():
+        n = 200_000
+        data = [i // 2 for i in range(n)]  # each value 0..n/2-1 appears twice
+        seq = _CountingSeq(data)
+&gt;       assert count_occurrences(seq, 12345) == 2
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:60: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+arr = &lt;test_solution._CountingSeq object at 0x10f528cb0&gt;, target = 12345
+
+    def count_occurrences(arr, target):
+        """
+        Counts the number of occurrences of a target value in a sorted list using binary search.
+    
+        Args:
+            arr: A sorted list of comparable elements.
+            target: The value to search for.
+    
+        Returns:
+            The number of times the target appears in the list.
+            Returns 0 if the input list is not a list or is empty, or if target is not found.
+        """
+        if not isinstance(arr, list):
+&gt;           raise TypeError("Input 'arr' must be a list.")
+E           TypeError: Input 'arr' must be a list.
+
+src/solution.py:14: TypeError</failure></testcase></testsuite></testsuites>

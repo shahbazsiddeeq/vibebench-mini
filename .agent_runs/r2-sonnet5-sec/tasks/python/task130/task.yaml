@@ -1,0 +1,2 @@
+title: Read-Write Lock
+description: RWLock allows multiple concurrent readers via acquire_read()/release_read() but exclusive access for a writer via acquire_write()/release_write(). While a writer holds the lock, no readers and no other writer may hold it; while any reader holds it, acquire_write() blocks until all readers release. The active_readers property reports the current reader count. Calling release_read() or release_write() without a matching held lock raises ValueError. Example: l=RWLock(); l.acquire_read(); l.active_readers -> 1; l.release_read()

@@ -1,0 +1,9 @@
+title: Two Sum
+description: >-
+  two_sum(nums, target) returns a tuple (i, j) with i < j such that
+  nums[i] + nums[j] == target. When more than one valid pair exists, return the
+  pair with the smallest second index j; among indices that could pair with that
+  j, use the largest such i (that is, the index closest before j). Raises
+  ValueError if no pair sums to target. Example: two_sum([2,7,11,15], 9) -> (0, 1).
+  Note: for nums=[1,3,5,7], target=8 the answer is (1, 2) because j=2 is the
+  earliest second index with a valid partner, even though 1+7 also equals 8.

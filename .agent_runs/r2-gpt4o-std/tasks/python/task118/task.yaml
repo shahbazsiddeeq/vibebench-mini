@@ -1,0 +1,2 @@
+title: Flatten Dict
+description: flatten_dict(d, sep=".") flattens a nested dictionary into a single-level dict with keys joined by sep. A non-dict value, or an empty dict, is treated as a leaf; an empty dict is preserved as its joined key mapping to {} (e.g. {"a": {}} -> {"a": {}}). If two different paths collapse to the same flattened key (a separator collision), raises ValueError. An empty top-level dict returns {}. Example: flatten_dict({"a":{"b":1},"c":2}) -> {"a.b":1,"c":2}

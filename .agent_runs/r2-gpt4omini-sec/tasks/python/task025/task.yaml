@@ -1,0 +1,2 @@
+title: Rotate List
+description: rotate(lst, k) returns a new list rotated right by k positions; k may be negative (left rotation) or larger than len(lst). Example: rotate([1,2,3,4,5], 2) -> [4,5,1,2,3]

@@ -1,0 +1,14 @@
+title: Cosine Similarity
+description: >-
+  Implement `cosine_similarity(a, b)` that returns the cosine similarity of two
+  equal-length numeric vectors `a` and `b`, computed as
+  dot(a, b) / (norm(a) * norm(b)), where dot is the sum of elementwise products
+  and norm is the Euclidean (L2) length sqrt(sum(x**2)). Use math.sqrt from the
+  standard library. Return the result as a float rounded to 6 decimal places
+  using Python's built-in round. Raise ValueError if the vectors have different
+  lengths, if either vector is empty, or if either vector has zero magnitude
+  (all-zero vector), since the similarity is undefined there. The return value is
+  always a float. Worked examples: cosine_similarity([1, 2, 3], [2, 4, 6])
+  returns 1.0 (parallel vectors); cosine_similarity([1, 0], [0, 1]) returns 0.0
+  (orthogonal); cosine_similarity([1, 1], [1, 0]) returns 0.707107 because
+  1 / (sqrt(2) * 1) = 0.70710678... rounded to 6 places.

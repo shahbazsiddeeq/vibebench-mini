@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="7" time="0.057" timestamp="2026-08-01T13:13:09.896967+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_case_insensitive" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_contractions_split_on_apostrophe" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_unicode_words_intact" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_underscore_is_separator" time="0.001"><failure message="AssertionError: assert {'foo_bar': 1} == {'bar': 1, 'foo': 1}&#10;  &#10;  Left contains 1 more item:&#10;  {'foo_bar': 1}&#10;  Right contains 2 more items:&#10;  {'bar': 1, 'foo': 1}&#10;  Use -v to get more diff">def test_underscore_is_separator():
+&gt;       assert word_freq("foo_bar") == {"foo": 1, "bar": 1}
+E       AssertionError: assert {'foo_bar': 1} == {'bar': 1, 'foo': 1}
+E         
+E         Left contains 1 more item:
+E         {'foo_bar': 1}
+E         Right contains 2 more items:
+E         {'bar': 1, 'foo': 1}
+E         Use -v to get more diff
+
+tests_hidden/test_solution.py:23: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_parametrized[the cat sat on the mat-the-2]" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_parametrized[one two three two one-two-2]" time="0.000" /></testsuite></testsuites>

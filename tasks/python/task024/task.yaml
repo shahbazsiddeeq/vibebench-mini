@@ -1,0 +1,2 @@
+title: Count Occurrences in Sorted Array
+description: count_occurrences(arr, target) returns how many times target appears in sorted list arr using binary search in O(log n). Example: count_occurrences([1,2,2,2,3], 2) -> 3

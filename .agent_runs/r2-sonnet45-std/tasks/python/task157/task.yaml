@@ -1,0 +1,15 @@
+title: Min-Max Normalization
+description: >-
+  Implement `min_max_normalize(values, new_min=0.0, new_max=1.0)` that rescales a
+  list of numbers to a target range using min-max scaling. For each element x the
+  scaled value is new_min + (x - lo) / (hi - lo) * (new_max - new_min), where lo =
+  min(values) and hi = max(values). Return a new list of floats, each rounded to 6
+  decimal places using Python's built-in round; the input list is not modified.
+  Special case for a constant series where hi == lo (including a single-element
+  list): the denominator would be zero, so instead return a list in which every
+  element equals float(new_min) (rounded to 6 places). Raise ValueError if
+  `values` is empty. All returned values are floats. Worked example:
+  min_max_normalize([10, 20, 30]) returns [0.0, 0.5, 1.0]; with an explicit range,
+  min_max_normalize([10, 20, 30], 0, 100) returns [0.0, 50.0, 100.0]; and a
+  constant input min_max_normalize([7, 7, 7]) returns [0.0, 0.0, 0.0] (default
+  new_min is 0.0).

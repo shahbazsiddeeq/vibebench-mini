@@ -1,0 +1,2 @@
+title: Roman Numeral Converter
+description: to_roman(n) converts integer 1-3999 to Roman numeral string. Raises ValueError outside that range. Example: to_roman(1994) -> "MCMXCIV"

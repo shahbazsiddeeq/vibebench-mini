@@ -1,0 +1,11 @@
+title: Run-Length Encoding
+description: >-
+  rle_encode(s) encodes consecutive runs of characters as count+char
+  ("aaabbc" -> "3a2b1c"). The input must not contain ASCII digits (0-9), since
+  digits are reserved for counts and would make the encoding ambiguous;
+  rle_encode raises ValueError if the input contains any digit. Any other
+  character, including newlines, is allowed. rle_decode(s) reverses the process
+  ("3a2b1c" -> "aaabbc"). Malformed input raises ValueError: an input is valid
+  only if it is a concatenation of tokens, each a run of one or more digits
+  (the count, which must be non-zero) followed by exactly one non-digit
+  character. The empty string encodes and decodes to "".

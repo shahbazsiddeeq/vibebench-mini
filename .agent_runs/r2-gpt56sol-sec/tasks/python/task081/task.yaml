@@ -1,0 +1,2 @@
+title: Record Diff Tool
+description: diff_records(old, new, key) returns dict with "added" (in new not in old), "removed" (in old not in new), "changed" (new version when key matches but other fields differ). Raises KeyError if key missing from any record. Example: diff_records([{"id":1,"v":1}],[{"id":1,"v":2}],"id") -> {"added":[],"removed":[],"changed":[{"id":1,"v":2}]}

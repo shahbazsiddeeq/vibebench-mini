@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="7" time="0.072" timestamp="2026-08-01T13:33:36.052214+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_removes_script" time="0.001"><failure message="AssertionError: assert 'bad' in '&lt;b&gt;Hi&lt;/b&gt; '">def test_removes_script():
+        result = sanitize_html("&lt;b&gt;Hi&lt;/b&gt; &lt;script&gt;bad&lt;/script&gt;", ["b"])
+        assert "&lt;script&gt;" not in result
+&gt;       assert "bad" in result
+E       AssertionError: assert 'bad' in '&lt;b&gt;Hi&lt;/b&gt; '
+
+tests_hidden/test_solution.py:22: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_empty_allowed_removes_all" time="0.001"><failure message="AssertionError: assert '' == 'text'&#10;  &#10;  - text">def test_empty_allowed_removes_all():
+        result = sanitize_html("&lt;b&gt;text&lt;/b&gt;", [])
+&gt;       assert result == "text"
+E       AssertionError: assert '' == 'text'
+E         
+E         - text
+
+tests_hidden/test_solution.py:28: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_case_insensitive_allowed" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_disallowed_tag_with_event_handler_removed" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_javascript_url_attribute_stripped" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_nested_reemerging_script_tag" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_stray_angle_brackets_escaped" time="0.000" /></testsuite></testsuites>

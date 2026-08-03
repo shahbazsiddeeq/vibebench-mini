@@ -1,0 +1,10 @@
+title: Strategy Pattern (Sorter)
+description: >
+  Sorter(strategy) holds a sorting strategy, where strategy is a callable that
+  takes a list and returns a new sorted list. Methods: sort(data) -> list returns
+  the data sorted by the current strategy WITHOUT mutating the input list (it
+  returns a new list); set_strategy(strategy) replaces the current strategy.
+  Provide two standalone strategy functions, bubble_sort(lst) -> list and
+  insertion_sort(lst) -> list, each of which returns a new sorted list and leaves
+  its argument unchanged. Example: s = Sorter(bubble_sort); s.sort([3, 1, 2])
+  -> [1, 2, 3].

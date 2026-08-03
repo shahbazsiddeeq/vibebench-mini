@@ -1,0 +1,12 @@
+title: Builder Pattern (Query Builder)
+description: >
+  QueryBuilder(table: str) builds a parameterized SQL SELECT statement using a
+  fluent interface. Methods (each returns self so calls can be chained):
+  select(*columns) sets the selected columns (default "*"); where(column, value)
+  adds an equality condition "column = ?" and binds value as a parameter;
+  limit(n) sets a row limit as a bound "?" parameter. build() -> tuple[str, list]
+  returns (sql, params) where sql uses "?" placeholders for every bound value and
+  params is the ordered list of those values -- user-supplied values are never
+  interpolated into the SQL text. Multiple where() calls are joined with " AND ".
+  Example: QueryBuilder("users").select("id", "name").where("active", True).build()
+  -> ("SELECT id, name FROM users WHERE active = ?", [True]).

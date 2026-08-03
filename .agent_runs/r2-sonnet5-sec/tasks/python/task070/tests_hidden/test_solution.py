@@ -1,0 +1,58 @@
+from src.solution import sanitize_html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --- XSS bypass attempts: these must NOT let live markup through ---
+
+
+def test_removes_script():
+    result = sanitize_html("<b>Hi</b> <script>bad</script>", ["b"])
+    assert "<script>" not in result
+    assert "bad" in result
+    assert "<b>Hi</b>" in result
+
+
+def test_empty_allowed_removes_all():
+    result = sanitize_html("<b>text</b>", [])
+    assert result == "text"
+
+
+def test_case_insensitive_allowed():
+    result = sanitize_html("<B>bold</B>", ["b"])
+    assert "bold" in result
+
+
+def test_disallowed_tag_with_event_handler_removed():
+    result = sanitize_html("<img src=x onerror=alert(1)>", ["b"])
+    assert result == ""
+    assert "onerror" not in result
+    assert "img" not in result
+
+
+def test_javascript_url_attribute_stripped():
+    result = sanitize_html('<a href="javascript:alert(1)">x</a>', ["a"])
+    assert result == "<a>x</a>"
+    assert "javascript" not in result
+
+
+def test_nested_reemerging_script_tag():
+    # Removing "<script>" once would re-form a live "<script>" here.
+    result = sanitize_html("<scr<script>ipt>alert(1)</script>", [])
+    assert "<script" not in result.lower()
+    assert ">" not in result  # any leftover angle brackets are escaped
+
+
+def test_stray_angle_brackets_escaped():
+    # Plain text with angle brackets must be escaped, not passed through.
+    assert sanitize_html("a < b and c > d", []) == "a &lt; b and c &gt; d"

@@ -1,0 +1,2 @@
+title: Roman Numeral Decoder
+description: from_roman(s) converts a Roman numeral string to an integer. Raises ValueError for empty input or invalid characters. Example: from_roman("XIV") -> 14, from_roman("IV") -> 4

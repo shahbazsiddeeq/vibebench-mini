@@ -1,0 +1,1891 @@
+config,model,prompt,task,pre_audit_pass,post_audit_pass
+gpt4omini-std,GPT-4o-mini,std,task018,True,True
+gpt4omini-std,GPT-4o-mini,std,task019,True,True
+gpt4omini-std,GPT-4o-mini,std,task02,True,True
+gpt4omini-std,GPT-4o-mini,std,task020,True,True
+gpt4omini-std,GPT-4o-mini,std,task021,True,True
+gpt4omini-std,GPT-4o-mini,std,task022,True,True
+gpt4omini-std,GPT-4o-mini,std,task023,True,False
+gpt4omini-std,GPT-4o-mini,std,task024,True,True
+gpt4omini-std,GPT-4o-mini,std,task025,True,True
+gpt4omini-std,GPT-4o-mini,std,task026,True,True
+gpt4omini-std,GPT-4o-mini,std,task027,True,True
+gpt4omini-std,GPT-4o-mini,std,task028,True,True
+gpt4omini-std,GPT-4o-mini,std,task029,True,True
+gpt4omini-std,GPT-4o-mini,std,task03,True,True
+gpt4omini-std,GPT-4o-mini,std,task030,True,False
+gpt4omini-std,GPT-4o-mini,std,task031,True,True
+gpt4omini-std,GPT-4o-mini,std,task032,True,True
+gpt4omini-std,GPT-4o-mini,std,task033,True,True
+gpt4omini-std,GPT-4o-mini,std,task034,True,True
+gpt4omini-std,GPT-4o-mini,std,task035,True,True
+gpt4omini-std,GPT-4o-mini,std,task036,True,True
+gpt4omini-std,GPT-4o-mini,std,task037,True,True
+gpt4omini-std,GPT-4o-mini,std,task038,True,True
+gpt4omini-std,GPT-4o-mini,std,task039,True,False
+gpt4omini-std,GPT-4o-mini,std,task04,True,True
+gpt4omini-std,GPT-4o-mini,std,task040,True,True
+gpt4omini-std,GPT-4o-mini,std,task041,True,False
+gpt4omini-std,GPT-4o-mini,std,task042,True,True
+gpt4omini-std,GPT-4o-mini,std,task043,True,True
+gpt4omini-std,GPT-4o-mini,std,task044,True,False
+gpt4omini-std,GPT-4o-mini,std,task045,True,True
+gpt4omini-std,GPT-4o-mini,std,task046,True,True
+gpt4omini-std,GPT-4o-mini,std,task047,False,False
+gpt4omini-std,GPT-4o-mini,std,task048,True,True
+gpt4omini-std,GPT-4o-mini,std,task049,True,False
+gpt4omini-std,GPT-4o-mini,std,task05,True,True
+gpt4omini-std,GPT-4o-mini,std,task050,True,True
+gpt4omini-std,GPT-4o-mini,std,task051,True,True
+gpt4omini-std,GPT-4o-mini,std,task052,True,True
+gpt4omini-std,GPT-4o-mini,std,task053,True,True
+gpt4omini-std,GPT-4o-mini,std,task054,True,True
+gpt4omini-std,GPT-4o-mini,std,task055,True,True
+gpt4omini-std,GPT-4o-mini,std,task056,True,True
+gpt4omini-std,GPT-4o-mini,std,task057,True,True
+gpt4omini-std,GPT-4o-mini,std,task058,True,True
+gpt4omini-std,GPT-4o-mini,std,task059,False,False
+gpt4omini-std,GPT-4o-mini,std,task06,True,True
+gpt4omini-std,GPT-4o-mini,std,task060,True,True
+gpt4omini-std,GPT-4o-mini,std,task061,False,False
+gpt4omini-std,GPT-4o-mini,std,task062,True,True
+gpt4omini-std,GPT-4o-mini,std,task063,False,True
+gpt4omini-std,GPT-4o-mini,std,task064,True,True
+gpt4omini-std,GPT-4o-mini,std,task065,True,True
+gpt4omini-std,GPT-4o-mini,std,task066,True,True
+gpt4omini-std,GPT-4o-mini,std,task067,True,True
+gpt4omini-std,GPT-4o-mini,std,task068,True,True
+gpt4omini-std,GPT-4o-mini,std,task069,True,True
+gpt4omini-std,GPT-4o-mini,std,task07,True,True
+gpt4omini-std,GPT-4o-mini,std,task070,False,False
+gpt4omini-std,GPT-4o-mini,std,task071,False,False
+gpt4omini-std,GPT-4o-mini,std,task072,True,True
+gpt4omini-std,GPT-4o-mini,std,task073,True,True
+gpt4omini-std,GPT-4o-mini,std,task074,False,False
+gpt4omini-std,GPT-4o-mini,std,task075,True,True
+gpt4omini-std,GPT-4o-mini,std,task077,True,True
+gpt4omini-std,GPT-4o-mini,std,task078,True,True
+gpt4omini-std,GPT-4o-mini,std,task079,True,True
+gpt4omini-std,GPT-4o-mini,std,task08,False,False
+gpt4omini-std,GPT-4o-mini,std,task080,False,False
+gpt4omini-std,GPT-4o-mini,std,task081,True,True
+gpt4omini-std,GPT-4o-mini,std,task082,True,False
+gpt4omini-std,GPT-4o-mini,std,task083,False,False
+gpt4omini-std,GPT-4o-mini,std,task084,True,True
+gpt4omini-std,GPT-4o-mini,std,task085,True,True
+gpt4omini-std,GPT-4o-mini,std,task086,True,False
+gpt4omini-std,GPT-4o-mini,std,task087,True,True
+gpt4omini-std,GPT-4o-mini,std,task088,True,True
+gpt4omini-std,GPT-4o-mini,std,task089,True,True
+gpt4omini-std,GPT-4o-mini,std,task09,True,True
+gpt4omini-std,GPT-4o-mini,std,task090,True,True
+gpt4omini-std,GPT-4o-mini,std,task091,True,True
+gpt4omini-std,GPT-4o-mini,std,task092,False,False
+gpt4omini-std,GPT-4o-mini,std,task093,True,False
+gpt4omini-std,GPT-4o-mini,std,task094,True,False
+gpt4omini-std,GPT-4o-mini,std,task095,True,True
+gpt4omini-std,GPT-4o-mini,std,task096,True,True
+gpt4omini-std,GPT-4o-mini,std,task097,True,True
+gpt4omini-std,GPT-4o-mini,std,task098,True,True
+gpt4omini-std,GPT-4o-mini,std,task099,True,True
+gpt4omini-std,GPT-4o-mini,std,task10,True,False
+gpt4omini-std,GPT-4o-mini,std,task100,True,True
+gpt4omini-std,GPT-4o-mini,std,task101,True,True
+gpt4omini-std,GPT-4o-mini,std,task102,True,True
+gpt4omini-std,GPT-4o-mini,std,task103,False,True
+gpt4omini-std,GPT-4o-mini,std,task104,True,True
+gpt4omini-std,GPT-4o-mini,std,task105,False,False
+gpt4omini-std,GPT-4o-mini,std,task106,True,True
+gpt4omini-std,GPT-4o-mini,std,task107,True,True
+gpt4omini-std,GPT-4o-mini,std,task108,True,True
+gpt4omini-std,GPT-4o-mini,std,task109,True,True
+gpt4omini-std,GPT-4o-mini,std,task11,False,False
+gpt4omini-std,GPT-4o-mini,std,task110,True,True
+gpt4omini-std,GPT-4o-mini,std,task111,True,True
+gpt4omini-std,GPT-4o-mini,std,task112,True,True
+gpt4omini-std,GPT-4o-mini,std,task113,True,True
+gpt4omini-std,GPT-4o-mini,std,task114,True,True
+gpt4omini-std,GPT-4o-mini,std,task115,True,True
+gpt4omini-std,GPT-4o-mini,std,task116,True,True
+gpt4omini-std,GPT-4o-mini,std,task117,True,True
+gpt4omini-std,GPT-4o-mini,std,task118,True,True
+gpt4omini-std,GPT-4o-mini,std,task119,True,True
+gpt4omini-std,GPT-4o-mini,std,task12,False,True
+gpt4omini-std,GPT-4o-mini,std,task120,True,True
+gpt4omini-std,GPT-4o-mini,std,task121,True,True
+gpt4omini-std,GPT-4o-mini,std,task122,True,True
+gpt4omini-std,GPT-4o-mini,std,task123,False,False
+gpt4omini-std,GPT-4o-mini,std,task124,True,True
+gpt4omini-std,GPT-4o-mini,std,task125,True,False
+gpt4omini-std,GPT-4o-mini,std,task126,False,False
+gpt4omini-std,GPT-4o-mini,std,task127,True,True
+gpt4omini-std,GPT-4o-mini,std,task128,True,True
+gpt4omini-std,GPT-4o-mini,std,task13,True,True
+gpt4omini-std,GPT-4o-mini,std,task130,True,False
+gpt4omini-std,GPT-4o-mini,std,task131,True,False
+gpt4omini-std,GPT-4o-mini,std,task132,True,False
+gpt4omini-std,GPT-4o-mini,std,task133,True,True
+gpt4omini-std,GPT-4o-mini,std,task134,False,False
+gpt4omini-std,GPT-4o-mini,std,task135,False,False
+gpt4omini-std,GPT-4o-mini,std,task136,True,True
+gpt4omini-std,GPT-4o-mini,std,task137,False,False
+gpt4omini-std,GPT-4o-mini,std,task138,True,True
+gpt4omini-std,GPT-4o-mini,std,task139,True,True
+gpt4omini-std,GPT-4o-mini,std,task14,False,False
+gpt4omini-std,GPT-4o-mini,std,task15,False,False
+gpt4omini-std,GPT-4o-mini,std,task17,False,True
+gpt4omini-sec,GPT-4o-mini,sec,task018,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task019,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task02,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task020,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task021,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task022,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task023,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task024,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task025,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task026,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task027,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task028,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task029,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task03,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task030,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task031,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task032,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task033,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task034,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task035,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task036,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task037,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task038,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task039,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task04,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task040,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task041,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task042,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task043,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task044,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task045,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task046,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task047,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task048,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task049,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task05,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task050,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task051,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task052,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task053,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task054,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task055,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task056,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task057,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task058,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task059,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task06,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task060,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task061,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task062,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task063,False,True
+gpt4omini-sec,GPT-4o-mini,sec,task064,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task065,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task066,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task067,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task068,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task069,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task07,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task070,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task071,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task072,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task073,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task074,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task075,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task077,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task078,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task079,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task08,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task080,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task081,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task082,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task083,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task084,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task085,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task086,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task087,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task088,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task089,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task09,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task090,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task091,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task092,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task093,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task094,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task095,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task096,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task097,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task098,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task099,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task10,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task100,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task101,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task102,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task103,False,True
+gpt4omini-sec,GPT-4o-mini,sec,task104,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task105,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task106,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task107,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task108,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task109,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task11,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task110,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task111,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task112,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task113,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task114,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task115,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task116,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task117,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task118,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task119,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task12,False,True
+gpt4omini-sec,GPT-4o-mini,sec,task120,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task121,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task122,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task123,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task124,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task125,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task126,True,False
+gpt4omini-sec,GPT-4o-mini,sec,task127,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task128,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task13,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task130,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task131,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task132,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task133,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task134,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task135,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task136,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task137,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task138,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task139,True,True
+gpt4omini-sec,GPT-4o-mini,sec,task14,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task15,False,False
+gpt4omini-sec,GPT-4o-mini,sec,task17,False,True
+gpt4o-std,GPT-4o,std,task018,True,True
+gpt4o-std,GPT-4o,std,task019,True,True
+gpt4o-std,GPT-4o,std,task02,True,True
+gpt4o-std,GPT-4o,std,task020,True,True
+gpt4o-std,GPT-4o,std,task021,True,True
+gpt4o-std,GPT-4o,std,task022,True,True
+gpt4o-std,GPT-4o,std,task023,True,True
+gpt4o-std,GPT-4o,std,task024,True,True
+gpt4o-std,GPT-4o,std,task025,True,True
+gpt4o-std,GPT-4o,std,task026,True,True
+gpt4o-std,GPT-4o,std,task027,True,True
+gpt4o-std,GPT-4o,std,task028,True,True
+gpt4o-std,GPT-4o,std,task029,True,True
+gpt4o-std,GPT-4o,std,task03,True,True
+gpt4o-std,GPT-4o,std,task030,True,False
+gpt4o-std,GPT-4o,std,task031,True,True
+gpt4o-std,GPT-4o,std,task032,True,True
+gpt4o-std,GPT-4o,std,task033,True,True
+gpt4o-std,GPT-4o,std,task034,True,True
+gpt4o-std,GPT-4o,std,task035,True,True
+gpt4o-std,GPT-4o,std,task036,True,True
+gpt4o-std,GPT-4o,std,task037,True,True
+gpt4o-std,GPT-4o,std,task038,True,True
+gpt4o-std,GPT-4o,std,task039,True,True
+gpt4o-std,GPT-4o,std,task04,True,True
+gpt4o-std,GPT-4o,std,task040,True,True
+gpt4o-std,GPT-4o,std,task041,True,False
+gpt4o-std,GPT-4o,std,task042,True,True
+gpt4o-std,GPT-4o,std,task043,True,True
+gpt4o-std,GPT-4o,std,task044,False,False
+gpt4o-std,GPT-4o,std,task045,True,True
+gpt4o-std,GPT-4o,std,task046,True,True
+gpt4o-std,GPT-4o,std,task047,True,True
+gpt4o-std,GPT-4o,std,task048,True,True
+gpt4o-std,GPT-4o,std,task049,True,True
+gpt4o-std,GPT-4o,std,task05,True,True
+gpt4o-std,GPT-4o,std,task050,True,True
+gpt4o-std,GPT-4o,std,task051,True,True
+gpt4o-std,GPT-4o,std,task052,True,False
+gpt4o-std,GPT-4o,std,task053,True,True
+gpt4o-std,GPT-4o,std,task054,True,True
+gpt4o-std,GPT-4o,std,task055,True,True
+gpt4o-std,GPT-4o,std,task056,True,True
+gpt4o-std,GPT-4o,std,task057,True,True
+gpt4o-std,GPT-4o,std,task058,True,True
+gpt4o-std,GPT-4o,std,task059,False,False
+gpt4o-std,GPT-4o,std,task06,True,True
+gpt4o-std,GPT-4o,std,task060,True,True
+gpt4o-std,GPT-4o,std,task061,False,True
+gpt4o-std,GPT-4o,std,task062,True,True
+gpt4o-std,GPT-4o,std,task063,False,True
+gpt4o-std,GPT-4o,std,task064,True,True
+gpt4o-std,GPT-4o,std,task065,True,True
+gpt4o-std,GPT-4o,std,task066,True,True
+gpt4o-std,GPT-4o,std,task067,True,True
+gpt4o-std,GPT-4o,std,task068,True,True
+gpt4o-std,GPT-4o,std,task069,True,True
+gpt4o-std,GPT-4o,std,task07,True,True
+gpt4o-std,GPT-4o,std,task070,False,True
+gpt4o-std,GPT-4o,std,task071,True,True
+gpt4o-std,GPT-4o,std,task072,True,True
+gpt4o-std,GPT-4o,std,task073,True,True
+gpt4o-std,GPT-4o,std,task074,False,False
+gpt4o-std,GPT-4o,std,task075,True,True
+gpt4o-std,GPT-4o,std,task077,False,False
+gpt4o-std,GPT-4o,std,task078,True,True
+gpt4o-std,GPT-4o,std,task079,True,True
+gpt4o-std,GPT-4o,std,task08,False,False
+gpt4o-std,GPT-4o,std,task080,False,False
+gpt4o-std,GPT-4o,std,task081,True,True
+gpt4o-std,GPT-4o,std,task082,True,False
+gpt4o-std,GPT-4o,std,task083,False,False
+gpt4o-std,GPT-4o,std,task084,True,True
+gpt4o-std,GPT-4o,std,task085,True,True
+gpt4o-std,GPT-4o,std,task086,True,True
+gpt4o-std,GPT-4o,std,task087,True,True
+gpt4o-std,GPT-4o,std,task088,True,True
+gpt4o-std,GPT-4o,std,task089,True,True
+gpt4o-std,GPT-4o,std,task09,True,True
+gpt4o-std,GPT-4o,std,task090,True,True
+gpt4o-std,GPT-4o,std,task091,True,True
+gpt4o-std,GPT-4o,std,task092,False,False
+gpt4o-std,GPT-4o,std,task093,True,False
+gpt4o-std,GPT-4o,std,task094,True,True
+gpt4o-std,GPT-4o,std,task095,True,True
+gpt4o-std,GPT-4o,std,task096,True,True
+gpt4o-std,GPT-4o,std,task097,True,True
+gpt4o-std,GPT-4o,std,task098,True,True
+gpt4o-std,GPT-4o,std,task099,True,True
+gpt4o-std,GPT-4o,std,task10,True,False
+gpt4o-std,GPT-4o,std,task100,True,True
+gpt4o-std,GPT-4o,std,task101,True,True
+gpt4o-std,GPT-4o,std,task102,True,True
+gpt4o-std,GPT-4o,std,task103,False,True
+gpt4o-std,GPT-4o,std,task104,True,True
+gpt4o-std,GPT-4o,std,task105,False,False
+gpt4o-std,GPT-4o,std,task106,True,True
+gpt4o-std,GPT-4o,std,task107,True,True
+gpt4o-std,GPT-4o,std,task108,True,True
+gpt4o-std,GPT-4o,std,task109,True,True
+gpt4o-std,GPT-4o,std,task11,True,True
+gpt4o-std,GPT-4o,std,task110,True,True
+gpt4o-std,GPT-4o,std,task111,True,True
+gpt4o-std,GPT-4o,std,task112,True,True
+gpt4o-std,GPT-4o,std,task113,True,True
+gpt4o-std,GPT-4o,std,task114,True,True
+gpt4o-std,GPT-4o,std,task115,True,True
+gpt4o-std,GPT-4o,std,task116,True,True
+gpt4o-std,GPT-4o,std,task117,True,True
+gpt4o-std,GPT-4o,std,task118,True,True
+gpt4o-std,GPT-4o,std,task119,True,True
+gpt4o-std,GPT-4o,std,task12,False,True
+gpt4o-std,GPT-4o,std,task120,True,True
+gpt4o-std,GPT-4o,std,task121,True,True
+gpt4o-std,GPT-4o,std,task122,True,True
+gpt4o-std,GPT-4o,std,task123,True,True
+gpt4o-std,GPT-4o,std,task124,True,True
+gpt4o-std,GPT-4o,std,task125,True,True
+gpt4o-std,GPT-4o,std,task126,True,True
+gpt4o-std,GPT-4o,std,task127,True,True
+gpt4o-std,GPT-4o,std,task128,True,True
+gpt4o-std,GPT-4o,std,task13,True,True
+gpt4o-std,GPT-4o,std,task130,False,False
+gpt4o-std,GPT-4o,std,task131,True,True
+gpt4o-std,GPT-4o,std,task132,True,True
+gpt4o-std,GPT-4o,std,task133,True,True
+gpt4o-std,GPT-4o,std,task134,True,True
+gpt4o-std,GPT-4o,std,task135,True,True
+gpt4o-std,GPT-4o,std,task136,True,True
+gpt4o-std,GPT-4o,std,task137,False,False
+gpt4o-std,GPT-4o,std,task138,True,True
+gpt4o-std,GPT-4o,std,task139,True,True
+gpt4o-std,GPT-4o,std,task14,False,False
+gpt4o-std,GPT-4o,std,task15,True,True
+gpt4o-std,GPT-4o,std,task17,False,True
+gpt4o-sec,GPT-4o,sec,task018,True,True
+gpt4o-sec,GPT-4o,sec,task019,True,False
+gpt4o-sec,GPT-4o,sec,task02,True,True
+gpt4o-sec,GPT-4o,sec,task020,True,True
+gpt4o-sec,GPT-4o,sec,task021,True,True
+gpt4o-sec,GPT-4o,sec,task022,True,True
+gpt4o-sec,GPT-4o,sec,task023,True,False
+gpt4o-sec,GPT-4o,sec,task024,True,False
+gpt4o-sec,GPT-4o,sec,task025,True,True
+gpt4o-sec,GPT-4o,sec,task026,True,True
+gpt4o-sec,GPT-4o,sec,task027,True,True
+gpt4o-sec,GPT-4o,sec,task028,True,True
+gpt4o-sec,GPT-4o,sec,task029,True,True
+gpt4o-sec,GPT-4o,sec,task03,True,True
+gpt4o-sec,GPT-4o,sec,task030,True,False
+gpt4o-sec,GPT-4o,sec,task031,True,True
+gpt4o-sec,GPT-4o,sec,task032,True,True
+gpt4o-sec,GPT-4o,sec,task033,True,True
+gpt4o-sec,GPT-4o,sec,task034,True,True
+gpt4o-sec,GPT-4o,sec,task035,True,True
+gpt4o-sec,GPT-4o,sec,task036,True,True
+gpt4o-sec,GPT-4o,sec,task037,True,True
+gpt4o-sec,GPT-4o,sec,task038,True,True
+gpt4o-sec,GPT-4o,sec,task039,True,True
+gpt4o-sec,GPT-4o,sec,task04,True,True
+gpt4o-sec,GPT-4o,sec,task040,True,True
+gpt4o-sec,GPT-4o,sec,task041,True,True
+gpt4o-sec,GPT-4o,sec,task042,True,True
+gpt4o-sec,GPT-4o,sec,task043,True,True
+gpt4o-sec,GPT-4o,sec,task044,True,True
+gpt4o-sec,GPT-4o,sec,task045,True,True
+gpt4o-sec,GPT-4o,sec,task046,True,True
+gpt4o-sec,GPT-4o,sec,task047,True,True
+gpt4o-sec,GPT-4o,sec,task048,True,True
+gpt4o-sec,GPT-4o,sec,task049,True,True
+gpt4o-sec,GPT-4o,sec,task05,True,True
+gpt4o-sec,GPT-4o,sec,task050,True,True
+gpt4o-sec,GPT-4o,sec,task051,True,True
+gpt4o-sec,GPT-4o,sec,task052,True,True
+gpt4o-sec,GPT-4o,sec,task053,True,True
+gpt4o-sec,GPT-4o,sec,task054,True,True
+gpt4o-sec,GPT-4o,sec,task055,True,True
+gpt4o-sec,GPT-4o,sec,task056,True,True
+gpt4o-sec,GPT-4o,sec,task057,True,True
+gpt4o-sec,GPT-4o,sec,task058,True,True
+gpt4o-sec,GPT-4o,sec,task059,False,False
+gpt4o-sec,GPT-4o,sec,task06,True,True
+gpt4o-sec,GPT-4o,sec,task060,True,True
+gpt4o-sec,GPT-4o,sec,task061,False,True
+gpt4o-sec,GPT-4o,sec,task062,True,True
+gpt4o-sec,GPT-4o,sec,task063,False,True
+gpt4o-sec,GPT-4o,sec,task064,True,True
+gpt4o-sec,GPT-4o,sec,task065,True,True
+gpt4o-sec,GPT-4o,sec,task066,True,True
+gpt4o-sec,GPT-4o,sec,task067,True,True
+gpt4o-sec,GPT-4o,sec,task068,True,False
+gpt4o-sec,GPT-4o,sec,task069,True,True
+gpt4o-sec,GPT-4o,sec,task07,True,True
+gpt4o-sec,GPT-4o,sec,task070,False,True
+gpt4o-sec,GPT-4o,sec,task071,True,True
+gpt4o-sec,GPT-4o,sec,task072,True,True
+gpt4o-sec,GPT-4o,sec,task073,True,True
+gpt4o-sec,GPT-4o,sec,task074,False,False
+gpt4o-sec,GPT-4o,sec,task075,True,True
+gpt4o-sec,GPT-4o,sec,task077,False,False
+gpt4o-sec,GPT-4o,sec,task078,True,True
+gpt4o-sec,GPT-4o,sec,task079,True,True
+gpt4o-sec,GPT-4o,sec,task08,False,False
+gpt4o-sec,GPT-4o,sec,task080,True,True
+gpt4o-sec,GPT-4o,sec,task081,True,True
+gpt4o-sec,GPT-4o,sec,task082,True,False
+gpt4o-sec,GPT-4o,sec,task083,False,False
+gpt4o-sec,GPT-4o,sec,task084,True,True
+gpt4o-sec,GPT-4o,sec,task085,True,True
+gpt4o-sec,GPT-4o,sec,task086,True,True
+gpt4o-sec,GPT-4o,sec,task087,True,True
+gpt4o-sec,GPT-4o,sec,task088,True,True
+gpt4o-sec,GPT-4o,sec,task089,True,True
+gpt4o-sec,GPT-4o,sec,task09,True,False
+gpt4o-sec,GPT-4o,sec,task090,True,True
+gpt4o-sec,GPT-4o,sec,task091,True,False
+gpt4o-sec,GPT-4o,sec,task092,False,False
+gpt4o-sec,GPT-4o,sec,task093,True,True
+gpt4o-sec,GPT-4o,sec,task094,True,True
+gpt4o-sec,GPT-4o,sec,task095,True,True
+gpt4o-sec,GPT-4o,sec,task096,True,True
+gpt4o-sec,GPT-4o,sec,task097,True,True
+gpt4o-sec,GPT-4o,sec,task098,True,True
+gpt4o-sec,GPT-4o,sec,task099,True,True
+gpt4o-sec,GPT-4o,sec,task10,True,False
+gpt4o-sec,GPT-4o,sec,task100,True,True
+gpt4o-sec,GPT-4o,sec,task101,True,True
+gpt4o-sec,GPT-4o,sec,task102,True,True
+gpt4o-sec,GPT-4o,sec,task103,False,True
+gpt4o-sec,GPT-4o,sec,task104,True,True
+gpt4o-sec,GPT-4o,sec,task105,False,False
+gpt4o-sec,GPT-4o,sec,task106,True,True
+gpt4o-sec,GPT-4o,sec,task107,True,True
+gpt4o-sec,GPT-4o,sec,task108,True,True
+gpt4o-sec,GPT-4o,sec,task109,True,True
+gpt4o-sec,GPT-4o,sec,task11,True,True
+gpt4o-sec,GPT-4o,sec,task110,True,True
+gpt4o-sec,GPT-4o,sec,task111,True,True
+gpt4o-sec,GPT-4o,sec,task112,True,True
+gpt4o-sec,GPT-4o,sec,task113,True,True
+gpt4o-sec,GPT-4o,sec,task114,True,True
+gpt4o-sec,GPT-4o,sec,task115,True,True
+gpt4o-sec,GPT-4o,sec,task116,True,True
+gpt4o-sec,GPT-4o,sec,task117,True,True
+gpt4o-sec,GPT-4o,sec,task118,True,True
+gpt4o-sec,GPT-4o,sec,task119,True,True
+gpt4o-sec,GPT-4o,sec,task12,False,True
+gpt4o-sec,GPT-4o,sec,task120,True,True
+gpt4o-sec,GPT-4o,sec,task121,True,True
+gpt4o-sec,GPT-4o,sec,task122,True,True
+gpt4o-sec,GPT-4o,sec,task123,True,True
+gpt4o-sec,GPT-4o,sec,task124,True,True
+gpt4o-sec,GPT-4o,sec,task125,True,True
+gpt4o-sec,GPT-4o,sec,task126,True,True
+gpt4o-sec,GPT-4o,sec,task127,True,True
+gpt4o-sec,GPT-4o,sec,task128,True,True
+gpt4o-sec,GPT-4o,sec,task13,True,True
+gpt4o-sec,GPT-4o,sec,task130,True,True
+gpt4o-sec,GPT-4o,sec,task131,True,True
+gpt4o-sec,GPT-4o,sec,task132,True,True
+gpt4o-sec,GPT-4o,sec,task133,True,True
+gpt4o-sec,GPT-4o,sec,task134,True,True
+gpt4o-sec,GPT-4o,sec,task135,True,True
+gpt4o-sec,GPT-4o,sec,task136,True,True
+gpt4o-sec,GPT-4o,sec,task137,False,False
+gpt4o-sec,GPT-4o,sec,task138,True,True
+gpt4o-sec,GPT-4o,sec,task139,True,True
+gpt4o-sec,GPT-4o,sec,task14,False,False
+gpt4o-sec,GPT-4o,sec,task15,True,True
+gpt4o-sec,GPT-4o,sec,task17,False,True
+gpt56sol-std,GPT-5.6-sol,std,task018,True,True
+gpt56sol-std,GPT-5.6-sol,std,task019,True,True
+gpt56sol-std,GPT-5.6-sol,std,task02,True,True
+gpt56sol-std,GPT-5.6-sol,std,task020,True,True
+gpt56sol-std,GPT-5.6-sol,std,task021,True,True
+gpt56sol-std,GPT-5.6-sol,std,task022,True,True
+gpt56sol-std,GPT-5.6-sol,std,task023,True,True
+gpt56sol-std,GPT-5.6-sol,std,task024,True,True
+gpt56sol-std,GPT-5.6-sol,std,task025,True,True
+gpt56sol-std,GPT-5.6-sol,std,task026,True,True
+gpt56sol-std,GPT-5.6-sol,std,task027,True,True
+gpt56sol-std,GPT-5.6-sol,std,task028,True,True
+gpt56sol-std,GPT-5.6-sol,std,task029,True,True
+gpt56sol-std,GPT-5.6-sol,std,task03,True,True
+gpt56sol-std,GPT-5.6-sol,std,task030,True,True
+gpt56sol-std,GPT-5.6-sol,std,task031,True,True
+gpt56sol-std,GPT-5.6-sol,std,task032,True,True
+gpt56sol-std,GPT-5.6-sol,std,task033,True,True
+gpt56sol-std,GPT-5.6-sol,std,task034,True,True
+gpt56sol-std,GPT-5.6-sol,std,task035,True,True
+gpt56sol-std,GPT-5.6-sol,std,task036,True,True
+gpt56sol-std,GPT-5.6-sol,std,task037,True,True
+gpt56sol-std,GPT-5.6-sol,std,task038,True,True
+gpt56sol-std,GPT-5.6-sol,std,task039,True,True
+gpt56sol-std,GPT-5.6-sol,std,task04,True,True
+gpt56sol-std,GPT-5.6-sol,std,task040,True,True
+gpt56sol-std,GPT-5.6-sol,std,task041,True,True
+gpt56sol-std,GPT-5.6-sol,std,task042,True,True
+gpt56sol-std,GPT-5.6-sol,std,task043,True,True
+gpt56sol-std,GPT-5.6-sol,std,task044,True,False
+gpt56sol-std,GPT-5.6-sol,std,task045,True,True
+gpt56sol-std,GPT-5.6-sol,std,task046,True,True
+gpt56sol-std,GPT-5.6-sol,std,task047,True,True
+gpt56sol-std,GPT-5.6-sol,std,task048,True,True
+gpt56sol-std,GPT-5.6-sol,std,task049,True,True
+gpt56sol-std,GPT-5.6-sol,std,task05,True,True
+gpt56sol-std,GPT-5.6-sol,std,task050,True,True
+gpt56sol-std,GPT-5.6-sol,std,task051,True,True
+gpt56sol-std,GPT-5.6-sol,std,task052,True,True
+gpt56sol-std,GPT-5.6-sol,std,task053,True,True
+gpt56sol-std,GPT-5.6-sol,std,task054,True,True
+gpt56sol-std,GPT-5.6-sol,std,task055,True,True
+gpt56sol-std,GPT-5.6-sol,std,task056,True,True
+gpt56sol-std,GPT-5.6-sol,std,task057,True,True
+gpt56sol-std,GPT-5.6-sol,std,task058,True,True
+gpt56sol-std,GPT-5.6-sol,std,task059,True,True
+gpt56sol-std,GPT-5.6-sol,std,task06,True,False
+gpt56sol-std,GPT-5.6-sol,std,task060,True,True
+gpt56sol-std,GPT-5.6-sol,std,task061,False,True
+gpt56sol-std,GPT-5.6-sol,std,task062,True,True
+gpt56sol-std,GPT-5.6-sol,std,task063,False,True
+gpt56sol-std,GPT-5.6-sol,std,task064,True,True
+gpt56sol-std,GPT-5.6-sol,std,task065,True,True
+gpt56sol-std,GPT-5.6-sol,std,task066,True,True
+gpt56sol-std,GPT-5.6-sol,std,task067,True,True
+gpt56sol-std,GPT-5.6-sol,std,task068,True,True
+gpt56sol-std,GPT-5.6-sol,std,task069,True,True
+gpt56sol-std,GPT-5.6-sol,std,task07,True,True
+gpt56sol-std,GPT-5.6-sol,std,task070,False,True
+gpt56sol-std,GPT-5.6-sol,std,task071,True,True
+gpt56sol-std,GPT-5.6-sol,std,task072,True,True
+gpt56sol-std,GPT-5.6-sol,std,task073,True,True
+gpt56sol-std,GPT-5.6-sol,std,task074,True,True
+gpt56sol-std,GPT-5.6-sol,std,task075,True,True
+gpt56sol-std,GPT-5.6-sol,std,task077,True,True
+gpt56sol-std,GPT-5.6-sol,std,task078,True,True
+gpt56sol-std,GPT-5.6-sol,std,task079,True,True
+gpt56sol-std,GPT-5.6-sol,std,task08,True,True
+gpt56sol-std,GPT-5.6-sol,std,task080,True,True
+gpt56sol-std,GPT-5.6-sol,std,task081,True,True
+gpt56sol-std,GPT-5.6-sol,std,task082,True,True
+gpt56sol-std,GPT-5.6-sol,std,task083,True,True
+gpt56sol-std,GPT-5.6-sol,std,task084,True,True
+gpt56sol-std,GPT-5.6-sol,std,task085,True,True
+gpt56sol-std,GPT-5.6-sol,std,task086,True,True
+gpt56sol-std,GPT-5.6-sol,std,task087,True,True
+gpt56sol-std,GPT-5.6-sol,std,task088,True,True
+gpt56sol-std,GPT-5.6-sol,std,task089,True,True
+gpt56sol-std,GPT-5.6-sol,std,task09,True,True
+gpt56sol-std,GPT-5.6-sol,std,task090,True,True
+gpt56sol-std,GPT-5.6-sol,std,task091,True,True
+gpt56sol-std,GPT-5.6-sol,std,task092,True,True
+gpt56sol-std,GPT-5.6-sol,std,task093,True,True
+gpt56sol-std,GPT-5.6-sol,std,task094,True,True
+gpt56sol-std,GPT-5.6-sol,std,task095,True,True
+gpt56sol-std,GPT-5.6-sol,std,task096,True,True
+gpt56sol-std,GPT-5.6-sol,std,task097,True,True
+gpt56sol-std,GPT-5.6-sol,std,task098,True,True
+gpt56sol-std,GPT-5.6-sol,std,task099,True,True
+gpt56sol-std,GPT-5.6-sol,std,task10,True,True
+gpt56sol-std,GPT-5.6-sol,std,task100,True,True
+gpt56sol-std,GPT-5.6-sol,std,task101,True,True
+gpt56sol-std,GPT-5.6-sol,std,task102,True,True
+gpt56sol-std,GPT-5.6-sol,std,task103,False,True
+gpt56sol-std,GPT-5.6-sol,std,task104,True,True
+gpt56sol-std,GPT-5.6-sol,std,task105,False,True
+gpt56sol-std,GPT-5.6-sol,std,task106,True,True
+gpt56sol-std,GPT-5.6-sol,std,task107,True,True
+gpt56sol-std,GPT-5.6-sol,std,task108,True,True
+gpt56sol-std,GPT-5.6-sol,std,task109,True,True
+gpt56sol-std,GPT-5.6-sol,std,task11,True,True
+gpt56sol-std,GPT-5.6-sol,std,task110,True,True
+gpt56sol-std,GPT-5.6-sol,std,task111,True,True
+gpt56sol-std,GPT-5.6-sol,std,task112,True,True
+gpt56sol-std,GPT-5.6-sol,std,task113,True,True
+gpt56sol-std,GPT-5.6-sol,std,task114,True,True
+gpt56sol-std,GPT-5.6-sol,std,task115,True,True
+gpt56sol-std,GPT-5.6-sol,std,task116,True,True
+gpt56sol-std,GPT-5.6-sol,std,task117,True,True
+gpt56sol-std,GPT-5.6-sol,std,task118,True,True
+gpt56sol-std,GPT-5.6-sol,std,task119,True,True
+gpt56sol-std,GPT-5.6-sol,std,task12,False,True
+gpt56sol-std,GPT-5.6-sol,std,task120,True,True
+gpt56sol-std,GPT-5.6-sol,std,task121,True,True
+gpt56sol-std,GPT-5.6-sol,std,task122,True,True
+gpt56sol-std,GPT-5.6-sol,std,task123,True,True
+gpt56sol-std,GPT-5.6-sol,std,task124,True,True
+gpt56sol-std,GPT-5.6-sol,std,task125,True,True
+gpt56sol-std,GPT-5.6-sol,std,task126,True,True
+gpt56sol-std,GPT-5.6-sol,std,task127,True,True
+gpt56sol-std,GPT-5.6-sol,std,task128,True,True
+gpt56sol-std,GPT-5.6-sol,std,task13,True,True
+gpt56sol-std,GPT-5.6-sol,std,task130,True,True
+gpt56sol-std,GPT-5.6-sol,std,task131,True,True
+gpt56sol-std,GPT-5.6-sol,std,task132,True,True
+gpt56sol-std,GPT-5.6-sol,std,task133,True,True
+gpt56sol-std,GPT-5.6-sol,std,task134,True,True
+gpt56sol-std,GPT-5.6-sol,std,task135,True,True
+gpt56sol-std,GPT-5.6-sol,std,task136,True,True
+gpt56sol-std,GPT-5.6-sol,std,task137,True,True
+gpt56sol-std,GPT-5.6-sol,std,task138,True,True
+gpt56sol-std,GPT-5.6-sol,std,task139,True,True
+gpt56sol-std,GPT-5.6-sol,std,task14,True,True
+gpt56sol-std,GPT-5.6-sol,std,task15,True,True
+gpt56sol-std,GPT-5.6-sol,std,task17,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task018,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task019,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task02,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task020,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task021,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task022,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task023,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task024,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task025,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task026,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task027,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task028,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task029,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task03,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task030,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task031,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task032,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task033,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task034,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task035,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task036,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task037,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task038,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task039,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task04,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task040,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task041,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task042,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task043,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task044,True,False
+gpt56sol-sec,GPT-5.6-sol,sec,task045,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task046,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task047,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task048,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task049,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task05,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task050,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task051,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task052,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task053,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task054,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task055,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task056,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task057,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task058,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task059,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task06,True,False
+gpt56sol-sec,GPT-5.6-sol,sec,task060,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task061,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task062,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task063,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task064,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task065,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task066,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task067,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task068,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task069,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task07,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task070,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task071,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task072,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task073,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task074,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task075,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task077,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task078,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task079,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task08,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task080,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task081,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task082,True,False
+gpt56sol-sec,GPT-5.6-sol,sec,task083,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task084,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task085,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task086,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task087,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task088,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task089,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task09,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task090,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task091,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task092,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task093,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task094,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task095,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task096,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task097,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task098,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task099,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task10,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task100,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task101,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task102,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task103,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task104,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task105,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task106,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task107,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task108,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task109,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task11,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task110,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task111,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task112,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task113,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task114,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task115,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task116,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task117,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task118,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task119,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task12,False,True
+gpt56sol-sec,GPT-5.6-sol,sec,task120,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task121,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task122,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task123,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task124,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task125,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task126,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task127,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task128,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task13,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task130,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task131,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task132,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task133,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task134,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task135,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task136,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task137,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task138,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task139,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task14,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task15,True,True
+gpt56sol-sec,GPT-5.6-sol,sec,task17,False,True
+haiku45-std,Claude Haiku 4.5,std,task018,True,True
+haiku45-std,Claude Haiku 4.5,std,task019,True,True
+haiku45-std,Claude Haiku 4.5,std,task02,True,True
+haiku45-std,Claude Haiku 4.5,std,task020,True,True
+haiku45-std,Claude Haiku 4.5,std,task021,True,True
+haiku45-std,Claude Haiku 4.5,std,task022,True,True
+haiku45-std,Claude Haiku 4.5,std,task023,True,True
+haiku45-std,Claude Haiku 4.5,std,task024,True,True
+haiku45-std,Claude Haiku 4.5,std,task025,True,True
+haiku45-std,Claude Haiku 4.5,std,task026,True,True
+haiku45-std,Claude Haiku 4.5,std,task027,True,True
+haiku45-std,Claude Haiku 4.5,std,task028,True,True
+haiku45-std,Claude Haiku 4.5,std,task029,True,True
+haiku45-std,Claude Haiku 4.5,std,task03,True,True
+haiku45-std,Claude Haiku 4.5,std,task030,True,False
+haiku45-std,Claude Haiku 4.5,std,task031,True,True
+haiku45-std,Claude Haiku 4.5,std,task032,True,True
+haiku45-std,Claude Haiku 4.5,std,task033,True,True
+haiku45-std,Claude Haiku 4.5,std,task034,True,True
+haiku45-std,Claude Haiku 4.5,std,task035,True,True
+haiku45-std,Claude Haiku 4.5,std,task036,True,True
+haiku45-std,Claude Haiku 4.5,std,task037,True,True
+haiku45-std,Claude Haiku 4.5,std,task038,True,True
+haiku45-std,Claude Haiku 4.5,std,task039,True,True
+haiku45-std,Claude Haiku 4.5,std,task04,True,True
+haiku45-std,Claude Haiku 4.5,std,task040,True,True
+haiku45-std,Claude Haiku 4.5,std,task041,True,True
+haiku45-std,Claude Haiku 4.5,std,task042,True,True
+haiku45-std,Claude Haiku 4.5,std,task043,True,True
+haiku45-std,Claude Haiku 4.5,std,task044,True,True
+haiku45-std,Claude Haiku 4.5,std,task045,True,True
+haiku45-std,Claude Haiku 4.5,std,task046,True,True
+haiku45-std,Claude Haiku 4.5,std,task047,True,True
+haiku45-std,Claude Haiku 4.5,std,task048,True,True
+haiku45-std,Claude Haiku 4.5,std,task049,True,True
+haiku45-std,Claude Haiku 4.5,std,task05,True,True
+haiku45-std,Claude Haiku 4.5,std,task050,True,True
+haiku45-std,Claude Haiku 4.5,std,task051,True,True
+haiku45-std,Claude Haiku 4.5,std,task052,True,True
+haiku45-std,Claude Haiku 4.5,std,task053,True,True
+haiku45-std,Claude Haiku 4.5,std,task054,True,True
+haiku45-std,Claude Haiku 4.5,std,task055,True,True
+haiku45-std,Claude Haiku 4.5,std,task056,True,True
+haiku45-std,Claude Haiku 4.5,std,task057,True,True
+haiku45-std,Claude Haiku 4.5,std,task058,True,True
+haiku45-std,Claude Haiku 4.5,std,task059,True,True
+haiku45-std,Claude Haiku 4.5,std,task06,True,True
+haiku45-std,Claude Haiku 4.5,std,task060,True,True
+haiku45-std,Claude Haiku 4.5,std,task061,False,True
+haiku45-std,Claude Haiku 4.5,std,task062,True,True
+haiku45-std,Claude Haiku 4.5,std,task063,False,True
+haiku45-std,Claude Haiku 4.5,std,task064,True,True
+haiku45-std,Claude Haiku 4.5,std,task065,True,True
+haiku45-std,Claude Haiku 4.5,std,task066,True,True
+haiku45-std,Claude Haiku 4.5,std,task067,True,True
+haiku45-std,Claude Haiku 4.5,std,task068,True,True
+haiku45-std,Claude Haiku 4.5,std,task069,True,True
+haiku45-std,Claude Haiku 4.5,std,task07,True,True
+haiku45-std,Claude Haiku 4.5,std,task070,False,True
+haiku45-std,Claude Haiku 4.5,std,task071,True,True
+haiku45-std,Claude Haiku 4.5,std,task072,True,True
+haiku45-std,Claude Haiku 4.5,std,task073,True,True
+haiku45-std,Claude Haiku 4.5,std,task074,True,True
+haiku45-std,Claude Haiku 4.5,std,task075,True,True
+haiku45-std,Claude Haiku 4.5,std,task077,True,True
+haiku45-std,Claude Haiku 4.5,std,task078,True,True
+haiku45-std,Claude Haiku 4.5,std,task079,True,True
+haiku45-std,Claude Haiku 4.5,std,task08,True,True
+haiku45-std,Claude Haiku 4.5,std,task080,True,True
+haiku45-std,Claude Haiku 4.5,std,task081,True,True
+haiku45-std,Claude Haiku 4.5,std,task082,True,True
+haiku45-std,Claude Haiku 4.5,std,task083,True,True
+haiku45-std,Claude Haiku 4.5,std,task084,True,True
+haiku45-std,Claude Haiku 4.5,std,task085,True,True
+haiku45-std,Claude Haiku 4.5,std,task086,True,True
+haiku45-std,Claude Haiku 4.5,std,task087,True,True
+haiku45-std,Claude Haiku 4.5,std,task088,True,True
+haiku45-std,Claude Haiku 4.5,std,task089,True,True
+haiku45-std,Claude Haiku 4.5,std,task09,True,True
+haiku45-std,Claude Haiku 4.5,std,task090,True,True
+haiku45-std,Claude Haiku 4.5,std,task091,True,True
+haiku45-std,Claude Haiku 4.5,std,task092,True,False
+haiku45-std,Claude Haiku 4.5,std,task093,True,True
+haiku45-std,Claude Haiku 4.5,std,task094,True,True
+haiku45-std,Claude Haiku 4.5,std,task095,True,True
+haiku45-std,Claude Haiku 4.5,std,task096,True,True
+haiku45-std,Claude Haiku 4.5,std,task097,True,True
+haiku45-std,Claude Haiku 4.5,std,task098,True,True
+haiku45-std,Claude Haiku 4.5,std,task099,True,True
+haiku45-std,Claude Haiku 4.5,std,task10,True,True
+haiku45-std,Claude Haiku 4.5,std,task100,True,True
+haiku45-std,Claude Haiku 4.5,std,task101,True,True
+haiku45-std,Claude Haiku 4.5,std,task102,True,True
+haiku45-std,Claude Haiku 4.5,std,task103,False,True
+haiku45-std,Claude Haiku 4.5,std,task104,True,True
+haiku45-std,Claude Haiku 4.5,std,task105,False,True
+haiku45-std,Claude Haiku 4.5,std,task106,True,True
+haiku45-std,Claude Haiku 4.5,std,task107,True,True
+haiku45-std,Claude Haiku 4.5,std,task108,True,True
+haiku45-std,Claude Haiku 4.5,std,task109,True,True
+haiku45-std,Claude Haiku 4.5,std,task11,True,True
+haiku45-std,Claude Haiku 4.5,std,task110,True,True
+haiku45-std,Claude Haiku 4.5,std,task111,True,True
+haiku45-std,Claude Haiku 4.5,std,task112,True,True
+haiku45-std,Claude Haiku 4.5,std,task113,True,True
+haiku45-std,Claude Haiku 4.5,std,task114,True,True
+haiku45-std,Claude Haiku 4.5,std,task115,True,True
+haiku45-std,Claude Haiku 4.5,std,task116,True,True
+haiku45-std,Claude Haiku 4.5,std,task117,True,True
+haiku45-std,Claude Haiku 4.5,std,task118,True,True
+haiku45-std,Claude Haiku 4.5,std,task119,True,True
+haiku45-std,Claude Haiku 4.5,std,task12,False,True
+haiku45-std,Claude Haiku 4.5,std,task120,True,True
+haiku45-std,Claude Haiku 4.5,std,task121,True,True
+haiku45-std,Claude Haiku 4.5,std,task122,True,True
+haiku45-std,Claude Haiku 4.5,std,task123,True,True
+haiku45-std,Claude Haiku 4.5,std,task124,True,True
+haiku45-std,Claude Haiku 4.5,std,task125,True,True
+haiku45-std,Claude Haiku 4.5,std,task126,True,True
+haiku45-std,Claude Haiku 4.5,std,task127,True,True
+haiku45-std,Claude Haiku 4.5,std,task128,True,True
+haiku45-std,Claude Haiku 4.5,std,task13,True,True
+haiku45-std,Claude Haiku 4.5,std,task130,True,True
+haiku45-std,Claude Haiku 4.5,std,task131,True,True
+haiku45-std,Claude Haiku 4.5,std,task132,True,True
+haiku45-std,Claude Haiku 4.5,std,task133,True,True
+haiku45-std,Claude Haiku 4.5,std,task134,True,True
+haiku45-std,Claude Haiku 4.5,std,task135,True,True
+haiku45-std,Claude Haiku 4.5,std,task136,True,True
+haiku45-std,Claude Haiku 4.5,std,task137,True,True
+haiku45-std,Claude Haiku 4.5,std,task138,True,True
+haiku45-std,Claude Haiku 4.5,std,task139,True,True
+haiku45-std,Claude Haiku 4.5,std,task14,True,True
+haiku45-std,Claude Haiku 4.5,std,task15,True,False
+haiku45-std,Claude Haiku 4.5,std,task17,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task018,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task019,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task02,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task020,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task021,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task022,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task023,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task024,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task025,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task026,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task027,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task028,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task029,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task03,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task030,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task031,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task032,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task033,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task034,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task035,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task036,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task037,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task038,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task039,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task04,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task040,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task041,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task042,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task043,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task044,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task045,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task046,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task047,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task048,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task049,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task05,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task050,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task051,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task052,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task053,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task054,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task055,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task056,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task057,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task058,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task059,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task06,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task060,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task061,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task062,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task063,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task064,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task065,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task066,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task067,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task068,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task069,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task07,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task070,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task071,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task072,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task073,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task074,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task075,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task077,False,False
+haiku45-sec,Claude Haiku 4.5,sec,task078,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task079,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task08,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task080,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task081,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task082,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task083,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task084,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task085,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task086,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task087,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task088,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task089,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task09,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task090,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task091,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task092,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task093,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task094,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task095,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task096,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task097,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task098,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task099,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task10,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task100,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task101,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task102,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task103,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task104,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task105,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task106,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task107,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task108,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task109,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task11,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task110,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task111,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task112,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task113,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task114,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task115,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task116,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task117,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task118,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task119,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task12,False,True
+haiku45-sec,Claude Haiku 4.5,sec,task120,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task121,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task122,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task123,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task124,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task125,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task126,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task127,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task128,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task13,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task130,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task131,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task132,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task133,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task134,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task135,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task136,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task137,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task138,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task139,True,True
+haiku45-sec,Claude Haiku 4.5,sec,task14,False,False
+haiku45-sec,Claude Haiku 4.5,sec,task15,True,False
+haiku45-sec,Claude Haiku 4.5,sec,task17,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task018,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task019,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task02,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task020,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task021,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task022,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task023,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task024,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task025,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task026,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task027,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task028,True,False
+sonnet45-std,Claude Sonnet 4.5,std,task029,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task03,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task030,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task031,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task032,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task033,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task034,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task035,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task036,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task037,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task038,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task039,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task04,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task040,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task041,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task042,False,False
+sonnet45-std,Claude Sonnet 4.5,std,task043,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task044,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task045,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task046,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task047,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task048,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task049,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task05,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task050,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task051,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task052,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task053,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task054,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task055,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task056,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task057,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task058,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task059,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task06,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task060,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task061,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task062,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task063,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task064,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task065,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task066,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task067,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task068,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task069,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task07,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task070,False,False
+sonnet45-std,Claude Sonnet 4.5,std,task071,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task072,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task073,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task074,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task075,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task077,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task078,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task079,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task08,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task080,False,False
+sonnet45-std,Claude Sonnet 4.5,std,task081,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task082,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task083,False,False
+sonnet45-std,Claude Sonnet 4.5,std,task084,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task085,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task086,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task087,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task088,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task089,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task09,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task090,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task091,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task092,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task093,True,False
+sonnet45-std,Claude Sonnet 4.5,std,task094,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task095,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task096,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task097,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task098,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task099,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task10,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task100,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task101,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task102,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task103,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task104,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task105,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task106,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task107,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task108,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task109,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task11,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task110,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task111,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task112,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task113,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task114,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task115,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task116,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task117,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task118,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task119,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task12,False,True
+sonnet45-std,Claude Sonnet 4.5,std,task120,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task121,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task122,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task123,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task124,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task125,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task126,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task127,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task128,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task13,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task130,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task131,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task132,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task133,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task134,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task135,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task136,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task137,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task138,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task139,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task14,True,True
+sonnet45-std,Claude Sonnet 4.5,std,task15,True,False
+sonnet45-std,Claude Sonnet 4.5,std,task17,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task018,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task019,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task02,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task020,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task021,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task022,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task023,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task024,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task025,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task026,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task027,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task028,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task029,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task03,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task030,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task031,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task032,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task033,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task034,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task035,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task036,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task037,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task038,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task039,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task04,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task040,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task041,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task042,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task043,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task044,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task045,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task046,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task047,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task048,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task049,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task05,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task050,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task051,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task052,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task053,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task054,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task055,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task056,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task057,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task058,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task059,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task06,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task060,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task061,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task062,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task063,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task064,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task065,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task066,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task067,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task068,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task069,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task07,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task070,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task071,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task072,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task073,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task074,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task075,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task077,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task078,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task079,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task08,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task080,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task081,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task082,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task083,False,False
+sonnet45-sec,Claude Sonnet 4.5,sec,task084,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task085,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task086,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task087,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task088,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task089,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task09,True,False
+sonnet45-sec,Claude Sonnet 4.5,sec,task090,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task091,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task092,True,False
+sonnet45-sec,Claude Sonnet 4.5,sec,task093,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task094,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task095,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task096,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task097,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task098,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task099,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task10,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task100,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task101,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task102,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task103,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task104,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task105,False,False
+sonnet45-sec,Claude Sonnet 4.5,sec,task106,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task107,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task108,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task109,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task11,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task110,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task111,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task112,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task113,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task114,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task115,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task116,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task117,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task118,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task119,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task12,False,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task120,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task121,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task122,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task123,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task124,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task125,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task126,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task127,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task128,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task13,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task130,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task131,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task132,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task133,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task134,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task135,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task136,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task137,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task138,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task139,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task14,True,True
+sonnet45-sec,Claude Sonnet 4.5,sec,task15,True,False
+sonnet45-sec,Claude Sonnet 4.5,sec,task17,False,True
+sonnet5-std,Claude Sonnet 5,std,task018,True,True
+sonnet5-std,Claude Sonnet 5,std,task019,True,True
+sonnet5-std,Claude Sonnet 5,std,task02,True,True
+sonnet5-std,Claude Sonnet 5,std,task020,True,True
+sonnet5-std,Claude Sonnet 5,std,task021,True,True
+sonnet5-std,Claude Sonnet 5,std,task022,True,True
+sonnet5-std,Claude Sonnet 5,std,task023,True,True
+sonnet5-std,Claude Sonnet 5,std,task024,True,True
+sonnet5-std,Claude Sonnet 5,std,task025,True,True
+sonnet5-std,Claude Sonnet 5,std,task026,True,True
+sonnet5-std,Claude Sonnet 5,std,task027,True,True
+sonnet5-std,Claude Sonnet 5,std,task028,True,True
+sonnet5-std,Claude Sonnet 5,std,task029,True,True
+sonnet5-std,Claude Sonnet 5,std,task03,True,True
+sonnet5-std,Claude Sonnet 5,std,task030,True,True
+sonnet5-std,Claude Sonnet 5,std,task031,True,True
+sonnet5-std,Claude Sonnet 5,std,task032,True,True
+sonnet5-std,Claude Sonnet 5,std,task033,True,True
+sonnet5-std,Claude Sonnet 5,std,task034,True,True
+sonnet5-std,Claude Sonnet 5,std,task035,True,True
+sonnet5-std,Claude Sonnet 5,std,task036,True,True
+sonnet5-std,Claude Sonnet 5,std,task037,True,True
+sonnet5-std,Claude Sonnet 5,std,task038,True,True
+sonnet5-std,Claude Sonnet 5,std,task039,True,True
+sonnet5-std,Claude Sonnet 5,std,task04,True,True
+sonnet5-std,Claude Sonnet 5,std,task040,True,True
+sonnet5-std,Claude Sonnet 5,std,task041,True,True
+sonnet5-std,Claude Sonnet 5,std,task042,True,True
+sonnet5-std,Claude Sonnet 5,std,task043,True,True
+sonnet5-std,Claude Sonnet 5,std,task044,True,True
+sonnet5-std,Claude Sonnet 5,std,task045,True,True
+sonnet5-std,Claude Sonnet 5,std,task046,True,True
+sonnet5-std,Claude Sonnet 5,std,task047,True,True
+sonnet5-std,Claude Sonnet 5,std,task048,True,True
+sonnet5-std,Claude Sonnet 5,std,task049,True,True
+sonnet5-std,Claude Sonnet 5,std,task05,True,True
+sonnet5-std,Claude Sonnet 5,std,task050,True,True
+sonnet5-std,Claude Sonnet 5,std,task051,True,True
+sonnet5-std,Claude Sonnet 5,std,task052,True,True
+sonnet5-std,Claude Sonnet 5,std,task053,True,True
+sonnet5-std,Claude Sonnet 5,std,task054,True,True
+sonnet5-std,Claude Sonnet 5,std,task055,True,True
+sonnet5-std,Claude Sonnet 5,std,task056,True,True
+sonnet5-std,Claude Sonnet 5,std,task057,True,True
+sonnet5-std,Claude Sonnet 5,std,task058,True,True
+sonnet5-std,Claude Sonnet 5,std,task059,True,True
+sonnet5-std,Claude Sonnet 5,std,task06,True,True
+sonnet5-std,Claude Sonnet 5,std,task060,True,True
+sonnet5-std,Claude Sonnet 5,std,task061,False,True
+sonnet5-std,Claude Sonnet 5,std,task062,True,True
+sonnet5-std,Claude Sonnet 5,std,task063,False,True
+sonnet5-std,Claude Sonnet 5,std,task064,True,True
+sonnet5-std,Claude Sonnet 5,std,task065,True,True
+sonnet5-std,Claude Sonnet 5,std,task066,True,True
+sonnet5-std,Claude Sonnet 5,std,task067,True,True
+sonnet5-std,Claude Sonnet 5,std,task068,True,True
+sonnet5-std,Claude Sonnet 5,std,task069,True,True
+sonnet5-std,Claude Sonnet 5,std,task07,True,True
+sonnet5-std,Claude Sonnet 5,std,task070,False,True
+sonnet5-std,Claude Sonnet 5,std,task071,True,True
+sonnet5-std,Claude Sonnet 5,std,task072,True,True
+sonnet5-std,Claude Sonnet 5,std,task073,True,True
+sonnet5-std,Claude Sonnet 5,std,task074,True,True
+sonnet5-std,Claude Sonnet 5,std,task075,True,True
+sonnet5-std,Claude Sonnet 5,std,task077,True,True
+sonnet5-std,Claude Sonnet 5,std,task078,True,True
+sonnet5-std,Claude Sonnet 5,std,task079,True,True
+sonnet5-std,Claude Sonnet 5,std,task08,True,True
+sonnet5-std,Claude Sonnet 5,std,task080,True,True
+sonnet5-std,Claude Sonnet 5,std,task081,True,True
+sonnet5-std,Claude Sonnet 5,std,task082,True,False
+sonnet5-std,Claude Sonnet 5,std,task083,False,False
+sonnet5-std,Claude Sonnet 5,std,task084,True,True
+sonnet5-std,Claude Sonnet 5,std,task085,True,True
+sonnet5-std,Claude Sonnet 5,std,task086,True,True
+sonnet5-std,Claude Sonnet 5,std,task087,True,True
+sonnet5-std,Claude Sonnet 5,std,task088,True,True
+sonnet5-std,Claude Sonnet 5,std,task089,True,True
+sonnet5-std,Claude Sonnet 5,std,task09,True,True
+sonnet5-std,Claude Sonnet 5,std,task090,True,True
+sonnet5-std,Claude Sonnet 5,std,task091,True,True
+sonnet5-std,Claude Sonnet 5,std,task092,True,True
+sonnet5-std,Claude Sonnet 5,std,task093,True,True
+sonnet5-std,Claude Sonnet 5,std,task094,True,True
+sonnet5-std,Claude Sonnet 5,std,task095,True,True
+sonnet5-std,Claude Sonnet 5,std,task096,True,True
+sonnet5-std,Claude Sonnet 5,std,task097,True,True
+sonnet5-std,Claude Sonnet 5,std,task098,True,True
+sonnet5-std,Claude Sonnet 5,std,task099,True,True
+sonnet5-std,Claude Sonnet 5,std,task10,True,True
+sonnet5-std,Claude Sonnet 5,std,task100,True,True
+sonnet5-std,Claude Sonnet 5,std,task101,True,True
+sonnet5-std,Claude Sonnet 5,std,task102,True,True
+sonnet5-std,Claude Sonnet 5,std,task103,False,True
+sonnet5-std,Claude Sonnet 5,std,task104,True,True
+sonnet5-std,Claude Sonnet 5,std,task105,False,True
+sonnet5-std,Claude Sonnet 5,std,task106,True,True
+sonnet5-std,Claude Sonnet 5,std,task107,True,True
+sonnet5-std,Claude Sonnet 5,std,task108,True,True
+sonnet5-std,Claude Sonnet 5,std,task109,True,True
+sonnet5-std,Claude Sonnet 5,std,task11,True,True
+sonnet5-std,Claude Sonnet 5,std,task110,True,True
+sonnet5-std,Claude Sonnet 5,std,task111,True,True
+sonnet5-std,Claude Sonnet 5,std,task112,True,True
+sonnet5-std,Claude Sonnet 5,std,task113,True,True
+sonnet5-std,Claude Sonnet 5,std,task114,True,True
+sonnet5-std,Claude Sonnet 5,std,task115,True,True
+sonnet5-std,Claude Sonnet 5,std,task116,True,True
+sonnet5-std,Claude Sonnet 5,std,task117,True,True
+sonnet5-std,Claude Sonnet 5,std,task118,True,True
+sonnet5-std,Claude Sonnet 5,std,task119,True,True
+sonnet5-std,Claude Sonnet 5,std,task12,False,True
+sonnet5-std,Claude Sonnet 5,std,task120,True,True
+sonnet5-std,Claude Sonnet 5,std,task121,True,True
+sonnet5-std,Claude Sonnet 5,std,task122,True,True
+sonnet5-std,Claude Sonnet 5,std,task123,True,True
+sonnet5-std,Claude Sonnet 5,std,task124,True,True
+sonnet5-std,Claude Sonnet 5,std,task125,True,True
+sonnet5-std,Claude Sonnet 5,std,task126,True,True
+sonnet5-std,Claude Sonnet 5,std,task127,True,True
+sonnet5-std,Claude Sonnet 5,std,task128,True,True
+sonnet5-std,Claude Sonnet 5,std,task13,True,True
+sonnet5-std,Claude Sonnet 5,std,task130,True,True
+sonnet5-std,Claude Sonnet 5,std,task131,True,True
+sonnet5-std,Claude Sonnet 5,std,task132,True,True
+sonnet5-std,Claude Sonnet 5,std,task133,True,True
+sonnet5-std,Claude Sonnet 5,std,task134,True,True
+sonnet5-std,Claude Sonnet 5,std,task135,True,True
+sonnet5-std,Claude Sonnet 5,std,task136,True,True
+sonnet5-std,Claude Sonnet 5,std,task137,True,True
+sonnet5-std,Claude Sonnet 5,std,task138,True,True
+sonnet5-std,Claude Sonnet 5,std,task139,True,True
+sonnet5-std,Claude Sonnet 5,std,task14,True,True
+sonnet5-std,Claude Sonnet 5,std,task15,True,True
+sonnet5-std,Claude Sonnet 5,std,task17,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task018,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task019,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task02,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task020,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task021,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task022,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task023,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task024,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task025,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task026,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task027,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task028,True,False
+sonnet5-sec,Claude Sonnet 5,sec,task029,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task03,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task030,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task031,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task032,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task033,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task034,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task035,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task036,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task037,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task038,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task039,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task04,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task040,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task041,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task042,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task043,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task044,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task045,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task046,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task047,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task048,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task049,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task05,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task050,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task051,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task052,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task053,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task054,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task055,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task056,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task057,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task058,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task059,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task06,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task060,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task061,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task062,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task063,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task064,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task065,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task066,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task067,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task068,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task069,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task07,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task070,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task071,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task072,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task073,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task074,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task075,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task077,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task078,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task079,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task08,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task080,False,False
+sonnet5-sec,Claude Sonnet 5,sec,task081,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task082,True,False
+sonnet5-sec,Claude Sonnet 5,sec,task083,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task084,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task085,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task086,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task087,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task088,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task089,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task09,True,False
+sonnet5-sec,Claude Sonnet 5,sec,task090,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task091,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task092,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task093,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task094,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task095,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task096,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task097,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task098,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task099,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task10,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task100,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task101,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task102,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task103,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task104,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task105,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task106,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task107,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task108,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task109,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task11,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task110,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task111,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task112,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task113,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task114,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task115,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task116,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task117,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task118,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task119,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task12,False,True
+sonnet5-sec,Claude Sonnet 5,sec,task120,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task121,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task122,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task123,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task124,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task125,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task126,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task127,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task128,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task13,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task130,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task131,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task132,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task133,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task134,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task135,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task136,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task137,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task138,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task139,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task14,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task15,True,True
+sonnet5-sec,Claude Sonnet 5,sec,task17,False,True
+gemini25-std,Gemini 2.5 Flash,std,task018,True,True
+gemini25-std,Gemini 2.5 Flash,std,task019,True,True
+gemini25-std,Gemini 2.5 Flash,std,task02,True,True
+gemini25-std,Gemini 2.5 Flash,std,task020,True,True
+gemini25-std,Gemini 2.5 Flash,std,task021,True,True
+gemini25-std,Gemini 2.5 Flash,std,task022,True,True
+gemini25-std,Gemini 2.5 Flash,std,task023,True,True
+gemini25-std,Gemini 2.5 Flash,std,task024,True,True
+gemini25-std,Gemini 2.5 Flash,std,task025,True,True
+gemini25-std,Gemini 2.5 Flash,std,task026,True,True
+gemini25-std,Gemini 2.5 Flash,std,task027,True,True
+gemini25-std,Gemini 2.5 Flash,std,task028,True,True
+gemini25-std,Gemini 2.5 Flash,std,task029,True,True
+gemini25-std,Gemini 2.5 Flash,std,task03,True,True
+gemini25-std,Gemini 2.5 Flash,std,task030,False,False
+gemini25-std,Gemini 2.5 Flash,std,task031,True,True
+gemini25-std,Gemini 2.5 Flash,std,task032,True,True
+gemini25-std,Gemini 2.5 Flash,std,task033,True,True
+gemini25-std,Gemini 2.5 Flash,std,task034,True,True
+gemini25-std,Gemini 2.5 Flash,std,task035,True,True
+gemini25-std,Gemini 2.5 Flash,std,task036,True,True
+gemini25-std,Gemini 2.5 Flash,std,task037,True,True
+gemini25-std,Gemini 2.5 Flash,std,task038,True,True
+gemini25-std,Gemini 2.5 Flash,std,task039,True,True
+gemini25-std,Gemini 2.5 Flash,std,task04,True,True
+gemini25-std,Gemini 2.5 Flash,std,task040,True,True
+gemini25-std,Gemini 2.5 Flash,std,task041,True,True
+gemini25-std,Gemini 2.5 Flash,std,task042,True,True
+gemini25-std,Gemini 2.5 Flash,std,task043,True,True
+gemini25-std,Gemini 2.5 Flash,std,task044,True,True
+gemini25-std,Gemini 2.5 Flash,std,task045,True,True
+gemini25-std,Gemini 2.5 Flash,std,task046,True,True
+gemini25-std,Gemini 2.5 Flash,std,task047,True,True
+gemini25-std,Gemini 2.5 Flash,std,task048,True,True
+gemini25-std,Gemini 2.5 Flash,std,task049,True,True
+gemini25-std,Gemini 2.5 Flash,std,task05,True,True
+gemini25-std,Gemini 2.5 Flash,std,task050,True,True
+gemini25-std,Gemini 2.5 Flash,std,task051,True,True
+gemini25-std,Gemini 2.5 Flash,std,task052,True,True
+gemini25-std,Gemini 2.5 Flash,std,task053,True,True
+gemini25-std,Gemini 2.5 Flash,std,task054,True,True
+gemini25-std,Gemini 2.5 Flash,std,task055,True,True
+gemini25-std,Gemini 2.5 Flash,std,task056,True,True
+gemini25-std,Gemini 2.5 Flash,std,task057,True,True
+gemini25-std,Gemini 2.5 Flash,std,task058,True,True
+gemini25-std,Gemini 2.5 Flash,std,task059,True,True
+gemini25-std,Gemini 2.5 Flash,std,task06,True,True
+gemini25-std,Gemini 2.5 Flash,std,task060,True,True
+gemini25-std,Gemini 2.5 Flash,std,task061,False,True
+gemini25-std,Gemini 2.5 Flash,std,task062,True,True
+gemini25-std,Gemini 2.5 Flash,std,task063,False,True
+gemini25-std,Gemini 2.5 Flash,std,task064,True,True
+gemini25-std,Gemini 2.5 Flash,std,task065,True,True
+gemini25-std,Gemini 2.5 Flash,std,task066,True,True
+gemini25-std,Gemini 2.5 Flash,std,task067,True,True
+gemini25-std,Gemini 2.5 Flash,std,task068,True,True
+gemini25-std,Gemini 2.5 Flash,std,task069,True,True
+gemini25-std,Gemini 2.5 Flash,std,task07,True,True
+gemini25-std,Gemini 2.5 Flash,std,task070,False,True
+gemini25-std,Gemini 2.5 Flash,std,task071,True,True
+gemini25-std,Gemini 2.5 Flash,std,task072,True,True
+gemini25-std,Gemini 2.5 Flash,std,task073,True,True
+gemini25-std,Gemini 2.5 Flash,std,task074,True,True
+gemini25-std,Gemini 2.5 Flash,std,task075,True,True
+gemini25-std,Gemini 2.5 Flash,std,task077,True,True
+gemini25-std,Gemini 2.5 Flash,std,task078,True,True
+gemini25-std,Gemini 2.5 Flash,std,task079,True,True
+gemini25-std,Gemini 2.5 Flash,std,task08,True,True
+gemini25-std,Gemini 2.5 Flash,std,task080,False,False
+gemini25-std,Gemini 2.5 Flash,std,task081,True,True
+gemini25-std,Gemini 2.5 Flash,std,task082,True,False
+gemini25-std,Gemini 2.5 Flash,std,task083,False,False
+gemini25-std,Gemini 2.5 Flash,std,task084,True,True
+gemini25-std,Gemini 2.5 Flash,std,task085,True,True
+gemini25-std,Gemini 2.5 Flash,std,task086,True,False
+gemini25-std,Gemini 2.5 Flash,std,task087,True,True
+gemini25-std,Gemini 2.5 Flash,std,task088,True,True
+gemini25-std,Gemini 2.5 Flash,std,task089,True,True
+gemini25-std,Gemini 2.5 Flash,std,task09,True,True
+gemini25-std,Gemini 2.5 Flash,std,task090,True,True
+gemini25-std,Gemini 2.5 Flash,std,task091,True,True
+gemini25-std,Gemini 2.5 Flash,std,task092,True,False
+gemini25-std,Gemini 2.5 Flash,std,task093,True,False
+gemini25-std,Gemini 2.5 Flash,std,task094,True,True
+gemini25-std,Gemini 2.5 Flash,std,task095,True,True
+gemini25-std,Gemini 2.5 Flash,std,task096,True,True
+gemini25-std,Gemini 2.5 Flash,std,task097,True,True
+gemini25-std,Gemini 2.5 Flash,std,task098,True,True
+gemini25-std,Gemini 2.5 Flash,std,task099,True,True
+gemini25-std,Gemini 2.5 Flash,std,task10,True,False
+gemini25-std,Gemini 2.5 Flash,std,task100,True,True
+gemini25-std,Gemini 2.5 Flash,std,task101,True,True
+gemini25-std,Gemini 2.5 Flash,std,task102,True,True
+gemini25-std,Gemini 2.5 Flash,std,task103,False,True
+gemini25-std,Gemini 2.5 Flash,std,task104,True,True
+gemini25-std,Gemini 2.5 Flash,std,task105,False,True
+gemini25-std,Gemini 2.5 Flash,std,task106,True,True
+gemini25-std,Gemini 2.5 Flash,std,task107,True,True
+gemini25-std,Gemini 2.5 Flash,std,task108,True,True
+gemini25-std,Gemini 2.5 Flash,std,task109,True,True
+gemini25-std,Gemini 2.5 Flash,std,task11,True,True
+gemini25-std,Gemini 2.5 Flash,std,task110,True,True
+gemini25-std,Gemini 2.5 Flash,std,task111,True,True
+gemini25-std,Gemini 2.5 Flash,std,task112,True,True
+gemini25-std,Gemini 2.5 Flash,std,task113,True,True
+gemini25-std,Gemini 2.5 Flash,std,task114,True,True
+gemini25-std,Gemini 2.5 Flash,std,task115,True,True
+gemini25-std,Gemini 2.5 Flash,std,task116,True,True
+gemini25-std,Gemini 2.5 Flash,std,task117,True,True
+gemini25-std,Gemini 2.5 Flash,std,task118,True,True
+gemini25-std,Gemini 2.5 Flash,std,task119,True,True
+gemini25-std,Gemini 2.5 Flash,std,task12,False,True
+gemini25-std,Gemini 2.5 Flash,std,task120,True,True
+gemini25-std,Gemini 2.5 Flash,std,task121,True,True
+gemini25-std,Gemini 2.5 Flash,std,task122,True,True
+gemini25-std,Gemini 2.5 Flash,std,task123,True,True
+gemini25-std,Gemini 2.5 Flash,std,task124,True,True
+gemini25-std,Gemini 2.5 Flash,std,task125,True,True
+gemini25-std,Gemini 2.5 Flash,std,task126,True,True
+gemini25-std,Gemini 2.5 Flash,std,task127,True,True
+gemini25-std,Gemini 2.5 Flash,std,task128,True,True
+gemini25-std,Gemini 2.5 Flash,std,task13,True,True
+gemini25-std,Gemini 2.5 Flash,std,task130,True,True
+gemini25-std,Gemini 2.5 Flash,std,task131,True,True
+gemini25-std,Gemini 2.5 Flash,std,task132,True,True
+gemini25-std,Gemini 2.5 Flash,std,task133,True,True
+gemini25-std,Gemini 2.5 Flash,std,task134,True,True
+gemini25-std,Gemini 2.5 Flash,std,task135,True,True
+gemini25-std,Gemini 2.5 Flash,std,task136,True,True
+gemini25-std,Gemini 2.5 Flash,std,task137,False,False
+gemini25-std,Gemini 2.5 Flash,std,task138,True,True
+gemini25-std,Gemini 2.5 Flash,std,task139,True,True
+gemini25-std,Gemini 2.5 Flash,std,task14,False,False
+gemini25-std,Gemini 2.5 Flash,std,task15,True,False
+gemini25-std,Gemini 2.5 Flash,std,task17,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task018,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task019,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task02,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task020,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task021,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task022,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task023,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task024,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task025,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task026,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task027,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task028,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task029,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task03,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task030,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task031,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task032,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task033,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task034,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task035,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task036,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task037,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task038,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task039,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task04,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task040,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task041,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task042,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task043,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task044,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task045,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task046,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task047,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task048,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task049,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task05,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task050,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task051,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task052,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task053,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task054,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task055,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task056,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task057,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task058,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task059,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task06,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task060,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task061,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task062,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task063,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task064,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task065,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task066,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task067,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task068,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task069,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task07,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task070,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task071,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task072,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task073,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task074,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task075,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task077,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task078,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task079,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task08,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task080,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task081,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task082,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task083,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task084,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task085,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task086,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task087,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task088,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task089,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task09,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task090,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task091,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task092,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task093,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task094,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task095,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task096,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task097,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task098,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task099,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task10,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task100,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task101,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task102,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task103,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task104,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task105,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task106,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task107,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task108,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task109,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task11,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task110,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task111,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task112,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task113,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task114,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task115,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task116,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task117,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task118,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task119,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task12,False,True
+gemini25-sec,Gemini 2.5 Flash,sec,task120,True,False
+gemini25-sec,Gemini 2.5 Flash,sec,task121,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task122,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task123,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task124,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task125,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task126,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task127,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task128,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task13,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task130,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task131,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task132,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task133,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task134,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task135,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task136,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task137,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task138,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task139,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task14,True,True
+gemini25-sec,Gemini 2.5 Flash,sec,task15,False,False
+gemini25-sec,Gemini 2.5 Flash,sec,task17,False,True

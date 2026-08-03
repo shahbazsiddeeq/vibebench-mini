@@ -1,0 +1,12 @@
+{
+  "id": "CodeAssay-v2.0",
+  "description": "LEGACY composite weights. NOT used in the published results. Retained only so earlier runs remain reproducible. The published evaluation reports correctness and each quality indicator separately and defines no composite score.",
+  "missing_metric": "skip",
+  "weights": {
+    "correctness": 0.63,
+    "complexity_score": 0.11,
+    "lint_score": 0.05,
+    "security_score": 0.05
+  },
+  "_deprecated": "Composite scoring is not used in the published results. See README.md, section Scoring."
+}

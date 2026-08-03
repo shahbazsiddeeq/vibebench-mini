@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.031" timestamp="2026-08-01T13:54:36.234941+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_camel_to_snake" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_already_snake" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_acronym" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_camel_lowercases_first_letter" time="0.000"><failure message="AssertionError: assert 'hELLOWorld' == 'helloWorld'&#10;  &#10;  - helloWorld&#10;  + hELLOWorld">def test_camel_lowercases_first_letter():
+        # An uppercase leading part must still yield a lowercase first letter.
+        assert to_camel("My_var") == "myVar"
+&gt;       assert to_camel("HELLO_world") == "helloWorld"
+E       AssertionError: assert 'hELLOWorld' == 'helloWorld'
+E         
+E         - helloWorld
+E         + hELLOWorld
+
+tests_hidden/test_solution.py:24: AssertionError</failure></testcase></testsuite></testsuites>

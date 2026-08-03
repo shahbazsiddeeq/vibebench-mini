@@ -1,0 +1,2 @@
+title: Outlier Detector
+description: find_outliers(data, z_threshold=2.5) returns the list of values whose absolute z-score is strictly greater than z_threshold, in their original order. The z-score uses the population standard deviation (variance = mean of squared deviations, dividing by N). Raises ValueError for fewer than 2 elements. Returns [] when the standard deviation is 0. Example: find_outliers([2, 2, 2, 2, 100], 1.5) -> [100]

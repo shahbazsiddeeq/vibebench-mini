@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.052" timestamp="2026-08-01T13:16:32.781924+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_cycle_three_nodes" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_no_cycle_linear" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_two_nodes_cycle" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_chain_into_cycle_not_containing_start" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty" time="0.000"><failure message="IndexError: list index out of range">def test_empty():
+&gt;       assert has_cycle([]) is False
+               ^^^^^^^^^^^^^
+
+tests_hidden/test_solution.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+sequence = []
+
+    def has_cycle(sequence):
+        if not isinstance(sequence, list):
+            raise ValueError("Input must be a list.")
+    
+        n = len(sequence)
+    
+        # Validate the input values
+        for index in sequence:
+            if not isinstance(index, int) or index &lt; -1 or index &gt;= n:
+                raise ValueError("Index out of bounds or invalid value in sequence.")
+    
+        visited = set()
+        current_index = 0
+    
+        while current_index != -1:
+            if current_index in visited:
+                return True
+            visited.add(current_index)
+&gt;           current_index = sequence[current_index]
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+E           IndexError: list index out of range
+
+src/solution.py:21: IndexError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_index_below_negative_one_raises" time="0.000" /></testsuite></testsuites>

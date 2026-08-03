@@ -1,0 +1,2 @@
+title: SQLite Column Value Counts
+description: value_counts(db_path, table, column) returns a dict mapping each distinct value in the given column to its count, computed with GROUP BY. Raises ValueError if table or column is an invalid identifier. Example: rows with color values ['red','red','blue'] -> {'red': 2, 'blue': 1}.

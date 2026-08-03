@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.063" timestamp="2026-08-01T13:21:31.594796+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic_first_occurrence" time="0.000"><failure message="AssertionError: assert 'aba' == 'bab'&#10;  &#10;  - bab&#10;  + aba">def test_basic_first_occurrence():
+        # tie between "bab" and "aba"; the spec requires the first occurrence
+&gt;       assert longest_palindrome("babad") == "bab"
+E       AssertionError: assert 'aba' == 'bab'
+E         
+E         - bab
+E         + aba
+
+tests_hidden/test_solution.py:6: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_single_char" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_two_different_first_occurrence" time="0.000"><failure message="AssertionError: assert 'b' == 'a'&#10;  &#10;  - a&#10;  + b">def test_two_different_first_occurrence():
+        # all length-1 palindromes tie; first occurrence wins
+&gt;       assert longest_palindrome("ab") == "a"
+E       AssertionError: assert 'b' == 'a'
+E         
+E         - a
+E         + b
+
+tests_hidden/test_solution.py:15: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_even_palindrome" time="0.000" /></testsuite></testsuites>

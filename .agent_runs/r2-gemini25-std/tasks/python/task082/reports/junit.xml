@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.095" timestamp="2026-08-01T13:30:42.492169+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.018" /><testcase classname="tests_hidden.test_solution" name="test_newline_in_value_raises" time="0.006" /><testcase classname="tests_hidden.test_solution" name="test_exact_format_no_spaces" time="0.009"><failure message="AssertionError: assert '[db]\nhost=localhost\n\n' == '[db]\nhost=localhost\n'&#10;  &#10;    [db]&#10;    host=localhost&#10;  +">tmp_path = PosixPath('/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18681/test_exact_format_no_spaces0')
+
+    def test_exact_format_no_spaces(tmp_path):
+        p = tmp_path / "out.ini"
+        write_config(str(p), {"db": {"host": "localhost"}})
+&gt;       assert p.read_text() == "[db]\nhost=localhost\n"
+E       AssertionError: assert '[db]\nhost=localhost\n\n' == '[db]\nhost=localhost\n'
+E         
+E           [db]
+E           host=localhost
+E         +
+
+tests_hidden/test_solution.py:22: AssertionError</failure></testcase></testsuite></testsuites>

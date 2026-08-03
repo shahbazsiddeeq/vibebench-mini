@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.114" timestamp="2026-08-01T13:29:57.252537+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_reverse_sorted" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_returns_new_list" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_does_not_use_builtin_sort" time="0.002"><failure message="AssertionError: must not use the built-in sorted()&#10;assert 'sorted(' not in '&quot;&quot;&quot;\nsrc/so...t(greater)\n'&#10;  &#10;  'sorted(' is contained here:&#10;    built-in&#10;    `sorted()` or `list.sort()`.&#10;  ?  +++++++&#10;    &#10;    Security considerations:...&#10;  &#10;  ...Full output truncated (81 lines hidden), use '-vv' to show">def test_does_not_use_builtin_sort():
+        src = inspect.getsource(solution_module)
+&gt;       assert "sorted(" not in src, "must not use the built-in sorted()"
+E       AssertionError: must not use the built-in sorted()
+E       assert 'sorted(' not in '"""\nsrc/so...t(greater)\n'
+E         
+E         'sorted(' is contained here:
+E           built-in
+E           `sorted()` or `list.sort()`.
+E         ?  +++++++
+E           
+E           Security considerations:...
+E         
+E         ...Full output truncated (81 lines hidden), use '-vv' to show
+
+tests_hidden/test_solution.py:30: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_randomized_large_input" time="0.036" /></testsuite></testsuites>

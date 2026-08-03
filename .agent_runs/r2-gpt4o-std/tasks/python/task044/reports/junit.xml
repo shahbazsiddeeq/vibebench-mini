@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.061" timestamp="2026-08-01T13:15:10.917453+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_camel_to_snake" time="0.001"><failure message="AssertionError: assert 'my_v_ariable_n_ame' == 'my_variable_name'&#10;  &#10;  - my_variable_name&#10;  + my_v_ariable_n_ame&#10;  ?     +         +">def test_camel_to_snake():
+&gt;       assert to_snake("myVariableName") == "my_variable_name"
+E       AssertionError: assert 'my_v_ariable_n_ame' == 'my_variable_name'
+E         
+E         - my_variable_name
+E         + my_v_ariable_n_ame
+E         ?     +         +
+
+tests_hidden/test_solution.py:5: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_already_snake" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_acronym" time="0.000"><failure message="AssertionError: assert 'parsehtml' == 'parse_html'&#10;  &#10;  - parse_html&#10;  ?      -&#10;  + parsehtml">def test_acronym():
+&gt;       assert to_snake("parseHTML") == "parse_html"
+E       AssertionError: assert 'parsehtml' == 'parse_html'
+E         
+E         - parse_html
+E         ?      -
+E         + parsehtml
+
+tests_hidden/test_solution.py:18: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_camel_lowercases_first_letter" time="0.001" /></testsuite></testsuites>

@@ -1,0 +1,2 @@
+title: Count Lines in File
+description: count_lines(path) returns the number of lines in a UTF-8 text file. Raises FileNotFoundError if the file does not exist. Example: count_lines("data.txt") -> 42

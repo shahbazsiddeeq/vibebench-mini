@@ -1,0 +1,8 @@
+title: Sentence Case Normalizer
+description: |
+  normalize_case(text) lowercases the whole text, then uppercases the first alphabetic character
+  of each sentence. A sentence starts at the beginning of the text and immediately after any
+  ., !, or ?. The first letter to appear after such a boundary is capitalized regardless of any
+  intervening spaces, quotes, or other non-letter characters (which are left unchanged and
+  preserved in place). Everything else becomes lowercase.
+  Example: normalize_case("hello world. HOW ARE YOU?") -> "Hello world. How are you?"

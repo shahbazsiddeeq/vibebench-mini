@@ -1,0 +1,4 @@
+agents:
+  - name: openai-default
+    kind: python
+    cmd: python scripts/agents/openai_agent.py --task {task_dir} --tests {test_file}

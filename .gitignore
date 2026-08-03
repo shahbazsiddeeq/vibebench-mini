@@ -1,0 +1,134 @@
+# ---------------------------------------------------------------
+# CodeAssay — public replication artifact
+#
+# This repository publishes the benchmark, the harness, the stored
+# model outputs, and the analysis behind the reported results.
+# Anything not matched below is published. See REPRODUCIBILITY.md
+# for the file-by-file inventory.
+# ---------------------------------------------------------------
+
+# --- Environments and caches -----------------------------------
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+**/.mutmut-cache
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# --- Credentials -----------------------------------------------
+# Never commit. .env.example is the template.
+.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# --- Private working material ----------------------------------
+# Manuscript sources, planning notes and working snapshots.
+# None of it is code or published results.
+paper/
+checkpoints/
+history/
+dist/
+
+# --- Superseded pre-revision results ---------------------------
+# May 2026: 120 tasks, five models, a composite score, and tests
+# visible to the model. Withdrawn; retained locally for history.
+data/
+/results.json
+/results.csv
+/scorecard.md
+
+# --- Analysis scratch (regenerable) ----------------------------
+.mutation_scratch/
+.verify_scratch/
+.r2_verify_scratch/
+.semgrep_scratch/
+.variance_runs/
+
+# --- Task working files; the JS track is out of scope ----------
+/tasks/res_tasks.zip
+/tasks/js/
+
+# --- Generation runs: publish only the r2 corpus ---------------
+# Uses '/*' rather than a directory rule, because git will not
+# re-include anything beneath an excluded directory. Excluding the
+# children individually leaves the parent traversable so that the
+# negation below can take effect.
+/.agent_runs/*
+!/.agent_runs/r2-*/
+
+# Drop the generation cache, but keep the pre-repair attempt-1
+# programs: they are the evidence behind reports/r2_repair_audit.csv
+# and exist nowhere else in the release. Same '/*' reason as above.
+/.agent_runs/r2-*/cache/*
+!/.agent_runs/r2-*/cache/attempt1/
+
+# --- Manuscript figure and table generators --------------------
+# Figure code is not part of the artifact.
+# gen_r2_results_summary.py is deliberately NOT listed here:
+# despite the prefix it emits a published CSV, not a figure.
+/scripts/gen_rev_ranking.py
+/scripts/gen_rev_barpanels.py
+/scripts/gen_rev_radar.py
+/scripts/gen_rev_figure.py
+/scripts/generate_paper_figures.py
+/scripts/paper_snippets.py
+/scripts/variance_analyze.py
+
+# Derives reports/defect_class_counts.csv from the task-review sheets, which
+# are not part of this release. The CSVs it produced are published; the script
+# cannot run here, so shipping it would only dangle.
+/reports/derive_defect_class_counts.py
+
+# --- Legacy pre-revision analysis scripts ----------------------
+# Self-labelled LEGACY; they compute the withdrawn composite.
+/scripts/analyze_results.py
+/scripts/stats_analysis.py
+/scripts/sweep_metrics.py
+/scripts/run_mutation_all.py
+/scripts/merge_tracks.py
+/scripts/agents_merge.py
+/scripts/agents_summary.py
+/scripts/variance_run.py
+
+# --- JS track (out of scope) -----------------------------------
+/scripts/agents_js/
+/scripts/make_js_tasks.py
+/runner/codeassay_runner_js.mjs
+/package.json
+/package-lock.json
+/vitest.config.mts
+/stryker.conf.mjs
+/.eslintrc.cjs
+/configs/stryker.vitest.cjs
+
+# --- reports/: publish the current validation and statistics ---
+# Rules are leading-slash anchored so that reports/run_logs/rev_*.log,
+# which IS current, survives the /reports/rev_* rule below.
+/reports/agents/
+/reports/figures/
+/reports/mutation/
+/reports/stryker/
+/reports/sweeps/
+/reports/*.png
+/reports/*.tex
+/reports/agents_*
+/reports/combined_*
+/reports/summary.*
+/reports/table.md
+/reports/metrics_used.md
+/reports/mutation_*.log
+/reports/mutation_done_*.txt
+/reports/quality_remeasured.csv
+/reports/rev_*
+/reports/runinfo_2025-09-24_STALE.*
+/reports/semgrep_findings.csv
+/reports/semgrep_summary.md
+/reports/stats_*
+/reports/variance_*

@@ -1,0 +1,2591 @@
+configuration,prompt,task,solution_present,hidden_pass,public_pass,sha256
+GPT-4o-mini,std,task018,True,True,True,9d870fb057c9d3b4
+GPT-4o-mini,std,task019,True,True,True,dda1aed28e90c5c2
+GPT-4o-mini,std,task02,True,True,True,f3196b3c7d4233f5
+GPT-4o-mini,std,task020,True,True,True,05680cffdfcb42cf
+GPT-4o-mini,std,task021,True,True,True,e98cde738457f40c
+GPT-4o-mini,std,task022,True,True,True,5319f463f4c25681
+GPT-4o-mini,std,task023,True,False,True,526334b934c2881a
+GPT-4o-mini,std,task024,True,True,True,43dcae7fb088fc8f
+GPT-4o-mini,std,task025,True,True,True,29293fdc973672a9
+GPT-4o-mini,std,task026,True,True,True,7528782a0c4cb5bd
+GPT-4o-mini,std,task027,True,True,True,82b42b939378d5f5
+GPT-4o-mini,std,task028,True,True,True,6b5e39a20c588d90
+GPT-4o-mini,std,task029,True,True,True,b1b441477e1b139d
+GPT-4o-mini,std,task03,True,True,True,dfcb9f34f5144eb5
+GPT-4o-mini,std,task030,True,False,True,453f9fca9085b62c
+GPT-4o-mini,std,task031,True,True,True,16354c9810b2a11b
+GPT-4o-mini,std,task032,True,True,True,f4f2eeecbd4bdf6d
+GPT-4o-mini,std,task033,True,True,True,0ffdfc8a813159ae
+GPT-4o-mini,std,task034,True,True,True,727506c75aecdfe6
+GPT-4o-mini,std,task035,True,True,True,288c3e8a1327fb02
+GPT-4o-mini,std,task036,True,True,True,c320bde6abb21c2c
+GPT-4o-mini,std,task037,True,True,True,7e1420dc981762c1
+GPT-4o-mini,std,task038,True,True,True,e719fe3ebbf755df
+GPT-4o-mini,std,task039,True,True,False,0fc28fc45d8c7930
+GPT-4o-mini,std,task04,True,True,True,aaef6db43a876774
+GPT-4o-mini,std,task040,True,True,True,0a49942aca77bf1f
+GPT-4o-mini,std,task041,True,False,True,aad1036b5cd770b2
+GPT-4o-mini,std,task042,True,True,True,16efa4aed40fce8f
+GPT-4o-mini,std,task043,True,True,True,8755deda8695e286
+GPT-4o-mini,std,task044,True,True,False,0637a354180ed5f8
+GPT-4o-mini,std,task045,True,True,True,433e4d7e4c7b83a8
+GPT-4o-mini,std,task046,True,True,True,3e7069c6b914e30f
+GPT-4o-mini,std,task047,True,False,True,072868cbe2096943
+GPT-4o-mini,std,task048,True,True,True,fb485ef4af93a2c8
+GPT-4o-mini,std,task049,True,False,False,1faace40da203af2
+GPT-4o-mini,std,task05,True,True,True,7063cf70f0e7f623
+GPT-4o-mini,std,task050,True,True,True,336f35b6567bc81b
+GPT-4o-mini,std,task051,True,True,True,48fb89ccafdf1d61
+GPT-4o-mini,std,task052,True,True,True,f837dfba3768f101
+GPT-4o-mini,std,task053,True,True,True,e540824c7421c8fc
+GPT-4o-mini,std,task054,True,True,True,d64e7cb1daea6f9f
+GPT-4o-mini,std,task055,True,True,True,796381b1f9434223
+GPT-4o-mini,std,task056,True,True,True,ace069a17071a796
+GPT-4o-mini,std,task057,True,True,True,11f2bcda204ad5b8
+GPT-4o-mini,std,task058,True,True,True,722fb7feac5d0d4e
+GPT-4o-mini,std,task059,True,True,False,b457867d703f34d1
+GPT-4o-mini,std,task06,True,True,True,3e1cc080b94f3c75
+GPT-4o-mini,std,task060,True,True,True,393f443de8fef400
+GPT-4o-mini,std,task061,True,True,False,f06824964ca924e9
+GPT-4o-mini,std,task062,True,True,True,8d7bb80450f412bc
+GPT-4o-mini,std,task063,True,True,True,a1156e72cae9908c
+GPT-4o-mini,std,task064,True,True,True,76ae1b0e38876cb8
+GPT-4o-mini,std,task065,True,True,True,129643d483c78151
+GPT-4o-mini,std,task066,True,True,True,d52cd351dbc9db39
+GPT-4o-mini,std,task067,True,True,True,d2ade5da421ecb37
+GPT-4o-mini,std,task068,True,True,True,ede5d8f9dbda4c61
+GPT-4o-mini,std,task069,True,True,True,9c554df77809547a
+GPT-4o-mini,std,task07,True,True,True,76058ac8fa2473a0
+GPT-4o-mini,std,task070,True,False,True,f22f459eb0bd00fe
+GPT-4o-mini,std,task071,True,False,False,cc31307185b8e632
+GPT-4o-mini,std,task072,True,True,True,6f1c3c10476f3879
+GPT-4o-mini,std,task073,True,True,True,52b60ab7aaa46d15
+GPT-4o-mini,std,task074,True,False,True,974ada1827a58720
+GPT-4o-mini,std,task075,True,True,True,9407fb64a6ed2d75
+GPT-4o-mini,std,task077,True,True,True,4b410b5aaf2e1118
+GPT-4o-mini,std,task078,True,True,True,e136a4bcdf00d41a
+GPT-4o-mini,std,task079,True,True,True,a05fc6a7559f9e21
+GPT-4o-mini,std,task08,True,False,True,dfcec623afd671a0
+GPT-4o-mini,std,task080,True,False,True,65736f7ae6918b75
+GPT-4o-mini,std,task081,True,True,True,c2f64bc125c002a1
+GPT-4o-mini,std,task082,True,False,True,c89c94917080f353
+GPT-4o-mini,std,task083,True,False,True,690dd86f243f6ac3
+GPT-4o-mini,std,task084,True,True,True,8d33d84eaf37a954
+GPT-4o-mini,std,task085,True,True,True,a0205c09b4a08891
+GPT-4o-mini,std,task086,True,False,True,b1446fd4ede58fe6
+GPT-4o-mini,std,task087,True,True,True,222be112c43cb138
+GPT-4o-mini,std,task088,True,True,True,0a803ea60589ebfd
+GPT-4o-mini,std,task089,True,True,True,f761ced7e8ef8163
+GPT-4o-mini,std,task09,True,True,True,05f70238d4deb8f9
+GPT-4o-mini,std,task090,True,True,True,00d4c68ff506fc32
+GPT-4o-mini,std,task091,True,True,True,d7a6c3d7a5cc76f3
+GPT-4o-mini,std,task092,True,True,False,52aedb65f5bde6bd
+GPT-4o-mini,std,task093,True,False,True,1288e40e792b397d
+GPT-4o-mini,std,task094,True,False,True,618f4c0e9571060e
+GPT-4o-mini,std,task095,True,True,True,4e3963fab13651fa
+GPT-4o-mini,std,task096,True,True,True,b48e3dbc4989a9b8
+GPT-4o-mini,std,task097,True,True,True,a6e8411604ad65bf
+GPT-4o-mini,std,task098,True,True,True,170ea932f06df9ff
+GPT-4o-mini,std,task099,True,True,True,49490c56d4a0593d
+GPT-4o-mini,std,task10,True,False,True,50a91873ca70f892
+GPT-4o-mini,std,task100,True,True,True,960fd8fc7f64dcfd
+GPT-4o-mini,std,task101,True,True,True,d721fb1d43ac9b7a
+GPT-4o-mini,std,task102,True,True,True,ff1729d4256d0342
+GPT-4o-mini,std,task103,True,True,True,5b37b9be8162ef34
+GPT-4o-mini,std,task104,True,True,True,a6eb921e20019f78
+GPT-4o-mini,std,task105,True,False,False,ace6630dadb9269a
+GPT-4o-mini,std,task106,True,True,True,d3efc9adcdacf77f
+GPT-4o-mini,std,task107,True,True,True,edcdef3ece703c19
+GPT-4o-mini,std,task108,True,True,True,7c8874c176e1f831
+GPT-4o-mini,std,task109,True,True,True,24ebe6664162bc02
+GPT-4o-mini,std,task11,True,False,True,8436ffbad16f7111
+GPT-4o-mini,std,task110,True,True,True,c156616c9bcd47a8
+GPT-4o-mini,std,task111,True,True,True,66fcf789fd7161b0
+GPT-4o-mini,std,task112,True,True,True,b6c3c80dc69167d0
+GPT-4o-mini,std,task113,True,True,True,86207d06fe88b594
+GPT-4o-mini,std,task114,True,True,True,961cedc4676669ee
+GPT-4o-mini,std,task115,True,True,True,1eeeaa1b37dc5854
+GPT-4o-mini,std,task116,True,True,True,aca0d337b2649302
+GPT-4o-mini,std,task117,True,True,True,5e08053b4081818b
+GPT-4o-mini,std,task118,True,True,True,add1c0b30c36ae19
+GPT-4o-mini,std,task119,True,True,True,080119c2a63975a4
+GPT-4o-mini,std,task12,True,True,True,f94fab060e944bcf
+GPT-4o-mini,std,task120,True,True,True,9d8046102d3c8590
+GPT-4o-mini,std,task121,True,True,True,86731ca203ad4d93
+GPT-4o-mini,std,task122,True,True,True,31f422586ae10a36
+GPT-4o-mini,std,task123,True,False,True,43be560ee1c9fea5
+GPT-4o-mini,std,task124,True,True,True,4e1d9c809d5a6116
+GPT-4o-mini,std,task125,True,True,False,e60278ff327f249f
+GPT-4o-mini,std,task126,True,False,False,fed6299cf640faab
+GPT-4o-mini,std,task127,True,True,True,5081135e9ba2dae0
+GPT-4o-mini,std,task128,True,True,True,397f6d7091b25261
+GPT-4o-mini,std,task13,True,True,True,6a1cf003bb5b3cc7
+GPT-4o-mini,std,task130,True,False,True,19f61d67f0e76baa
+GPT-4o-mini,std,task131,True,False,True,ddf9b2a9ef517a71
+GPT-4o-mini,std,task132,True,True,False,a06a545448014ac5
+GPT-4o-mini,std,task133,True,True,True,fbe6a0d983167cdd
+GPT-4o-mini,std,task134,True,False,True,f6da709cc0f95299
+GPT-4o-mini,std,task135,True,False,False,a7328979966aabf5
+GPT-4o-mini,std,task136,True,True,True,a43e22af44232ec6
+GPT-4o-mini,std,task137,True,False,False,22f405e66f54120b
+GPT-4o-mini,std,task138,True,True,True,0bdbc73bf86403ba
+GPT-4o-mini,std,task139,True,True,True,48457fd5500e2d8d
+GPT-4o-mini,std,task14,True,False,True,920aad389f8ce51b
+GPT-4o-mini,std,task140,True,True,True,052bf333347f4d42
+GPT-4o-mini,std,task141,True,True,True,bc5664ea750410f7
+GPT-4o-mini,std,task142,True,False,True,42cd7d802f4e3a8e
+GPT-4o-mini,std,task143,True,False,True,faf377ba8c202d17
+GPT-4o-mini,std,task144,True,True,True,2a5ee293fd5cff68
+GPT-4o-mini,std,task145,True,False,True,0899a64561ecd057
+GPT-4o-mini,std,task146,True,True,True,4cb02acc5596a304
+GPT-4o-mini,std,task147,True,False,False,2fc87650d4800849
+GPT-4o-mini,std,task148,True,True,True,46a6130d88f93c93
+GPT-4o-mini,std,task149,True,False,True,0d12309d8d515c95
+GPT-4o-mini,std,task15,True,False,False,7a055b90c45dddae
+GPT-4o-mini,std,task150,True,True,True,76e92b4d599c4765
+GPT-4o-mini,std,task151,True,True,True,81f867df439f9c28
+GPT-4o-mini,std,task152,True,False,False,7701bbe26b053279
+GPT-4o-mini,std,task153,True,True,True,b50ad295f3c745a0
+GPT-4o-mini,std,task154,True,True,True,453e0f2f41629df5
+GPT-4o-mini,std,task155,True,True,True,a953c6077df25fc4
+GPT-4o-mini,std,task156,True,True,True,1691d080ce0c5fa4
+GPT-4o-mini,std,task157,True,True,True,bac333ae77d77f9a
+GPT-4o-mini,std,task158,True,True,True,77a512ab4b9c7731
+GPT-4o-mini,std,task159,True,True,True,b26243aee81aff4b
+GPT-4o-mini,std,task160,True,True,False,c356f6306f403a62
+GPT-4o-mini,std,task161,True,True,False,85eafb84fa1cda68
+GPT-4o-mini,std,task162,True,False,False,7709022a427342d0
+GPT-4o-mini,std,task163,True,False,False,f845b5e589a294b0
+GPT-4o-mini,std,task164,True,False,True,632ff4124a63c4c5
+GPT-4o-mini,std,task165,True,False,True,05af22568957f492
+GPT-4o-mini,std,task166,True,True,True,60ea5a285e0de218
+GPT-4o-mini,std,task167,True,True,True,e0593da327cde8b0
+GPT-4o-mini,std,task168,True,True,False,58c7bdb7e0c1314a
+GPT-4o-mini,std,task169,True,False,True,bad47fe0a9fc6332
+GPT-4o-mini,std,task17,True,True,True,b30787ff1d1b3975
+GPT-4o-mini,std,task170,True,True,True,ba938ee01a73d4a5
+GPT-4o-mini,std,task171,True,True,True,320d2305c2831ee0
+GPT-4o-mini,std,task172,True,True,True,b61c48507a97bf23
+GPT-4o-mini,std,task173,True,True,False,903b25c675ea2512
+GPT-4o-mini,std,task174,True,True,True,35be2d2784f68b11
+GPT-4o-mini,std,task175,True,True,True,e1ae60f038f1d721
+GPT-4o-mini,std,task176,True,True,True,69ba664e29eca97a
+GPT-4o-mini,std,task177,True,True,True,49a65f73ed8644ce
+GPT-4o-mini,std,task178,True,True,True,3ee25efacaa24d9d
+GPT-4o-mini,std,task179,True,True,True,ef9fc97f1903c209
+GPT-4o-mini,std,task180,True,False,True,1a8f9e95afcabb27
+GPT-4o-mini,std,task181,True,True,False,f62b5ef9fb124172
+GPT-4o-mini,std,task182,True,True,True,a2f6f1f98a06f31c
+GPT-4o-mini,std,task183,True,False,False,ae50a615b00751ab
+GPT-4o-mini,std,task184,True,True,True,b916b3832630b802
+GPT-4o-mini,std,task185,True,False,False,660f324377418536
+GPT-4o-mini,std,task186,True,False,False,cbc4dd232de2c521
+GPT-4o-mini,std,task187,True,True,True,bc5cb135d023321a
+GPT-4o-mini,std,task188,True,True,True,2aa2516dda4be0a7
+GPT-4o-mini,std,task189,True,True,True,8f6e4faa5b803174
+GPT-4o-mini,sec,task018,True,True,True,28c42409bf81ce3b
+GPT-4o-mini,sec,task019,True,True,False,e94e6a0971ca556d
+GPT-4o-mini,sec,task02,True,True,True,e1f2b5d99e1373f4
+GPT-4o-mini,sec,task020,True,True,True,b3206e90025c3491
+GPT-4o-mini,sec,task021,True,True,True,62d210d23d3e83f5
+GPT-4o-mini,sec,task022,True,True,True,3700804538948264
+GPT-4o-mini,sec,task023,True,False,True,31281aed5a4f684a
+GPT-4o-mini,sec,task024,True,False,True,db947f3be67782f0
+GPT-4o-mini,sec,task025,True,True,True,085245967bcf8b46
+GPT-4o-mini,sec,task026,True,False,True,71f42bbb28465ae6
+GPT-4o-mini,sec,task027,True,True,True,6ccf0c172e26c959
+GPT-4o-mini,sec,task028,True,True,True,516621c60dc0096a
+GPT-4o-mini,sec,task029,True,True,True,c71c88992a3205d9
+GPT-4o-mini,sec,task03,True,True,True,83957b65c2ebfe83
+GPT-4o-mini,sec,task030,True,False,True,ebc0d12cbae019bf
+GPT-4o-mini,sec,task031,True,True,True,7466859c2bccaef8
+GPT-4o-mini,sec,task032,True,True,True,19d0f829faccc4a7
+GPT-4o-mini,sec,task033,True,True,True,2240c8d2078c1c5b
+GPT-4o-mini,sec,task034,True,True,True,16f1a8eabc3ceee2
+GPT-4o-mini,sec,task035,True,False,True,260d429bd7fc1c21
+GPT-4o-mini,sec,task036,True,False,True,de1be1036114b49e
+GPT-4o-mini,sec,task037,True,True,True,7e1420dc981762c1
+GPT-4o-mini,sec,task038,True,True,True,2b75d2cb2f237881
+GPT-4o-mini,sec,task039,True,True,False,ef0b2a43f7feba80
+GPT-4o-mini,sec,task04,True,True,True,414326bd3b56fe5f
+GPT-4o-mini,sec,task040,True,True,True,d0efbd4886190d36
+GPT-4o-mini,sec,task041,True,False,True,36e79de193accd1a
+GPT-4o-mini,sec,task042,True,True,True,dca139eef8803ed5
+GPT-4o-mini,sec,task043,True,True,True,3b0b93c6530eba47
+GPT-4o-mini,sec,task044,True,False,False,17cb7f459856ea35
+GPT-4o-mini,sec,task045,True,True,True,f52794dc815ee2fd
+GPT-4o-mini,sec,task046,True,True,True,b6acbe4fb41c8ef7
+GPT-4o-mini,sec,task047,True,False,True,fa0a34e0ec5db59a
+GPT-4o-mini,sec,task048,True,True,True,217aed7ed0b07b3a
+GPT-4o-mini,sec,task049,True,False,False,3e4d9a17f33843b2
+GPT-4o-mini,sec,task05,True,True,True,363f2f45b25707c9
+GPT-4o-mini,sec,task050,True,True,True,8acbb225e08aaa66
+GPT-4o-mini,sec,task051,True,False,False,ca8fdbb1744decb6
+GPT-4o-mini,sec,task052,True,True,True,c92b77580ea8ac31
+GPT-4o-mini,sec,task053,True,True,True,a56171aefbdfbf5f
+GPT-4o-mini,sec,task054,True,True,True,a80322a705e39ced
+GPT-4o-mini,sec,task055,True,True,True,5aedf8ce1bde04b5
+GPT-4o-mini,sec,task056,True,True,True,06c8e4fb539fc5e8
+GPT-4o-mini,sec,task057,True,True,True,3134fb1512c09a84
+GPT-4o-mini,sec,task058,True,True,True,052718317f776510
+GPT-4o-mini,sec,task059,True,True,False,ac530d0f215dae35
+GPT-4o-mini,sec,task06,True,True,True,6a6616f22662220c
+GPT-4o-mini,sec,task060,True,True,True,5e0156bf7b4a56e4
+GPT-4o-mini,sec,task061,True,True,False,509b30f690604613
+GPT-4o-mini,sec,task062,True,True,True,a23d5c21cb51da1e
+GPT-4o-mini,sec,task063,True,True,True,35cb641f0cf705f5
+GPT-4o-mini,sec,task064,True,True,True,8c9473bb3bdea7ec
+GPT-4o-mini,sec,task065,True,True,True,b264eb90f4eadecd
+GPT-4o-mini,sec,task066,True,True,True,df5197a220ecfd2f
+GPT-4o-mini,sec,task067,True,True,True,7841968c18d9f5e0
+GPT-4o-mini,sec,task068,True,True,True,8069f15f9c4c1154
+GPT-4o-mini,sec,task069,True,True,True,d215f424fe4f8814
+GPT-4o-mini,sec,task07,True,True,False,22ec4c000ae4ad29
+GPT-4o-mini,sec,task070,True,False,True,0b47abb059777b65
+GPT-4o-mini,sec,task071,True,True,True,270258b4b431389e
+GPT-4o-mini,sec,task072,True,True,True,33b7330584c52f0b
+GPT-4o-mini,sec,task073,True,False,True,b311b0869420c020
+GPT-4o-mini,sec,task074,True,False,False,009cee15f0a29b78
+GPT-4o-mini,sec,task075,True,True,True,9ff224252fb094c7
+GPT-4o-mini,sec,task077,True,True,True,ab402e99a91b3ed1
+GPT-4o-mini,sec,task078,True,True,True,fa25d1a583519500
+GPT-4o-mini,sec,task079,True,True,True,da4bc9c611ed520c
+GPT-4o-mini,sec,task08,True,False,True,e5acf083f10485b3
+GPT-4o-mini,sec,task080,True,False,True,54b9bd3d993cd628
+GPT-4o-mini,sec,task081,True,True,True,9e2fae0be48e42f9
+GPT-4o-mini,sec,task082,True,False,True,6867d877db4d76f8
+GPT-4o-mini,sec,task083,True,True,True,cead651741a8dcfa
+GPT-4o-mini,sec,task084,True,True,True,e013d9a6d2649540
+GPT-4o-mini,sec,task085,True,True,True,299ed164b2f27fc3
+GPT-4o-mini,sec,task086,True,False,True,23c7301395f5db07
+GPT-4o-mini,sec,task087,True,True,True,a4b69224b99da1f5
+GPT-4o-mini,sec,task088,True,True,True,fa30c9fb7877b049
+GPT-4o-mini,sec,task089,True,True,True,800f3008249e4aee
+GPT-4o-mini,sec,task09,True,False,True,12a378a6c8fc2009
+GPT-4o-mini,sec,task090,True,True,True,9122831434ad8afd
+GPT-4o-mini,sec,task091,True,True,True,d7a6c3d7a5cc76f3
+GPT-4o-mini,sec,task092,True,True,False,829337c9f555c2a5
+GPT-4o-mini,sec,task093,True,True,True,724f98d25afc235a
+GPT-4o-mini,sec,task094,True,True,True,2e9a6371e3d61b8f
+GPT-4o-mini,sec,task095,True,True,True,c32f1d1e65a72162
+GPT-4o-mini,sec,task096,True,True,True,13ae1d39cd1c5a79
+GPT-4o-mini,sec,task097,True,True,True,9975e8e618a69077
+GPT-4o-mini,sec,task098,True,True,True,eb9482a4f75ee4b0
+GPT-4o-mini,sec,task099,True,True,False,debf94284cfd34e0
+GPT-4o-mini,sec,task10,True,False,True,d7de8942be20a3c8
+GPT-4o-mini,sec,task100,True,True,True,f3fe77b05915bec2
+GPT-4o-mini,sec,task101,True,True,True,1128b608356e09df
+GPT-4o-mini,sec,task102,True,True,True,30d1c571960231dd
+GPT-4o-mini,sec,task103,True,True,True,c6d90d5a001a9655
+GPT-4o-mini,sec,task104,True,True,True,a976d44fe6538601
+GPT-4o-mini,sec,task105,True,False,False,add6e1f640b98ab7
+GPT-4o-mini,sec,task106,True,True,True,b69c4bd31bda4695
+GPT-4o-mini,sec,task107,True,True,True,1e67b547e55d171d
+GPT-4o-mini,sec,task108,True,True,False,29e22a72366709af
+GPT-4o-mini,sec,task109,True,True,True,7fd2788d70d8b293
+GPT-4o-mini,sec,task11,True,False,True,c7fdda756e6edb17
+GPT-4o-mini,sec,task110,True,True,True,2d604731a8396158
+GPT-4o-mini,sec,task111,True,True,True,1218528d82cb842a
+GPT-4o-mini,sec,task112,True,True,True,02787a88dc156778
+GPT-4o-mini,sec,task113,True,True,True,b822ebcb0c030f01
+GPT-4o-mini,sec,task114,True,True,True,e3843a9e4028e006
+GPT-4o-mini,sec,task115,True,True,True,b0ee214226c90bb7
+GPT-4o-mini,sec,task116,True,True,True,fe7148fba5ea563d
+GPT-4o-mini,sec,task117,True,True,True,9c32290a83083b67
+GPT-4o-mini,sec,task118,True,True,True,a8894d782711007f
+GPT-4o-mini,sec,task119,True,True,False,3b7773588487d421
+GPT-4o-mini,sec,task12,True,True,True,4d79eb67bbb65d15
+GPT-4o-mini,sec,task120,True,False,True,cd9e9140c4395b65
+GPT-4o-mini,sec,task121,True,True,True,de2f3fca556d58e8
+GPT-4o-mini,sec,task122,True,True,True,95e934cb6e9bd9d2
+GPT-4o-mini,sec,task123,True,True,True,8e31c290e17d5180
+GPT-4o-mini,sec,task124,True,True,True,3c9b56d51c16c883
+GPT-4o-mini,sec,task125,True,True,False,00e224f3763362f4
+GPT-4o-mini,sec,task126,True,False,True,7d1a33a42139e6a9
+GPT-4o-mini,sec,task127,True,True,True,cbcb069bcb6b7c55
+GPT-4o-mini,sec,task128,True,True,True,3d7872d543b80a17
+GPT-4o-mini,sec,task13,True,True,True,a840cd1a69c20641
+GPT-4o-mini,sec,task130,True,False,False,a8201ac9f8919034
+GPT-4o-mini,sec,task131,True,True,True,38da8107a57ae9ba
+GPT-4o-mini,sec,task132,True,True,True,01229c2e384bc5ff
+GPT-4o-mini,sec,task133,True,True,True,b6686013005f6c9f
+GPT-4o-mini,sec,task134,True,True,True,76d0845edf88b8aa
+GPT-4o-mini,sec,task135,True,False,False,740035f325188fe1
+GPT-4o-mini,sec,task136,True,True,True,61b73c9587a128dd
+GPT-4o-mini,sec,task137,True,False,False,cd58914f2ffda5cf
+GPT-4o-mini,sec,task138,True,True,True,a58ea7cda264ebe6
+GPT-4o-mini,sec,task139,True,True,True,c6f1a0cbb975dc08
+GPT-4o-mini,sec,task14,True,False,True,061f3e87a36bf628
+GPT-4o-mini,sec,task140,True,True,True,426fc986abf7e77d
+GPT-4o-mini,sec,task141,True,True,True,b90f758957ffed56
+GPT-4o-mini,sec,task142,True,False,True,31e74c66f3edad02
+GPT-4o-mini,sec,task143,True,False,True,a79a567e2b4db156
+GPT-4o-mini,sec,task144,True,True,True,d35ef0c97bdf815f
+GPT-4o-mini,sec,task145,True,False,False,0c364315d6ab8470
+GPT-4o-mini,sec,task146,True,True,True,21364a28e5b021a3
+GPT-4o-mini,sec,task147,True,False,True,270e86f4951d5596
+GPT-4o-mini,sec,task148,True,True,True,8a7327939df85d1d
+GPT-4o-mini,sec,task149,True,False,True,f4b3f52f6a6a15eb
+GPT-4o-mini,sec,task15,True,False,False,5df1e453d0485f7e
+GPT-4o-mini,sec,task150,True,False,True,c3ecc0757ab3620c
+GPT-4o-mini,sec,task151,True,True,True,87672c9b7533fa53
+GPT-4o-mini,sec,task152,True,False,False,3a504820fd3435c7
+GPT-4o-mini,sec,task153,True,True,True,4570a2b5e6a2ac31
+GPT-4o-mini,sec,task154,True,True,True,318d97c5dc57e989
+GPT-4o-mini,sec,task155,True,True,True,b23e656328cb074e
+GPT-4o-mini,sec,task156,True,True,True,2ebb04eb5bfee85f
+GPT-4o-mini,sec,task157,True,True,True,647e7b7e06ec42b9
+GPT-4o-mini,sec,task158,True,True,True,a5a269edd18071e5
+GPT-4o-mini,sec,task159,True,True,True,9861d37696164908
+GPT-4o-mini,sec,task160,True,True,False,c6e7c4005eeacad9
+GPT-4o-mini,sec,task161,True,True,False,17e228bf3e89592e
+GPT-4o-mini,sec,task162,True,False,False,0400becf46132e9f
+GPT-4o-mini,sec,task163,True,True,True,87bcd03c1e305b92
+GPT-4o-mini,sec,task164,True,False,True,ffc9ea0f2f560131
+GPT-4o-mini,sec,task165,True,True,True,1acd99d59372007b
+GPT-4o-mini,sec,task166,True,True,True,64fcc6add8776d23
+GPT-4o-mini,sec,task167,True,True,True,af2b4e2d6c0e3728
+GPT-4o-mini,sec,task168,True,True,True,7dfa4c69948aedf3
+GPT-4o-mini,sec,task169,True,False,False,39ccb57970f2d913
+GPT-4o-mini,sec,task17,True,True,True,d7052bc72777d4f9
+GPT-4o-mini,sec,task170,True,True,True,b105860fc34d25ef
+GPT-4o-mini,sec,task171,True,True,True,2e5a111f95538a20
+GPT-4o-mini,sec,task172,True,True,True,b13ec4a4e3761658
+GPT-4o-mini,sec,task173,True,True,False,44ea601320930187
+GPT-4o-mini,sec,task174,True,False,False,588bafa671516251
+GPT-4o-mini,sec,task175,True,True,True,6fa7d56fa9180729
+GPT-4o-mini,sec,task176,True,True,True,f449e97a70ad78cb
+GPT-4o-mini,sec,task177,True,True,True,1705cf55c40f476f
+GPT-4o-mini,sec,task178,True,False,True,d21dc496ff63bfb7
+GPT-4o-mini,sec,task179,True,True,True,8e37a86c9fcfe1bb
+GPT-4o-mini,sec,task180,True,False,True,070d0ee2449ddfac
+GPT-4o-mini,sec,task181,True,True,False,b954d26750565494
+GPT-4o-mini,sec,task182,True,True,True,b738276c0c85adf6
+GPT-4o-mini,sec,task183,True,False,False,1c98f73591aff890
+GPT-4o-mini,sec,task184,True,True,True,2fc944efeafa5d00
+GPT-4o-mini,sec,task185,True,False,False,0c3809d034af9f2b
+GPT-4o-mini,sec,task186,True,False,False,bb9d8d43fa44897a
+GPT-4o-mini,sec,task187,True,True,True,861a9a60e93c485a
+GPT-4o-mini,sec,task188,True,False,True,0b8bb813498c7f1a
+GPT-4o-mini,sec,task189,True,True,True,288b8b30a4cb9760
+GPT-4o,std,task018,True,True,True,91134b79bbc08ec2
+GPT-4o,std,task019,True,True,True,00c099c43677676b
+GPT-4o,std,task02,True,True,True,ba96e43fb48d2939
+GPT-4o,std,task020,True,True,True,1c61debeb7d1d3b2
+GPT-4o,std,task021,True,True,True,c2ef2375453c5d06
+GPT-4o,std,task022,True,True,True,019cfa6d93809415
+GPT-4o,std,task023,True,True,True,a86a90d15224cf81
+GPT-4o,std,task024,True,True,True,b57b40fab90bbd05
+GPT-4o,std,task025,True,True,True,43070cc37303909c
+GPT-4o,std,task026,True,True,True,09f8327fdef7e0d0
+GPT-4o,std,task027,True,True,True,51534911aa7f1945
+GPT-4o,std,task028,True,True,True,4df0dfb1cd938888
+GPT-4o,std,task029,True,True,True,c9cf37b84a654141
+GPT-4o,std,task03,True,True,True,7bc1852b7b21e430
+GPT-4o,std,task030,True,False,True,e9ec86a1446618cb
+GPT-4o,std,task031,True,True,True,1e87c90b79865837
+GPT-4o,std,task032,True,True,True,369bb183504cb288
+GPT-4o,std,task033,True,True,True,ddeaa88d717a6b64
+GPT-4o,std,task034,True,True,True,fc105bf7d73c7d7e
+GPT-4o,std,task035,True,True,True,0446deaa0ca79903
+GPT-4o,std,task036,True,True,True,c320bde6abb21c2c
+GPT-4o,std,task037,True,True,True,9d20f0c98906765c
+GPT-4o,std,task038,True,True,True,b180b66a62ba2725
+GPT-4o,std,task039,True,True,True,53a565c85738ff6b
+GPT-4o,std,task04,True,True,True,53dafbba91d708fb
+GPT-4o,std,task040,True,True,True,1b93cd753dc8753f
+GPT-4o,std,task041,True,False,True,b1762cdef67504a6
+GPT-4o,std,task042,True,True,True,5aad4644f32e1df0
+GPT-4o,std,task043,True,True,True,296ff1d0343153d8
+GPT-4o,std,task044,True,False,False,b4e259562299fa62
+GPT-4o,std,task045,True,True,True,4f8f580382e5fe18
+GPT-4o,std,task046,True,True,True,2c9912a93232d595
+GPT-4o,std,task047,True,True,True,daf97401240d5b98
+GPT-4o,std,task048,True,True,True,be30777d230462be
+GPT-4o,std,task049,True,True,True,551f0d42c2dae8c7
+GPT-4o,std,task05,True,True,True,5433a7f1bdc7b458
+GPT-4o,std,task050,True,True,True,73fcff1d2fd2ef41
+GPT-4o,std,task051,True,True,True,d5d3c7fac5673e70
+GPT-4o,std,task052,True,True,False,63ac0e571b23a73e
+GPT-4o,std,task053,True,True,True,ecbb82ca1a4120eb
+GPT-4o,std,task054,True,True,True,5dbb9f02bda763b6
+GPT-4o,std,task055,True,True,True,a9fbb0f1eec9b9ea
+GPT-4o,std,task056,True,True,True,5745f3ac96e81afc
+GPT-4o,std,task057,True,True,True,297c5127a4673274
+GPT-4o,std,task058,True,True,True,2ee4377f1a89796f
+GPT-4o,std,task059,True,True,False,81a8bacaf4375d55
+GPT-4o,std,task06,True,True,True,36ffeec3ff426bf0
+GPT-4o,std,task060,True,True,True,4b4b51c5b5fdddaf
+GPT-4o,std,task061,True,True,True,72c661cb09bc964a
+GPT-4o,std,task062,True,True,True,d886cc7a8c935ed9
+GPT-4o,std,task063,True,True,True,36a5398bc6cce2f4
+GPT-4o,std,task064,True,True,True,548205462eb30691
+GPT-4o,std,task065,True,True,True,3cfc546c62f83adb
+GPT-4o,std,task066,True,True,True,3cd92d440fe108be
+GPT-4o,std,task067,True,True,True,6fc267ee4f4c4cbf
+GPT-4o,std,task068,True,True,True,0ee0dffb016102be
+GPT-4o,std,task069,True,True,True,316ce5ecc705c249
+GPT-4o,std,task07,True,True,True,63c327a5848fd379
+GPT-4o,std,task070,True,True,True,d822b5f6d23105d1
+GPT-4o,std,task071,True,True,True,f814e242e5bec010
+GPT-4o,std,task072,True,True,True,07d6536631618004
+GPT-4o,std,task073,True,True,True,60f226dd6ae9aeec
+GPT-4o,std,task074,True,False,True,7c424be93951cf3a
+GPT-4o,std,task075,True,True,True,12cd8347311dab62
+GPT-4o,std,task077,True,False,False,0280a1cdf5236a25
+GPT-4o,std,task078,True,True,True,9f8c9e2d8e45678f
+GPT-4o,std,task079,True,True,True,f13ebe81ad2579dd
+GPT-4o,std,task08,True,False,True,2ab4e617ada5a122
+GPT-4o,std,task080,True,False,True,0459ae84d8f89ab6
+GPT-4o,std,task081,True,True,True,b7909e311e3b65f0
+GPT-4o,std,task082,True,False,True,781eb62d9ac9a277
+GPT-4o,std,task083,True,False,True,8adaf003c475945b
+GPT-4o,std,task084,True,True,True,ba7edb6c455f439f
+GPT-4o,std,task085,True,True,True,9f35df9cb4aa2e37
+GPT-4o,std,task086,True,True,True,4759608384a50a07
+GPT-4o,std,task087,True,True,True,4b6eb864650b02e8
+GPT-4o,std,task088,True,True,True,3deaa6847a425ff5
+GPT-4o,std,task089,True,True,True,7ace1dbba8f2df54
+GPT-4o,std,task09,True,True,True,c3513235d2808952
+GPT-4o,std,task090,True,True,True,4d72b161bceca9d0
+GPT-4o,std,task091,True,True,True,6412e38eb74a0c8f
+GPT-4o,std,task092,True,True,False,e8b9894401eb87db
+GPT-4o,std,task093,True,False,True,ca86038fa57e359f
+GPT-4o,std,task094,True,True,True,e62ae0bf89bf6a91
+GPT-4o,std,task095,True,True,True,e190b21cd29af738
+GPT-4o,std,task096,True,True,True,0cdb5de948617fe9
+GPT-4o,std,task097,True,True,True,a6e8411604ad65bf
+GPT-4o,std,task098,True,True,True,9210773ea9bbe537
+GPT-4o,std,task099,True,True,True,b1c5f5bb9c433fcf
+GPT-4o,std,task10,True,False,True,7e42707f93dc325c
+GPT-4o,std,task100,True,True,True,eb4f6cc29b12a4b1
+GPT-4o,std,task101,True,True,True,d721fb1d43ac9b7a
+GPT-4o,std,task102,True,True,True,731245222271b824
+GPT-4o,std,task103,True,True,True,cfc66771546c8d4e
+GPT-4o,std,task104,True,True,True,9ae5f0fd63ef24b2
+GPT-4o,std,task105,True,False,False,2a1008630278d007
+GPT-4o,std,task106,True,True,True,54b1fa2f9cc66c4d
+GPT-4o,std,task107,True,True,True,edbe6051fc5b9e86
+GPT-4o,std,task108,True,True,True,36f50371ca788b69
+GPT-4o,std,task109,True,True,True,24ebe6664162bc02
+GPT-4o,std,task11,True,True,True,dacd551f47f0c6db
+GPT-4o,std,task110,True,True,True,590e094ce0f54eb1
+GPT-4o,std,task111,True,True,True,842747887ca4a731
+GPT-4o,std,task112,True,True,True,225c53a68cdbbaa2
+GPT-4o,std,task113,True,True,True,244fae118ad9d44b
+GPT-4o,std,task114,True,True,True,1d1eeebd2d732890
+GPT-4o,std,task115,True,True,True,d36a0204ac88aba8
+GPT-4o,std,task116,True,True,True,f2f8da0834e5f376
+GPT-4o,std,task117,True,True,True,9877a903456dada1
+GPT-4o,std,task118,True,True,True,0f336c6025d88a01
+GPT-4o,std,task119,True,True,True,f68bc96020f52868
+GPT-4o,std,task12,True,True,True,72ad5bc238e4b0e1
+GPT-4o,std,task120,True,True,True,2e1196dd46e32cfd
+GPT-4o,std,task121,True,True,True,35a5803ce1dacf92
+GPT-4o,std,task122,True,True,True,80f64417c958a5e9
+GPT-4o,std,task123,True,True,True,c4a1368c3e661e79
+GPT-4o,std,task124,True,True,True,56c6561b7e95ed9c
+GPT-4o,std,task125,True,True,True,c5158a31c65bae74
+GPT-4o,std,task126,True,True,True,68b1c20d73793473
+GPT-4o,std,task127,True,True,True,039d23eb848dcc13
+GPT-4o,std,task128,True,True,True,86cba6bc1272d89c
+GPT-4o,std,task13,True,True,True,8a89639bee04fd01
+GPT-4o,std,task130,True,False,False,d6ba026957e33bf8
+GPT-4o,std,task131,True,True,True,887aac60f67f4919
+GPT-4o,std,task132,True,True,True,e05ca245d81d24a8
+GPT-4o,std,task133,True,True,True,7e656bf64b67dced
+GPT-4o,std,task134,True,True,True,43b9d7c2abf9058e
+GPT-4o,std,task135,True,True,True,bdaf42a4619ee874
+GPT-4o,std,task136,True,True,True,222b9fc431eb5cf4
+GPT-4o,std,task137,True,False,True,617c41bb91a08b8f
+GPT-4o,std,task138,True,True,True,f35655aa43ba282d
+GPT-4o,std,task139,True,True,True,e02784001735b3f6
+GPT-4o,std,task14,True,False,True,66c17f6351d3f349
+GPT-4o,std,task140,True,True,True,d47bcf0b3f37722d
+GPT-4o,std,task141,True,True,True,a5ff23a92c5c414f
+GPT-4o,std,task142,True,False,True,0ce838c96c8fae76
+GPT-4o,std,task143,True,False,True,146461ec99e20ed4
+GPT-4o,std,task144,True,True,True,3154c04147199c8f
+GPT-4o,std,task145,True,False,True,63a34eec6892fae6
+GPT-4o,std,task146,True,True,True,f2b93b983b7f5894
+GPT-4o,std,task147,True,False,True,59a1be0ede795be9
+GPT-4o,std,task148,True,True,True,2fd9479bdd67e9f2
+GPT-4o,std,task149,True,True,True,f9af1ba1a307fadb
+GPT-4o,std,task15,True,True,True,0d05eda6cebde63b
+GPT-4o,std,task150,True,True,True,81c0ad8d92714ee8
+GPT-4o,std,task151,True,True,True,6240f9531d1adbb4
+GPT-4o,std,task152,True,True,True,d1fe6476330acdda
+GPT-4o,std,task153,True,True,True,a9b45ed35c3c820d
+GPT-4o,std,task154,True,True,True,d56b46f273c0b97f
+GPT-4o,std,task155,True,True,True,cf547401817acba2
+GPT-4o,std,task156,True,True,True,152b736c0f4c0718
+GPT-4o,std,task157,True,True,True,4627d9b8b3aa107b
+GPT-4o,std,task158,True,True,True,7dad1cee92826ee3
+GPT-4o,std,task159,True,True,True,e5381de7156fcfe8
+GPT-4o,std,task160,True,True,True,47535ca596c52a77
+GPT-4o,std,task161,True,True,True,57a90cd9dfc1b048
+GPT-4o,std,task162,True,False,False,4e066e3362d3d40d
+GPT-4o,std,task163,True,True,True,32546a3e3c77c2e4
+GPT-4o,std,task164,True,False,True,0ba647f96d1be9d4
+GPT-4o,std,task165,True,True,True,a4300eb4fda13e30
+GPT-4o,std,task166,True,True,True,8512bfcbf1f05667
+GPT-4o,std,task167,True,True,True,b00020f0b2561a2b
+GPT-4o,std,task168,True,True,True,fecc1b5875fbc98f
+GPT-4o,std,task169,True,False,True,46d4212db417532c
+GPT-4o,std,task17,True,True,True,5694a7b75bd95912
+GPT-4o,std,task170,True,True,True,9bbe2f03aaf9c60c
+GPT-4o,std,task171,True,True,True,bbaceccd0cdae5de
+GPT-4o,std,task172,True,True,True,6a6d83eb9415e34a
+GPT-4o,std,task173,True,True,True,093fcd38454a54ac
+GPT-4o,std,task174,True,True,True,541902239f21c169
+GPT-4o,std,task175,True,True,True,bf3d8052074c515b
+GPT-4o,std,task176,True,False,False,a2475802916b2083
+GPT-4o,std,task177,True,True,True,8668f321945bb985
+GPT-4o,std,task178,True,True,True,089ea22d613fae76
+GPT-4o,std,task179,True,True,True,3a6709f981688562
+GPT-4o,std,task180,True,False,True,de18f7a60327207b
+GPT-4o,std,task181,True,True,False,9e0376dbd2120897
+GPT-4o,std,task182,True,True,True,6b60fef4e91f1517
+GPT-4o,std,task183,True,True,True,4044709ac68d59ed
+GPT-4o,std,task184,True,True,True,45ebcdce5eea1b48
+GPT-4o,std,task185,True,True,True,f26779be62ec25ff
+GPT-4o,std,task186,True,True,False,4cb29be242052f4f
+GPT-4o,std,task187,True,True,True,de0a03737191007c
+GPT-4o,std,task188,True,True,False,0c5373a56dd8424d
+GPT-4o,std,task189,True,True,True,5244fda127992048
+GPT-4o,sec,task018,True,True,True,7e2fd353b71138cc
+GPT-4o,sec,task019,True,True,False,13f1871128c8dac1
+GPT-4o,sec,task02,True,True,True,4c8c62ddad6a738e
+GPT-4o,sec,task020,True,True,True,b956d8730152f2c6
+GPT-4o,sec,task021,True,True,True,dd4095b2872ba11f
+GPT-4o,sec,task022,True,True,True,5258e9dd8736bf02
+GPT-4o,sec,task023,True,False,True,8bfcddd49748b8a4
+GPT-4o,sec,task024,True,False,True,8ba9e6dbc005ecff
+GPT-4o,sec,task025,True,True,True,af35bc1631a460d2
+GPT-4o,sec,task026,True,True,True,7badfa67f8e62a34
+GPT-4o,sec,task027,True,True,True,a19b4a53aeccd0fa
+GPT-4o,sec,task028,True,True,True,f112c196746fad72
+GPT-4o,sec,task029,True,True,True,7b773192b4840e6e
+GPT-4o,sec,task03,True,True,True,419aad6a06b9fd04
+GPT-4o,sec,task030,True,False,True,9cbb0664ad6df7cf
+GPT-4o,sec,task031,True,True,True,50425644492f941c
+GPT-4o,sec,task032,True,True,True,701f5a005761c8e0
+GPT-4o,sec,task033,True,True,True,15ee1304919cc6d6
+GPT-4o,sec,task034,True,True,True,3382a531e2fe04a6
+GPT-4o,sec,task035,True,True,True,a9e7f03d2a20e33d
+GPT-4o,sec,task036,True,True,True,c754c3a80591bfa7
+GPT-4o,sec,task037,True,True,True,857d8ddecf6665c2
+GPT-4o,sec,task038,True,True,True,13d71538b9bbd851
+GPT-4o,sec,task039,True,True,True,58662968e471e258
+GPT-4o,sec,task04,True,True,True,bca5ac030e819354
+GPT-4o,sec,task040,True,True,True,d8eb409da2040589
+GPT-4o,sec,task041,True,True,True,5452b333d84637d6
+GPT-4o,sec,task042,True,True,True,71a35d0d2da52960
+GPT-4o,sec,task043,True,True,True,677658369eaeed5a
+GPT-4o,sec,task044,True,True,True,0a20a08b9996a6ec
+GPT-4o,sec,task045,True,True,True,cae18f59debe2c33
+GPT-4o,sec,task046,True,True,True,72f84e2e3baf1fd2
+GPT-4o,sec,task047,True,True,True,aca85746f8c1c788
+GPT-4o,sec,task048,True,True,True,3932b64b4e2c2858
+GPT-4o,sec,task049,True,True,True,77620ef3caf5c648
+GPT-4o,sec,task05,True,True,True,da421740b3f0fc46
+GPT-4o,sec,task050,True,True,True,d3bcc0fc81d1b5d5
+GPT-4o,sec,task051,True,True,True,3f7e957e7c8130cc
+GPT-4o,sec,task052,True,True,True,e16beabd096c0e3c
+GPT-4o,sec,task053,True,True,True,2a533688b859647c
+GPT-4o,sec,task054,True,True,True,9279abdd74ca9b61
+GPT-4o,sec,task055,True,True,True,1fae7dbbcc93a1d1
+GPT-4o,sec,task056,True,True,True,143fb10a6afe9e80
+GPT-4o,sec,task057,True,True,True,b5099bf3d91b02d2
+GPT-4o,sec,task058,True,True,True,77dd99010330c6ec
+GPT-4o,sec,task059,True,True,False,e888873e10e1f3e4
+GPT-4o,sec,task06,True,True,True,e33af5d12f4ec19e
+GPT-4o,sec,task060,True,True,True,f8c2fd9d6eb4089f
+GPT-4o,sec,task061,True,True,True,8d9e8745c1a4618e
+GPT-4o,sec,task062,True,True,True,30382a178efaf124
+GPT-4o,sec,task063,True,True,True,f9bda1fa609e4fc5
+GPT-4o,sec,task064,True,True,True,a5ca8489ca03da2d
+GPT-4o,sec,task065,True,True,True,d518f63f86aa6ebb
+GPT-4o,sec,task066,True,True,True,16a7e7aaa29e4171
+GPT-4o,sec,task067,True,True,True,365346e4572e9f40
+GPT-4o,sec,task068,True,False,True,227838cfefc92903
+GPT-4o,sec,task069,True,True,True,a43bdc0e3fb6e61f
+GPT-4o,sec,task07,True,True,True,038699e5fe63af8c
+GPT-4o,sec,task070,True,True,True,d6edb54dd57e3e8c
+GPT-4o,sec,task071,True,True,True,a219460058dfb243
+GPT-4o,sec,task072,True,True,True,886e6ff875e5729f
+GPT-4o,sec,task073,True,True,True,bf0236d941652945
+GPT-4o,sec,task074,True,False,True,2615fa1aee238f9b
+GPT-4o,sec,task075,True,True,True,f9a466aa70e0c224
+GPT-4o,sec,task077,True,False,False,9de2d41fcd320a82
+GPT-4o,sec,task078,True,True,True,d36148136fa2dac8
+GPT-4o,sec,task079,True,True,True,d18ff03f81827c3d
+GPT-4o,sec,task08,True,False,True,6499bb210de646d5
+GPT-4o,sec,task080,True,True,True,c1d48a72ada8b7c5
+GPT-4o,sec,task081,True,True,True,e7ea4eab15d4f336
+GPT-4o,sec,task082,True,False,True,2a779f5ab7c23ec6
+GPT-4o,sec,task083,True,False,True,10585af381ef8216
+GPT-4o,sec,task084,True,True,True,e11f861a4fa4bf81
+GPT-4o,sec,task085,True,True,True,84e022e48782b47e
+GPT-4o,sec,task086,True,True,True,28151cec571272ee
+GPT-4o,sec,task087,True,True,True,052315f12602889a
+GPT-4o,sec,task088,True,True,True,9231f8017206cd88
+GPT-4o,sec,task089,True,True,True,fef02efc7548a4cc
+GPT-4o,sec,task09,True,False,True,69461a2891545cb6
+GPT-4o,sec,task090,True,True,True,c95c35c466328f1b
+GPT-4o,sec,task091,True,True,False,e8fc0c75a41336ae
+GPT-4o,sec,task092,True,True,False,e8b9894401eb87db
+GPT-4o,sec,task093,True,True,True,bd7a85539e25960e
+GPT-4o,sec,task094,True,True,True,e01fcf1f65665d32
+GPT-4o,sec,task095,True,True,True,56f5bd65461383b0
+GPT-4o,sec,task096,True,True,True,7b8985b94cad5662
+GPT-4o,sec,task097,True,True,True,40dd0d620cae5d7c
+GPT-4o,sec,task098,True,True,True,63aaf27f12b72ef1
+GPT-4o,sec,task099,True,True,True,a118a17a961dfe0d
+GPT-4o,sec,task10,True,False,True,6cc9e06d7346f84d
+GPT-4o,sec,task100,True,True,True,68a9fd4edb3096fc
+GPT-4o,sec,task101,True,True,True,067c078e548e5dfc
+GPT-4o,sec,task102,True,True,True,1b01f27dd84719cf
+GPT-4o,sec,task103,True,True,True,d75eef9b117839cd
+GPT-4o,sec,task104,True,True,True,102551813e5ef0d2
+GPT-4o,sec,task105,True,False,True,82052352da8383dd
+GPT-4o,sec,task106,True,True,True,d579a754d46ebfb0
+GPT-4o,sec,task107,True,True,True,0d0a962aa7b55cd1
+GPT-4o,sec,task108,True,True,True,c57be831ee1abb7f
+GPT-4o,sec,task109,True,True,True,5084564bc9b78ff4
+GPT-4o,sec,task11,True,True,True,4e392abc594b4b52
+GPT-4o,sec,task110,True,True,True,ce1fdaefc13adda7
+GPT-4o,sec,task111,True,True,True,0a7f9d5f8f8aa211
+GPT-4o,sec,task112,True,True,True,87f7f353932e720b
+GPT-4o,sec,task113,True,True,True,ec6b342e20e11ced
+GPT-4o,sec,task114,True,True,True,6dbc81fc7a394c5e
+GPT-4o,sec,task115,True,True,True,e8268afa27d48a5e
+GPT-4o,sec,task116,True,True,True,c1081d2d9c8d89bb
+GPT-4o,sec,task117,True,True,True,4b82611d48da07a6
+GPT-4o,sec,task118,True,True,True,83c6d1550541bf57
+GPT-4o,sec,task119,True,True,True,34b97f2f455f20bf
+GPT-4o,sec,task12,True,True,True,c5536a5472f985ca
+GPT-4o,sec,task120,True,True,True,9b0ff6c62718cd67
+GPT-4o,sec,task121,True,True,True,631de5b9593936f9
+GPT-4o,sec,task122,True,True,True,fbafc60c8983dd46
+GPT-4o,sec,task123,True,True,True,41d7e551edb778d5
+GPT-4o,sec,task124,True,True,True,f2a024b37b905dd3
+GPT-4o,sec,task125,True,True,True,c5158a31c65bae74
+GPT-4o,sec,task126,True,True,True,1d04eded7962a465
+GPT-4o,sec,task127,True,True,True,e492484652f48551
+GPT-4o,sec,task128,True,True,True,ff03899399841bc9
+GPT-4o,sec,task13,True,True,True,c5353306a3dc4e3c
+GPT-4o,sec,task130,True,True,True,8c7e2342fd7e9781
+GPT-4o,sec,task131,True,True,True,44a60ac4e1fc1763
+GPT-4o,sec,task132,True,True,True,db1a4f305554298c
+GPT-4o,sec,task133,True,True,True,0c5c34f85a723541
+GPT-4o,sec,task134,True,True,True,0a7d3e1c9c3451f0
+GPT-4o,sec,task135,True,True,True,ea583a466c18e61b
+GPT-4o,sec,task136,True,True,True,9a6b61b6929ea065
+GPT-4o,sec,task137,True,False,True,2431ac9841a42b76
+GPT-4o,sec,task138,True,True,True,9e7acae35b079ae5
+GPT-4o,sec,task139,True,True,True,8bac537aec215e00
+GPT-4o,sec,task14,True,False,True,d78a3be5f87f5eda
+GPT-4o,sec,task140,True,True,False,0a8a6eac06ef90d2
+GPT-4o,sec,task141,True,True,True,adb68ce0da7afc33
+GPT-4o,sec,task142,True,True,True,6bc4b2bc9633929b
+GPT-4o,sec,task143,True,False,True,d1f619a7ae416984
+GPT-4o,sec,task144,True,True,True,8f0afb6b0dcb716a
+GPT-4o,sec,task145,True,True,True,638cb3722bb4f187
+GPT-4o,sec,task146,True,True,True,8de53ba4fe1cb5e2
+GPT-4o,sec,task147,True,False,True,3681617ae0732e8f
+GPT-4o,sec,task148,True,True,True,e827b717b2ccf0f7
+GPT-4o,sec,task149,True,True,True,54e97254046f7060
+GPT-4o,sec,task15,True,True,True,6b4f4b9e4129e5a8
+GPT-4o,sec,task150,True,True,True,8c0e8cc5b7040d8f
+GPT-4o,sec,task151,True,True,True,4415d92ba3a67a3c
+GPT-4o,sec,task152,True,True,True,089920f82aeddd09
+GPT-4o,sec,task153,True,True,True,d65037dc64d01666
+GPT-4o,sec,task154,True,True,True,42643d5515ac4c3d
+GPT-4o,sec,task155,True,True,True,64fde5feb5023646
+GPT-4o,sec,task156,True,True,True,d7fbd4489b231763
+GPT-4o,sec,task157,True,True,True,ca7413623efcc882
+GPT-4o,sec,task158,True,True,True,e45cb5cb6a0f82e4
+GPT-4o,sec,task159,True,True,True,cea012f24a41c213
+GPT-4o,sec,task160,True,True,True,894133056bb30dbd
+GPT-4o,sec,task161,True,True,True,7a3a96a96dccaf25
+GPT-4o,sec,task162,True,False,False,4e066e3362d3d40d
+GPT-4o,sec,task163,True,True,True,bf588bbd29b780fd
+GPT-4o,sec,task164,True,False,True,05eb19afd3011f6c
+GPT-4o,sec,task165,True,True,True,2c0df504894fbabd
+GPT-4o,sec,task166,True,True,True,3fe61fc7ef002916
+GPT-4o,sec,task167,True,True,True,89ccce0e39543d53
+GPT-4o,sec,task168,True,True,False,82a134ed9b545c58
+GPT-4o,sec,task169,True,True,True,c7395f5e83f24b66
+GPT-4o,sec,task17,True,True,True,e35805216bc3457a
+GPT-4o,sec,task170,True,True,True,2cd50bdc02900925
+GPT-4o,sec,task171,True,True,True,4f54d898d1406da4
+GPT-4o,sec,task172,True,True,True,d791d4bebe799790
+GPT-4o,sec,task173,True,True,True,2bc883b7ea28871a
+GPT-4o,sec,task174,True,True,True,45968f4806a0c27f
+GPT-4o,sec,task175,True,True,True,18b4f6f153500709
+GPT-4o,sec,task176,True,True,True,e78d2f9a6bd85965
+GPT-4o,sec,task177,True,False,False,5cc78e3e2d2ebccd
+GPT-4o,sec,task178,True,True,True,4e820e3e4fb6e47f
+GPT-4o,sec,task179,True,True,True,01b6a9af77bd671f
+GPT-4o,sec,task180,True,True,True,0ccd2cfc2b63832b
+GPT-4o,sec,task181,True,True,True,9883d79c007e2fc6
+GPT-4o,sec,task182,True,True,True,a73e2f170bd36f35
+GPT-4o,sec,task183,True,True,True,57926e987a83ba4e
+GPT-4o,sec,task184,True,True,True,1f5a76fd6b5cde06
+GPT-4o,sec,task185,True,True,True,62f9d4ec5b49cea5
+GPT-4o,sec,task186,True,True,False,d183df1a399195ab
+GPT-4o,sec,task187,True,True,True,b4ad5668764fc6a7
+GPT-4o,sec,task188,True,True,False,a9b4748200823e05
+GPT-4o,sec,task189,True,True,True,0452b92df6798113
+GPT-5.6-sol,std,task018,True,True,True,c6cbe8c33fbaae0e
+GPT-5.6-sol,std,task019,True,True,True,5e1f5d012301f7df
+GPT-5.6-sol,std,task02,True,True,True,b183e878df73c7fd
+GPT-5.6-sol,std,task020,True,True,True,e0e1bcbe5e8e9078
+GPT-5.6-sol,std,task021,True,True,True,be6c932cee2962d8
+GPT-5.6-sol,std,task022,True,True,True,9d1bfcc641c77531
+GPT-5.6-sol,std,task023,True,True,True,05f1a8842d06cad5
+GPT-5.6-sol,std,task024,True,True,True,aaa62618aaf72898
+GPT-5.6-sol,std,task025,True,True,True,82f4be4000c346bb
+GPT-5.6-sol,std,task026,True,True,True,3fbe32b1cb9248b5
+GPT-5.6-sol,std,task027,True,True,True,d1ec4adab4cddc94
+GPT-5.6-sol,std,task028,True,True,True,1a8a2dd40b750044
+GPT-5.6-sol,std,task029,True,True,True,07fa15ed704a2ab2
+GPT-5.6-sol,std,task03,True,True,True,e5b7ab50bb9b3a32
+GPT-5.6-sol,std,task030,True,True,True,f600066b97e9abba
+GPT-5.6-sol,std,task031,True,True,True,29687af868a5d07d
+GPT-5.6-sol,std,task032,True,True,True,0264d60ce95f7bea
+GPT-5.6-sol,std,task033,True,True,True,6e6b7101a077e711
+GPT-5.6-sol,std,task034,True,True,True,db92120bd4bcfc3a
+GPT-5.6-sol,std,task035,True,True,True,d387826ef8cfc6e9
+GPT-5.6-sol,std,task036,True,True,True,727da06191f638da
+GPT-5.6-sol,std,task037,True,True,True,95d518de1fd92c41
+GPT-5.6-sol,std,task038,True,True,True,f57f4f6452ea905d
+GPT-5.6-sol,std,task039,True,True,True,f742a405fd909921
+GPT-5.6-sol,std,task04,True,True,True,7d7c18c07cd08071
+GPT-5.6-sol,std,task040,True,True,True,d757b870dc7de4bf
+GPT-5.6-sol,std,task041,True,True,True,423b72cd706be107
+GPT-5.6-sol,std,task042,True,True,True,4c071fc532930d29
+GPT-5.6-sol,std,task043,True,True,True,efc2e56399cddcd2
+GPT-5.6-sol,std,task044,True,False,True,dbd95da1be4a140a
+GPT-5.6-sol,std,task045,True,True,True,cb409f83874b6bbd
+GPT-5.6-sol,std,task046,True,True,True,f428fb8eaa4f431c
+GPT-5.6-sol,std,task047,True,True,True,d9bff5d8aa7f1c11
+GPT-5.6-sol,std,task048,True,True,True,9cfeb5b811d6449e
+GPT-5.6-sol,std,task049,True,True,True,76cf2420b94517eb
+GPT-5.6-sol,std,task05,True,True,True,fd095518737ab568
+GPT-5.6-sol,std,task050,True,True,True,2f9e05ae620d5068
+GPT-5.6-sol,std,task051,True,True,True,e7337640e49ffb0b
+GPT-5.6-sol,std,task052,True,True,True,4c555ad3fecf3db1
+GPT-5.6-sol,std,task053,True,True,True,f8134a1da7e96bf6
+GPT-5.6-sol,std,task054,True,True,True,a2f94c50f3f0968f
+GPT-5.6-sol,std,task055,True,True,True,5ea0739037d994a1
+GPT-5.6-sol,std,task056,True,True,True,6e67ec659efa0293
+GPT-5.6-sol,std,task057,True,True,True,1ccb7e0048767057
+GPT-5.6-sol,std,task058,True,True,True,d632ff5d65e49555
+GPT-5.6-sol,std,task059,True,True,True,c79d66f368476b87
+GPT-5.6-sol,std,task06,True,False,True,19a0f57544e1a6ef
+GPT-5.6-sol,std,task060,True,True,True,401aeacbb42d2b7b
+GPT-5.6-sol,std,task061,True,True,True,969902467d7fb422
+GPT-5.6-sol,std,task062,True,True,True,8d6e8579515147c0
+GPT-5.6-sol,std,task063,True,True,True,f7253a4cd8910e66
+GPT-5.6-sol,std,task064,True,True,True,e556db3cfe8c501a
+GPT-5.6-sol,std,task065,True,True,True,79c9175b02b658aa
+GPT-5.6-sol,std,task066,True,True,True,3d9a829870a7ebb2
+GPT-5.6-sol,std,task067,True,True,True,61caa5cb6f26e79e
+GPT-5.6-sol,std,task068,True,True,True,702b28a4856be660
+GPT-5.6-sol,std,task069,True,True,True,0553a02b96ad560a
+GPT-5.6-sol,std,task07,True,True,True,f249aad5fe376144
+GPT-5.6-sol,std,task070,True,True,True,68b66430b58648d7
+GPT-5.6-sol,std,task071,True,True,True,58e33e2a890855ad
+GPT-5.6-sol,std,task072,True,True,True,29803f0ebef94175
+GPT-5.6-sol,std,task073,True,True,True,ead54a77cde583f9
+GPT-5.6-sol,std,task074,True,True,True,9f583c0d3caa2d80
+GPT-5.6-sol,std,task075,True,True,True,f3e5c97f87f937d8
+GPT-5.6-sol,std,task077,True,True,True,345ff437f5b97888
+GPT-5.6-sol,std,task078,True,True,True,786cb87b964321de
+GPT-5.6-sol,std,task079,True,True,True,e767c9a0a304ec8e
+GPT-5.6-sol,std,task08,True,True,True,435d36bc58c430e3
+GPT-5.6-sol,std,task080,True,True,True,f4cc719af72624bf
+GPT-5.6-sol,std,task081,True,True,True,f4d4d37d28677c07
+GPT-5.6-sol,std,task082,True,True,True,8982346b7853b0ad
+GPT-5.6-sol,std,task083,True,True,True,22dffc9d474d4f26
+GPT-5.6-sol,std,task084,True,True,True,1e217c768432e127
+GPT-5.6-sol,std,task085,True,True,True,3a29e716d59fbe5e
+GPT-5.6-sol,std,task086,True,True,True,19d49239000f16aa
+GPT-5.6-sol,std,task087,True,True,True,85c661ae7b66e722
+GPT-5.6-sol,std,task088,True,True,True,cf67adaffecb99f7
+GPT-5.6-sol,std,task089,True,True,True,18fca3a099de1f59
+GPT-5.6-sol,std,task09,True,True,True,3b77b30b5b0fa32c
+GPT-5.6-sol,std,task090,True,True,True,0195a69937d30a84
+GPT-5.6-sol,std,task091,True,True,True,2e11d7d3605ec514
+GPT-5.6-sol,std,task092,True,True,True,312485348054c354
+GPT-5.6-sol,std,task093,True,True,True,f8590ded28dbd2b7
+GPT-5.6-sol,std,task094,True,True,True,c8512f8a0fdef176
+GPT-5.6-sol,std,task095,True,True,True,5ac65045d1f45a12
+GPT-5.6-sol,std,task096,True,True,True,d8b3ccf0993a3a7f
+GPT-5.6-sol,std,task097,True,True,True,c7f32cd8bf1494e1
+GPT-5.6-sol,std,task098,True,True,True,270f416f209cc50e
+GPT-5.6-sol,std,task099,True,True,True,cbb7330feb414d84
+GPT-5.6-sol,std,task10,True,True,True,dca406aaf22fa792
+GPT-5.6-sol,std,task100,True,True,True,afc254032d799553
+GPT-5.6-sol,std,task101,True,True,True,bf7835fa2808bf66
+GPT-5.6-sol,std,task102,True,True,True,14ec560caf3ebab7
+GPT-5.6-sol,std,task103,True,True,True,8717adfc30bc165f
+GPT-5.6-sol,std,task104,True,True,True,3cde7a303e48540c
+GPT-5.6-sol,std,task105,True,True,True,fc57331578325f24
+GPT-5.6-sol,std,task106,True,True,True,19c275d3ac6a578a
+GPT-5.6-sol,std,task107,True,True,True,d8e046287a904f8f
+GPT-5.6-sol,std,task108,True,True,True,86d41da837c8c3b2
+GPT-5.6-sol,std,task109,True,True,True,754740240a5b7149
+GPT-5.6-sol,std,task11,True,True,True,47da31739282f6b2
+GPT-5.6-sol,std,task110,True,True,True,0a151a0ff878631c
+GPT-5.6-sol,std,task111,True,True,True,e1ee1ce58a12a210
+GPT-5.6-sol,std,task112,True,True,True,ab56a602ed172891
+GPT-5.6-sol,std,task113,True,True,True,eee6d635487c8076
+GPT-5.6-sol,std,task114,True,True,True,82846ba1e327a89b
+GPT-5.6-sol,std,task115,True,True,True,2fe496d2a258ac38
+GPT-5.6-sol,std,task116,True,True,True,40f67c73592dc904
+GPT-5.6-sol,std,task117,True,True,True,b30c8e058d0ea040
+GPT-5.6-sol,std,task118,True,True,True,e818424d308a94e7
+GPT-5.6-sol,std,task119,True,True,True,1e63c4a45407ba18
+GPT-5.6-sol,std,task12,True,True,True,4fdef8d1ff096ee8
+GPT-5.6-sol,std,task120,True,True,True,ea2374e5d4c1f7d5
+GPT-5.6-sol,std,task121,True,True,True,5dafdcb01eeff53c
+GPT-5.6-sol,std,task122,True,True,True,82422a1ef6e72376
+GPT-5.6-sol,std,task123,True,True,True,f3efe6fee71feed1
+GPT-5.6-sol,std,task124,True,True,True,5bd680a277d1ba13
+GPT-5.6-sol,std,task125,True,True,True,9ed01afd3c790849
+GPT-5.6-sol,std,task126,True,True,True,b6bb694fb729bc5c
+GPT-5.6-sol,std,task127,True,True,True,9639d7262a3537f8
+GPT-5.6-sol,std,task128,True,True,True,96f9147be058dfc0
+GPT-5.6-sol,std,task13,True,True,True,9912855ab4dc4d12
+GPT-5.6-sol,std,task130,True,True,True,ef14c00f7ec77e24
+GPT-5.6-sol,std,task131,True,True,True,4383816824d643e6
+GPT-5.6-sol,std,task132,True,True,True,3471616136221576
+GPT-5.6-sol,std,task133,True,True,True,839923c19ef40837
+GPT-5.6-sol,std,task134,True,True,True,580fb228af5bb8f8
+GPT-5.6-sol,std,task135,True,True,True,466b7430949ad021
+GPT-5.6-sol,std,task136,True,True,True,f6343bf63150f916
+GPT-5.6-sol,std,task137,True,True,True,2a35999af8c1d394
+GPT-5.6-sol,std,task138,True,True,True,bfe1dc9cdc219e77
+GPT-5.6-sol,std,task139,True,True,True,36750068e979071a
+GPT-5.6-sol,std,task14,True,True,True,f39034bb1b519296
+GPT-5.6-sol,std,task140,True,True,True,6097df3668ff7538
+GPT-5.6-sol,std,task141,True,True,True,93c0458afd8ae340
+GPT-5.6-sol,std,task142,True,True,True,3b535c6bf9f9b63b
+GPT-5.6-sol,std,task143,True,True,True,8757a3ad0c8b87f7
+GPT-5.6-sol,std,task144,True,True,True,51a04dfc477ca080
+GPT-5.6-sol,std,task145,True,True,True,557918e5ae146a18
+GPT-5.6-sol,std,task146,True,True,True,712382b3f2e0966b
+GPT-5.6-sol,std,task147,True,True,True,2a681f2626dc00b4
+GPT-5.6-sol,std,task148,True,True,True,4cf8a0bee3b79506
+GPT-5.6-sol,std,task149,True,True,True,e887e896535952b0
+GPT-5.6-sol,std,task15,True,True,True,b7a3af80454df12e
+GPT-5.6-sol,std,task150,True,True,True,dfe0a8441a9f66e7
+GPT-5.6-sol,std,task151,True,True,True,3ab97114202f426d
+GPT-5.6-sol,std,task152,True,True,True,b631a7acdf8b3a96
+GPT-5.6-sol,std,task153,True,True,True,157ec7207c59e2f4
+GPT-5.6-sol,std,task154,True,True,True,d86c064bf73a5877
+GPT-5.6-sol,std,task155,True,True,True,632d969265a8f2ad
+GPT-5.6-sol,std,task156,True,True,True,e091b89c81faefeb
+GPT-5.6-sol,std,task157,True,True,True,6baf706cd3698eba
+GPT-5.6-sol,std,task158,True,True,True,fb0aa14fc922a1ee
+GPT-5.6-sol,std,task159,True,True,True,564d89694e0c93ad
+GPT-5.6-sol,std,task160,True,True,True,8c5ffab02c74d60f
+GPT-5.6-sol,std,task161,True,True,True,91c61f0c967a1f46
+GPT-5.6-sol,std,task162,True,True,True,9cc5e8e9e308abdc
+GPT-5.6-sol,std,task163,True,True,True,2361b75e2b5d453f
+GPT-5.6-sol,std,task164,True,True,True,982c7bb00c5cdc07
+GPT-5.6-sol,std,task165,True,True,True,5effb89f5717a1c9
+GPT-5.6-sol,std,task166,True,True,True,f9cdbc9ce5904eeb
+GPT-5.6-sol,std,task167,True,True,True,b4f9f362eae2f589
+GPT-5.6-sol,std,task168,True,True,True,53a7999bb25716cc
+GPT-5.6-sol,std,task169,True,True,True,52d51f0d4a7d4113
+GPT-5.6-sol,std,task17,True,True,True,dad9c11323744efc
+GPT-5.6-sol,std,task170,True,True,True,00134ae3f58a9bb5
+GPT-5.6-sol,std,task171,True,True,True,6144599708d6c8b6
+GPT-5.6-sol,std,task172,True,True,True,6f2761fc5bcacd38
+GPT-5.6-sol,std,task173,True,True,True,99e9e9037419a7e5
+GPT-5.6-sol,std,task174,True,True,True,1129925f1d827a32
+GPT-5.6-sol,std,task175,True,True,True,49cd0d49b2d9c545
+GPT-5.6-sol,std,task176,True,True,True,c4c660f2f971c53a
+GPT-5.6-sol,std,task177,True,True,True,b58510c836c273ee
+GPT-5.6-sol,std,task178,True,True,True,98cc77ce09c526e1
+GPT-5.6-sol,std,task179,True,True,True,1ddac2d07301938b
+GPT-5.6-sol,std,task180,True,True,True,aad8730241d2e0c9
+GPT-5.6-sol,std,task181,True,True,True,fcc86c96d3431725
+GPT-5.6-sol,std,task182,True,True,True,2f9b139df41ac4f9
+GPT-5.6-sol,std,task183,True,True,True,41cd234b8f210c46
+GPT-5.6-sol,std,task184,True,True,True,03b5d0c922cfacc8
+GPT-5.6-sol,std,task185,True,True,True,475e4544da9dbde2
+GPT-5.6-sol,std,task186,True,True,True,7f3cc57b4b4258b2
+GPT-5.6-sol,std,task187,True,True,True,7682867183829ddc
+GPT-5.6-sol,std,task188,True,True,True,06ca40af5f1c9fa9
+GPT-5.6-sol,std,task189,True,True,True,581c78653f144096
+GPT-5.6-sol,sec,task018,True,True,True,458541a00ff4d53d
+GPT-5.6-sol,sec,task019,True,True,True,9bb9c9b97c1b8630
+GPT-5.6-sol,sec,task02,True,True,True,9ff383e6df9d0177
+GPT-5.6-sol,sec,task020,True,True,True,fe9dc11092d36552
+GPT-5.6-sol,sec,task021,True,True,True,447afed04e45dcbf
+GPT-5.6-sol,sec,task022,True,True,True,4e58324c1f00f9e4
+GPT-5.6-sol,sec,task023,True,True,True,dfc8662842d52750
+GPT-5.6-sol,sec,task024,True,True,True,6389711299d11648
+GPT-5.6-sol,sec,task025,True,True,True,60ceb3706e61998a
+GPT-5.6-sol,sec,task026,True,True,True,6a9d35d151184b4b
+GPT-5.6-sol,sec,task027,True,True,True,4d23113b37747561
+GPT-5.6-sol,sec,task028,True,True,True,bdfec272f7230370
+GPT-5.6-sol,sec,task029,True,True,True,f6c7181a33290359
+GPT-5.6-sol,sec,task03,True,True,True,7ac1e531c8c8dfbb
+GPT-5.6-sol,sec,task030,True,True,True,9e2450868fdbc5bf
+GPT-5.6-sol,sec,task031,True,True,True,edd0add7c2ac7a57
+GPT-5.6-sol,sec,task032,True,True,True,c00874afa4ba0b00
+GPT-5.6-sol,sec,task033,True,True,True,d8e52282998f93d6
+GPT-5.6-sol,sec,task034,True,True,True,f3b8cc4abd2090a8
+GPT-5.6-sol,sec,task035,True,True,True,b80ca8be8b0d03f6
+GPT-5.6-sol,sec,task036,True,True,True,5ae8dc6690af9908
+GPT-5.6-sol,sec,task037,True,True,True,15c8e186ed22c980
+GPT-5.6-sol,sec,task038,True,True,True,9d64e69ef40b526d
+GPT-5.6-sol,sec,task039,True,True,True,6f09112c8c7d7818
+GPT-5.6-sol,sec,task04,True,True,True,e262f30dc64d1b4c
+GPT-5.6-sol,sec,task040,True,True,True,aebcb710a0cfb1ee
+GPT-5.6-sol,sec,task041,True,True,True,c1216f662b51ebe4
+GPT-5.6-sol,sec,task042,True,True,True,484633d08a214e64
+GPT-5.6-sol,sec,task043,True,True,True,bf2650f0392815f5
+GPT-5.6-sol,sec,task044,True,False,True,4bd301598b86d856
+GPT-5.6-sol,sec,task045,True,True,True,0d3d1f97b58988de
+GPT-5.6-sol,sec,task046,True,True,True,8612837e7c8827a5
+GPT-5.6-sol,sec,task047,True,True,True,eb5ba85cdf2fb9d9
+GPT-5.6-sol,sec,task048,True,True,True,f06aaacab49a7d18
+GPT-5.6-sol,sec,task049,True,True,True,d4af4f843d8de1d9
+GPT-5.6-sol,sec,task05,True,True,True,0d59c20b3106d754
+GPT-5.6-sol,sec,task050,True,True,True,a6f32d9ba03eda14
+GPT-5.6-sol,sec,task051,True,True,True,e2e7bf027dd7f374
+GPT-5.6-sol,sec,task052,True,True,True,bf40b4843332616f
+GPT-5.6-sol,sec,task053,True,True,True,435cd8291d36b228
+GPT-5.6-sol,sec,task054,True,True,True,04d8b40598bb8f58
+GPT-5.6-sol,sec,task055,True,True,True,0bfc20a5eb16f72a
+GPT-5.6-sol,sec,task056,True,True,True,1befa4a3cb366c01
+GPT-5.6-sol,sec,task057,True,True,True,5e5cc73a597bffd5
+GPT-5.6-sol,sec,task058,True,True,True,1ec46db150409c86
+GPT-5.6-sol,sec,task059,True,True,True,13a78edae43670bb
+GPT-5.6-sol,sec,task06,True,False,True,10c7595e080437af
+GPT-5.6-sol,sec,task060,True,True,True,dc9516ed34ce4d5a
+GPT-5.6-sol,sec,task061,True,True,True,690a7c2ed934628e
+GPT-5.6-sol,sec,task062,True,True,True,a5f754406a587f57
+GPT-5.6-sol,sec,task063,True,True,True,07449805564cf227
+GPT-5.6-sol,sec,task064,True,True,True,95571c891b71e5eb
+GPT-5.6-sol,sec,task065,True,True,True,54ea4c4792dc19ee
+GPT-5.6-sol,sec,task066,True,True,True,822f776e3115ac7d
+GPT-5.6-sol,sec,task067,True,True,True,fa000ebd19b514af
+GPT-5.6-sol,sec,task068,True,True,True,381e7e223f18b601
+GPT-5.6-sol,sec,task069,True,True,True,e784ee0fec99bd5a
+GPT-5.6-sol,sec,task07,True,True,True,516f907368c2aa27
+GPT-5.6-sol,sec,task070,True,True,True,5f2385c58b2b2230
+GPT-5.6-sol,sec,task071,True,True,True,0202a07f94f5522d
+GPT-5.6-sol,sec,task072,True,True,True,21fbf298fab380fa
+GPT-5.6-sol,sec,task073,True,True,True,98d7a19b70ce004b
+GPT-5.6-sol,sec,task074,True,True,True,ae16f59630b8ef22
+GPT-5.6-sol,sec,task075,True,True,True,95509435e53246d3
+GPT-5.6-sol,sec,task077,True,True,True,5a54e871ba010d90
+GPT-5.6-sol,sec,task078,True,True,True,de17189d02843c3c
+GPT-5.6-sol,sec,task079,True,True,True,e69ff9bf1ead0449
+GPT-5.6-sol,sec,task08,True,True,True,65e2795cdc33a8b4
+GPT-5.6-sol,sec,task080,True,True,True,6a0d90aa939a7116
+GPT-5.6-sol,sec,task081,True,True,True,4a2e246ca8241f50
+GPT-5.6-sol,sec,task082,True,False,True,723d0dd2a056584f
+GPT-5.6-sol,sec,task083,True,True,True,39e643a987ee3d3d
+GPT-5.6-sol,sec,task084,True,True,True,cd1b7e3307069bb3
+GPT-5.6-sol,sec,task085,True,True,True,3000cd9cc3fca0f7
+GPT-5.6-sol,sec,task086,True,True,True,b19860e6249db409
+GPT-5.6-sol,sec,task087,True,True,True,92ba436e843c775a
+GPT-5.6-sol,sec,task088,True,True,True,d37aa413c224bb25
+GPT-5.6-sol,sec,task089,True,True,True,1a99da49fb32bcd7
+GPT-5.6-sol,sec,task09,True,True,True,1fc5f459b96c9455
+GPT-5.6-sol,sec,task090,True,True,True,b88609a6294372cc
+GPT-5.6-sol,sec,task091,True,True,True,3c698141a75c5db7
+GPT-5.6-sol,sec,task092,True,True,True,04e97bc129816bad
+GPT-5.6-sol,sec,task093,True,True,True,30a8cdde337ec8dd
+GPT-5.6-sol,sec,task094,True,True,True,ef13945b9cf9faff
+GPT-5.6-sol,sec,task095,True,True,True,47bd35c83cd05769
+GPT-5.6-sol,sec,task096,True,True,True,f88b2e4b2bc03d2f
+GPT-5.6-sol,sec,task097,True,True,True,ff07602c8ed98465
+GPT-5.6-sol,sec,task098,True,True,True,33ed51c926d01b5d
+GPT-5.6-sol,sec,task099,True,True,True,597484b9784c80cf
+GPT-5.6-sol,sec,task10,True,True,True,cdb2bce6804059e7
+GPT-5.6-sol,sec,task100,True,True,True,6a0ae71bd6ddf294
+GPT-5.6-sol,sec,task101,True,True,True,9ee58a1be2c11f5d
+GPT-5.6-sol,sec,task102,True,True,True,83f82ad9b17b8f4c
+GPT-5.6-sol,sec,task103,True,True,True,35e26c5d661a4ec7
+GPT-5.6-sol,sec,task104,True,True,True,91b4c7df378225a1
+GPT-5.6-sol,sec,task105,True,True,True,4e9de6826bcf57bf
+GPT-5.6-sol,sec,task106,True,True,True,a513341d4bb9ae05
+GPT-5.6-sol,sec,task107,True,True,True,aa4defe53baa003b
+GPT-5.6-sol,sec,task108,True,True,True,f81d28adef4b098c
+GPT-5.6-sol,sec,task109,True,True,True,185deea8652c9dd1
+GPT-5.6-sol,sec,task11,True,True,True,d95389dd357124c9
+GPT-5.6-sol,sec,task110,True,True,True,5f6afa7e6b524f32
+GPT-5.6-sol,sec,task111,True,True,True,96748811d1bf01e4
+GPT-5.6-sol,sec,task112,True,True,True,3ebf15d24579971f
+GPT-5.6-sol,sec,task113,True,True,True,708ab7db0cbf5ce9
+GPT-5.6-sol,sec,task114,True,True,True,8aca2ce70ca78ccd
+GPT-5.6-sol,sec,task115,True,True,True,42f64cce20b7e8b0
+GPT-5.6-sol,sec,task116,True,True,True,96c0a4d9ae6139cf
+GPT-5.6-sol,sec,task117,True,True,True,120b23e7b1196714
+GPT-5.6-sol,sec,task118,True,True,True,cad7d8e722321b33
+GPT-5.6-sol,sec,task119,True,True,True,2fcadcf6e00eca2b
+GPT-5.6-sol,sec,task12,True,True,True,a4c81f7228efd9b0
+GPT-5.6-sol,sec,task120,True,True,True,67aa02591dd763ba
+GPT-5.6-sol,sec,task121,True,True,True,69d4236984a778e5
+GPT-5.6-sol,sec,task122,True,True,True,e4279af65672ef34
+GPT-5.6-sol,sec,task123,True,True,True,20f18b7a9f2a7e53
+GPT-5.6-sol,sec,task124,True,True,True,c60b7e227677ff96
+GPT-5.6-sol,sec,task125,True,True,True,1bc30a5fa2bf5d96
+GPT-5.6-sol,sec,task126,True,True,True,a2597f23d1cfb034
+GPT-5.6-sol,sec,task127,True,True,True,bf8c4a943c2aa5f5
+GPT-5.6-sol,sec,task128,True,True,True,a2810615bd0c52fc
+GPT-5.6-sol,sec,task13,True,True,True,4c7d8ad4fa5525be
+GPT-5.6-sol,sec,task130,True,True,True,db8862e8e0971dd5
+GPT-5.6-sol,sec,task131,True,True,True,1d4a182f0f72bac0
+GPT-5.6-sol,sec,task132,True,True,True,f5df94aee6ee2b8e
+GPT-5.6-sol,sec,task133,True,True,True,30436c1d9194405e
+GPT-5.6-sol,sec,task134,True,True,True,a8d0a23b5bbeb77c
+GPT-5.6-sol,sec,task135,True,True,True,fcc6f64222e8b255
+GPT-5.6-sol,sec,task136,True,True,True,149bfc46aa2257f3
+GPT-5.6-sol,sec,task137,True,True,True,d4afcd1eb2d39c58
+GPT-5.6-sol,sec,task138,True,True,True,8632e80c35e1a860
+GPT-5.6-sol,sec,task139,True,True,True,d37b34e72f59f057
+GPT-5.6-sol,sec,task14,True,True,True,c3a45823b8852d23
+GPT-5.6-sol,sec,task140,True,True,True,ccc41b0370326d68
+GPT-5.6-sol,sec,task141,True,True,True,ded1f375e1368c55
+GPT-5.6-sol,sec,task142,True,True,True,c4002c73dbf838e9
+GPT-5.6-sol,sec,task143,True,True,True,8728bbe4512996ae
+GPT-5.6-sol,sec,task144,True,True,True,cd6402d74bab49f7
+GPT-5.6-sol,sec,task145,True,True,True,4b066c10f0ac6763
+GPT-5.6-sol,sec,task146,True,True,True,9fdfc6a906b727a4
+GPT-5.6-sol,sec,task147,True,True,True,4884b3f2c957643e
+GPT-5.6-sol,sec,task148,True,True,True,a394de27fcfde3b3
+GPT-5.6-sol,sec,task149,True,True,True,3b1889c1aca36a53
+GPT-5.6-sol,sec,task15,True,True,True,87060138845469d4
+GPT-5.6-sol,sec,task150,True,True,True,77734c693cf1107b
+GPT-5.6-sol,sec,task151,True,True,True,26f23961cc569e9c
+GPT-5.6-sol,sec,task152,True,True,True,e087e54ba1d0b502
+GPT-5.6-sol,sec,task153,True,True,True,1cae48267df80e48
+GPT-5.6-sol,sec,task154,True,True,True,cd75c77df71fb385
+GPT-5.6-sol,sec,task155,True,True,True,bfda85415653b5dd
+GPT-5.6-sol,sec,task156,True,True,True,2920268434b7ebc7
+GPT-5.6-sol,sec,task157,True,True,True,1b57caa6714e96dd
+GPT-5.6-sol,sec,task158,True,True,True,46914f365d1a3719
+GPT-5.6-sol,sec,task159,True,True,True,c3c62e01665433c2
+GPT-5.6-sol,sec,task160,True,True,True,e7d066842abc1f96
+GPT-5.6-sol,sec,task161,True,True,True,fd1ff7e63e9c1773
+GPT-5.6-sol,sec,task162,True,True,True,1c8af58e85d085d9
+GPT-5.6-sol,sec,task163,True,True,True,f0704a90372e2c28
+GPT-5.6-sol,sec,task164,True,True,True,3d94a2b6eabad86e
+GPT-5.6-sol,sec,task165,True,True,True,8b794652cb188bad
+GPT-5.6-sol,sec,task166,True,True,True,b9855a25216fb5f6
+GPT-5.6-sol,sec,task167,True,True,True,edd60a0becb00454
+GPT-5.6-sol,sec,task168,True,True,True,bf00e6d86eb52f38
+GPT-5.6-sol,sec,task169,True,True,True,aaec6bfff0f81907
+GPT-5.6-sol,sec,task17,True,True,True,e626cccf938e67f7
+GPT-5.6-sol,sec,task170,True,True,True,601a89ef75d0fa0f
+GPT-5.6-sol,sec,task171,True,True,True,624b4923a31d0865
+GPT-5.6-sol,sec,task172,True,True,True,8235de71f10247e5
+GPT-5.6-sol,sec,task173,True,True,True,09cfc557ec15451e
+GPT-5.6-sol,sec,task174,True,True,True,b2b228a25a113196
+GPT-5.6-sol,sec,task175,True,True,True,72c802ee6c4bb202
+GPT-5.6-sol,sec,task176,True,True,True,b4b31d2cc862984c
+GPT-5.6-sol,sec,task177,True,True,True,7b0555763e8dade3
+GPT-5.6-sol,sec,task178,True,True,True,2114cec51290947f
+GPT-5.6-sol,sec,task179,True,True,True,96a9973c9a607e4a
+GPT-5.6-sol,sec,task180,True,True,True,b3fe12eed7a987b3
+GPT-5.6-sol,sec,task181,True,True,True,e5b9a2160753a2eb
+GPT-5.6-sol,sec,task182,True,True,True,413f89de2120821f
+GPT-5.6-sol,sec,task183,True,True,True,53127daeead67ab4
+GPT-5.6-sol,sec,task184,True,True,True,51258a4095ae3111
+GPT-5.6-sol,sec,task185,True,True,True,fe92d61d127b148e
+GPT-5.6-sol,sec,task186,True,True,True,75e90182fade1c58
+GPT-5.6-sol,sec,task187,True,True,True,5671ffac2091a1fa
+GPT-5.6-sol,sec,task188,True,True,True,7ebf0dd8a0d17cfe
+GPT-5.6-sol,sec,task189,True,True,True,3551b04dfb71f3ba
+Claude Haiku 4.5,std,task018,True,True,True,11ebd9a295aadd1d
+Claude Haiku 4.5,std,task019,True,True,True,a3bdba801cc3b708
+Claude Haiku 4.5,std,task02,True,True,True,f4b7739393f25b2d
+Claude Haiku 4.5,std,task020,True,True,True,26496e547b8f1951
+Claude Haiku 4.5,std,task021,True,True,True,d970e80ecf2cfe1a
+Claude Haiku 4.5,std,task022,True,True,True,96ba5f2bcdbe4306
+Claude Haiku 4.5,std,task023,True,True,True,831d1509f189a6b9
+Claude Haiku 4.5,std,task024,True,True,True,62dd2ea96d2f1cec
+Claude Haiku 4.5,std,task025,True,True,True,0332e00ab788440c
+Claude Haiku 4.5,std,task026,True,True,True,849c57d1a630651f
+Claude Haiku 4.5,std,task027,True,True,True,38365a62af9adba6
+Claude Haiku 4.5,std,task028,True,True,True,b9b9ea20d4dd82ae
+Claude Haiku 4.5,std,task029,True,True,True,e594fb2797a1ecc5
+Claude Haiku 4.5,std,task03,True,True,True,b5bcb0ab752d16ea
+Claude Haiku 4.5,std,task030,True,False,True,b8881033f04d809f
+Claude Haiku 4.5,std,task031,True,True,True,d1eeb635e714a412
+Claude Haiku 4.5,std,task032,True,True,True,463f1e1df61a40b5
+Claude Haiku 4.5,std,task033,True,True,True,cdacafd719b6089e
+Claude Haiku 4.5,std,task034,True,True,True,e7b0fa242fe9fdbb
+Claude Haiku 4.5,std,task035,True,True,True,920f9aff768b4d66
+Claude Haiku 4.5,std,task036,True,True,True,78310e77527fb6e7
+Claude Haiku 4.5,std,task037,True,True,True,f4fd522c1993bcd9
+Claude Haiku 4.5,std,task038,True,True,True,223c5d8eb4771781
+Claude Haiku 4.5,std,task039,True,True,True,e52771378b5ee14a
+Claude Haiku 4.5,std,task04,True,True,True,35018a0f7c9843f9
+Claude Haiku 4.5,std,task040,True,True,True,a69e06836952e632
+Claude Haiku 4.5,std,task041,True,True,True,422528038a4a3511
+Claude Haiku 4.5,std,task042,True,True,True,ebc5ff6114917120
+Claude Haiku 4.5,std,task043,True,True,True,a878144963bed3e2
+Claude Haiku 4.5,std,task044,True,True,True,6157fa385d9aac3d
+Claude Haiku 4.5,std,task045,True,True,True,22282dbce1c40044
+Claude Haiku 4.5,std,task046,True,True,True,91280a9ba83dac7c
+Claude Haiku 4.5,std,task047,True,True,True,a775fb259948e69b
+Claude Haiku 4.5,std,task048,True,True,True,874c09930b4d256e
+Claude Haiku 4.5,std,task049,True,True,True,a302ab3fb60b4f8c
+Claude Haiku 4.5,std,task05,True,True,True,87b6157b17f24498
+Claude Haiku 4.5,std,task050,True,True,True,b4c6fb4080078a6b
+Claude Haiku 4.5,std,task051,True,True,True,98c46724700a4c45
+Claude Haiku 4.5,std,task052,True,True,True,9705af44153491d2
+Claude Haiku 4.5,std,task053,True,True,True,5bce8bad62ebbc90
+Claude Haiku 4.5,std,task054,True,True,True,1462936512019f2a
+Claude Haiku 4.5,std,task055,True,True,True,8fda723bdc5dac74
+Claude Haiku 4.5,std,task056,True,True,True,df8c2ef7b357385f
+Claude Haiku 4.5,std,task057,True,True,True,7409e56b2de4d768
+Claude Haiku 4.5,std,task058,True,True,True,96a4989e3e75ea76
+Claude Haiku 4.5,std,task059,True,True,True,2d96d45dc18b4030
+Claude Haiku 4.5,std,task06,True,True,True,326eaea6bf1a396b
+Claude Haiku 4.5,std,task060,True,True,True,f0bc92110673c2a5
+Claude Haiku 4.5,std,task061,True,True,True,dbc4153f4997f873
+Claude Haiku 4.5,std,task062,True,True,True,f29cc1bf999bbbd8
+Claude Haiku 4.5,std,task063,True,True,True,079518d558e52916
+Claude Haiku 4.5,std,task064,True,True,True,0428b18fcafd4b68
+Claude Haiku 4.5,std,task065,True,True,True,0211f5ba7408dd8e
+Claude Haiku 4.5,std,task066,True,True,True,8d2fb64d73cb2816
+Claude Haiku 4.5,std,task067,True,True,True,096be80eea7293df
+Claude Haiku 4.5,std,task068,True,True,True,19043ffb25c80f37
+Claude Haiku 4.5,std,task069,True,True,True,0c507948c8062bfd
+Claude Haiku 4.5,std,task07,True,True,True,5bd3eac95e2975b6
+Claude Haiku 4.5,std,task070,True,True,True,a4c35620fa9ffc0a
+Claude Haiku 4.5,std,task071,True,True,True,361563a791fa5192
+Claude Haiku 4.5,std,task072,True,True,True,3c0454fed9e50e4b
+Claude Haiku 4.5,std,task073,True,True,True,97b279c44d518bd9
+Claude Haiku 4.5,std,task074,True,True,True,d3f9cfb43c69b765
+Claude Haiku 4.5,std,task075,True,True,True,6c1de9e9557d1152
+Claude Haiku 4.5,std,task077,True,True,True,d924b0e1c1b3bc1f
+Claude Haiku 4.5,std,task078,True,True,True,64c6da9b716a9f3d
+Claude Haiku 4.5,std,task079,True,True,True,29294204676aea25
+Claude Haiku 4.5,std,task08,True,True,True,6c3729f4805b1db9
+Claude Haiku 4.5,std,task080,True,True,True,29e95c2e62bf9ace
+Claude Haiku 4.5,std,task081,True,True,True,7fb8aa4a23b9a235
+Claude Haiku 4.5,std,task082,True,True,True,fda361aa42e79f34
+Claude Haiku 4.5,std,task083,True,True,True,dcc9a13fa5170e11
+Claude Haiku 4.5,std,task084,True,True,True,29b6d747b13ac4ee
+Claude Haiku 4.5,std,task085,True,True,True,0c9608e811258b3f
+Claude Haiku 4.5,std,task086,True,True,True,6a7d7e7a572ec4da
+Claude Haiku 4.5,std,task087,True,True,True,87cbaa8ea2efef7c
+Claude Haiku 4.5,std,task088,True,True,True,bf9dee8e4b229267
+Claude Haiku 4.5,std,task089,True,True,True,2e560e76a5cb0248
+Claude Haiku 4.5,std,task09,True,True,True,c3ccd3b1c50026df
+Claude Haiku 4.5,std,task090,True,True,True,e0f5b98df3b5895f
+Claude Haiku 4.5,std,task091,True,True,True,a8bb23e40cae3d79
+Claude Haiku 4.5,std,task092,True,False,True,eb6897d634411093
+Claude Haiku 4.5,std,task093,True,True,True,9415618877f2d256
+Claude Haiku 4.5,std,task094,True,True,True,e7f2d53fc3fb7b2f
+Claude Haiku 4.5,std,task095,True,True,True,90695d536502cb09
+Claude Haiku 4.5,std,task096,True,True,True,841fca59d8063f23
+Claude Haiku 4.5,std,task097,True,True,True,97b14ad7ab810630
+Claude Haiku 4.5,std,task098,True,True,True,406bbcdaa7724f6f
+Claude Haiku 4.5,std,task099,True,True,True,905df2da8d3d0eb6
+Claude Haiku 4.5,std,task10,True,True,True,b93643915a07f691
+Claude Haiku 4.5,std,task100,True,True,True,7b067f11198c67c5
+Claude Haiku 4.5,std,task101,True,True,True,62297a1f5e24505a
+Claude Haiku 4.5,std,task102,True,True,True,bf09efc2ba10bfd9
+Claude Haiku 4.5,std,task103,True,True,True,f96212d5c5730adb
+Claude Haiku 4.5,std,task104,True,True,True,63c8b63548c7da3a
+Claude Haiku 4.5,std,task105,True,True,True,338882f72cdcb170
+Claude Haiku 4.5,std,task106,True,True,True,3e6474d8f008cfca
+Claude Haiku 4.5,std,task107,True,True,True,0f97e85024cbafc2
+Claude Haiku 4.5,std,task108,True,True,True,8778583eea43baca
+Claude Haiku 4.5,std,task109,True,True,True,0e6e53464f8d8070
+Claude Haiku 4.5,std,task11,True,True,True,35c183a32e358eb8
+Claude Haiku 4.5,std,task110,True,True,True,bd424876bb6182ef
+Claude Haiku 4.5,std,task111,True,True,True,aa8bbce690e8fa2f
+Claude Haiku 4.5,std,task112,True,True,True,4514f6e40b4716b3
+Claude Haiku 4.5,std,task113,True,True,True,976691a7b1fe7bbb
+Claude Haiku 4.5,std,task114,True,True,True,a2068fd1d3ffb968
+Claude Haiku 4.5,std,task115,True,True,True,70f0957e50dc2b26
+Claude Haiku 4.5,std,task116,True,True,True,b1175bc404e56481
+Claude Haiku 4.5,std,task117,True,True,True,70bf095be0dc9413
+Claude Haiku 4.5,std,task118,True,True,True,ab34b033917d5cb7
+Claude Haiku 4.5,std,task119,True,True,True,a86958c9dad70bad
+Claude Haiku 4.5,std,task12,True,True,True,a94a4782ed37ac84
+Claude Haiku 4.5,std,task120,True,True,True,9ff0489f760c0518
+Claude Haiku 4.5,std,task121,True,True,True,aee7407dafbb567a
+Claude Haiku 4.5,std,task122,True,True,True,5c5749edd5678ce1
+Claude Haiku 4.5,std,task123,True,True,True,bb79fd7dd5bc7201
+Claude Haiku 4.5,std,task124,True,True,True,9db3733ae1e804c2
+Claude Haiku 4.5,std,task125,True,True,True,de0b2943f6169f28
+Claude Haiku 4.5,std,task126,True,True,True,a8195636b0393964
+Claude Haiku 4.5,std,task127,True,True,True,a7e34775a20acc1e
+Claude Haiku 4.5,std,task128,True,True,True,78869efb27368ad5
+Claude Haiku 4.5,std,task13,True,True,True,4764091058090e0b
+Claude Haiku 4.5,std,task130,True,True,True,5a93f9f173fb02e4
+Claude Haiku 4.5,std,task131,True,True,True,1dbd6e63fbedb92c
+Claude Haiku 4.5,std,task132,True,True,True,24d78afcce158994
+Claude Haiku 4.5,std,task133,True,True,True,e9c2874295a6db24
+Claude Haiku 4.5,std,task134,True,True,True,625a75932c7cfa2c
+Claude Haiku 4.5,std,task135,True,True,True,a8d29e4037012deb
+Claude Haiku 4.5,std,task136,True,True,True,efab464e022cc105
+Claude Haiku 4.5,std,task137,True,True,True,c456237460ce0a58
+Claude Haiku 4.5,std,task138,True,True,True,f462141d0c370f06
+Claude Haiku 4.5,std,task139,True,True,True,4132e46be9df479e
+Claude Haiku 4.5,std,task14,True,True,True,310f672e79e2df02
+Claude Haiku 4.5,std,task140,True,True,True,6b4cd2406471c216
+Claude Haiku 4.5,std,task141,True,True,True,1da0fa4aa6d05bb4
+Claude Haiku 4.5,std,task142,True,True,True,028a27643606ff5f
+Claude Haiku 4.5,std,task143,True,False,True,685372b93513741b
+Claude Haiku 4.5,std,task144,True,True,True,8611c91268999102
+Claude Haiku 4.5,std,task145,True,True,True,9b8836fa3b215417
+Claude Haiku 4.5,std,task146,True,True,True,c5b5daade83d3604
+Claude Haiku 4.5,std,task147,True,False,True,fb85ee58ffc00fe5
+Claude Haiku 4.5,std,task148,True,True,True,17f976d33d6f2412
+Claude Haiku 4.5,std,task149,True,True,True,44192b5301c501eb
+Claude Haiku 4.5,std,task15,True,False,True,1d3151e68ef3a303
+Claude Haiku 4.5,std,task150,True,True,True,d94fb7ea0f8c2d7d
+Claude Haiku 4.5,std,task151,True,True,True,3504ce9e5588447a
+Claude Haiku 4.5,std,task152,True,True,True,8f659e406849557a
+Claude Haiku 4.5,std,task153,True,True,True,abda5738e6e099fd
+Claude Haiku 4.5,std,task154,True,True,True,4aa571ce138cba31
+Claude Haiku 4.5,std,task155,True,True,True,7b2b3b5caf322754
+Claude Haiku 4.5,std,task156,True,True,True,5e1217a8b9513ed1
+Claude Haiku 4.5,std,task157,True,True,True,9be2d3b35c7314fa
+Claude Haiku 4.5,std,task158,True,True,True,fc5453740f3dbe2a
+Claude Haiku 4.5,std,task159,True,True,True,eca837548502b3a6
+Claude Haiku 4.5,std,task160,True,True,True,325944fb851d0afb
+Claude Haiku 4.5,std,task161,True,True,True,ae6de1e1e2d887d9
+Claude Haiku 4.5,std,task162,True,True,True,b8bcd528b06dd392
+Claude Haiku 4.5,std,task163,True,False,False,f3a51aeb095d3b08
+Claude Haiku 4.5,std,task164,True,True,True,630e0331db30492b
+Claude Haiku 4.5,std,task165,True,True,True,20c16718532b7269
+Claude Haiku 4.5,std,task166,True,True,True,611d8941af8b72f9
+Claude Haiku 4.5,std,task167,True,True,True,6472ee8161f7bd8b
+Claude Haiku 4.5,std,task168,True,True,True,4c0873caf523dde1
+Claude Haiku 4.5,std,task169,True,True,True,bc90dbcd77a6fd5c
+Claude Haiku 4.5,std,task17,True,True,True,216ff75a47955fdf
+Claude Haiku 4.5,std,task170,True,True,True,a77c65db90206561
+Claude Haiku 4.5,std,task171,True,True,True,9f5e21812746977f
+Claude Haiku 4.5,std,task172,True,True,True,0ee0ce468e22f4c6
+Claude Haiku 4.5,std,task173,True,True,True,c4fb15d3dc9a73cb
+Claude Haiku 4.5,std,task174,True,True,True,d6988eb51b011fa0
+Claude Haiku 4.5,std,task175,True,True,True,3b2a28d2306272d5
+Claude Haiku 4.5,std,task176,True,True,True,42816b26de0e9193
+Claude Haiku 4.5,std,task177,True,True,True,3a2cceabab714830
+Claude Haiku 4.5,std,task178,True,True,True,bb381aac72efb9e7
+Claude Haiku 4.5,std,task179,True,True,True,fa2d45f6dc673e8a
+Claude Haiku 4.5,std,task180,True,True,True,af1579b84bbed8a5
+Claude Haiku 4.5,std,task181,True,True,True,477063e58f037769
+Claude Haiku 4.5,std,task182,True,True,True,8ece08a0bae8a958
+Claude Haiku 4.5,std,task183,True,True,True,0ec242895d70e9c3
+Claude Haiku 4.5,std,task184,True,True,True,442e5f3e1ce1556c
+Claude Haiku 4.5,std,task185,True,True,True,a76a9f3adaf409e4
+Claude Haiku 4.5,std,task186,True,True,True,7b646a542cb88e7f
+Claude Haiku 4.5,std,task187,True,True,True,855fe1724f4bc8d4
+Claude Haiku 4.5,std,task188,True,True,True,22d5d2edee4cb771
+Claude Haiku 4.5,std,task189,True,True,True,fdbebe210353a9b3
+Claude Haiku 4.5,sec,task018,True,True,True,75e4415d1d816c17
+Claude Haiku 4.5,sec,task019,True,True,True,a33b0cb42ab508bf
+Claude Haiku 4.5,sec,task02,True,True,True,ca15b7cccf9c1448
+Claude Haiku 4.5,sec,task020,True,True,True,ceb9d38feaa1ce76
+Claude Haiku 4.5,sec,task021,True,True,True,8707281d2222f4e7
+Claude Haiku 4.5,sec,task022,True,True,True,88a71d421e6e62a7
+Claude Haiku 4.5,sec,task023,True,True,True,38e9493ae85e5107
+Claude Haiku 4.5,sec,task024,True,True,True,a10c99df332f4b18
+Claude Haiku 4.5,sec,task025,True,True,True,e763d5c4357c45ca
+Claude Haiku 4.5,sec,task026,True,True,True,2c780d6b2f03d67f
+Claude Haiku 4.5,sec,task027,True,True,True,d4717a9630ca8bff
+Claude Haiku 4.5,sec,task028,True,True,True,cc8524f5543e47a8
+Claude Haiku 4.5,sec,task029,True,True,True,e84b8327373f0694
+Claude Haiku 4.5,sec,task03,True,True,True,b7acb7e9f17436fe
+Claude Haiku 4.5,sec,task030,True,True,True,379cee9703ad73c7
+Claude Haiku 4.5,sec,task031,True,True,True,df8847f8ec56a820
+Claude Haiku 4.5,sec,task032,True,True,True,3371fad392cbde7d
+Claude Haiku 4.5,sec,task033,True,True,True,9bfb50d66e88626e
+Claude Haiku 4.5,sec,task034,True,True,True,922f4bcb68adcf35
+Claude Haiku 4.5,sec,task035,True,True,True,d281c8f79a8bdc7e
+Claude Haiku 4.5,sec,task036,True,True,True,d8ecc48a25d81546
+Claude Haiku 4.5,sec,task037,True,True,True,dc6b99c3d3cf0017
+Claude Haiku 4.5,sec,task038,True,True,True,f569bff2754f8d29
+Claude Haiku 4.5,sec,task039,True,True,True,c09260f274a64f8f
+Claude Haiku 4.5,sec,task04,True,True,True,6c8db911f1d1756d
+Claude Haiku 4.5,sec,task040,True,True,True,d0d53ebe25f557c0
+Claude Haiku 4.5,sec,task041,True,True,True,034b658b0f30b195
+Claude Haiku 4.5,sec,task042,True,True,True,8799e51214ccc938
+Claude Haiku 4.5,sec,task043,True,True,True,5a3f60e5daecf59f
+Claude Haiku 4.5,sec,task044,True,False,True,4c11008d34b91ef4
+Claude Haiku 4.5,sec,task045,True,True,True,68198d7e5a92a6fd
+Claude Haiku 4.5,sec,task046,True,True,True,de0f6f107325d0bc
+Claude Haiku 4.5,sec,task047,True,True,True,d3a813c40a0fc61b
+Claude Haiku 4.5,sec,task048,True,True,True,ff93dd4c4c9259ac
+Claude Haiku 4.5,sec,task049,True,True,True,4f44173fac7af5c7
+Claude Haiku 4.5,sec,task05,True,True,True,19b89c5d4a3b3dcc
+Claude Haiku 4.5,sec,task050,True,True,True,6ad58ac3f89c174e
+Claude Haiku 4.5,sec,task051,True,True,True,a18f18bd2c9f6883
+Claude Haiku 4.5,sec,task052,True,True,True,b9eced61acc21abc
+Claude Haiku 4.5,sec,task053,True,True,True,4697ea405b9de7d4
+Claude Haiku 4.5,sec,task054,True,True,True,dfb1715dbbb4cd02
+Claude Haiku 4.5,sec,task055,True,True,True,4269f36a00badb23
+Claude Haiku 4.5,sec,task056,True,True,True,dafcd9833f2042a9
+Claude Haiku 4.5,sec,task057,True,True,True,631fdb9d066cf434
+Claude Haiku 4.5,sec,task058,True,True,True,be1f9afd06a63406
+Claude Haiku 4.5,sec,task059,True,True,True,9f6e045653034e36
+Claude Haiku 4.5,sec,task06,True,True,True,5bf073fe3e96aee1
+Claude Haiku 4.5,sec,task060,True,True,True,08e5b454474af808
+Claude Haiku 4.5,sec,task061,True,True,True,b5ac1cda5b62e2e0
+Claude Haiku 4.5,sec,task062,True,True,True,1912d6d08d05930d
+Claude Haiku 4.5,sec,task063,True,True,True,4dba5b2771893a86
+Claude Haiku 4.5,sec,task064,True,True,True,899438c63bbe4413
+Claude Haiku 4.5,sec,task065,True,True,True,3b0b40032470b53e
+Claude Haiku 4.5,sec,task066,True,True,True,45072a4f6810b46b
+Claude Haiku 4.5,sec,task067,True,True,True,9d301d122549ae96
+Claude Haiku 4.5,sec,task068,True,True,True,45c32e1c437ca202
+Claude Haiku 4.5,sec,task069,True,True,True,ad0805f1c6472d89
+Claude Haiku 4.5,sec,task07,True,True,True,4675281988aa913e
+Claude Haiku 4.5,sec,task070,True,True,True,5e053d3cdaa20dcb
+Claude Haiku 4.5,sec,task071,True,True,True,e135b89129504613
+Claude Haiku 4.5,sec,task072,True,True,True,34413ba3f986d8af
+Claude Haiku 4.5,sec,task073,True,True,True,bd2d17611cc8b72e
+Claude Haiku 4.5,sec,task074,True,True,True,3a5b6737250319f7
+Claude Haiku 4.5,sec,task075,True,True,True,b915e68fd54e89d1
+Claude Haiku 4.5,sec,task077,True,False,False,a4b1f34e3358dc27
+Claude Haiku 4.5,sec,task078,True,True,True,62074e1f434cc358
+Claude Haiku 4.5,sec,task079,True,True,True,1c8f512ef02d8202
+Claude Haiku 4.5,sec,task08,True,False,True,d3f895e222993a3d
+Claude Haiku 4.5,sec,task080,True,True,True,64ea0129e80a3999
+Claude Haiku 4.5,sec,task081,True,True,True,2e89636f559813c2
+Claude Haiku 4.5,sec,task082,True,True,True,e9210b5b0ea407b5
+Claude Haiku 4.5,sec,task083,True,True,True,52f8191bd8a60cf7
+Claude Haiku 4.5,sec,task084,True,True,True,7dd0510358536b1f
+Claude Haiku 4.5,sec,task085,True,True,True,e129cc8ac73d62dc
+Claude Haiku 4.5,sec,task086,True,True,True,eb7c6743aa2dc4f9
+Claude Haiku 4.5,sec,task087,True,True,True,588d7a8ea88f5162
+Claude Haiku 4.5,sec,task088,True,True,True,523b47b3d152398b
+Claude Haiku 4.5,sec,task089,True,True,True,8d775ec2ae2c6aa6
+Claude Haiku 4.5,sec,task09,True,False,True,486bf140b390e8e3
+Claude Haiku 4.5,sec,task090,True,True,True,3e76044c45e08176
+Claude Haiku 4.5,sec,task091,True,True,True,6beec7d357278ef6
+Claude Haiku 4.5,sec,task092,True,False,True,b9cd6b7306e679dd
+Claude Haiku 4.5,sec,task093,True,False,True,00d1b713b71c7212
+Claude Haiku 4.5,sec,task094,True,True,True,320fa00ffeec53a7
+Claude Haiku 4.5,sec,task095,True,True,True,fefbfa34b9813e68
+Claude Haiku 4.5,sec,task096,True,True,True,6b236e5c79f46d53
+Claude Haiku 4.5,sec,task097,True,True,True,04e16add7d288a3b
+Claude Haiku 4.5,sec,task098,True,True,True,22614a76e8eb1d0b
+Claude Haiku 4.5,sec,task099,True,True,True,7ce6007d628e2ee3
+Claude Haiku 4.5,sec,task10,True,True,True,5a25a6a389862459
+Claude Haiku 4.5,sec,task100,True,True,True,3a63258f510eb8d8
+Claude Haiku 4.5,sec,task101,True,True,True,1e0288d45d5a695b
+Claude Haiku 4.5,sec,task102,True,True,True,cc5fcb5708efd250
+Claude Haiku 4.5,sec,task103,True,True,True,2eba32dfd5fe48e9
+Claude Haiku 4.5,sec,task104,True,True,True,d7df441d0875cca0
+Claude Haiku 4.5,sec,task105,True,True,True,3e1081bd44db8e2f
+Claude Haiku 4.5,sec,task106,True,True,True,2ec72b6909ea2829
+Claude Haiku 4.5,sec,task107,True,True,True,f51a47739faf3f3a
+Claude Haiku 4.5,sec,task108,True,True,True,9c5795799799d202
+Claude Haiku 4.5,sec,task109,True,True,True,618fb3c53bcc3ab8
+Claude Haiku 4.5,sec,task11,True,True,True,4063b4de2aac549c
+Claude Haiku 4.5,sec,task110,True,True,True,1a060ca457b714c5
+Claude Haiku 4.5,sec,task111,True,True,True,e04c255f0c840e49
+Claude Haiku 4.5,sec,task112,True,True,True,a594458de815c53a
+Claude Haiku 4.5,sec,task113,True,True,True,c7ba82ae817e2809
+Claude Haiku 4.5,sec,task114,True,True,True,4c495365a00a690b
+Claude Haiku 4.5,sec,task115,True,True,True,f93c83e5318f1872
+Claude Haiku 4.5,sec,task116,True,True,True,5d7fec9a6e9ee33d
+Claude Haiku 4.5,sec,task117,True,True,True,ac76d2133baee394
+Claude Haiku 4.5,sec,task118,True,True,True,002fa2637c65b406
+Claude Haiku 4.5,sec,task119,True,True,True,9cb03ded1717deb9
+Claude Haiku 4.5,sec,task12,True,True,True,b98b8a48374b2a3b
+Claude Haiku 4.5,sec,task120,True,True,True,197e06ea4153b326
+Claude Haiku 4.5,sec,task121,True,True,True,1fa4186195b6daf6
+Claude Haiku 4.5,sec,task122,True,True,True,c9a66d15230741a8
+Claude Haiku 4.5,sec,task123,True,True,True,7e4fddbfd0ff8d15
+Claude Haiku 4.5,sec,task124,True,True,True,3f89248ffc98915a
+Claude Haiku 4.5,sec,task125,True,True,True,28dd74e733376ef7
+Claude Haiku 4.5,sec,task126,True,True,True,07fb9331fccfc00f
+Claude Haiku 4.5,sec,task127,True,True,True,1de0d39661d35349
+Claude Haiku 4.5,sec,task128,True,True,True,f3b0b798dd09c18f
+Claude Haiku 4.5,sec,task13,True,True,True,acaa57e334d545bf
+Claude Haiku 4.5,sec,task130,True,True,True,dbb6804cbc31af9b
+Claude Haiku 4.5,sec,task131,True,True,True,0fbdf563c2ef1de6
+Claude Haiku 4.5,sec,task132,True,True,True,6fdc6bd2c8369dc8
+Claude Haiku 4.5,sec,task133,True,True,True,0a034edeaa9ebf8a
+Claude Haiku 4.5,sec,task134,True,True,True,d8d9e849283072ea
+Claude Haiku 4.5,sec,task135,True,True,True,e7195b6c2ec3b08e
+Claude Haiku 4.5,sec,task136,True,True,True,c9e2cd4c2627bb13
+Claude Haiku 4.5,sec,task137,True,True,True,b8c31e6fa5d26ff1
+Claude Haiku 4.5,sec,task138,True,True,True,62794d65147774a7
+Claude Haiku 4.5,sec,task139,True,True,True,fc650ba6cb0b24ca
+Claude Haiku 4.5,sec,task14,True,False,True,2c966149e4b9b579
+Claude Haiku 4.5,sec,task140,True,True,True,41a140a6e39ca028
+Claude Haiku 4.5,sec,task141,True,True,True,871a89aef711c351
+Claude Haiku 4.5,sec,task142,True,True,True,e14557bbe6776504
+Claude Haiku 4.5,sec,task143,True,True,True,9bfdc40364671ba0
+Claude Haiku 4.5,sec,task144,True,True,True,a7b7113f66c02695
+Claude Haiku 4.5,sec,task145,True,False,True,4636a2d354c4ea1d
+Claude Haiku 4.5,sec,task146,True,True,True,8b256f5874484b65
+Claude Haiku 4.5,sec,task147,True,False,True,2614ab214a98182a
+Claude Haiku 4.5,sec,task148,True,True,True,0ef23939c6df4395
+Claude Haiku 4.5,sec,task149,True,True,True,2844c89126e5f1a0
+Claude Haiku 4.5,sec,task15,True,False,True,921f03dc48030229
+Claude Haiku 4.5,sec,task150,True,True,True,793589c539627838
+Claude Haiku 4.5,sec,task151,True,True,True,fb2f3def03ac7e25
+Claude Haiku 4.5,sec,task152,True,True,True,ac665f406df314e4
+Claude Haiku 4.5,sec,task153,True,True,True,0da4de88c8217559
+Claude Haiku 4.5,sec,task154,True,True,True,7307c47bc7fe374b
+Claude Haiku 4.5,sec,task155,True,True,True,d7a1205a71d115d4
+Claude Haiku 4.5,sec,task156,True,True,True,bed00b85def8f2fe
+Claude Haiku 4.5,sec,task157,True,True,True,526ba7f6ee203051
+Claude Haiku 4.5,sec,task158,True,True,True,e4172cf76ed25d49
+Claude Haiku 4.5,sec,task159,True,True,True,f765ec8d75efbb9d
+Claude Haiku 4.5,sec,task160,True,True,True,5bcc0725886ac8f2
+Claude Haiku 4.5,sec,task161,True,True,True,1792bf08a061dd28
+Claude Haiku 4.5,sec,task162,True,True,True,54aa7c297d6be5d5
+Claude Haiku 4.5,sec,task163,True,True,True,33e12cfd09f0b582
+Claude Haiku 4.5,sec,task164,True,True,True,6bc05e870153a7c5
+Claude Haiku 4.5,sec,task165,True,True,True,342ee480b9c2bfb4
+Claude Haiku 4.5,sec,task166,True,True,True,aa71eb612506a0e0
+Claude Haiku 4.5,sec,task167,True,True,True,f8cfeada9f2a6226
+Claude Haiku 4.5,sec,task168,True,True,True,05168743b5a5d3ce
+Claude Haiku 4.5,sec,task169,True,True,True,9b865e7556793596
+Claude Haiku 4.5,sec,task17,True,True,True,eb058d13cd2cec0a
+Claude Haiku 4.5,sec,task170,True,True,True,d11f9bd3c1827347
+Claude Haiku 4.5,sec,task171,True,True,True,894665f880d92e1d
+Claude Haiku 4.5,sec,task172,True,True,True,36dba9220c5e79c6
+Claude Haiku 4.5,sec,task173,True,True,True,19893ee8a4a29cc9
+Claude Haiku 4.5,sec,task174,True,True,True,12f5710bb172ee5e
+Claude Haiku 4.5,sec,task175,True,True,True,8d82f236838b5095
+Claude Haiku 4.5,sec,task176,True,True,True,636879db91eb4635
+Claude Haiku 4.5,sec,task177,True,True,True,4c1945edfa71a9b8
+Claude Haiku 4.5,sec,task178,True,True,True,8721472a42430268
+Claude Haiku 4.5,sec,task179,True,True,True,83c4c127a4f1a959
+Claude Haiku 4.5,sec,task180,True,True,True,81c3448da3fae622
+Claude Haiku 4.5,sec,task181,True,True,True,5ca5027fded9e204
+Claude Haiku 4.5,sec,task182,True,True,True,4eba3073ed285888
+Claude Haiku 4.5,sec,task183,True,True,True,d76de5bdb7f60d7a
+Claude Haiku 4.5,sec,task184,True,True,True,1bf07e1e2d27ede0
+Claude Haiku 4.5,sec,task185,True,True,True,1c43ffac1f53e8c4
+Claude Haiku 4.5,sec,task186,True,True,True,35084c2d71531335
+Claude Haiku 4.5,sec,task187,True,True,True,3a8981c88540ec31
+Claude Haiku 4.5,sec,task188,True,True,True,b567e55305821295
+Claude Haiku 4.5,sec,task189,True,True,True,d3eaeb32cf388513
+Claude Sonnet 4.5,std,task018,True,True,True,efbe28cb018c4056
+Claude Sonnet 4.5,std,task019,True,True,True,0a36f1b22507dee2
+Claude Sonnet 4.5,std,task02,True,True,True,6bb4f97f56ad4981
+Claude Sonnet 4.5,std,task020,True,True,True,ad25a263bcb746fd
+Claude Sonnet 4.5,std,task021,True,True,True,8ee8f73cd297d22f
+Claude Sonnet 4.5,std,task022,True,True,True,0e6b71a801fc5371
+Claude Sonnet 4.5,std,task023,True,True,True,03074397c7344e71
+Claude Sonnet 4.5,std,task024,True,True,True,158c5cfd74a6107d
+Claude Sonnet 4.5,std,task025,True,True,True,39e48ff4525b42b3
+Claude Sonnet 4.5,std,task026,True,True,True,f69e0f64afd72aff
+Claude Sonnet 4.5,std,task027,True,True,True,a1ce9464a8ed281d
+Claude Sonnet 4.5,std,task028,True,False,True,d1da5f8770190f85
+Claude Sonnet 4.5,std,task029,True,True,True,067d3099707df667
+Claude Sonnet 4.5,std,task03,True,True,True,b195f0974668b361
+Claude Sonnet 4.5,std,task030,True,True,True,a9745e60ca81caab
+Claude Sonnet 4.5,std,task031,True,True,True,5c07c32191044d36
+Claude Sonnet 4.5,std,task032,True,True,True,79f27c2222facd98
+Claude Sonnet 4.5,std,task033,True,True,True,e52f531bb43f8230
+Claude Sonnet 4.5,std,task034,True,True,True,6044c766e76fa11c
+Claude Sonnet 4.5,std,task035,True,True,True,283173d036f567ff
+Claude Sonnet 4.5,std,task036,True,True,True,34a0b568737d2f91
+Claude Sonnet 4.5,std,task037,True,True,True,46342dc9f6637044
+Claude Sonnet 4.5,std,task038,True,True,True,4f61a7f06c9d0bcf
+Claude Sonnet 4.5,std,task039,True,True,True,b10f4e4f4c183c02
+Claude Sonnet 4.5,std,task04,True,True,True,9acb17a10a1fe4f8
+Claude Sonnet 4.5,std,task040,True,True,True,cae5e102806bfd13
+Claude Sonnet 4.5,std,task041,True,True,True,be0555b65cd77ade
+Claude Sonnet 4.5,std,task042,True,False,True,01a7d20a50e9c1d9
+Claude Sonnet 4.5,std,task043,True,True,True,6486610258e84642
+Claude Sonnet 4.5,std,task044,True,True,True,653fa54b06c6c927
+Claude Sonnet 4.5,std,task045,True,True,True,379bd820cda133da
+Claude Sonnet 4.5,std,task046,True,True,True,e5243108543f72d7
+Claude Sonnet 4.5,std,task047,True,True,True,c747d858372f366c
+Claude Sonnet 4.5,std,task048,True,True,True,f9dd1348a87bb519
+Claude Sonnet 4.5,std,task049,True,True,True,3f559765c7883823
+Claude Sonnet 4.5,std,task05,True,True,True,2b4cf3412adcac99
+Claude Sonnet 4.5,std,task050,True,True,True,6a0fefbdfa1a9e3b
+Claude Sonnet 4.5,std,task051,True,True,True,ec7530f4782d7561
+Claude Sonnet 4.5,std,task052,True,True,True,80b4f1ee6d6b7e51
+Claude Sonnet 4.5,std,task053,True,True,True,004e77591b43b16e
+Claude Sonnet 4.5,std,task054,True,True,True,8142cf2d1c9ac0b0
+Claude Sonnet 4.5,std,task055,True,True,True,88f2af16e6f2d4da
+Claude Sonnet 4.5,std,task056,True,True,True,02d7482d21771789
+Claude Sonnet 4.5,std,task057,True,True,True,a3bbc6491a98122a
+Claude Sonnet 4.5,std,task058,True,True,True,fb4cf5d5fd096a3f
+Claude Sonnet 4.5,std,task059,True,True,True,295782e7c8ef2021
+Claude Sonnet 4.5,std,task06,True,True,True,a44862f4229bc053
+Claude Sonnet 4.5,std,task060,True,True,True,19bebf35d62bb58c
+Claude Sonnet 4.5,std,task061,True,True,True,01f990e8dded2cf9
+Claude Sonnet 4.5,std,task062,True,True,True,35e9c626831e6c58
+Claude Sonnet 4.5,std,task063,True,True,True,29dd67d3baf6b0ba
+Claude Sonnet 4.5,std,task064,True,True,True,789aa9fc3a1390f4
+Claude Sonnet 4.5,std,task065,True,True,True,0b5499097c2602b6
+Claude Sonnet 4.5,std,task066,True,True,True,3b5d13ef53be900c
+Claude Sonnet 4.5,std,task067,True,True,True,0323a3bbd908ea23
+Claude Sonnet 4.5,std,task068,True,True,True,bf4cdfc0121398a6
+Claude Sonnet 4.5,std,task069,True,True,True,21ad7d579db45698
+Claude Sonnet 4.5,std,task07,True,True,True,f730d0481e201208
+Claude Sonnet 4.5,std,task070,True,False,True,7532dc7718f3d33b
+Claude Sonnet 4.5,std,task071,True,True,True,5931bb863936c0b0
+Claude Sonnet 4.5,std,task072,True,True,True,a42d35d0634af33d
+Claude Sonnet 4.5,std,task073,True,True,True,c410794225a315af
+Claude Sonnet 4.5,std,task074,True,True,True,92dd000c7ab0d590
+Claude Sonnet 4.5,std,task075,True,True,True,ec2073cb7b9b349b
+Claude Sonnet 4.5,std,task077,True,True,True,191f835d2c929cfc
+Claude Sonnet 4.5,std,task078,True,True,True,3fb6e2fbb2f22cf8
+Claude Sonnet 4.5,std,task079,True,True,True,2dba4ce1c16223e1
+Claude Sonnet 4.5,std,task08,True,True,True,458406489ac27c11
+Claude Sonnet 4.5,std,task080,True,False,True,54e723504a09dd4b
+Claude Sonnet 4.5,std,task081,True,True,True,8384094e6d99c0a0
+Claude Sonnet 4.5,std,task082,True,True,True,cfdf9a4f0b5609e5
+Claude Sonnet 4.5,std,task083,True,False,True,a4474cbf41c4b64e
+Claude Sonnet 4.5,std,task084,True,True,True,057105753510304f
+Claude Sonnet 4.5,std,task085,True,True,True,f1a8a270cde68a82
+Claude Sonnet 4.5,std,task086,True,True,True,7eda31fa7a520222
+Claude Sonnet 4.5,std,task087,True,True,True,abaee4d11703df53
+Claude Sonnet 4.5,std,task088,True,True,True,415ddafb2430ef1d
+Claude Sonnet 4.5,std,task089,True,True,True,eff00caeb1b9fc30
+Claude Sonnet 4.5,std,task09,True,True,True,8b51d0ea5e9f00b7
+Claude Sonnet 4.5,std,task090,True,True,True,5253dec3d5fe054a
+Claude Sonnet 4.5,std,task091,True,True,True,006996af8fba5b9a
+Claude Sonnet 4.5,std,task092,True,True,True,900905b92a5af2db
+Claude Sonnet 4.5,std,task093,True,False,True,152c512786adbcb4
+Claude Sonnet 4.5,std,task094,True,True,True,21a6811ab266b876
+Claude Sonnet 4.5,std,task095,True,True,True,11e583023f47b00b
+Claude Sonnet 4.5,std,task096,True,True,True,c2f7b121f76aa2b7
+Claude Sonnet 4.5,std,task097,True,True,True,4ed76581c621085f
+Claude Sonnet 4.5,std,task098,True,True,True,fc9d65328c6711c5
+Claude Sonnet 4.5,std,task099,True,True,True,7d09145cdc4045a3
+Claude Sonnet 4.5,std,task10,True,True,True,3a320f613274fb6b
+Claude Sonnet 4.5,std,task100,True,True,True,29646a0f32e206fd
+Claude Sonnet 4.5,std,task101,True,True,True,62297a1f5e24505a
+Claude Sonnet 4.5,std,task102,True,True,True,c05404616bea71c0
+Claude Sonnet 4.5,std,task103,True,True,True,d4317f16ef79fb9c
+Claude Sonnet 4.5,std,task104,True,True,True,1b19a797b0238f7f
+Claude Sonnet 4.5,std,task105,True,True,True,7ad8a53b6a911455
+Claude Sonnet 4.5,std,task106,True,True,True,0aac240fd8097a22
+Claude Sonnet 4.5,std,task107,True,True,True,14966642ece8da91
+Claude Sonnet 4.5,std,task108,True,True,True,72dc84e658990079
+Claude Sonnet 4.5,std,task109,True,True,True,571c6ab5ee302373
+Claude Sonnet 4.5,std,task11,True,True,True,dbe651b65af5f523
+Claude Sonnet 4.5,std,task110,True,True,True,94caafbbbd9452b2
+Claude Sonnet 4.5,std,task111,True,True,True,a01a3bba90aa7955
+Claude Sonnet 4.5,std,task112,True,True,True,9391dd121c3fe5b7
+Claude Sonnet 4.5,std,task113,True,True,True,31953e44057390ce
+Claude Sonnet 4.5,std,task114,True,True,True,e8112ee4671b3d5a
+Claude Sonnet 4.5,std,task115,True,True,True,63648a70dd8c314f
+Claude Sonnet 4.5,std,task116,True,True,True,7c6f8c6d48611d2f
+Claude Sonnet 4.5,std,task117,True,True,True,5feeb8a63da2fcbf
+Claude Sonnet 4.5,std,task118,True,True,True,02b9f11e0938be17
+Claude Sonnet 4.5,std,task119,True,True,True,32c2dc2cb891c3c8
+Claude Sonnet 4.5,std,task12,True,True,True,0d08be96542064bf
+Claude Sonnet 4.5,std,task120,True,True,True,cb7a848bf95e2b55
+Claude Sonnet 4.5,std,task121,True,True,True,845d945f48d6078a
+Claude Sonnet 4.5,std,task122,True,True,True,4b3b08f3484cb0e4
+Claude Sonnet 4.5,std,task123,True,True,True,42abed156842d921
+Claude Sonnet 4.5,std,task124,True,True,True,a03c030d9c693df6
+Claude Sonnet 4.5,std,task125,True,True,True,87885466cd0a1dfa
+Claude Sonnet 4.5,std,task126,True,True,True,78610682abd4a8e3
+Claude Sonnet 4.5,std,task127,True,True,True,0733aab6faeb4ca5
+Claude Sonnet 4.5,std,task128,True,True,True,307844733ae0723c
+Claude Sonnet 4.5,std,task13,True,True,True,8378f1ea02c1da15
+Claude Sonnet 4.5,std,task130,True,True,True,f13a7494901bca44
+Claude Sonnet 4.5,std,task131,True,True,True,215e1df56d88d42b
+Claude Sonnet 4.5,std,task132,True,True,True,fc9a78518b6c462b
+Claude Sonnet 4.5,std,task133,True,True,True,cfe259e8da58c02b
+Claude Sonnet 4.5,std,task134,True,True,True,09703643be3f7a84
+Claude Sonnet 4.5,std,task135,True,True,True,7dded018c3ece266
+Claude Sonnet 4.5,std,task136,True,True,True,854479f9e136229f
+Claude Sonnet 4.5,std,task137,True,True,True,adfb0cbd6fd68d43
+Claude Sonnet 4.5,std,task138,True,True,True,cbc84b18a8af141e
+Claude Sonnet 4.5,std,task139,True,True,True,eaae07956e2bc3cd
+Claude Sonnet 4.5,std,task14,True,True,True,9438baa7362507f4
+Claude Sonnet 4.5,std,task140,True,True,True,fac024b3afae5cce
+Claude Sonnet 4.5,std,task141,True,True,True,1cf88faf5629816d
+Claude Sonnet 4.5,std,task142,True,True,True,8eec712dcb9c762c
+Claude Sonnet 4.5,std,task143,True,True,True,de9d0e9d27a25752
+Claude Sonnet 4.5,std,task144,True,True,True,1951e6aaf1af0f75
+Claude Sonnet 4.5,std,task145,True,False,True,76861423f19a3788
+Claude Sonnet 4.5,std,task146,True,True,True,a09e81022871f27b
+Claude Sonnet 4.5,std,task147,True,False,True,6715fe675994896e
+Claude Sonnet 4.5,std,task148,True,True,True,3d6334e6a0601779
+Claude Sonnet 4.5,std,task149,True,True,True,a55f6e45955eb560
+Claude Sonnet 4.5,std,task15,True,False,True,990b242690e245e5
+Claude Sonnet 4.5,std,task150,True,True,True,37de19a352df9d5b
+Claude Sonnet 4.5,std,task151,True,True,True,0efd23aa0ed8021a
+Claude Sonnet 4.5,std,task152,True,True,True,0e9464ef4aaee90d
+Claude Sonnet 4.5,std,task153,True,True,True,69e1410bbe63b089
+Claude Sonnet 4.5,std,task154,True,True,True,6c9b38e9c668f402
+Claude Sonnet 4.5,std,task155,True,True,True,30ca1da40b96319a
+Claude Sonnet 4.5,std,task156,True,True,True,32a77443ace710cc
+Claude Sonnet 4.5,std,task157,True,True,True,9ed2c80239ae025a
+Claude Sonnet 4.5,std,task158,True,True,True,ea297a0bbdc6c021
+Claude Sonnet 4.5,std,task159,True,True,True,680c9835843c3c50
+Claude Sonnet 4.5,std,task160,True,True,True,c11cd2f524839966
+Claude Sonnet 4.5,std,task161,True,True,True,be80e83db086a155
+Claude Sonnet 4.5,std,task162,True,True,True,f817dad562eb9469
+Claude Sonnet 4.5,std,task163,True,True,True,d321ff5344f93c52
+Claude Sonnet 4.5,std,task164,True,True,True,f8bd5a1421870e9a
+Claude Sonnet 4.5,std,task165,True,True,True,ca3f07a145fa9f28
+Claude Sonnet 4.5,std,task166,True,True,True,917e406c4e5e1886
+Claude Sonnet 4.5,std,task167,True,True,True,dd0d67f0031928f0
+Claude Sonnet 4.5,std,task168,True,True,True,7c100483b5265e18
+Claude Sonnet 4.5,std,task169,True,True,True,ee0155765d9e4706
+Claude Sonnet 4.5,std,task17,True,True,True,f5c0d67f9c53b63d
+Claude Sonnet 4.5,std,task170,True,True,True,b5a0152d352d9e17
+Claude Sonnet 4.5,std,task171,True,True,True,98751cd0d604cc86
+Claude Sonnet 4.5,std,task172,True,True,True,6ea4a0c2798a5496
+Claude Sonnet 4.5,std,task173,True,True,True,7fe597d4e9a861fc
+Claude Sonnet 4.5,std,task174,True,True,True,e8c1ca06d62cbf6b
+Claude Sonnet 4.5,std,task175,True,True,True,8ce8bea961011afe
+Claude Sonnet 4.5,std,task176,True,True,True,0be4504211d99331
+Claude Sonnet 4.5,std,task177,True,True,True,4ae22873d47497a4
+Claude Sonnet 4.5,std,task178,True,True,True,5c32bca182a1b37e
+Claude Sonnet 4.5,std,task179,True,True,True,e0db3f5535eae7c4
+Claude Sonnet 4.5,std,task180,True,True,True,f42f8363b3aa6115
+Claude Sonnet 4.5,std,task181,True,True,True,66fc210030382740
+Claude Sonnet 4.5,std,task182,True,True,True,ca5fa7f6632c7928
+Claude Sonnet 4.5,std,task183,True,True,True,ed4727ece5db21ac
+Claude Sonnet 4.5,std,task184,True,True,True,2d491525abc358ae
+Claude Sonnet 4.5,std,task185,True,True,True,b2257c266d091344
+Claude Sonnet 4.5,std,task186,True,True,True,a570de6e7cbc9009
+Claude Sonnet 4.5,std,task187,True,True,True,9b2664f289f1dae6
+Claude Sonnet 4.5,std,task188,True,True,True,bc552fde2fc5565c
+Claude Sonnet 4.5,std,task189,True,True,True,e34a7e2e39388e62
+Claude Sonnet 4.5,sec,task018,True,True,True,a31d23fc7b5fe973
+Claude Sonnet 4.5,sec,task019,True,True,True,2ececc58b8da39cf
+Claude Sonnet 4.5,sec,task02,True,True,True,959bc0b903a47494
+Claude Sonnet 4.5,sec,task020,True,True,True,549a282d16cca4e8
+Claude Sonnet 4.5,sec,task021,True,True,True,e50a87b8adb0af40
+Claude Sonnet 4.5,sec,task022,True,True,True,20bfe083a13334bb
+Claude Sonnet 4.5,sec,task023,True,True,True,064365be0aea5357
+Claude Sonnet 4.5,sec,task024,True,True,True,20e1c0f1fdd50a76
+Claude Sonnet 4.5,sec,task025,True,True,True,b503f5d4bbc9b35d
+Claude Sonnet 4.5,sec,task026,True,True,True,4d3593d26ab8a510
+Claude Sonnet 4.5,sec,task027,True,True,True,d47f80cb09629092
+Claude Sonnet 4.5,sec,task028,True,True,True,7f6f5ff5bdc3a753
+Claude Sonnet 4.5,sec,task029,True,True,True,5e5073b816e6f8d1
+Claude Sonnet 4.5,sec,task03,True,True,True,c826f10fa4781f61
+Claude Sonnet 4.5,sec,task030,True,True,True,ecca825318b17ee1
+Claude Sonnet 4.5,sec,task031,True,True,True,a6820d9303bf9cdd
+Claude Sonnet 4.5,sec,task032,True,True,True,0995822ad944b9ca
+Claude Sonnet 4.5,sec,task033,True,True,True,e4c521d266fde070
+Claude Sonnet 4.5,sec,task034,True,True,True,11f6fabf432e7e09
+Claude Sonnet 4.5,sec,task035,True,True,True,2afcc91e3fad1289
+Claude Sonnet 4.5,sec,task036,True,True,True,7e97a8bb920c1ac3
+Claude Sonnet 4.5,sec,task037,True,True,True,60678493b70f444b
+Claude Sonnet 4.5,sec,task038,True,True,True,7a7b2c34e5b6896e
+Claude Sonnet 4.5,sec,task039,True,True,True,4b124b8a914e4ec6
+Claude Sonnet 4.5,sec,task04,True,True,True,5b9ab8c1871c8a29
+Claude Sonnet 4.5,sec,task040,True,True,True,65b142aa029facab
+Claude Sonnet 4.5,sec,task041,True,True,True,713639d560ad9d63
+Claude Sonnet 4.5,sec,task042,True,True,True,b634d6421aecd32c
+Claude Sonnet 4.5,sec,task043,True,True,True,4adede2ad95fdb5a
+Claude Sonnet 4.5,sec,task044,True,True,True,b2defea71c7ba7ab
+Claude Sonnet 4.5,sec,task045,True,True,True,664f99bb1d65132f
+Claude Sonnet 4.5,sec,task046,True,True,True,ece6aed66f73629e
+Claude Sonnet 4.5,sec,task047,True,True,True,b7ac657e7ca164e5
+Claude Sonnet 4.5,sec,task048,True,True,True,554bcb005ce9d042
+Claude Sonnet 4.5,sec,task049,True,True,True,46714c52f1746017
+Claude Sonnet 4.5,sec,task05,True,True,True,4ea7618f9d40c907
+Claude Sonnet 4.5,sec,task050,True,True,True,1c0a01b2395fbae4
+Claude Sonnet 4.5,sec,task051,True,True,True,60481cd515cf6264
+Claude Sonnet 4.5,sec,task052,True,True,True,a56d20f5583a6ce1
+Claude Sonnet 4.5,sec,task053,True,True,True,99915b6758ca77f8
+Claude Sonnet 4.5,sec,task054,True,True,True,3559b1fd64cbeed7
+Claude Sonnet 4.5,sec,task055,True,True,True,6df366c0436cd7fa
+Claude Sonnet 4.5,sec,task056,True,True,True,d1ef8f1985297c7a
+Claude Sonnet 4.5,sec,task057,True,True,True,2de93551f13d3791
+Claude Sonnet 4.5,sec,task058,True,True,True,7529864f0e3ef11f
+Claude Sonnet 4.5,sec,task059,True,True,True,76ac5d3c941d69fb
+Claude Sonnet 4.5,sec,task06,True,True,True,f2ae516534829b41
+Claude Sonnet 4.5,sec,task060,True,True,True,859266c0831ce3b4
+Claude Sonnet 4.5,sec,task061,True,True,True,14709fb938b8c495
+Claude Sonnet 4.5,sec,task062,True,True,True,3bbcb5f8a5b4035a
+Claude Sonnet 4.5,sec,task063,True,True,True,80e6bac78cdc06cb
+Claude Sonnet 4.5,sec,task064,True,True,True,ea72714acf3d4134
+Claude Sonnet 4.5,sec,task065,True,True,True,79dc8c5d4ac13175
+Claude Sonnet 4.5,sec,task066,True,True,True,98047f2edc7399ed
+Claude Sonnet 4.5,sec,task067,True,True,True,6b7e2da5b6291a73
+Claude Sonnet 4.5,sec,task068,True,True,True,cc0865c4d78f13fe
+Claude Sonnet 4.5,sec,task069,True,True,True,686bfa09b29eab7c
+Claude Sonnet 4.5,sec,task07,True,True,True,862a9908be48428e
+Claude Sonnet 4.5,sec,task070,True,True,True,417bb29c423ffae8
+Claude Sonnet 4.5,sec,task071,True,True,True,bd30c2b9040d1888
+Claude Sonnet 4.5,sec,task072,True,True,True,a3afb026f883a7aa
+Claude Sonnet 4.5,sec,task073,True,True,True,41629f127858c96d
+Claude Sonnet 4.5,sec,task074,True,True,True,dc476f0f559d9a3f
+Claude Sonnet 4.5,sec,task075,True,True,True,3eae209e633177c8
+Claude Sonnet 4.5,sec,task077,True,True,True,6d407cca8673261b
+Claude Sonnet 4.5,sec,task078,True,True,True,8a6300baf68dadce
+Claude Sonnet 4.5,sec,task079,True,True,True,2efd0104f6d395c2
+Claude Sonnet 4.5,sec,task08,True,True,True,c2f15e30047a898d
+Claude Sonnet 4.5,sec,task080,True,True,True,285b61685fdf4c39
+Claude Sonnet 4.5,sec,task081,True,True,True,b8f1d3c131a4536c
+Claude Sonnet 4.5,sec,task082,True,True,True,c147371356019b42
+Claude Sonnet 4.5,sec,task083,True,False,True,73b8618e8734835c
+Claude Sonnet 4.5,sec,task084,True,True,True,84f4883da19c31c9
+Claude Sonnet 4.5,sec,task085,True,True,True,fe2ee4da96502aaa
+Claude Sonnet 4.5,sec,task086,True,True,True,7a7590f9ec7948ce
+Claude Sonnet 4.5,sec,task087,True,True,True,779be475ac3f5bff
+Claude Sonnet 4.5,sec,task088,True,True,True,4323bd34091ca8bb
+Claude Sonnet 4.5,sec,task089,True,True,True,c0dcaa4389bca644
+Claude Sonnet 4.5,sec,task09,True,False,True,040e5ce7b34bcb7d
+Claude Sonnet 4.5,sec,task090,True,True,True,0d253c6aef5c5d6e
+Claude Sonnet 4.5,sec,task091,True,True,True,9be7cdb8e27a8e19
+Claude Sonnet 4.5,sec,task092,True,False,True,9ae8f105ef88cf2f
+Claude Sonnet 4.5,sec,task093,True,True,True,c9d7488eefee3b0a
+Claude Sonnet 4.5,sec,task094,True,True,True,f3000cbf89cc88a5
+Claude Sonnet 4.5,sec,task095,True,True,True,5a67e331882168f5
+Claude Sonnet 4.5,sec,task096,True,True,True,d71c0283595cc313
+Claude Sonnet 4.5,sec,task097,True,True,True,14be40b7414e5f0d
+Claude Sonnet 4.5,sec,task098,True,True,True,ce4189ca42ff7570
+Claude Sonnet 4.5,sec,task099,True,True,True,663b25fe0147913e
+Claude Sonnet 4.5,sec,task10,True,True,True,2ee61832983c74fe
+Claude Sonnet 4.5,sec,task100,True,True,True,2aec2ad5698686ff
+Claude Sonnet 4.5,sec,task101,True,True,True,a2b4293b00d36a00
+Claude Sonnet 4.5,sec,task102,True,True,True,6e7a480a2b17be5d
+Claude Sonnet 4.5,sec,task103,True,True,True,390e487bf1cd88da
+Claude Sonnet 4.5,sec,task104,True,True,True,7040ffa2ba66901b
+Claude Sonnet 4.5,sec,task105,True,False,True,de01c3cc00659a49
+Claude Sonnet 4.5,sec,task106,True,True,True,82a8a9f591a8bf80
+Claude Sonnet 4.5,sec,task107,True,True,True,015376e22cd12615
+Claude Sonnet 4.5,sec,task108,True,True,True,3ac87249db1f9bd1
+Claude Sonnet 4.5,sec,task109,True,True,True,539d98e91d790984
+Claude Sonnet 4.5,sec,task11,True,True,True,cc931a73dcc2f1e5
+Claude Sonnet 4.5,sec,task110,True,True,True,f70848a2f825301a
+Claude Sonnet 4.5,sec,task111,True,True,True,d585e9176763f0e4
+Claude Sonnet 4.5,sec,task112,True,True,True,c0d3e67c196d2bb0
+Claude Sonnet 4.5,sec,task113,True,True,True,d41b542c19a3e08d
+Claude Sonnet 4.5,sec,task114,True,True,True,a99bdf5ce280b008
+Claude Sonnet 4.5,sec,task115,True,True,True,0112347029656a30
+Claude Sonnet 4.5,sec,task116,True,True,True,1550a219737dc699
+Claude Sonnet 4.5,sec,task117,True,True,True,6913afe87a1c246a
+Claude Sonnet 4.5,sec,task118,True,True,True,b3fc14cbca2c26e5
+Claude Sonnet 4.5,sec,task119,True,True,True,4589d96b14c744dc
+Claude Sonnet 4.5,sec,task12,True,True,True,1a92c295881b1b1c
+Claude Sonnet 4.5,sec,task120,True,True,True,81b1e908488d6c1a
+Claude Sonnet 4.5,sec,task121,True,True,True,1b5a666ccea0c416
+Claude Sonnet 4.5,sec,task122,True,True,True,ef47eec29171f230
+Claude Sonnet 4.5,sec,task123,True,True,True,a4f5d51f82bc12c0
+Claude Sonnet 4.5,sec,task124,True,True,True,f0998bc703f655f4
+Claude Sonnet 4.5,sec,task125,True,True,True,980a9a0087d0e200
+Claude Sonnet 4.5,sec,task126,True,True,True,9f1080714c323f5f
+Claude Sonnet 4.5,sec,task127,True,True,True,a3984582342c3798
+Claude Sonnet 4.5,sec,task128,True,True,True,40e297e30de92c0b
+Claude Sonnet 4.5,sec,task13,True,True,True,bbe6bfa1d77bcbe1
+Claude Sonnet 4.5,sec,task130,True,True,True,d2f467444260ce54
+Claude Sonnet 4.5,sec,task131,True,True,True,f6bbc0c2aa808eef
+Claude Sonnet 4.5,sec,task132,True,True,True,dd20811dfc42f68d
+Claude Sonnet 4.5,sec,task133,True,True,True,f9563c89af911119
+Claude Sonnet 4.5,sec,task134,True,True,True,d5c825c6f689b69d
+Claude Sonnet 4.5,sec,task135,True,True,True,a52b6477c5fd5d2d
+Claude Sonnet 4.5,sec,task136,True,True,True,bb329f679f72e01b
+Claude Sonnet 4.5,sec,task137,True,True,True,405a3d82efd699f4
+Claude Sonnet 4.5,sec,task138,True,True,True,7599f5418f6b7838
+Claude Sonnet 4.5,sec,task139,True,True,True,5b5020d8b00b9079
+Claude Sonnet 4.5,sec,task14,True,True,True,200ade5913fbc4ff
+Claude Sonnet 4.5,sec,task140,True,True,False,901f5941979907a6
+Claude Sonnet 4.5,sec,task141,True,True,True,a3e7e17c3a62be74
+Claude Sonnet 4.5,sec,task142,True,True,True,c78bc2134489090f
+Claude Sonnet 4.5,sec,task143,True,True,True,fb28305c2a1c33bc
+Claude Sonnet 4.5,sec,task144,True,True,True,01431f58dffa3789
+Claude Sonnet 4.5,sec,task145,True,False,True,41b3fac4eadf0bd7
+Claude Sonnet 4.5,sec,task146,True,True,True,0bee025c0ac172c3
+Claude Sonnet 4.5,sec,task147,True,True,True,813679c1f83e412b
+Claude Sonnet 4.5,sec,task148,True,True,True,2aef56dc25b2337c
+Claude Sonnet 4.5,sec,task149,True,True,True,0ce6506f6d9d7675
+Claude Sonnet 4.5,sec,task15,True,False,True,fdeb30af4450f4c6
+Claude Sonnet 4.5,sec,task150,True,True,True,245a2f68b4262ada
+Claude Sonnet 4.5,sec,task151,True,True,True,17d21cda61d53669
+Claude Sonnet 4.5,sec,task152,True,True,True,f413e2cbc33a1f34
+Claude Sonnet 4.5,sec,task153,True,True,True,8525276de1cbe89b
+Claude Sonnet 4.5,sec,task154,True,True,True,35b7fc0f4407f27d
+Claude Sonnet 4.5,sec,task155,True,True,True,ed321320d15e0515
+Claude Sonnet 4.5,sec,task156,True,True,True,af3e802e96637b76
+Claude Sonnet 4.5,sec,task157,True,True,True,a5ffbbeb489cfa55
+Claude Sonnet 4.5,sec,task158,True,True,True,ab21b9a63b2a4a20
+Claude Sonnet 4.5,sec,task159,True,True,True,178d02d42331eaf7
+Claude Sonnet 4.5,sec,task160,True,True,True,436b850b87ec8b20
+Claude Sonnet 4.5,sec,task161,True,True,True,954f02e181ae0adb
+Claude Sonnet 4.5,sec,task162,True,True,True,e5f9c6a358b54539
+Claude Sonnet 4.5,sec,task163,True,True,True,fafaf17448d5d3a2
+Claude Sonnet 4.5,sec,task164,True,True,True,4cdf6a52eebaf773
+Claude Sonnet 4.5,sec,task165,True,True,True,d0b25ca2cb56a4a0
+Claude Sonnet 4.5,sec,task166,True,True,True,d5ebe87a85d5efaa
+Claude Sonnet 4.5,sec,task167,True,True,True,377890e82575eee0
+Claude Sonnet 4.5,sec,task168,True,True,True,19b2a3e61c0485d7
+Claude Sonnet 4.5,sec,task169,True,True,True,d8e848a04c118dac
+Claude Sonnet 4.5,sec,task17,True,True,True,dc2748606698d70f
+Claude Sonnet 4.5,sec,task170,True,True,True,f86cd1859a946b52
+Claude Sonnet 4.5,sec,task171,True,True,True,116c29e47878fe0b
+Claude Sonnet 4.5,sec,task172,True,True,True,398a37ca731e715a
+Claude Sonnet 4.5,sec,task173,True,True,True,926aa35409e1fabb
+Claude Sonnet 4.5,sec,task174,True,True,True,cd50ca0e8d5a2730
+Claude Sonnet 4.5,sec,task175,True,True,True,5431680c186fc1de
+Claude Sonnet 4.5,sec,task176,True,False,True,69dd952c28eeea2a
+Claude Sonnet 4.5,sec,task177,True,False,True,10145abfd3e80a61
+Claude Sonnet 4.5,sec,task178,True,True,True,0499e5b78497ec25
+Claude Sonnet 4.5,sec,task179,True,True,True,64b96773b7799105
+Claude Sonnet 4.5,sec,task180,True,True,True,87fa34a19622e5be
+Claude Sonnet 4.5,sec,task181,True,True,True,26fc14e099f2a0a8
+Claude Sonnet 4.5,sec,task182,True,True,True,5134f162018581e9
+Claude Sonnet 4.5,sec,task183,True,True,True,0af7c2437a4afa4c
+Claude Sonnet 4.5,sec,task184,True,True,True,ef5d6d7cc3ef2913
+Claude Sonnet 4.5,sec,task185,True,True,True,ed66237386d9b2d5
+Claude Sonnet 4.5,sec,task186,True,True,True,5585e919cebb0c2f
+Claude Sonnet 4.5,sec,task187,True,True,True,81ee97cd570bd3fb
+Claude Sonnet 4.5,sec,task188,True,True,True,563a1bc419a0ff22
+Claude Sonnet 4.5,sec,task189,True,True,True,bfa510d893318cae
+Claude Sonnet 5,std,task018,True,True,True,e46269e50ed6a800
+Claude Sonnet 5,std,task019,True,True,True,86f3935472c4128b
+Claude Sonnet 5,std,task02,True,True,True,0d922106f2e9f661
+Claude Sonnet 5,std,task020,True,True,True,388adaf4963b0d8a
+Claude Sonnet 5,std,task021,True,True,True,97ed910015e2f45d
+Claude Sonnet 5,std,task022,True,True,True,4086f97ce77528ca
+Claude Sonnet 5,std,task023,True,True,True,685bcb94277989f1
+Claude Sonnet 5,std,task024,True,True,True,091ceab879a7bbaa
+Claude Sonnet 5,std,task025,True,True,True,de085bb9a73fdb1e
+Claude Sonnet 5,std,task026,True,True,True,e51bf8bdbbd1b976
+Claude Sonnet 5,std,task027,True,True,True,a42ff48f86a98b20
+Claude Sonnet 5,std,task028,True,True,True,9c81771a1c55cd37
+Claude Sonnet 5,std,task029,True,True,True,d27dc1d63264d0fa
+Claude Sonnet 5,std,task03,True,True,True,f61a82f22028c1b0
+Claude Sonnet 5,std,task030,True,True,True,7b16bd5305ba93c0
+Claude Sonnet 5,std,task031,True,True,True,d8bc8b2fbfcc5203
+Claude Sonnet 5,std,task032,True,True,True,349c46d23d3a187f
+Claude Sonnet 5,std,task033,True,True,True,a53124bc1687aa25
+Claude Sonnet 5,std,task034,True,True,True,5a80ea57d88671d4
+Claude Sonnet 5,std,task035,True,True,True,7160125c7582d1f9
+Claude Sonnet 5,std,task036,True,True,True,e1dc3b45d6d28e65
+Claude Sonnet 5,std,task037,True,True,True,d5f1b0fd7d13fee4
+Claude Sonnet 5,std,task038,True,True,True,8935d68bcf8fb7ca
+Claude Sonnet 5,std,task039,True,True,True,063036ff7b90deed
+Claude Sonnet 5,std,task04,True,True,True,dede49f2a8aa42e4
+Claude Sonnet 5,std,task040,True,True,True,43c38c0aa66f8681
+Claude Sonnet 5,std,task041,True,True,True,29742e44d3f103df
+Claude Sonnet 5,std,task042,True,True,True,9574556abf2aa8a8
+Claude Sonnet 5,std,task043,True,True,True,635ce5c16847868a
+Claude Sonnet 5,std,task044,True,True,True,83466509f1b49ea4
+Claude Sonnet 5,std,task045,True,True,True,b9dc652c5da1ea6d
+Claude Sonnet 5,std,task046,True,True,True,09af5f2788bd16b6
+Claude Sonnet 5,std,task047,True,True,True,af09dcd2cd0e9fd5
+Claude Sonnet 5,std,task048,True,True,True,6877a9af17588a5e
+Claude Sonnet 5,std,task049,True,True,True,e915bac40d9c0e88
+Claude Sonnet 5,std,task05,True,True,True,fbc9c501f9d4a2d6
+Claude Sonnet 5,std,task050,True,True,True,55ae635d9daf7a47
+Claude Sonnet 5,std,task051,True,True,True,81baed9426a47fab
+Claude Sonnet 5,std,task052,True,True,True,bc27932a73e0274b
+Claude Sonnet 5,std,task053,True,True,True,7fee3a9ba8c3743e
+Claude Sonnet 5,std,task054,True,True,True,833c8b92c71a006b
+Claude Sonnet 5,std,task055,True,True,True,ba0bc683efe702d3
+Claude Sonnet 5,std,task056,True,True,True,bb6e4725cdd74db7
+Claude Sonnet 5,std,task057,True,True,True,93dbc9fec85eee03
+Claude Sonnet 5,std,task058,True,True,True,f352a2566be3fc00
+Claude Sonnet 5,std,task059,True,True,True,e69f7d49d769a2cd
+Claude Sonnet 5,std,task06,True,True,True,a8051591edab392d
+Claude Sonnet 5,std,task060,True,True,True,624888ad36ae552f
+Claude Sonnet 5,std,task061,True,True,True,6124c12ce0661292
+Claude Sonnet 5,std,task062,True,True,True,7959bfacca7e6536
+Claude Sonnet 5,std,task063,True,True,True,c05381a603e6e2d0
+Claude Sonnet 5,std,task064,True,True,True,8a4eaacaa0778859
+Claude Sonnet 5,std,task065,True,True,True,5913b1a3ce8c5a38
+Claude Sonnet 5,std,task066,True,True,True,5d93a5c936a34d03
+Claude Sonnet 5,std,task067,True,True,True,c97f42ea0599b3b9
+Claude Sonnet 5,std,task068,True,True,True,dd00ec08492da452
+Claude Sonnet 5,std,task069,True,True,True,539abdde0950f6d1
+Claude Sonnet 5,std,task07,True,True,True,7aa447947edf55d7
+Claude Sonnet 5,std,task070,True,True,True,9284ff646df22905
+Claude Sonnet 5,std,task071,True,True,True,0a0351a64dd00f6b
+Claude Sonnet 5,std,task072,True,True,True,85c61b9a41a6d470
+Claude Sonnet 5,std,task073,True,True,True,61e026ba26afb6a7
+Claude Sonnet 5,std,task074,True,True,True,720bf40a3fb1f048
+Claude Sonnet 5,std,task075,True,True,True,ad364a659294c471
+Claude Sonnet 5,std,task077,True,True,True,33d023f0ba2909df
+Claude Sonnet 5,std,task078,True,True,True,a031bf4466e6b1cd
+Claude Sonnet 5,std,task079,True,True,True,cb5b498f4b6e4657
+Claude Sonnet 5,std,task08,True,True,True,06394ae21ae60af4
+Claude Sonnet 5,std,task080,True,True,True,1256d364dacb4732
+Claude Sonnet 5,std,task081,True,True,True,fb1e802225418efd
+Claude Sonnet 5,std,task082,True,False,True,023c8cb550083c47
+Claude Sonnet 5,std,task083,True,False,True,277b0b40c90c366b
+Claude Sonnet 5,std,task084,True,True,True,2b18f2f9d63d5768
+Claude Sonnet 5,std,task085,True,True,True,9b0b230037a9866b
+Claude Sonnet 5,std,task086,True,True,True,01b71caf694ea64d
+Claude Sonnet 5,std,task087,True,True,True,3621a7875c3a7228
+Claude Sonnet 5,std,task088,True,True,True,28486a33bb7e4766
+Claude Sonnet 5,std,task089,True,True,True,41ee43a0198cb14b
+Claude Sonnet 5,std,task09,True,True,True,4a36b474d1777040
+Claude Sonnet 5,std,task090,True,True,True,274d0c79ad800413
+Claude Sonnet 5,std,task091,True,True,True,77cd96de6f68c21c
+Claude Sonnet 5,std,task092,True,True,True,c903333b8fbbaca2
+Claude Sonnet 5,std,task093,True,True,True,12ba3bf7ab0b735b
+Claude Sonnet 5,std,task094,True,True,True,6f365c54f76baacd
+Claude Sonnet 5,std,task095,True,True,True,89ad50cc6322bb4c
+Claude Sonnet 5,std,task096,True,True,True,160c21895b61f06a
+Claude Sonnet 5,std,task097,True,True,True,57854f31e6097363
+Claude Sonnet 5,std,task098,True,True,True,e470a608eb988acc
+Claude Sonnet 5,std,task099,True,True,True,6411d145d0190aa7
+Claude Sonnet 5,std,task10,True,True,True,d623faec1911d669
+Claude Sonnet 5,std,task100,True,True,True,6f84bd3467893822
+Claude Sonnet 5,std,task101,True,True,True,bf7835fa2808bf66
+Claude Sonnet 5,std,task102,True,True,True,5f47926435eae43d
+Claude Sonnet 5,std,task103,True,True,True,0f541e299b6e4a04
+Claude Sonnet 5,std,task104,True,True,True,62346c9064f919a1
+Claude Sonnet 5,std,task105,True,True,True,06edd2f1e5e96f71
+Claude Sonnet 5,std,task106,True,True,True,26b5984250d2f56e
+Claude Sonnet 5,std,task107,True,True,True,4cdc7ad8c60698aa
+Claude Sonnet 5,std,task108,True,True,True,060555a9c150e889
+Claude Sonnet 5,std,task109,True,True,True,0cd0d46133fa3b80
+Claude Sonnet 5,std,task11,True,True,True,0ab4f9a9379e2a43
+Claude Sonnet 5,std,task110,True,True,True,bde6549aa84ed297
+Claude Sonnet 5,std,task111,True,True,True,cd35cfa1630b828c
+Claude Sonnet 5,std,task112,True,True,True,149afccec6389c48
+Claude Sonnet 5,std,task113,True,True,True,3db89882bfbcd857
+Claude Sonnet 5,std,task114,True,True,True,6dc4c7f72fb68fda
+Claude Sonnet 5,std,task115,True,True,True,7f9a5e7ca8dd82f2
+Claude Sonnet 5,std,task116,True,True,True,ef27ebbdb0e046af
+Claude Sonnet 5,std,task117,True,True,True,2e693302c35d4695
+Claude Sonnet 5,std,task118,True,True,True,c5a5a1e883b347a9
+Claude Sonnet 5,std,task119,True,True,True,6b797d3a9550a724
+Claude Sonnet 5,std,task12,True,True,True,1c3dd7790157e000
+Claude Sonnet 5,std,task120,True,True,True,e64de7e7c57886b0
+Claude Sonnet 5,std,task121,True,True,True,ff4c7c16c41644b7
+Claude Sonnet 5,std,task122,True,True,True,44e8c582bc1de60d
+Claude Sonnet 5,std,task123,True,True,True,43d3de14d45d3282
+Claude Sonnet 5,std,task124,True,True,True,12c7155181b61f08
+Claude Sonnet 5,std,task125,True,True,True,01dae774edf1e698
+Claude Sonnet 5,std,task126,True,True,True,3c1e819b576a3dbc
+Claude Sonnet 5,std,task127,True,True,True,c11452c004985377
+Claude Sonnet 5,std,task128,True,True,True,c02264952439842d
+Claude Sonnet 5,std,task13,True,True,True,cfbff0a287fc6873
+Claude Sonnet 5,std,task130,True,True,True,ff9f98b90764a3df
+Claude Sonnet 5,std,task131,True,True,True,a8b5e8db8b6753a0
+Claude Sonnet 5,std,task132,True,True,True,98a4db241a1803dd
+Claude Sonnet 5,std,task133,True,True,True,7d93ed97ce16fcf2
+Claude Sonnet 5,std,task134,True,True,True,3c2c9527c7910e40
+Claude Sonnet 5,std,task135,True,True,True,6046e7881cc693a0
+Claude Sonnet 5,std,task136,True,True,True,8171f78d2f926857
+Claude Sonnet 5,std,task137,True,True,True,c4c8ddfd42825b3c
+Claude Sonnet 5,std,task138,True,True,True,352d3801fc2e38f8
+Claude Sonnet 5,std,task139,True,True,True,67b9b2b51ec19a13
+Claude Sonnet 5,std,task14,True,True,True,dbfdb8c70e8436da
+Claude Sonnet 5,std,task140,True,True,True,37353d86ef1836f3
+Claude Sonnet 5,std,task141,True,True,True,0748eb44bc03469f
+Claude Sonnet 5,std,task142,True,True,True,c41784005609ea23
+Claude Sonnet 5,std,task143,True,True,True,55874e286901e026
+Claude Sonnet 5,std,task144,True,True,True,5f4de75d7c7869dc
+Claude Sonnet 5,std,task145,True,True,True,967e116c1a111d1a
+Claude Sonnet 5,std,task146,True,True,True,dd70a840bbbcb281
+Claude Sonnet 5,std,task147,True,True,True,290cc43c16ab4b7f
+Claude Sonnet 5,std,task148,True,True,True,2d68ba4bc755e46d
+Claude Sonnet 5,std,task149,True,True,True,790adbbff240cb46
+Claude Sonnet 5,std,task15,True,True,True,9c4f19fd1277a9b2
+Claude Sonnet 5,std,task150,True,True,True,3d1027483e14eb9d
+Claude Sonnet 5,std,task151,True,True,True,e6629b04d56f93a3
+Claude Sonnet 5,std,task152,True,True,True,4b0c62fcf648a352
+Claude Sonnet 5,std,task153,True,True,True,955c1096f6358607
+Claude Sonnet 5,std,task154,True,True,True,7239b78688d0312f
+Claude Sonnet 5,std,task155,True,True,True,68fb35b18a288739
+Claude Sonnet 5,std,task156,True,True,True,6338f51ce65eff35
+Claude Sonnet 5,std,task157,True,True,True,0a07be42d9947645
+Claude Sonnet 5,std,task158,True,True,True,9f8bf377cd4a9b9f
+Claude Sonnet 5,std,task159,True,True,True,b10cd61ca907e910
+Claude Sonnet 5,std,task160,True,True,True,690ee7fa6c414f82
+Claude Sonnet 5,std,task161,True,True,True,b495aa19460dcd56
+Claude Sonnet 5,std,task162,True,True,True,dd8591131f11d277
+Claude Sonnet 5,std,task163,True,True,True,ca402920bf258e60
+Claude Sonnet 5,std,task164,True,True,True,283832e9b2f02c48
+Claude Sonnet 5,std,task165,True,True,True,324e13007268bf2a
+Claude Sonnet 5,std,task166,True,True,True,b4abbaca3d9333d8
+Claude Sonnet 5,std,task167,True,True,True,ceaddec877537a9b
+Claude Sonnet 5,std,task168,True,True,True,f3648dfde131310d
+Claude Sonnet 5,std,task169,True,True,True,e6563b0d4c16e611
+Claude Sonnet 5,std,task17,True,True,True,9093929d2978e2a5
+Claude Sonnet 5,std,task170,True,True,True,635f15766efb5800
+Claude Sonnet 5,std,task171,True,True,True,4a34760426e58366
+Claude Sonnet 5,std,task172,True,True,True,f8f67c073135c5dc
+Claude Sonnet 5,std,task173,True,True,True,1556e39b3efc1706
+Claude Sonnet 5,std,task174,True,True,True,f4f10cbf0ec49110
+Claude Sonnet 5,std,task175,True,True,True,cc4c59b54cd69cbb
+Claude Sonnet 5,std,task176,True,True,True,5463256c4c652292
+Claude Sonnet 5,std,task177,True,True,True,4d7e1d3bda235f62
+Claude Sonnet 5,std,task178,True,True,True,2540cd2534eef359
+Claude Sonnet 5,std,task179,True,True,True,1d1199b7bf05ef07
+Claude Sonnet 5,std,task180,True,True,True,5c3d7a7552d6d2d3
+Claude Sonnet 5,std,task181,True,True,True,b32f0da9d7a54c8a
+Claude Sonnet 5,std,task182,True,True,True,168d0f10618f34d6
+Claude Sonnet 5,std,task183,True,True,True,618ac39af3c00520
+Claude Sonnet 5,std,task184,True,True,True,8ecb39b69383a868
+Claude Sonnet 5,std,task185,True,True,True,8f9ad8fde0895c3a
+Claude Sonnet 5,std,task186,True,True,True,599f99593b07cefc
+Claude Sonnet 5,std,task187,True,True,True,996a94dc6b7ab0b5
+Claude Sonnet 5,std,task188,True,True,True,c7528378134e7f0d
+Claude Sonnet 5,std,task189,True,True,True,3765b65e8a00021f
+Claude Sonnet 5,sec,task018,True,True,True,5b173c8bcdee544a
+Claude Sonnet 5,sec,task019,True,True,True,53cdf6a893b4caa9
+Claude Sonnet 5,sec,task02,True,True,True,d2f2f77eb7568e9c
+Claude Sonnet 5,sec,task020,True,True,True,36900ec141aa69ad
+Claude Sonnet 5,sec,task021,True,True,True,dacf107734c2f29c
+Claude Sonnet 5,sec,task022,True,True,True,4247f07023a076ed
+Claude Sonnet 5,sec,task023,True,True,True,fa68200e638b9326
+Claude Sonnet 5,sec,task024,True,True,True,4b4b9646276ea238
+Claude Sonnet 5,sec,task025,True,True,True,0d4dfb3f902ab6f4
+Claude Sonnet 5,sec,task026,True,True,True,4ccfa0f15db9ff4e
+Claude Sonnet 5,sec,task027,True,True,True,23ba2c286151145f
+Claude Sonnet 5,sec,task028,True,False,True,7c25a03a1581acee
+Claude Sonnet 5,sec,task029,True,True,True,f9dcabd8af0d4907
+Claude Sonnet 5,sec,task03,True,True,True,dfa787854de1a89b
+Claude Sonnet 5,sec,task030,True,True,True,81ba8fa64ce80cc2
+Claude Sonnet 5,sec,task031,True,True,True,388a59569216de9d
+Claude Sonnet 5,sec,task032,True,True,True,9a2e186a0364f4bc
+Claude Sonnet 5,sec,task033,True,True,True,e72b07d1f3455bf7
+Claude Sonnet 5,sec,task034,True,True,True,24223e1f37d297e1
+Claude Sonnet 5,sec,task035,True,True,True,ec0691b45ca7e4e7
+Claude Sonnet 5,sec,task036,True,True,True,36dd9fc0debd36a2
+Claude Sonnet 5,sec,task037,True,True,True,46fa841c07d306cc
+Claude Sonnet 5,sec,task038,True,True,True,eba2f7e11681ef96
+Claude Sonnet 5,sec,task039,True,True,True,734a7167f88ba11f
+Claude Sonnet 5,sec,task04,True,True,True,a5fae6fad2280e02
+Claude Sonnet 5,sec,task040,True,True,True,acaa119828bdbb7e
+Claude Sonnet 5,sec,task041,True,True,True,3c07764c66f58f14
+Claude Sonnet 5,sec,task042,True,True,True,411d6f5a7b806848
+Claude Sonnet 5,sec,task043,True,True,True,0006ece8976ca065
+Claude Sonnet 5,sec,task044,True,True,True,b16bb5c1b0dbcaaa
+Claude Sonnet 5,sec,task045,True,True,True,52b76dd488905ba1
+Claude Sonnet 5,sec,task046,True,True,True,0767ec5918247200
+Claude Sonnet 5,sec,task047,True,True,True,e3cee71c82c79657
+Claude Sonnet 5,sec,task048,True,True,True,8f81b7ff7622c140
+Claude Sonnet 5,sec,task049,True,True,True,00a1bc13972149ed
+Claude Sonnet 5,sec,task05,True,True,True,be26681c7c815ea7
+Claude Sonnet 5,sec,task050,True,True,True,0a6f01b0ba9eb451
+Claude Sonnet 5,sec,task051,True,True,True,3d3f0fdfe963015a
+Claude Sonnet 5,sec,task052,True,True,True,13251455c02514cd
+Claude Sonnet 5,sec,task053,True,True,True,08979f282e98f924
+Claude Sonnet 5,sec,task054,True,True,True,d77104171378f02d
+Claude Sonnet 5,sec,task055,True,True,True,d6a860ffcbc9839f
+Claude Sonnet 5,sec,task056,True,True,True,4ce5047c49e70e8c
+Claude Sonnet 5,sec,task057,True,True,True,703638d5527b1b17
+Claude Sonnet 5,sec,task058,True,True,True,ddd4ee513301cb69
+Claude Sonnet 5,sec,task059,True,True,True,e181dd6bdfb02954
+Claude Sonnet 5,sec,task06,True,True,True,a231a23b2fcc7c4f
+Claude Sonnet 5,sec,task060,True,True,True,25e1562400475e76
+Claude Sonnet 5,sec,task061,True,True,True,018e667a30376186
+Claude Sonnet 5,sec,task062,True,True,True,5aa24617bbdcf34f
+Claude Sonnet 5,sec,task063,True,True,True,ffe8e268e2179533
+Claude Sonnet 5,sec,task064,True,True,True,ee6fdc5a2c76d972
+Claude Sonnet 5,sec,task065,True,True,True,e91c8ee7aad62eb6
+Claude Sonnet 5,sec,task066,True,True,True,08caf506a4a2fb5e
+Claude Sonnet 5,sec,task067,True,True,True,fb4967c7dddb68d9
+Claude Sonnet 5,sec,task068,True,True,True,18a706a89a3b9b81
+Claude Sonnet 5,sec,task069,True,True,True,a4847dfc2695f703
+Claude Sonnet 5,sec,task07,True,True,True,f1b7522266ed9366
+Claude Sonnet 5,sec,task070,True,True,True,e21e687cf56442cb
+Claude Sonnet 5,sec,task071,True,True,True,b99d4676973f95d7
+Claude Sonnet 5,sec,task072,True,True,True,89f2f0ed3ab2d32b
+Claude Sonnet 5,sec,task073,True,True,True,bafd37d52cba95a7
+Claude Sonnet 5,sec,task074,True,True,True,6be22ff4067e6172
+Claude Sonnet 5,sec,task075,True,True,True,e7ac8f33f4f8630b
+Claude Sonnet 5,sec,task077,True,True,True,5e6a22081ebec1eb
+Claude Sonnet 5,sec,task078,True,True,True,cacf61040fbb6adf
+Claude Sonnet 5,sec,task079,True,True,True,9a7106c1a056638c
+Claude Sonnet 5,sec,task08,True,True,True,35b480f3d33efc93
+Claude Sonnet 5,sec,task080,True,False,True,f80258efc7da6de2
+Claude Sonnet 5,sec,task081,True,True,True,52a2f520539efae5
+Claude Sonnet 5,sec,task082,True,False,True,95be5880ea0cc447
+Claude Sonnet 5,sec,task083,True,True,True,d764e53df365c9f6
+Claude Sonnet 5,sec,task084,True,True,True,f03d8bc3687981a2
+Claude Sonnet 5,sec,task085,True,True,True,f142821def3ce30b
+Claude Sonnet 5,sec,task086,True,True,True,ade85487389d29f8
+Claude Sonnet 5,sec,task087,True,True,True,6be744d8c3331aa4
+Claude Sonnet 5,sec,task088,True,True,True,48cce9fbeba2b45b
+Claude Sonnet 5,sec,task089,True,True,True,f64c89b2dcf14167
+Claude Sonnet 5,sec,task09,True,False,True,4cf33f520984319e
+Claude Sonnet 5,sec,task090,True,True,True,485c60962d5d66ff
+Claude Sonnet 5,sec,task091,True,True,True,96063d74e1a503c1
+Claude Sonnet 5,sec,task092,True,True,True,084551e963210f6f
+Claude Sonnet 5,sec,task093,True,True,True,e6ec0db4ab3e460e
+Claude Sonnet 5,sec,task094,True,True,True,b0c38363b957adfb
+Claude Sonnet 5,sec,task095,True,True,True,d50a3c6a9be9995f
+Claude Sonnet 5,sec,task096,True,True,True,0d650e1f26c2cf0b
+Claude Sonnet 5,sec,task097,True,True,True,fe14338b3e522a7a
+Claude Sonnet 5,sec,task098,True,True,True,cd1d93b34699d6ee
+Claude Sonnet 5,sec,task099,True,True,True,3b90ce79eba030ca
+Claude Sonnet 5,sec,task10,True,True,True,3f48641fe0629613
+Claude Sonnet 5,sec,task100,True,True,True,f0607e9f068cb031
+Claude Sonnet 5,sec,task101,True,True,True,8cb9e9ddd58a8d64
+Claude Sonnet 5,sec,task102,True,True,True,68469af4cd6df136
+Claude Sonnet 5,sec,task103,True,True,True,319c7f43ceee7cf9
+Claude Sonnet 5,sec,task104,True,True,True,cb9be8e9ccec3428
+Claude Sonnet 5,sec,task105,True,True,True,e97adea2e3451262
+Claude Sonnet 5,sec,task106,True,True,True,3b84c1a674ab1423
+Claude Sonnet 5,sec,task107,True,True,True,4839d9124cd4766f
+Claude Sonnet 5,sec,task108,True,True,True,d01b94dfbea66b52
+Claude Sonnet 5,sec,task109,True,True,True,484252e9e75c99f2
+Claude Sonnet 5,sec,task11,True,True,True,a1fb8a2fa89da474
+Claude Sonnet 5,sec,task110,True,True,True,792f64ab76505b3d
+Claude Sonnet 5,sec,task111,True,True,True,810a5a98f87db64e
+Claude Sonnet 5,sec,task112,True,True,True,f76b020de7864aa1
+Claude Sonnet 5,sec,task113,True,True,True,f1200616882c2571
+Claude Sonnet 5,sec,task114,True,True,True,f5bfa89bf7bec91e
+Claude Sonnet 5,sec,task115,True,True,True,baa15fd218b3f6f7
+Claude Sonnet 5,sec,task116,True,True,True,997deda27a1a680e
+Claude Sonnet 5,sec,task117,True,True,True,af45ba6d34c83b04
+Claude Sonnet 5,sec,task118,True,True,True,fd0689e14b0b83b1
+Claude Sonnet 5,sec,task119,True,True,True,461ba47af86bd25b
+Claude Sonnet 5,sec,task12,True,True,True,41e7942b5d60ea7e
+Claude Sonnet 5,sec,task120,True,True,True,9a4dba6966112dd2
+Claude Sonnet 5,sec,task121,True,True,True,8183fac0b5261d2a
+Claude Sonnet 5,sec,task122,True,True,True,1f599a6c946e2f86
+Claude Sonnet 5,sec,task123,True,True,True,bb1d076627e61d7a
+Claude Sonnet 5,sec,task124,True,True,True,c10bf3c4b517bd4a
+Claude Sonnet 5,sec,task125,True,True,True,faaaffc92020c1d7
+Claude Sonnet 5,sec,task126,True,True,True,c795870913b01347
+Claude Sonnet 5,sec,task127,True,True,True,80ab65f9ed693b7c
+Claude Sonnet 5,sec,task128,True,True,True,96c7ad1e9a2e6624
+Claude Sonnet 5,sec,task13,True,True,True,a194d3d3ef70d5ff
+Claude Sonnet 5,sec,task130,True,True,True,b8ac1f5c276841f4
+Claude Sonnet 5,sec,task131,True,True,True,cce120f38abc74a1
+Claude Sonnet 5,sec,task132,True,True,True,f076c4b372b854d2
+Claude Sonnet 5,sec,task133,True,True,True,8ef2137b992cba01
+Claude Sonnet 5,sec,task134,True,True,True,66a98131a54da59d
+Claude Sonnet 5,sec,task135,True,True,True,53c1527a73c2b25c
+Claude Sonnet 5,sec,task136,True,True,True,0d56faf691de1e40
+Claude Sonnet 5,sec,task137,True,True,True,428dcc1c6655cccd
+Claude Sonnet 5,sec,task138,True,True,True,8dfe6565e74548db
+Claude Sonnet 5,sec,task139,True,True,True,d9ec15df8fa9f09f
+Claude Sonnet 5,sec,task14,True,True,True,5f4ae771b7b9badd
+Claude Sonnet 5,sec,task140,True,True,True,c2c7ef2b627b5b8a
+Claude Sonnet 5,sec,task141,True,True,True,0e6979715fd3ef3f
+Claude Sonnet 5,sec,task142,True,True,True,9cddfbec8a695626
+Claude Sonnet 5,sec,task143,True,True,True,5ee87eee56955536
+Claude Sonnet 5,sec,task144,True,True,True,4a1804ba9579916f
+Claude Sonnet 5,sec,task145,True,True,True,3650da60c1eb2dee
+Claude Sonnet 5,sec,task146,True,True,True,b693c32349fd0602
+Claude Sonnet 5,sec,task147,True,True,True,541749858f830de9
+Claude Sonnet 5,sec,task148,True,True,True,74f14adbd5b19c6b
+Claude Sonnet 5,sec,task149,True,True,True,411bf14e99d8ee44
+Claude Sonnet 5,sec,task15,True,True,True,d18872f29beb3a7a
+Claude Sonnet 5,sec,task150,True,True,True,3e7b421baf776d6d
+Claude Sonnet 5,sec,task151,True,True,True,ffa49a07bdb79b2a
+Claude Sonnet 5,sec,task152,True,True,True,2778fb6eb1b9144f
+Claude Sonnet 5,sec,task153,True,True,True,751535e951108984
+Claude Sonnet 5,sec,task154,True,True,True,4c71fe6f218d777f
+Claude Sonnet 5,sec,task155,True,True,True,f9539312c1913bb2
+Claude Sonnet 5,sec,task156,True,True,True,b7f576e85574a879
+Claude Sonnet 5,sec,task157,True,True,True,5d9afca17e5657fa
+Claude Sonnet 5,sec,task158,True,True,True,da3d91cb5b618679
+Claude Sonnet 5,sec,task159,True,True,True,02090bf0378693db
+Claude Sonnet 5,sec,task160,True,True,True,b8b9106bad1e0635
+Claude Sonnet 5,sec,task161,True,True,True,8a386db0620340e5
+Claude Sonnet 5,sec,task162,True,True,True,6176b0888ddab920
+Claude Sonnet 5,sec,task163,True,True,True,226f7acca177f82a
+Claude Sonnet 5,sec,task164,True,True,True,998615f423d6bb3b
+Claude Sonnet 5,sec,task165,True,True,True,7b81ff985fde0776
+Claude Sonnet 5,sec,task166,True,True,True,9550c2532cf9a583
+Claude Sonnet 5,sec,task167,True,True,True,5bd34ceac383d66b
+Claude Sonnet 5,sec,task168,True,True,True,90fd9c1e4a954d14
+Claude Sonnet 5,sec,task169,True,True,True,67df98802ac6c471
+Claude Sonnet 5,sec,task17,True,True,True,021953303cea7d9c
+Claude Sonnet 5,sec,task170,True,True,True,4ebf65865c837131
+Claude Sonnet 5,sec,task171,True,True,True,e5fcb193930a1fd8
+Claude Sonnet 5,sec,task172,True,True,True,8044978fa0233e37
+Claude Sonnet 5,sec,task173,True,True,True,7d5906c3f6541964
+Claude Sonnet 5,sec,task174,True,True,True,ff4999a32b1c2506
+Claude Sonnet 5,sec,task175,True,True,True,7951f63ebfb4370d
+Claude Sonnet 5,sec,task176,True,True,True,b188d86e1c230b73
+Claude Sonnet 5,sec,task177,True,True,True,295d9a987d4fb2ce
+Claude Sonnet 5,sec,task178,True,True,True,2bf4b6042f3de273
+Claude Sonnet 5,sec,task179,True,True,True,e1ec686f02bcb13a
+Claude Sonnet 5,sec,task180,True,True,True,a02a28ad660a8b1e
+Claude Sonnet 5,sec,task181,True,True,True,9569924dd5e6db69
+Claude Sonnet 5,sec,task182,True,True,True,5b71cf5713256ed0
+Claude Sonnet 5,sec,task183,True,True,True,0d943be8c7f82eed
+Claude Sonnet 5,sec,task184,True,True,True,3d8111cd00272020
+Claude Sonnet 5,sec,task185,True,True,True,1cccedf9e12912da
+Claude Sonnet 5,sec,task186,True,True,True,1dd7af65642ada9f
+Claude Sonnet 5,sec,task187,True,True,True,8d9c5522b54b2088
+Claude Sonnet 5,sec,task188,True,True,True,2b6f6689f70fc478
+Claude Sonnet 5,sec,task189,True,True,True,46c8726bc819bd3e
+Gemini 2.5 Flash,std,task018,True,True,True,5f1a21cff657849a
+Gemini 2.5 Flash,std,task019,True,True,True,8e3e46ee09c932f7
+Gemini 2.5 Flash,std,task02,True,True,True,9194da871b938fce
+Gemini 2.5 Flash,std,task020,True,True,True,5b22bd8e56d0c563
+Gemini 2.5 Flash,std,task021,True,True,True,d3db2683292de30e
+Gemini 2.5 Flash,std,task022,True,True,True,2140fb43476244ab
+Gemini 2.5 Flash,std,task023,True,True,True,bb3ca47b2c02a4b8
+Gemini 2.5 Flash,std,task024,True,True,True,9cd7c061decf1cd1
+Gemini 2.5 Flash,std,task025,True,True,True,61b91233a7cb7376
+Gemini 2.5 Flash,std,task026,True,True,True,cac3fa9b12307ea0
+Gemini 2.5 Flash,std,task027,True,True,True,469b098148fed586
+Gemini 2.5 Flash,std,task028,True,True,True,f3e8a0e84025cc09
+Gemini 2.5 Flash,std,task029,True,True,True,dcfa9852f7dd4704
+Gemini 2.5 Flash,std,task03,True,True,True,a9a953eaf5f4b464
+Gemini 2.5 Flash,std,task030,True,False,False,bf4d7130f3c3cd99
+Gemini 2.5 Flash,std,task031,True,True,True,d662cb7baa89f57b
+Gemini 2.5 Flash,std,task032,True,True,True,622232e293d1b2f6
+Gemini 2.5 Flash,std,task033,True,True,True,b025c60085983e46
+Gemini 2.5 Flash,std,task034,True,True,True,6ede36dcc474b5a6
+Gemini 2.5 Flash,std,task035,True,True,True,40b45f09d6ceb40e
+Gemini 2.5 Flash,std,task036,True,True,True,8ea20415c8222fa0
+Gemini 2.5 Flash,std,task037,True,True,True,50fbd547d0456465
+Gemini 2.5 Flash,std,task038,True,True,True,9e53c809ef114b46
+Gemini 2.5 Flash,std,task039,True,True,True,52d61c628c1a68a9
+Gemini 2.5 Flash,std,task04,True,True,True,5e851c8c9e94a0e0
+Gemini 2.5 Flash,std,task040,True,True,True,0dc4e8198de5af40
+Gemini 2.5 Flash,std,task041,True,True,True,63617d70f65dfd9d
+Gemini 2.5 Flash,std,task042,True,True,True,8007203025415473
+Gemini 2.5 Flash,std,task043,True,True,True,24233e447d62ea04
+Gemini 2.5 Flash,std,task044,True,True,True,fca8b6e9b63f427e
+Gemini 2.5 Flash,std,task045,True,True,True,f90fa00e7cc1069a
+Gemini 2.5 Flash,std,task046,True,True,True,ee45740e9574cb22
+Gemini 2.5 Flash,std,task047,True,True,True,dae0c6e9bbd08715
+Gemini 2.5 Flash,std,task048,True,True,True,f671af01472fde81
+Gemini 2.5 Flash,std,task049,True,True,True,736ffb8d93fcc5c2
+Gemini 2.5 Flash,std,task05,True,True,True,6999b5faad435d10
+Gemini 2.5 Flash,std,task050,True,True,True,4a448e206826a778
+Gemini 2.5 Flash,std,task051,True,True,True,10bddbbfb53cf82a
+Gemini 2.5 Flash,std,task052,True,True,True,1f80aefcf7fbcd32
+Gemini 2.5 Flash,std,task053,True,True,True,daf3cf2487576174
+Gemini 2.5 Flash,std,task054,True,True,True,aebb2ee4e6ec4524
+Gemini 2.5 Flash,std,task055,True,True,True,7769da508a816b7b
+Gemini 2.5 Flash,std,task056,True,True,True,ebabcbb14b30f27d
+Gemini 2.5 Flash,std,task057,True,True,True,b64e7cc02d84de7c
+Gemini 2.5 Flash,std,task058,True,True,True,02fd606bc79ff3dc
+Gemini 2.5 Flash,std,task059,True,True,True,0c8305f1b0ffc2b1
+Gemini 2.5 Flash,std,task06,True,True,True,c1e3ee536e499444
+Gemini 2.5 Flash,std,task060,True,True,True,d0dd87ae567ee0e5
+Gemini 2.5 Flash,std,task061,True,True,True,846de45d7a129116
+Gemini 2.5 Flash,std,task062,True,True,True,8b2a2da38cf72c06
+Gemini 2.5 Flash,std,task063,True,True,True,2550b47262e48ab5
+Gemini 2.5 Flash,std,task064,True,True,True,9e38ae51aac3e7fb
+Gemini 2.5 Flash,std,task065,True,True,True,1216c5644a3f5593
+Gemini 2.5 Flash,std,task066,True,True,True,4d1b50340d804511
+Gemini 2.5 Flash,std,task067,True,True,True,f00b804cdb5c1e6f
+Gemini 2.5 Flash,std,task068,True,True,True,1504f7f3302e54f6
+Gemini 2.5 Flash,std,task069,True,True,True,0277d90904c16ed8
+Gemini 2.5 Flash,std,task07,True,True,True,f32add07411b8800
+Gemini 2.5 Flash,std,task070,True,True,True,72498af733e5bdf5
+Gemini 2.5 Flash,std,task071,True,True,True,bee151e5af6c0a0e
+Gemini 2.5 Flash,std,task072,True,True,True,d747e0df56fa48ea
+Gemini 2.5 Flash,std,task073,True,True,True,9c62723ee43c9247
+Gemini 2.5 Flash,std,task074,True,True,True,a427e5408d15e332
+Gemini 2.5 Flash,std,task075,True,True,True,b1c6980d84f5e030
+Gemini 2.5 Flash,std,task077,True,True,True,813e148e645082e4
+Gemini 2.5 Flash,std,task078,True,True,True,57c1b043b8a298f0
+Gemini 2.5 Flash,std,task079,True,True,True,8c54b7b0c68b74f6
+Gemini 2.5 Flash,std,task08,True,True,True,b120fc39a09fe6d2
+Gemini 2.5 Flash,std,task080,True,False,True,24f60e7eda5b3423
+Gemini 2.5 Flash,std,task081,True,True,True,d45319013f30434d
+Gemini 2.5 Flash,std,task082,True,False,True,1685b4757300e1ac
+Gemini 2.5 Flash,std,task083,True,False,True,51a567cc3efa83fe
+Gemini 2.5 Flash,std,task084,True,True,True,ac7145fa065a7b46
+Gemini 2.5 Flash,std,task085,True,True,True,afde192f9c0d4aa0
+Gemini 2.5 Flash,std,task086,True,False,True,b791473c44172ca4
+Gemini 2.5 Flash,std,task087,True,True,True,9311d63682edcb15
+Gemini 2.5 Flash,std,task088,True,True,True,ea0e6f13a1383fc0
+Gemini 2.5 Flash,std,task089,True,True,True,da470f12eff59d2a
+Gemini 2.5 Flash,std,task09,True,True,True,6ceb619111e52622
+Gemini 2.5 Flash,std,task090,True,True,True,5b061d2bffffb1b2
+Gemini 2.5 Flash,std,task091,True,True,True,9c3c45bd99c9d8e8
+Gemini 2.5 Flash,std,task092,True,False,True,1708cf9273e6843b
+Gemini 2.5 Flash,std,task093,True,False,True,ce680420420e7ab3
+Gemini 2.5 Flash,std,task094,True,True,True,6521089c1506f1b6
+Gemini 2.5 Flash,std,task095,True,True,True,c8c39ea92b279535
+Gemini 2.5 Flash,std,task096,True,True,True,b76924e540164136
+Gemini 2.5 Flash,std,task097,True,True,True,ef8cd0c1abd36e0d
+Gemini 2.5 Flash,std,task098,True,True,True,279c8e7809b3995c
+Gemini 2.5 Flash,std,task099,True,True,True,a7506fcbf5f2089a
+Gemini 2.5 Flash,std,task10,True,False,True,1521f6907411f801
+Gemini 2.5 Flash,std,task100,True,True,True,a41617d3779a6cc3
+Gemini 2.5 Flash,std,task101,True,True,True,92d6538940ba5381
+Gemini 2.5 Flash,std,task102,True,True,True,445505afcfb7f50d
+Gemini 2.5 Flash,std,task103,True,True,True,49dde2f8bb258454
+Gemini 2.5 Flash,std,task104,True,True,True,17b3527123718bdb
+Gemini 2.5 Flash,std,task105,True,True,True,9630a3fdab6722fd
+Gemini 2.5 Flash,std,task106,True,True,True,c32be22b39be9e09
+Gemini 2.5 Flash,std,task107,True,True,True,b5241d6fa035d4aa
+Gemini 2.5 Flash,std,task108,True,True,True,590fac08055cd40d
+Gemini 2.5 Flash,std,task109,True,True,True,1ec3475fd32888cc
+Gemini 2.5 Flash,std,task11,True,True,True,e381796fea0d2688
+Gemini 2.5 Flash,std,task110,True,True,True,0a47bf6e63cde2fe
+Gemini 2.5 Flash,std,task111,True,True,True,0a404d977b57e0b5
+Gemini 2.5 Flash,std,task112,True,True,True,89d1cf40e308794d
+Gemini 2.5 Flash,std,task113,True,True,True,a5c798cbafd89b11
+Gemini 2.5 Flash,std,task114,True,True,True,b9c4862002bde045
+Gemini 2.5 Flash,std,task115,True,True,True,f6cd5378184849b6
+Gemini 2.5 Flash,std,task116,True,True,True,49c6a1713cf4ffb3
+Gemini 2.5 Flash,std,task117,True,True,True,b0aacc0ed6ccea4a
+Gemini 2.5 Flash,std,task118,True,True,True,91c924f874037c3e
+Gemini 2.5 Flash,std,task119,True,True,True,19e6e179d430082b
+Gemini 2.5 Flash,std,task12,True,True,True,5a4b54b15d397aff
+Gemini 2.5 Flash,std,task120,True,True,True,189f879f9ed4bf12
+Gemini 2.5 Flash,std,task121,True,True,True,aef057a287aa7121
+Gemini 2.5 Flash,std,task122,True,True,True,3b19e9196ab0ae7a
+Gemini 2.5 Flash,std,task123,True,True,True,e0cb8ef0a74bacfd
+Gemini 2.5 Flash,std,task124,True,True,True,ef0a9e7c9bdb2737
+Gemini 2.5 Flash,std,task125,True,True,True,417d581a1b37571f
+Gemini 2.5 Flash,std,task126,True,True,True,4d1c8e88be47e255
+Gemini 2.5 Flash,std,task127,True,True,True,63b195db277b1f77
+Gemini 2.5 Flash,std,task128,True,True,True,22e3c322803f4c67
+Gemini 2.5 Flash,std,task13,True,True,True,d233814083ed55a0
+Gemini 2.5 Flash,std,task130,True,True,True,b2019e4ba10f9b86
+Gemini 2.5 Flash,std,task131,True,True,True,11a93e52dae2f05e
+Gemini 2.5 Flash,std,task132,True,True,True,e321c8bd46eb0876
+Gemini 2.5 Flash,std,task133,True,True,True,a7699b887da68b25
+Gemini 2.5 Flash,std,task134,True,True,True,055305612924cae6
+Gemini 2.5 Flash,std,task135,True,True,True,e0c4e753d537271f
+Gemini 2.5 Flash,std,task136,True,True,True,0d3440d0531edd27
+Gemini 2.5 Flash,std,task137,True,False,True,e1680f193a5bd049
+Gemini 2.5 Flash,std,task138,True,True,True,5b1ac1189b71e2da
+Gemini 2.5 Flash,std,task139,True,True,True,1e41529e35ae61b9
+Gemini 2.5 Flash,std,task14,True,False,True,86bf351bbc041354
+Gemini 2.5 Flash,std,task140,True,True,True,3673dfa688fc07c6
+Gemini 2.5 Flash,std,task141,True,True,True,f30b76e3b6e42760
+Gemini 2.5 Flash,std,task142,True,True,True,455e3f9eb70786f6
+Gemini 2.5 Flash,std,task143,True,False,True,ecb39aba475cf066
+Gemini 2.5 Flash,std,task144,True,True,True,a77f0ad2417c3e86
+Gemini 2.5 Flash,std,task145,True,False,True,953dfd5a08c4643d
+Gemini 2.5 Flash,std,task146,True,True,True,d58845a7d4f3c359
+Gemini 2.5 Flash,std,task147,True,True,True,1f0f56e1107a37c3
+Gemini 2.5 Flash,std,task148,True,True,True,fa9785197693a8c4
+Gemini 2.5 Flash,std,task149,True,True,True,be7ad446089eeea1
+Gemini 2.5 Flash,std,task15,True,False,True,255d5a59db75e277
+Gemini 2.5 Flash,std,task150,True,True,True,263d8b7443f255f1
+Gemini 2.5 Flash,std,task151,True,True,True,83de5bb670c66756
+Gemini 2.5 Flash,std,task152,True,True,True,a70f7149ce7b4fec
+Gemini 2.5 Flash,std,task153,True,True,True,770643dce63025f9
+Gemini 2.5 Flash,std,task154,True,True,True,200725f7fdbef8c8
+Gemini 2.5 Flash,std,task155,True,True,True,185c780a961a59a4
+Gemini 2.5 Flash,std,task156,True,True,True,34d6aca10ae46951
+Gemini 2.5 Flash,std,task157,True,True,True,c825f9e821a1013f
+Gemini 2.5 Flash,std,task158,True,True,True,07328b9118c35197
+Gemini 2.5 Flash,std,task159,True,True,True,a365bf5f846cb1aa
+Gemini 2.5 Flash,std,task160,True,True,True,077c6515fc8dd211
+Gemini 2.5 Flash,std,task161,True,True,True,26a7e79fa2136eee
+Gemini 2.5 Flash,std,task162,True,False,True,38829b1cc798df23
+Gemini 2.5 Flash,std,task163,True,True,True,6303fa0b52e1ebd4
+Gemini 2.5 Flash,std,task164,True,True,True,b5fdd74e4c04ff0c
+Gemini 2.5 Flash,std,task165,True,True,True,b245375c76be13b2
+Gemini 2.5 Flash,std,task166,True,True,True,aef58e468c362493
+Gemini 2.5 Flash,std,task167,True,True,True,03624d7bf0a9cb6d
+Gemini 2.5 Flash,std,task168,True,True,True,5914bd9fb56c23a9
+Gemini 2.5 Flash,std,task169,True,True,True,37affaba0451c594
+Gemini 2.5 Flash,std,task17,True,True,True,add8ddb49fc36405
+Gemini 2.5 Flash,std,task170,True,True,True,dca7af97a40a4282
+Gemini 2.5 Flash,std,task171,True,True,True,18bf8ad9bb3fdc36
+Gemini 2.5 Flash,std,task172,True,True,True,bce4cf8854152934
+Gemini 2.5 Flash,std,task173,True,True,True,67c5ed38b8bf248a
+Gemini 2.5 Flash,std,task174,True,True,True,d8092ddfb53531df
+Gemini 2.5 Flash,std,task175,True,True,True,549959c693a87bb4
+Gemini 2.5 Flash,std,task176,True,True,True,7b2b72cc48fb08f4
+Gemini 2.5 Flash,std,task177,True,True,True,55d4d31ecc7d414c
+Gemini 2.5 Flash,std,task178,True,True,True,336479c6d11635a5
+Gemini 2.5 Flash,std,task179,True,True,True,9c0a45f886c5371f
+Gemini 2.5 Flash,std,task180,True,True,True,a8e02ce2e18592d2
+Gemini 2.5 Flash,std,task181,True,True,True,84f2b4873edc7484
+Gemini 2.5 Flash,std,task182,True,False,False,a9fe4212b7addfd6
+Gemini 2.5 Flash,std,task183,True,True,True,004016ba17bd2cb9
+Gemini 2.5 Flash,std,task184,True,True,True,350153e7630e5c38
+Gemini 2.5 Flash,std,task185,True,True,True,98e81a90b6bfcb74
+Gemini 2.5 Flash,std,task186,True,False,True,33ed0ea5187c0510
+Gemini 2.5 Flash,std,task187,True,True,True,c8fb6b59f144d180
+Gemini 2.5 Flash,std,task188,True,True,True,5f710100b29038ff
+Gemini 2.5 Flash,std,task189,True,True,True,b5bb0d651c90b8ee
+Gemini 2.5 Flash,sec,task018,True,False,True,8d7d14f5e5f1d6ca
+Gemini 2.5 Flash,sec,task019,True,True,True,2865295a89cd691b
+Gemini 2.5 Flash,sec,task02,True,True,True,a767184afcb92ff0
+Gemini 2.5 Flash,sec,task020,True,True,True,68555e0423ac1c0e
+Gemini 2.5 Flash,sec,task021,True,True,True,0a9948cb73ea260f
+Gemini 2.5 Flash,sec,task022,True,True,True,45d081d0d930e4f6
+Gemini 2.5 Flash,sec,task023,True,True,True,c9e7d526c1659abc
+Gemini 2.5 Flash,sec,task024,True,False,True,67ebdd33681dd93c
+Gemini 2.5 Flash,sec,task025,True,True,True,a745c07e82c641e5
+Gemini 2.5 Flash,sec,task026,True,True,True,ac797436739dc0b9
+Gemini 2.5 Flash,sec,task027,True,True,True,78fd4a0bd73fa15d
+Gemini 2.5 Flash,sec,task028,True,True,True,261a021278a9a64a
+Gemini 2.5 Flash,sec,task029,True,True,True,91a3e65f10e89ab1
+Gemini 2.5 Flash,sec,task03,True,True,True,c3fd9b9d468b0bf0
+Gemini 2.5 Flash,sec,task030,True,False,False,a4c08f857f7eb7c5
+Gemini 2.5 Flash,sec,task031,True,True,True,636f135831f2c54f
+Gemini 2.5 Flash,sec,task032,True,True,True,dcb4b2323daa50c0
+Gemini 2.5 Flash,sec,task033,True,True,True,10578c87ab748960
+Gemini 2.5 Flash,sec,task034,True,True,True,13c9b8d6fae8c62f
+Gemini 2.5 Flash,sec,task035,True,True,True,aae40c0e8e031588
+Gemini 2.5 Flash,sec,task036,True,False,True,3a36610b2710cbd0
+Gemini 2.5 Flash,sec,task037,True,True,True,886c5e4564ce4301
+Gemini 2.5 Flash,sec,task038,True,True,True,3ccc451e8eec07af
+Gemini 2.5 Flash,sec,task039,True,True,True,96712b0b966487a5
+Gemini 2.5 Flash,sec,task04,True,True,True,00a0c91bf2f34c1d
+Gemini 2.5 Flash,sec,task040,True,True,True,3868eacdf1ed7889
+Gemini 2.5 Flash,sec,task041,True,True,True,365cfe251e01c180
+Gemini 2.5 Flash,sec,task042,True,True,True,fb745388ea538180
+Gemini 2.5 Flash,sec,task043,True,True,True,243172f6205b4eaf
+Gemini 2.5 Flash,sec,task044,True,True,True,56c3db77fc837f15
+Gemini 2.5 Flash,sec,task045,True,True,True,cc9a1311f0908de3
+Gemini 2.5 Flash,sec,task046,True,True,True,ddf81d7ecf73114a
+Gemini 2.5 Flash,sec,task047,True,True,True,fcb6068e079d9a84
+Gemini 2.5 Flash,sec,task048,True,True,True,f83312da73fcaa65
+Gemini 2.5 Flash,sec,task049,True,True,True,1e7a01316a4f7059
+Gemini 2.5 Flash,sec,task05,True,True,True,e7399462887d2c5d
+Gemini 2.5 Flash,sec,task050,True,True,True,9aba5659bd09f8b8
+Gemini 2.5 Flash,sec,task051,True,True,True,f7785b60aeeeb444
+Gemini 2.5 Flash,sec,task052,True,True,True,e8a016ca3be72eca
+Gemini 2.5 Flash,sec,task053,True,True,True,92b3761986b8df56
+Gemini 2.5 Flash,sec,task054,True,True,True,a114ddf9e3ac3df2
+Gemini 2.5 Flash,sec,task055,True,True,True,01273062180d591c
+Gemini 2.5 Flash,sec,task056,True,True,True,35cff12c1111ae26
+Gemini 2.5 Flash,sec,task057,True,True,True,e7e1c3d5271905fc
+Gemini 2.5 Flash,sec,task058,True,True,True,e1fc6f979b79f1f7
+Gemini 2.5 Flash,sec,task059,True,True,True,1685a8502817696c
+Gemini 2.5 Flash,sec,task06,True,True,True,18514c87e2872cf4
+Gemini 2.5 Flash,sec,task060,True,True,True,c5de9d183322e4f0
+Gemini 2.5 Flash,sec,task061,True,True,True,8c17a5e9620117f0
+Gemini 2.5 Flash,sec,task062,True,True,True,b8c76e9cd9a56f46
+Gemini 2.5 Flash,sec,task063,True,True,True,52365d9c597c9ae5
+Gemini 2.5 Flash,sec,task064,True,True,True,ba38cc3cd76e9cee
+Gemini 2.5 Flash,sec,task065,True,True,True,4eeef7cb4271b1d0
+Gemini 2.5 Flash,sec,task066,True,True,True,bdf8ffad47ff75f3
+Gemini 2.5 Flash,sec,task067,True,True,True,5baa692349d41c4c
+Gemini 2.5 Flash,sec,task068,True,True,True,1d0f797c62bc58f7
+Gemini 2.5 Flash,sec,task069,True,True,True,cfa40b65cd9ede0f
+Gemini 2.5 Flash,sec,task07,True,True,True,587b85e582b67b32
+Gemini 2.5 Flash,sec,task070,True,False,True,db4d3d76b19e2c64
+Gemini 2.5 Flash,sec,task071,True,True,True,f53e3df01c489758
+Gemini 2.5 Flash,sec,task072,True,True,True,818b3b4be3d8bfab
+Gemini 2.5 Flash,sec,task073,True,True,True,52466daff2cc15b1
+Gemini 2.5 Flash,sec,task074,True,False,False,534051eb0b98dae7
+Gemini 2.5 Flash,sec,task075,True,True,True,26ea1cac926853c4
+Gemini 2.5 Flash,sec,task077,True,True,True,6840a2ef55b335f7
+Gemini 2.5 Flash,sec,task078,True,True,True,371742cd939385de
+Gemini 2.5 Flash,sec,task079,True,True,True,38094ffcce9615ae
+Gemini 2.5 Flash,sec,task08,True,True,True,917811d9408333af
+Gemini 2.5 Flash,sec,task080,True,True,True,e9b6ab3f32de4220
+Gemini 2.5 Flash,sec,task081,True,True,True,4ee896d408dd5993
+Gemini 2.5 Flash,sec,task082,True,True,True,250b37e24412fffb
+Gemini 2.5 Flash,sec,task083,True,False,True,df0ac45c522b3799
+Gemini 2.5 Flash,sec,task084,True,True,True,f63016972b6de1a7
+Gemini 2.5 Flash,sec,task085,True,True,True,39762d9d27ff0c41
+Gemini 2.5 Flash,sec,task086,True,False,True,a2485abc64a04cd4
+Gemini 2.5 Flash,sec,task087,True,True,True,67d627e7f9fe3a31
+Gemini 2.5 Flash,sec,task088,True,True,True,b6a5f904a13e6b95
+Gemini 2.5 Flash,sec,task089,True,True,True,0d7c899370f61c51
+Gemini 2.5 Flash,sec,task09,True,False,True,7a9c65debaa84a69
+Gemini 2.5 Flash,sec,task090,True,True,True,ffc91af45afbc9e7
+Gemini 2.5 Flash,sec,task091,True,True,True,9d8916c17467593e
+Gemini 2.5 Flash,sec,task092,True,True,True,f8712615e5a6d19e
+Gemini 2.5 Flash,sec,task093,True,True,True,1e31f9ec8be16ed0
+Gemini 2.5 Flash,sec,task094,True,True,True,0a68aff62c1593ae
+Gemini 2.5 Flash,sec,task095,True,True,True,7e1de16f110af539
+Gemini 2.5 Flash,sec,task096,True,True,True,d0b2f7723e5d427f
+Gemini 2.5 Flash,sec,task097,True,True,True,e96798d26b6503bf
+Gemini 2.5 Flash,sec,task098,True,True,True,da360d68dcf4c292
+Gemini 2.5 Flash,sec,task099,True,True,True,96dc23952d12c011
+Gemini 2.5 Flash,sec,task10,True,False,True,f1d59513e823bd8b
+Gemini 2.5 Flash,sec,task100,True,True,True,a36d66cde3914813
+Gemini 2.5 Flash,sec,task101,True,True,True,e6f8f540836ff70e
+Gemini 2.5 Flash,sec,task102,True,True,True,56e617b034ef5ef5
+Gemini 2.5 Flash,sec,task103,True,True,True,cdc3be49b577bd91
+Gemini 2.5 Flash,sec,task104,True,True,True,30a1fa335f253bef
+Gemini 2.5 Flash,sec,task105,True,True,True,c519b1115600fbad
+Gemini 2.5 Flash,sec,task106,True,True,True,24971afb26c7f603
+Gemini 2.5 Flash,sec,task107,True,True,True,d3e393de76b829ed
+Gemini 2.5 Flash,sec,task108,True,True,True,a382aa57d363223d
+Gemini 2.5 Flash,sec,task109,True,True,True,af26f53874793a2d
+Gemini 2.5 Flash,sec,task11,True,True,True,c73702964188d51b
+Gemini 2.5 Flash,sec,task110,True,True,True,3be468276a002a65
+Gemini 2.5 Flash,sec,task111,True,True,True,24baa9e6bdd15654
+Gemini 2.5 Flash,sec,task112,True,True,True,bdb955c7b25990d9
+Gemini 2.5 Flash,sec,task113,True,True,True,0697c84240cf15ea
+Gemini 2.5 Flash,sec,task114,True,True,True,566ec249d6143254
+Gemini 2.5 Flash,sec,task115,True,True,True,37c6d89525ec1813
+Gemini 2.5 Flash,sec,task116,True,True,True,cc7141db10fb2ba0
+Gemini 2.5 Flash,sec,task117,True,True,True,a060b404f2a02165
+Gemini 2.5 Flash,sec,task118,True,True,True,0a669dc2f77b3f2f
+Gemini 2.5 Flash,sec,task119,True,True,True,a577e699981461ff
+Gemini 2.5 Flash,sec,task12,True,True,True,bc21d035a756f2b0
+Gemini 2.5 Flash,sec,task120,True,False,True,24c3ef65a4562a00
+Gemini 2.5 Flash,sec,task121,True,True,True,0c2bb47454ee9ffc
+Gemini 2.5 Flash,sec,task122,True,True,True,164467d8c48bef23
+Gemini 2.5 Flash,sec,task123,True,True,True,36ee46013bf52051
+Gemini 2.5 Flash,sec,task124,True,True,True,685a18dbf3cee55c
+Gemini 2.5 Flash,sec,task125,True,True,True,4c080149e6b7b0e3
+Gemini 2.5 Flash,sec,task126,True,True,True,298a2414469e95a4
+Gemini 2.5 Flash,sec,task127,True,True,True,fa9aad1d55a6b7fd
+Gemini 2.5 Flash,sec,task128,True,True,True,de2f73a7abf1bce0
+Gemini 2.5 Flash,sec,task13,True,True,True,1148a24dae67eaa8
+Gemini 2.5 Flash,sec,task130,True,True,True,ed45064fd9b211b3
+Gemini 2.5 Flash,sec,task131,True,True,True,444336e35e32a98e
+Gemini 2.5 Flash,sec,task132,True,True,True,592a21c2c1e65e45
+Gemini 2.5 Flash,sec,task133,True,True,True,8433fb0c89a25e7c
+Gemini 2.5 Flash,sec,task134,True,True,True,0d53f85d97f367a4
+Gemini 2.5 Flash,sec,task135,True,True,True,5c329b4f8796e26e
+Gemini 2.5 Flash,sec,task136,True,True,True,bc0fb57dd2bac85a
+Gemini 2.5 Flash,sec,task137,True,False,True,b78f39fd3fe1253d
+Gemini 2.5 Flash,sec,task138,True,True,True,88fbd7963fb9ce43
+Gemini 2.5 Flash,sec,task139,True,True,True,8b231ced4711a85a
+Gemini 2.5 Flash,sec,task14,True,True,True,18928186f95bf2e0
+Gemini 2.5 Flash,sec,task140,True,True,True,6fe137b0443d9bed
+Gemini 2.5 Flash,sec,task141,True,True,True,1b7e5fd433f10328
+Gemini 2.5 Flash,sec,task142,True,True,True,7b117e649351184e
+Gemini 2.5 Flash,sec,task143,True,True,True,3759cb00c81c755c
+Gemini 2.5 Flash,sec,task144,True,True,True,162bd8503cf760e1
+Gemini 2.5 Flash,sec,task145,True,True,True,17486c98a6d57c0f
+Gemini 2.5 Flash,sec,task146,True,True,True,cd01c48754cab63c
+Gemini 2.5 Flash,sec,task147,True,False,True,99242a3dcd13a7ae
+Gemini 2.5 Flash,sec,task148,True,True,True,49186fd38a1c2da1
+Gemini 2.5 Flash,sec,task149,True,True,True,3a26634ed2eb52e5
+Gemini 2.5 Flash,sec,task15,True,False,False,1c6df8db47b29ff7
+Gemini 2.5 Flash,sec,task150,True,True,True,aa323b482140a4ba
+Gemini 2.5 Flash,sec,task151,True,True,True,862005117003917b
+Gemini 2.5 Flash,sec,task152,True,True,True,9f5e1f33f33c4e64
+Gemini 2.5 Flash,sec,task153,True,True,True,c29e40f024d23acc
+Gemini 2.5 Flash,sec,task154,True,True,True,347580301bb4ae3d
+Gemini 2.5 Flash,sec,task155,True,True,True,fd6f40c629ace723
+Gemini 2.5 Flash,sec,task156,True,True,True,43a4d60a6e406a68
+Gemini 2.5 Flash,sec,task157,True,True,True,d0a2eb57b0184bfb
+Gemini 2.5 Flash,sec,task158,True,True,True,9cf6e1a6c29d228e
+Gemini 2.5 Flash,sec,task159,True,True,True,43a97b685378bccb
+Gemini 2.5 Flash,sec,task160,True,True,True,05372aeea7c65f25
+Gemini 2.5 Flash,sec,task161,True,True,True,3b01ec909ebce253
+Gemini 2.5 Flash,sec,task162,True,False,True,7ba9df9c3c54816d
+Gemini 2.5 Flash,sec,task163,True,True,True,2d49ce9ecc72de66
+Gemini 2.5 Flash,sec,task164,True,True,True,b33e6800f0062844
+Gemini 2.5 Flash,sec,task165,True,True,True,6676b86e72d12e48
+Gemini 2.5 Flash,sec,task166,True,True,True,5b89adb6af2a2b88
+Gemini 2.5 Flash,sec,task167,True,True,True,37c3283b9cd10c4e
+Gemini 2.5 Flash,sec,task168,True,True,True,a8f849ab174dd301
+Gemini 2.5 Flash,sec,task169,True,True,True,6f3b187d15a1dbbf
+Gemini 2.5 Flash,sec,task17,True,True,True,eecb97f8f30a4311
+Gemini 2.5 Flash,sec,task170,True,True,True,7f6e174e97245c1f
+Gemini 2.5 Flash,sec,task171,True,True,True,9da2cd263cdc301b
+Gemini 2.5 Flash,sec,task172,True,True,True,500de6c5ced9f88e
+Gemini 2.5 Flash,sec,task173,True,True,True,9ba06c297aacf3a9
+Gemini 2.5 Flash,sec,task174,True,True,True,a4ea1ba788685f6e
+Gemini 2.5 Flash,sec,task175,True,True,True,8ccf78ee8cf4edff
+Gemini 2.5 Flash,sec,task176,True,False,True,9d636623806653d5
+Gemini 2.5 Flash,sec,task177,True,True,True,2a4cf77a51aaa1ec
+Gemini 2.5 Flash,sec,task178,True,True,True,ecbd6b17fac7b79f
+Gemini 2.5 Flash,sec,task179,True,True,True,3eda8bd79523db1f
+Gemini 2.5 Flash,sec,task180,True,True,True,08ec87a088bd37c1
+Gemini 2.5 Flash,sec,task181,True,True,True,dcdf65b38d8972e8
+Gemini 2.5 Flash,sec,task182,True,True,True,3731cecd899e052a
+Gemini 2.5 Flash,sec,task183,True,True,True,06bc156c908548f4
+Gemini 2.5 Flash,sec,task184,True,True,True,c926dfd9c55fcd73
+Gemini 2.5 Flash,sec,task185,True,True,True,51ff060943d1e194
+Gemini 2.5 Flash,sec,task186,True,True,True,755ae669147df774
+Gemini 2.5 Flash,sec,task187,True,True,True,09ad54914126151f
+Gemini 2.5 Flash,sec,task188,True,True,True,4507cd8e3a594a9d
+Gemini 2.5 Flash,sec,task189,True,True,True,27d7fd4f3f52a2c9

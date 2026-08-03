@@ -1,0 +1,26 @@
+# src/solution.py
+
+import math
+
+def pearson_r(x, y):
+    if len(x) != len(y):
+        raise ValueError("Input lists must have the same length.")
+    if len(x) < 2:
+        raise ValueError("Input lists must have at least two elements.")
+    
+    n = len(x)
+    
+    mean_x = sum(x) / n
+    mean_y = sum(y) / n
+    
+    sum_x_diff_sq = sum((xi - mean_x) ** 2 for xi in x)
+    sum_y_diff_sq = sum((yi - mean_y) ** 2 for yi in y)
+    
+    if sum_x_diff_sq == 0 or sum_y_diff_sq == 0:
+        raise ValueError("Input lists must not have zero variance.")
+    
+    covariance = sum((x[i] - mean_x) * (y[i] - mean_y) for i in range(n))
+    
+    correlation = covariance / math.sqrt(sum_x_diff_sq * sum_y_diff_sq)
+    
+    return round(correlation, 4)

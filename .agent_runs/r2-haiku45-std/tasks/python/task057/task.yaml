@@ -1,0 +1,11 @@
+title: JSON File Merge
+description: |
+  merge_json_files(paths, output) reads the list of UTF-8 JSON files in `paths` (each must
+  contain a JSON object) and writes their merge to `output` as JSON.
+  The merge is SHALLOW: only top-level keys are combined. When the same top-level key appears
+  in more than one file, the value from the later file in the list replaces the earlier value
+  entirely, even if both values are themselves objects (no deep/recursive merge). Files are
+  applied in list order, so the last file has highest precedence.
+  Raises ValueError if any file's top-level JSON value is not an object.
+  An empty `paths` list writes an empty object {}.
+  Example: merge_json_files(["a.json","b.json"], "merged.json")

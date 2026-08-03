@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.061" timestamp="2026-08-01T13:26:08.871641+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.001"><failure message="assert 3 == 1">def test_basic():
+        result = text_stats("Hello world.")
+        assert result["word_count"] == 2
+&gt;       assert result["sentence_count"] == 1
+E       assert 3 == 1
+
+tests_hidden/test_solution.py:7: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_multiple_sentences" time="0.001"><failure message="assert 5 == 3">def test_multiple_sentences():
+        result = text_stats("Hello. How are you? I am fine!")
+&gt;       assert result["sentence_count"] == 3
+E       assert 5 == 3
+
+tests_hidden/test_solution.py:13: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_avg_word_length_keeps_punctuation" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_word_count" time="0.000" /></testsuite></testsuites>

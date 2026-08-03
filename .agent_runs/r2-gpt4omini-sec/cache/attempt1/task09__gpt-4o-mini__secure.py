@@ -1,0 +1,23 @@
+# src/solution.py
+
+from collections import Counter
+import re
+
+def top_k_words(text: str, k: int) -> list:
+    # Validate inputs
+    if not isinstance(text, str):
+        raise ValueError("text must be a string")
+    if not isinstance(k, int) or k < 0:
+        raise ValueError("k must be a non-negative integer")
+    
+    # Normalize the text: convert to lowercase and extract alphanumeric tokens
+    words = re.findall(r'\b\w+\b', text.lower())
+    
+    # Count the frequency of each word
+    word_count = Counter(words)
+    
+    # Sort the words first by frequency (descending) and then lexicographically (ascending)
+    sorted_words = sorted(word_count.items(), key=lambda item: (-item[1], item[0]))
+    
+    # Return the top k words
+    return sorted_words[:k]

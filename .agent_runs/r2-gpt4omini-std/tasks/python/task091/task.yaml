@@ -1,0 +1,2 @@
+title: Thread-Safe Counter
+description: AtomicCounter(initial=0) class with increment()->int, decrement()->int, value()->int. All operations are thread-safe. Raises ValueError if initial < 0. Example: c=AtomicCounter(); c.increment() -> 1; c.decrement() -> 0

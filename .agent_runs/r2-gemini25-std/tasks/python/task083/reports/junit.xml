@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.157" timestamp="2026-08-01T13:31:25.934056+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.021" /><testcase classname="tests_hidden.test_solution" name="test_empty_list" time="0.005" /><testcase classname="tests_hidden.test_solution" name="test_tables_persist_from_fresh_connection" time="0.020" /><testcase classname="tests_hidden.test_solution" name="test_rollback_on_error" time="0.041"><failure message="AssertionError: assert 't' not in ['t']">tmp_path = PosixPath('/private/var/folders/fn/p40fby0533x1sl2751jqbnjh0000gr/T/pytest-of-dmd868/pytest-18690/test_rollback_on_error0')
+
+    def test_rollback_on_error(tmp_path):
+        db = str(tmp_path / "db.sqlite")
+        try:
+            run_migrations(db, ["CREATE TABLE t (x INT)", "BAD SQL"])
+        except RuntimeError:
+            pass
+        with sqlite3.connect(db) as conn:
+            tables = [
+                r[0]
+                for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table'")
+            ]
+&gt;       assert "t" not in tables
+E       AssertionError: assert 't' not in ['t']
+
+tests_hidden/test_solution.py:49: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,2 @@
+title: Parse INI-Style Config
+description: parse_config(path) parses [section] key=value files, ignores # comments and blank lines. Returns dict of section->dict. Raises ValueError on duplicate sections, FileNotFoundError if missing. Example: parse_config("app.ini") -> {"database": {"host": "localhost"}}

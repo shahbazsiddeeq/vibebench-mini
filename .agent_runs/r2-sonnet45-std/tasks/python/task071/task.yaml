@@ -1,0 +1,16 @@
+title: IP Address Classifier
+description: |
+  classify_ip(ip) returns a dict with keys valid (bool), version (4, 6, or None),
+  private (bool), loopback (bool).
+    - valid/version: whether the string is a valid IPv4 or IPv6 address (no CIDR,
+      no port). Invalid input -> {"valid": False, "version": None, "private": False,
+      "loopback": False}.
+    - private: True if the address is in a reserved / not-globally-routable range as
+      defined by the IANA special-purpose address registries (this matches Python's
+      ipaddress.is_private). For IPv4 this includes 10.0.0.0/8, 172.16.0.0/12,
+      192.168.0.0/16, 127.0.0.0/8 (loopback), 169.254.0.0/16 (link-local), and special
+      ranges such as 0.0.0.0/8 and 192.0.2.0/24 (TEST-NET). Note 100.64.0.0/10 (CGNAT)
+      is NOT counted as private. For IPv6 it includes ::1, fc00::/7, fe80::/10, and
+      the 2001:db8::/32 documentation range.
+    - loopback: True for 127.0.0.0/8 and ::1.
+  Example: classify_ip("192.168.1.1") -> {"valid": True, "version": 4, "private": True, "loopback": False}

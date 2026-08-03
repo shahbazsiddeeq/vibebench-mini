@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.066" timestamp="2026-08-01T13:27:40.336449+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_basic" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_empty_replacements" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_partial_match" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_empty_text" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_swap_no_chaining" time="0.001"><failure message="AssertionError: assert 'aaaa' == 'bbaa'&#10;  &#10;  - bbaa&#10;  + aaaa">def test_swap_no_chaining():
+        # A true swap: sequential replacement would collapse both to one value.
+&gt;       assert find_replace("aabb", {"a": "b", "b": "a"}) == "bbaa"
+E       AssertionError: assert 'aaaa' == 'bbaa'
+E         
+E         - bbaa
+E         + aaaa
+
+tests_hidden/test_solution.py:22: AssertionError</failure></testcase></testsuite></testsuites>

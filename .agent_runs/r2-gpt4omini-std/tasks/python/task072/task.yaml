@@ -1,0 +1,15 @@
+title: URL Parser
+description: |
+  parse_url(url) returns a dict with keys: scheme, host, port (int or None), path,
+  query_params (dict), fragment.
+    - host is lowercased.
+    - port is an int, or None if absent.
+    - path defaults to "/" when the URL has no path component.
+    - query_params: a key that appears once maps to a single string value; a key that
+      appears more than once maps to a list of its values in order; parameters with a
+      blank/missing value (e.g. "a=" or "a") are dropped.
+    - fragment is the text after '#', or "" if absent.
+  Raises ValueError if the scheme or host is missing.
+  Example: parse_url("https://example.com:8080/path?k=v#top") ->
+    {"scheme": "https", "host": "example.com", "port": 8080, "path": "/path",
+     "query_params": {"k": "v"}, "fragment": "top"}

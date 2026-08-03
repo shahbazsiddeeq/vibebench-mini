@@ -1,0 +1,2 @@
+title: Parallel Map (order-preserving)
+description: parallel_map(fn, items, workers=4) applies fn to each item using up to `workers` threads and returns results in INPUT order. workers>=1 else ValueError; empty items -> []. Example: parallel_map(lambda x: x*x, [1,2,3]) -> [1, 4, 9]

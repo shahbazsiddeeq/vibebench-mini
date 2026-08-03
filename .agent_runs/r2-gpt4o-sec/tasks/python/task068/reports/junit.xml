@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.063" timestamp="2026-08-01T13:26:55.232411+03:00" hostname="dxvpq2vgd9-mac"><testcase classname="tests_hidden.test_solution" name="test_equal_strings" time="0.001" /><testcase classname="tests_hidden.test_solution" name="test_empty_equal" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_case_sensitive" time="0.000" /><testcase classname="tests_hidden.test_solution" name="test_non_ascii_equal" time="0.000"><failure message="AssertionError: assert False is True&#10; +  where False = secure_compare('café-π-é', 'café-π-é')">def test_non_ascii_equal():
+        # hmac.compare_digest raises on non-ASCII str; the implementation must
+        # encode to bytes first. A naive compare_digest(a, b) would crash here.
+&gt;       assert secure_compare("café-π-é", "café-π-é") is True
+E       AssertionError: assert False is True
+E        +  where False = secure_compare('café-π-é', 'café-π-é')
+
+tests_hidden/test_solution.py:19: AssertionError</failure></testcase><testcase classname="tests_hidden.test_solution" name="test_emoji_equal" time="0.001"><failure message="AssertionError: assert False is True&#10; +  where False = secure_compare('token-#x1F512', 'token-#x1F512')">def test_emoji_equal():
+&gt;       assert secure_compare("token-#x1F512", "token-#x1F512") is True
+E       AssertionError: assert False is True
+E        +  where False = secure_compare('token-#x1F512', 'token-#x1F512')
+
+tests_hidden/test_solution.py:23: AssertionError</failure></testcase></testsuite></testsuites>

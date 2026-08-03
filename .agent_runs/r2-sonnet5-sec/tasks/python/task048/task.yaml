@@ -1,0 +1,2 @@
+title: Password Strength Checker
+description: check_password(pw) returns dict with length (int), has_upper (bool), has_lower (bool), has_digit (bool), has_special (bool), score (0-5, one point per satisfied criterion where length>=8 counts as one). A character is "special" if it is in Python's string.punctuation set (!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~). Example: check_password("Abc123!x") -> score of 5

@@ -1,0 +1,2 @@
+title: Matrix Multiply
+description: matrix_multiply(a, b) multiplies two 2D lists and returns the result. Raises ValueError if dimensions are incompatible or inputs are empty. Example: matrix_multiply([[1,2],[3,4]], [[5,6],[7,8]]) -> [[19,22],[43,50]]
