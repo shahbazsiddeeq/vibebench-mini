@@ -1,5 +1,5 @@
 defect_class_id,defect_class,n_tasks,n_dropped,task_ids,note
-C1,Reference fails/contradicts its own tests,7,0,task07 task08 task12 task17 task047 task064 task097,"Memo section 2 enumeration; strict rule = reference not accepted by its own suite, or a spec-faithful reference would not be."
+C1,Reference fails/contradicts its own tests,7,0,task07 task08 task12 task17 task047 task064 task097,"Strict rule: reference not accepted by its own suite, or a spec-faithful reference would not be."
 C2,Description/test mismatch,28,0,task04 task021 task022 task034 task044 task046 task054 task055 task061 task067 task072 task079 task097 task099 task100 task101 task103 task104 task105 task106 task107 task108 task121 task124 task125 task126 task127 task130,"Tests require behaviour the description does not state. 6 of these (task100, task103, task105, task106, task107, task108) are outright API mismatches where a description-faithful solution fails every test."
 C3,Ill-posed task,1,0,task035,"Single instance, exhaustively verified by the reviewer."
 C4,Concurrency defect,2,0,task092 task105,Reference defective in its concurrent behaviour. task092 deadlock is the table's illustrative instance; task105 sentinel collision is the second.
