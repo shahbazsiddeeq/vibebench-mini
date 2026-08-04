@@ -247,7 +247,7 @@ docker-bench-js:
 	  node runner/codeassay_runner_js.mjs \
 	"
 
-DOCKER_IMG ?= ghcr.io/Code-Assay/codeassay:latest
+DOCKER_IMG ?= ghcr.io/shahbazsiddeeq/codeassay:latest
 
 docker-run-ghcr:
 	@docker run --rm -it -v "$(PWD)":/work -w /work $(DOCKER_IMG)

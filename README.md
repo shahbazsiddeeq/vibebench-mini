@@ -16,9 +16,9 @@ the benchmark, the harness, every generated program, and the analysis behind the
 reported numbers. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the execution
 environment, tool versions, and a file-by-file inventory.
 
-> Formerly named VibeBench and hosted under a personal account. GitHub redirects
-> the earlier `shahbazsiddeeq/vibebench` and `shahbazsiddeeq/CodeAssay` URLs
-> here, but please cite the current one.
+> Formerly named VibeBench, and the repository was renamed to match. GitHub
+> redirects the old `shahbazsiddeeq/vibebench` URL, but please cite the current
+> one.
 
 ---
 
