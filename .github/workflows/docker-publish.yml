@@ -1,8 +1,11 @@
 name: docker-publish
 
+# Run on demand only. The image name derives from the repository owner, so an
+# automatic push would publish a new package under whichever account or
+# organization owns the repository at the time.
 on:
+  workflow_dispatch:
   push:
-    branches: [main]
     tags: ['v*.*.*']
 
 permissions:
