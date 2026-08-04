@@ -14,13 +14,14 @@
 - Environment variable `VIBEBENCH_RUNNER_LIMIT` renamed to
   `CODEASSAY_RUNNER_LIMIT`. The old name is still read as a fallback; the new
   name takes precedence when both are set.
-- The GitHub repository is renamed from `vibebench` to `CodeAssay`, so the
-  canonical URL is now `https://github.com/shahbazsiddeeq/CodeAssay`.
-  `CITATION.cff` and `.zenodo.json` record it. GitHub redirects the old URL,
-  including `git` remotes, but the redirect lapses if the name `vibebench` is
-  ever taken by another account, so prefer the new URL in new citations.
-  The previous `CITATION.cff` value (`.../vibebench-mini`) never matched any
-  remote and was wrong independently of this rename.
+- The GitHub repository is renamed from `vibebench` to `CodeAssay` and moved
+  from a personal account to the `Code-Assay` organization, so the canonical URL
+  is now `https://github.com/Code-Assay/CodeAssay`. `CITATION.cff` and
+  `.zenodo.json` record it. GitHub redirects the earlier URLs, including `git`
+  remotes, but a redirect lapses if its old name is later reused, so prefer the
+  current URL in new citations. The previous `CITATION.cff` value
+  (`.../vibebench-mini`) never matched any remote and was wrong independently of
+  these moves.
 
 ### Unchanged
 - The metrics configuration ids `VibeBench-v1.0`, `VibeBench-v1-dev` and
